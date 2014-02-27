@@ -5,4 +5,4 @@ navigation_name: home
 published: true
 ---
 
-![Banner]({{ site.url }}/files/images/header/banner.png)
+<p></p>![Banner]({{ site.url }}/files/images/header/banner.png)<p></p>
