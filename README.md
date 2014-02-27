@@ -1,5 +1,5 @@
-# Dream Next
+# Team 178
 
-The next Dream FIRST website. Prepare to be wow'ed.
+Welcome to the Team 178 website github repository.
 
  ---- Enforcers
