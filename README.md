@@ -1,4 +1,5 @@
-team178.github.io
-=================
+# Dream Next
 
-The website for the Farmington Robotics Team 178
+The next Dream FIRST website. Prepare to be wow'ed.
+
+ ---- Enforcers
