@@ -5,4 +5,4 @@ navigation_name: home
 published: true
 ---
 
-{% img class http://farmingtonrobotics.org/beta/resources/banners/scorpion.png 900 210 'Banner' 'Scorpion' %}
+![Banner]({{ site.url }}/files/images/header/banner.png)
