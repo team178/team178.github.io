@@ -1,30 +1,31 @@
 <div id="header">
-  <h1>The 2nd Law <span id="first">ENFORCERS</span></h1>
-  <div id="menu-toggle"></div>
-  <nav>
+  <div id="header-container">
+    
+    <h1>The 2nd Law <span id="first">ENFORCERS</span></h1>
+
+    <nav>
     <ul id="nav">
       <li{% if page.navigation_name == 'home' %} class="current"{% endif %}>
         <a href="{{ site.url }}/">Home</a>
       </li>
-      <li{% if page.navigation_name == 'events' %} class="current"{% endif %}>
-        <a href="{{ site.url }}/events/">Events</a>
+      <li{% if page.navigation_name == 'sponsors' %} class="current"{% endif %}>
+        <a href="{{ site.url }}/sponsors/">Sponsors</a>
       </li>
-      <li{% if page.navigation_name == 'books' %} class="current"{% endif %}>
-        <a href="{{ site.url }}/books/">Books</a>
+      <li{% if page.navigation_name == 'media' %} class="current"{% endif %}>
+        <a href="{{ site.url }}/media/">Media</a>
       </li>
-      <li{% if page.navigation_name == 'gizmo' %} class="current"{% endif %}>
-        <a href="{{ site.url }}/gizmo/">Gizmo's Corner</a>
+      <li{% if page.navigation_name == 'first' %} class="current"{% endif %}>
+        <a href="{{ site.url }}/first/">FIRST</a>
+      </li>
+      <li{% if page.navigation_name == 'dreamfirst' %} class="current"{% endif %}>
+        <a href="{{ site.url }}/dreamfirst/">Dream FIRST</a>
       </li>
       <li{% if page.navigation_name == 'about' %} class="current"{% endif %}>
-        <a href="{{ site.url }}/about/">About</a>
+        <a href="{{ site.url }}/about/">Our Team</a>
+      </li>
+      <li{% if page.navigation_name == 'contact' %} class="current"{% endif %}>
+        <a href="{{ site.url }}/contact/">Contact</a>
       </li>
     </ul>
   </nav>
-  <div id="clouds-container">
-    <div class="cloud" id="cloud1"></div>
-    <div class="cloud" id="cloud2"></div>
-    <div class="cloud" id="cloud3"></div>
-    <div class="cloud" id="cloud4"></div>
-    <div class="cloud" id="cloud5"></div>
-  </div>
 </div>
