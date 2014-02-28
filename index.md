@@ -5,4 +5,4 @@ navigation_name: home
 published: true
 ---
 
-Hello
+We're the Enforcers: FRC Team 178 from Farmington, Connecticut.
