@@ -19,7 +19,7 @@
 
 		// Carousels
 			carousels: {
-				speed: 6,
+				speed: 4,
 				fadeIn: true,
 				fadeDelay: 250
 			},
@@ -36,7 +36,7 @@
 
 		// skelJS (probably don't need to change anything here unless you know what you're doing)
 			skelJS: {
-				prefix: 'css/style',
+				prefix: '/resources/css',
 				resetCSS: true,
 				boxModel: 'border',
 				grid: {
