@@ -1,10 +1,15 @@
 {% include top.html %}
-<body class="{{ page.navigation_name}}">
-<div id="header">
-{% include scrolly.html %}
-{% include navigation.html %}
-</div>
-{% include introduction.html %}}
-{% include footer.html %}
-</body>
+  <body>
+    {% include header.html %}
+    <div id="container">
+      <div id="content">
+        <article>
+          {{ content }}
+        </article>
+      </div>
+    </div>
+    {% include information.html %}
+    {% include footer.html %}
+    </div>
+  </body>
 </html>
