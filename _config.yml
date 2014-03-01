@@ -31,7 +31,7 @@ server:      true    # deprecated
 host:        0.0.0.0
 port:        4000
 baseurl:     /
-url:         http://s3.hypehost.net:4000
+url:         http://team178.github.io
 lsi:         false
 
 maruku:

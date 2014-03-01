@@ -16,6 +16,7 @@
               <ul class="nav">
                 <li {% if page.navigation_name == "home" %}class="active"{% endif %}><a href="{{ site.url }}/">Home</a></li>
                 <li {% if page.navigation_name == "calendar" %}class="active"{% endif %}><a href="{{ site.url }}/calendar">Calendar</a></li>
+                <li {% if page.navigation_name == "news" %}class="active"{% endif %}><a href="{{ site.url }}/news">News</a></li>
                 <li {% if page.navigation_name == "media" %}class="active"{% endif %}><a href="{{ site.url }}/media">Media</a></li>
                 <li {% if page.navigation_name == "sponsors" %}class="active"{% endif %}><a href="{{ site.url }}/sponsors">Sponsors</a></li>
                 <li class="dropdown{% if page.navigation_name == "about" %} active {% endif %}">
