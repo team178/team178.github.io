@@ -1,0 +1,113 @@
+#clouds-container {
+	height: 260px;
+	overflow: hidden;
+	position: relative;
+}
+
+.cloud {
+	float: left;
+	position: absolute;
+	background: no-repeat;
+
+	animation-name: moveclouds;
+	-webkit-animation-name: moveclouds;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.cycleclouds {
+	animation-name: cycleclouds;
+	-webkit-animation-name: cycleclouds;
+}
+
+.cyclenegclouds {
+	animation-name: cyclenegclouds;
+	-webkit-animation-name: cyclenegclouds;
+}
+
+#cloud1 {
+	background-image: url("../assets/clouds/1.png");
+	width: 160px; height: 100px;
+
+	top: 85px; left: 20%;
+	z-index: 1;
+	opacity: 0.6;
+
+	animation-duration: 80s;
+	-webkit-animation-duration: 80s;
+}
+
+#cloud2 {
+	background-image: url("../assets/clouds/2.png");
+	width: 160px; height: 120px;
+
+	z-index: 2;
+	top: 115px; left: 63%;
+	opacity: 0.9;
+
+	animation-duration: 60s;
+	-webkit-animation-duration: 60s;
+}
+
+#cloud3 {
+	background-image: url("../assets/clouds/3.png");
+	width: 190px; height: 110px;
+
+	z-index: 2;
+	top: 95px; left: 28%;
+	opacity: 0.8;
+
+	animation-duration: 40s;
+	-webkit-animation-duration: 40s;
+}
+
+#cloud4 {
+	background-image: url("../assets/clouds/4.png");
+	width: 170px; height: 110px;
+
+	z-index: 2;
+	top: 65px; left: -30%;
+	opacity: 0.6;
+
+	animation-duration: 40s;
+	-webkit-animation-duration: 40s;
+}
+
+#cloud5 {
+	background-image: url("../assets/clouds/5.png");
+	width: 160px; height: 120px;
+
+	z-index: 2;
+	top: 95px; left: -56%;
+	opacity: 0.7;
+
+	animation-duration: 80s;
+	-webkit-animation-duration: 80s;
+}
+
+@keyframes moveclouds {
+	from { margin-left: 0; }
+	to { margin-left: 100%; }
+}
+@keyframes cycleclouds {
+	from { margin-left: -100%; }
+	to { margin-left: 0%; }
+}
+@keyframes cyclenegclouds {
+	from { margin-left: 100%; }
+	to { margin-left: 200%; }
+}
+@-webkit-keyframes moveclouds {
+	from { margin-left: 0; }
+	to { margin-left: 100%; }
+}
+@-webkit-keyframes cycleclouds {
+	from { margin-left: -100%; }
+	to { margin-left: 0%; }
+}
+@-webkit-keyframes cyclenegclouds {
+	from { margin-left: 100%; }
+	to { margin-left: 200%; }
+}

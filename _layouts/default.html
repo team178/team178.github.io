@@ -1,11 +1,10 @@
 {% include top.html %}
   <body>
     {% include nav.html %}
-    {% include carousel.html %}
-    <div class="container marketing">
-      {% include boxes.html %}
-      {% include feat.html %}
-      {% include footer.html %}
+    <div class="container marketing" style="margin-top:75px;">
+      {{ content }}
+    {% include footer.html %}
     </div>
+    {% include javascript.html %}
   </body>
 </html>
