@@ -12,26 +12,48 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+h1 { font-weight: 300; }
+
 #header {
-  margin: 0; padding: 10px;
-  background-color: #34495e;
+  margin: 0; padding: 0 20px;
+  background-color: rgba(52, 73, 94, 0.95);
+
+  /* inline-block fix */
+  font-size: 0;
+  line-height: 0;
 }
 
 #header h1 {
   display: inline-block;
-  margin: 0; padding: 0;
+  vertical-align: top;
+  margin: 10px 0; padding: 0;
 
-  color: yellow;
-
-  font-weight: 300;
   font-size: 32px;
   line-height: 100%;
+}
+
+#header h1 a {
+  margin: 0; padding: 0;
+  color: yellow;
+
+  line-height: 100%;
+  text-decoration: none;
+}
+
+#header h1 a:hover {
+  color: orange;
 }
 
 nav {
   overflow: hidden;
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 25px; padding-left: 15px;
+
+  background-image: linear-gradient(hsla(0,0%,100%,0), hsla(0,0%,100%,.3) 30%, hsla(0,0%,100%,.3) 70%, hsla(0,0%,100%,0)),
+                    linear-gradient(hsla(210,54%,20%,0), hsla(210,54%,20%,.3) 30%, hsla(210,54%,20%,.3) 70%, hsla(210,54%,20%,0));
+  background-size: 1px, 1px, 1px;
+  background-position: 0px 0px, 1px 0px, 2px 0px;
+  background-repeat: no-repeat;
 }
 
 #nav {
@@ -41,14 +63,13 @@ nav {
 
 #nav li {
   display: block;
-  margin: 0; padding: 0;
+  margin: 0; padding: 1px;
   float: left;
 }
 
 #nav li a {
   display: block;
-  margin: 0; padding: 8px 12px;
-  float: left;
+  margin: 0; padding: 18px 12px;
 
   color: rgba(255,255,255, 0.8);
   text-decoration: none;
