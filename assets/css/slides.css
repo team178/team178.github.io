@@ -1,0 +1,19 @@
+#slideshow #CaptainFalcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 200px;
+  padding: 0 5px;
+
+  color: rgba(255,255,255, 0.8);
+}
+
+#CaptainFalcon img {
+  max-width: 160px;
+}
+
+#CaptainFalcon .slide-text {
+  margin: 0; padding: 15px;
+  max-width: 300px;
+}
