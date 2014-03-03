@@ -2,3 +2,7 @@ encoding: utf-8
 prose:
   media: "files"
   siteurl: "http://team178.github.io"
+analytics:
+  provider: google
+  google:
+    tracking_id : 'UA-48555952-1'
