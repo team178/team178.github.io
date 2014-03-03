@@ -94,6 +94,23 @@ nav {
   color: rgba(255,255,255, 1);
 }
 
+#nav li ul {
+  display: none;
+  position: absolute;
+  padding: 0;
+  background-color: rgba(0,0,0, 0.8);
+  border-radius: 5px;
+}
+
+#nav li:hover ul {
+  display: block;
+}
+
+#nav li ul li {
+  padding: 0;
+  float: none;
+}
+
 #slideshow {
   width: 100%; height: 200px;
   background-color: rgba(52, 73, 94, 0.95);
