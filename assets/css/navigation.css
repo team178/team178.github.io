@@ -1,0 +1,88 @@
+
+nav {
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 25px; padding-left: 15px;
+
+  background-image: linear-gradient(hsla(0,0%,100%,0), hsla(0,0%,100%,.3) 30%, hsla(0,0%,100%,.3) 70%, hsla(0,0%,100%,0)),
+                    linear-gradient(hsla(210,54%,20%,0), hsla(210,54%,20%,.3) 30%, hsla(210,54%,20%,.3) 70%, hsla(210,54%,20%,0));
+  background-size: 1px, 1px, 1px;
+  background-position: 0px 0px, 1px 0px, 2px 0px;
+  background-repeat: no-repeat;
+}
+
+#nav {
+  margin: 0; padding: 0;
+  list-style-type: none;
+}
+
+#nav li {
+  display: block;
+  margin: 0; padding: 1px;
+  float: left;
+}
+
+#nav li a {
+  display: block;
+  margin: 0; padding: 18px 12px;
+
+  color: rgba(255,255,255, 0.8);
+  text-decoration: none;
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 100%;
+
+  transition: color 0.2s;
+}
+
+#nav li a:hover {
+  color: rgba(255,255,255, 1);
+}
+
+#nav li ul:before {
+  content: "";
+  display: block;
+
+  width: 0; height: 0;
+  margin: -12px 0 0px 18px;
+
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgb(44, 62, 80);;
+}
+
+#nav li ul {
+  display: none;
+  position: absolute;
+  margin: 0 0 0 3px; padding: 10px 0 0 0;
+  min-width: 150px;
+  border-radius: 5px;
+}
+
+#nav li:hover ul {
+  display: block;
+}
+
+#nav li ul li {
+  padding: 0;
+  float: none;
+  background-color: rgb(44, 62, 80);
+}
+
+#nav li ul li:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+#nav li ul li:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+#nav li ul li a {
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+#nav li ul li + li {
+  border-top: 1px solid rgba(0,0,0, 0.15);
+}

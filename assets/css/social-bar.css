@@ -1,0 +1,26 @@
+#social-bar {
+  margin: 12px 0 0 0;
+  float: right;
+}
+
+#social-bar .social-link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5px;
+}
+
+#social-bar .social-link a {
+  display: block;
+}
+
+#social-bar .social-link a:hover {
+  margin: -2px;
+}
+
+#social-bar .social-link a img {
+  width: 32px; height: 32px;
+}
+
+#social-bar .social-link a:hover img:hover {
+  width: 36px; height: 36px;
+}
