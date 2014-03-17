@@ -77,3 +77,23 @@ footer {
   color: rgba(255,255,255, 0.8);
   text-align: center;
 }
+
+@media screen and (max-width: 875px) {
+  #header h1 {
+    margin: 12px 0 0 0;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #header h1 {
+    margin: 10px 0 0 0;
+  }
+}

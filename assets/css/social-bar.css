@@ -24,3 +24,23 @@
 #social-bar .social-link a:hover img:hover {
   width: 36px; height: 36px;
 }
+
+@media screen and (max-width: 875px) {
+  #social-bar .social-link a:hover {
+    margin: -1px;
+  }
+
+  #social-bar .social-link a img {
+    width: 24px; height: 24px;
+  }
+
+  #social-bar .social-link a:hover img:hover {
+    width: 26px; height: 26px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #social-bar {
+    margin: 10px 0 0 0;
+  }
+}
