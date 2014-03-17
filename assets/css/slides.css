@@ -11,6 +11,7 @@
 
 #CaptainFalcon img {
   max-width: 160px;
+  flex-shrink: 0;
 }
 
 #CaptainFalcon .slide-text {
