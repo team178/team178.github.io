@@ -4,13 +4,22 @@ title: Sponsors
 published: true
 ---
 
+<!--
+Hello fellow Enforcer! This page may be a bit more complicated than the rest. It uses HTML to format the logos and align them to the left. It should be intuitive enough to understand what's going on though. If you have questions about this, please ask. :)
+
+The basic format however, is this.
+
+<img class="sponsor-logo" alt="--Insert Sponsor Here-- Logo" src="--Insert URL to logo here--" />
+-->
+
 ## Our Sponsors
 
 ### UTC Otis Elevator: (Platinum and Founding Sponsor)
-<img style="float: left" alt="Otis Elevator Logo" src="http://upload.wikimedia.org/wikipedia/commons/7/71/Otis_logo.SVG" />
+<img class="sponsor-logo" alt="Otis Elevator Logo" src="http://upload.wikimedia.org/wikipedia/commons/7/71/Otis_logo.SVG" />
 Farmington High FIRST Robotics, Team 178, is sponsored by Farmington-based Otis Elevator Company, a wholly owned subsidiary of United Technologies Corporation. Otis is our Founding Sponsor and has annually funded our competition fees and a significant portion of our build season budget. Otis is the leading manufacturer and servicer of elevators, escalators and shuttle systems worldwide. Otis has installed elevators in some of the world's most famous structures, including the Eiffel Tower, Empire State Building, Petronas Twin Towers, Burj Khalifa, CN Tower and the Skylon Tower.
 
 ### ebm-papst Inc.: (Platinum and Veteran Sponsor)
+<img class="sponsor logo" alt="ebm-papst Logo" src="http://upload.wikimedia.org/wikipedia/en/1/1e/EBMPAPST_logo.jpg" />
 Headquartered in Farmington, CT, ebm-papst Inc. donates the year-round use of the 3,000+ square foot warehouse in Unionville, CT that the Enforcers call home and has given us several industrial class tools to build our robot. They assist us in the fabrication of robot parts and their engineers assist us in the design process. ebm-papst Inc. is the world's leading source for engineered air movement solutions, provides a "total solution" approach to cooling requirements using extensive house resources. Every year, ebm-papst Inc. also donates thousands of fans that go inside speed controllers and other components as part of the annual FRC kit of parts to thousands of FIRST teams around the world. They are a "crown" level FRC supplier!
 
 ### UTC Sikorsky Aircraft Corporation: (Platinum and Veteran Sponsor)
