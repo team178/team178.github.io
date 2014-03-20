@@ -23,7 +23,7 @@ Headquartered in Farmington, CT, ebm-papst Inc. donates the year-round use of th
 Sikorsky Aircraft, a subsidiary of United Technologies Corporation, is a world leader in the design and manufacture of advanced helicopters for commercial, industrial and military uses. Sikorskys products have been saving lives since 1944, when a Sikorsky performed the worlds first helicopter rescue mission. The legacy of Igor Sikorsky still leads the helicopter industry, and the Winged-S emblem still signifies the worlds most advanced rotorcraft. Engineers from Sikorsky have been wonderful mentors to our students and provide leadership in our build season process.
 
 ### Parker Hannifin Fluid Control Division: (Gold and Veteran Sponsor)
-<img class="sponsor-logo" alt="Parker Hannifin Logo" src="http://upload.wikimedia.org/wikipedia/en/9/9e/Parker_Hannifin.svg" />
+<img class="sponsor-logo" alt="Parker Hannifin Logo" style="width: 200px;" src="http://upload.wikimedia.org/wikipedia/en/9/9e/Parker_Hannifin.svg" />
 Located in New Britain, CT, Parker Fluid Control Division is a world leader in the creation of solenoid valves that control motion, flow and pressure. In addition to valuable engineering expertise and mentorship, they have provided us with safety equipment and scale-size 3-D useful robot models and parts using their 3-D printer.
 
 ### Farmington Public Schools: (Gold and Veteran Sponsor)
