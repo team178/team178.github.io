@@ -31,15 +31,19 @@ Located in New Britain, CT, Parker Fluid Control Division is a world leader in t
 Located in Farmington, CT, Farmington Public Schools is committed to helping all students reach high levels of educational achievement in preparation for productive, rewarding lives and responsible citizenship. Farmington Public Schools graciously allows the use of buildings throughout the district to support robotics for all grade levels, including JFLL, FLL and FRC. In addition, they support our efforts by providing us with outstanding teacher mentors, computers, and transportation to various competitions and community outreach events.
 
 ### Data Management Inc: (Bronze Sponsor)
+<img class="sponsor-logo" alt="Data Management Inc Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/dm_logo.jpg" />
 Located right next-door to our warehouse, Data Management is a customer-focused developer of specialized business forms and systems that help organizations achieve their best results. They also constantly help out our team in many ways, such as donating old equipment or office furniture, or just plowing the driveway during the winter.
 
 ### TRUMPF: (Bronze Sponsor)
+<img class="sponsor-logo" alt="TRUMPF Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/trumpf.jpg" />
 Located in Farmington, CT, TRUMPF is the largest manufacturer of fabricating machinery in the United States and a world market Leader in lasers used for industrial production technology.
 
 ### Shipman, Sosensky and Marks, LLC: (Bronze Sponsor)
+<img class="sponsor-logo" alt="Shipman, Sosensky and Marks, LLC Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/shipso.png" />
 Located in Farmington, CT, Shipman, Sosensky and Marks is a small but dynamic law firm, which provides high-quality, sophisticated legal services to its clients and provides businesses and individuals a broad range of legal services. While relatively new, their attorneys have continuously served the business community for almost 50 years.
 
 ### Barnes Group Inc: (Bronze Sponsor)
+<img class="sponsor-logo" alt="Barnes Group Inc Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/barnes.jpg" />
 Located in Bristol, CT, Barnes Group Inc is a diversified global manufacturer and logistical services company that provides precision component manufacturing and operating service support and solutions to nearly every industry around the world.
 
 ## Want to become a sponsor?
