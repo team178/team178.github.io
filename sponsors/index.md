@@ -12,11 +12,7 @@ The basic format however, is this.
 <img class="sponsor-logo" alt="--Insert Sponsor Here-- Logo" src="--Insert URL to logo here--" />
 -->
 
-<style text="text/css">
-.sponsor-logo {
-  width: 200px;
-}
-</style>
+
 
 ## Our Sponsors
 
