@@ -4,7 +4,12 @@ title: Sponsors
 published: true
 ---
 
+<!--
+Hello fellow Enforcer! This page may be a bit more complicated than the rest. It uses HTML to format the logos and align them to the left. It should be intuitive enough to understand what's going on though. If you have questions about this, please ask. :)
 
+The basic format however, is this.
+
+-->
 
 ## Our Sponsors
 
