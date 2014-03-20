@@ -6,6 +6,12 @@ published: true
 
 
 
+<style type="text/css">
+.sponsor-logo {
+  width: 200px;
+}
+</style>
+
 ## Our Sponsors
 
 ### UTC Otis Elevator: (Platinum and Founding Sponsor)
