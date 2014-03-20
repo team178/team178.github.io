@@ -17,7 +17,7 @@ body {
 h1 { font-weight: 300; }
 h2 { font-size: 32px; font-weight: 300; clear: both; }
 h3 { font-size: 20px; font-weight: 400; clear: both; }
-h4 { font-weight: 300; }
+h4 { font-size: 18px; font-weight: 300; }
 
 img { max-width: 100%; }
 
