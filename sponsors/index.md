@@ -7,7 +7,7 @@ published: true
 ## Our Sponsors
 
 ### UTC Otis Elevator: (Platinum and Founding Sponsor)
-![Otis Elevator Logo](http://upload.wikimedia.org/wikipedia/commons/7/71/Otis_logo.SVG)
+<img style="float: left" alt="Otis Elevator Logo" src="http://upload.wikimedia.org/wikipedia/commons/7/71/Otis_logo.SVG" />
 Farmington High FIRST Robotics, Team 178, is sponsored by Farmington-based Otis Elevator Company, a wholly owned subsidiary of United Technologies Corporation. Otis is our Founding Sponsor and has annually funded our competition fees and a significant portion of our build season budget. Otis is the leading manufacturer and servicer of elevators, escalators and shuttle systems worldwide. Otis has installed elevators in some of the world's most famous structures, including the Eiffel Tower, Empire State Building, Petronas Twin Towers, Burj Khalifa, CN Tower and the Skylon Tower.
 
 ### ebm-papst Inc.: (Platinum and Veteran Sponsor)
