@@ -19,12 +19,15 @@ Farmington High FIRST Robotics, Team 178, is sponsored by Farmington-based Otis 
 Headquartered in Farmington, CT, ebm-papst Inc. donates the year-round use of the 3,000+ square foot warehouse in Unionville, CT that the Enforcers call home and has given us several industrial class tools to build our robot. They assist us in the fabrication of robot parts and their engineers assist us in the design process. ebm-papst Inc. is the world's leading source for engineered air movement solutions, provides a "total solution" approach to cooling requirements using extensive house resources. Every year, ebm-papst Inc. also donates thousands of fans that go inside speed controllers and other components as part of the annual FRC kit of parts to thousands of FIRST teams around the world. They are a "crown" level FRC supplier!
 
 ### UTC Sikorsky Aircraft Corporation: (Platinum and Veteran Sponsor)
+<img class="sponsor-logo" alt="Sikorsky Aircraft Logo" src="http://upload.wikimedia.org/wikipedia/en/f/fd/Sikorsky_aircraft_logo.gif" />
 Sikorsky Aircraft, a subsidiary of United Technologies Corporation, is a world leader in the design and manufacture of advanced helicopters for commercial, industrial and military uses. Sikorskys products have been saving lives since 1944, when a Sikorsky performed the worlds first helicopter rescue mission. The legacy of Igor Sikorsky still leads the helicopter industry, and the Winged-S emblem still signifies the worlds most advanced rotorcraft. Engineers from Sikorsky have been wonderful mentors to our students and provide leadership in our build season process.
 
 ### Parker Hannifin Fluid Control Division: (Gold and Veteran Sponsor)
+<img class="sponsor-logo" alt="Parker Hannifin Logo" src="http://upload.wikimedia.org/wikipedia/en/9/9e/Parker_Hannifin.svg" />
 Located in New Britain, CT, Parker Fluid Control Division is a world leader in the creation of solenoid valves that control motion, flow and pressure. In addition to valuable engineering expertise and mentorship, they have provided us with safety equipment and scale-size 3-D useful robot models and parts using their 3-D printer.
 
 ### Farmington Public Schools: (Gold and Veteran Sponsor)
+<img class="sponsor-logo" alt="Farmington Public Schools Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/fpslogo.jpg" />
 Located in Farmington, CT, Farmington Public Schools is committed to helping all students reach high levels of educational achievement in preparation for productive, rewarding lives and responsible citizenship. Farmington Public Schools graciously allows the use of buildings throughout the district to support robotics for all grade levels, including JFLL, FLL and FRC. In addition, they support our efforts by providing us with outstanding teacher mentors, computers, and transportation to various competitions and community outreach events.
 
 ### Data Management Inc: (Bronze Sponsor)
