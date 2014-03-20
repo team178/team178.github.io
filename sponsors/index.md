@@ -11,15 +11,15 @@ Hello fellow Enforcer! This page may be a bit more complicated than the rest. It
 ## Our Sponsors
 
 ### UTC Otis Elevator: (Platinum and Founding Sponsor)
-<img class="sponsor-logo" alt="Otis Elevator Logo" src="http://upload.wikimedia.org/wikipedia/commons/7/71/Otis_logo.SVG" />
+<img class="sponsor-logo" alt="Otis Elevator Logo" style="width: 200px;" src="http://upload.wikimedia.org/wikipedia/commons/7/71/Otis_logo.SVG" />
 Farmington High FIRST Robotics, Team 178, is sponsored by Farmington-based Otis Elevator Company, a wholly owned subsidiary of United Technologies Corporation. Otis is our Founding Sponsor and has annually funded our competition fees and a significant portion of our build season budget. Otis is the leading manufacturer and servicer of elevators, escalators and shuttle systems worldwide. Otis has installed elevators in some of the world's most famous structures, including the Eiffel Tower, Empire State Building, Petronas Twin Towers, Burj Khalifa, CN Tower and the Skylon Tower.
 
 ### ebm-papst Inc.: (Platinum and Veteran Sponsor)
-<img class="sponsor-logo" alt="ebm-papst Logo" src="http://upload.wikimedia.org/wikipedia/en/1/1e/EBMPAPST_logo.jpg" />
+<img class="sponsor-logo" alt="ebm-papst Logo" style="width: 200px;" src="http://upload.wikimedia.org/wikipedia/en/1/1e/EBMPAPST_logo.jpg" />
 Headquartered in Farmington, CT, ebm-papst Inc. donates the year-round use of the 3,000+ square foot warehouse in Unionville, CT that the Enforcers call home and has given us several industrial class tools to build our robot. They assist us in the fabrication of robot parts and their engineers assist us in the design process. ebm-papst Inc. is the world's leading source for engineered air movement solutions, provides a "total solution" approach to cooling requirements using extensive house resources. Every year, ebm-papst Inc. also donates thousands of fans that go inside speed controllers and other components as part of the annual FRC kit of parts to thousands of FIRST teams around the world. They are a "crown" level FRC supplier!
 
 ### UTC Sikorsky Aircraft Corporation: (Platinum and Veteran Sponsor)
-<img class="sponsor-logo" alt="Sikorsky Aircraft Logo" src="http://upload.wikimedia.org/wikipedia/en/f/fd/Sikorsky_aircraft_logo.gif" />
+<img class="sponsor-logo" alt="Sikorsky Aircraft Logo" style="width: 200px;" src="http://upload.wikimedia.org/wikipedia/en/f/fd/Sikorsky_aircraft_logo.gif" />
 Sikorsky Aircraft, a subsidiary of United Technologies Corporation, is a world leader in the design and manufacture of advanced helicopters for commercial, industrial and military uses. Sikorskys products have been saving lives since 1944, when a Sikorsky performed the worlds first helicopter rescue mission. The legacy of Igor Sikorsky still leads the helicopter industry, and the Winged-S emblem still signifies the worlds most advanced rotorcraft. Engineers from Sikorsky have been wonderful mentors to our students and provide leadership in our build season process.
 
 ### Parker Hannifin Fluid Control Division: (Gold and Veteran Sponsor)
