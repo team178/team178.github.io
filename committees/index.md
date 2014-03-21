@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Committees"
+title: Committees
 published: true
 ---
 
@@ -15,7 +15,7 @@ During pre-season, electrical teaches new members what things are and how they w
 In build season, Mechanical physically puts together most of the robot or organizes what other committees are working on for the robot. During off-season, Mechanical spends a lot of time fixing past robots or cleaning and organizing the shop area.
 
 #### Programming
-Most of programming's time is spent programming the robots, whether it is our current robot for this year's game, re-writing or improving code for past robots, or creating special code that make it safe for kids to try driving the "big bot" at things like our Dream FIRST events.
+Programming breathes life into the robot. We are the brains of the robot that drives it around and makes it shoot. During build season we focus on writing code of the robot, but during the off-season we are able to explore new programming concepts and teach others interested in programming. We use Java and some LabVIEW when programming the robot. 
 
 #### Robot Support
 Robot Support leads and manages all building projects. They also draw rough drafts and do the majority of rough board work for all other committees. Robot Suport organizes the shop and helps build committee's areas by doing basic carpentry work and that needs to be done for the team.
@@ -38,7 +38,7 @@ Dream FIRST plans and manages our Dream FIRST and other community outreach event
 Fundraising works with the team treasurer to plan fundraising events, and does things such as pick prizes for raffles or looks into new ways to raise money for the team.
 
 #### Team Member Support
-Team Member Support (TMS) helps out the team by doing things like making sure we have food for the long days we are working on the robot, and keeps things cleaned and organized around the workshop. TMS also helps plan our team events, and also designs the teams t-shirts every year.
+Team Member Support (TMS) helps out the team by doing things like making sure we have food for the long days we are working on the robot, and keeps things cleaned and organized around the workshop. TMS also helps plan our team events, and also designs the teams t-shirts every year. In addition, TMS makes sure that the representation of the team during competitions is nice and strong, so that everyone knows that we are loud and proud for being the Second Law Enforcers, and that we are the best robotics team out there. 
 
 #### Tech & Media
 During pre-season and post-season, Tech & Media works the Team 178's website, as well as maintains the Dream FIRST website. Videos such as new member recruitment and other special events are also made to show on the 9:05 news at Farmington High School. During build season, the Chairmans video is most worked on, as well as both of the websites. Also, Tech & Media is also in charge of managing the network and computers at 525, our build warehouse.
