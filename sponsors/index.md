@@ -34,17 +34,21 @@ Located in Farmington, CT, Farmington Public Schools is committed to helping all
 <img class="sponsor-logo" alt="Data Management Inc Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/dm_logo.jpg" />
 Located right next-door to our warehouse, Data Management is a customer-focused developer of specialized business forms and systems that help organizations achieve their best results. They also constantly help out our team in many ways, such as donating old equipment or office furniture, or just plowing the driveway during the winter.
 
-### TRUMPF: (Bronze Sponsor)
-<img class="sponsor-logo" alt="TRUMPF Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/trumpf.jpg" />
-Located in Farmington, CT, TRUMPF is the largest manufacturer of fabricating machinery in the United States and a world market Leader in lasers used for industrial production technology.
-
-### Shipman, Sosensky and Marks, LLC: (Bronze Sponsor)
-<img class="sponsor-logo" alt="Shipman, Sosensky and Marks, LLC Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/shipso.png" />
-Located in Farmington, CT, Shipman, Sosensky and Marks is a small but dynamic law firm, which provides high-quality, sophisticated legal services to its clients and provides businesses and individuals a broad range of legal services. While relatively new, their attorneys have continuously served the business community for almost 50 years.
-
 ### Barnes Group Inc: (Bronze Sponsor)
 <img class="sponsor-logo" alt="Barnes Group Inc Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/barnes.jpg" />
 Located in Bristol, CT, Barnes Group Inc is a diversified global manufacturer and logistical services company that provides precision component manufacturing and operating service support and solutions to nearly every industry around the world.
+
+### Stanley Black & Decker, Inc: (Bronze Sponsor)
+<img class="sponsor-logo" alt="Stanley Black and Decker Logo" src="http://www.stanleyblackanddecker.com/sites/www.stanleyblackanddecker.com/themes/stanleyblackdecker/logo.png" />
+
+Headquartered in New Britain, Connecticut, Stanley Black & Decker have provided the nation with industrial tools and household hardware since 1843. Stanley Black & Decker is dedicated to the nation's future in mechanical engineering, by investing in  students, and providing them with a bright future in the world of technology.
+
+### Farmington Chamber of Commerce: (Bronze Sponsor)
+
+The Farmington Chamber of Commerce is our town's local chamber of commerce with over 200 members that strives to create a network of local leaders and to pool the talents, skills, and resources of Farmington to support our town and improve our community.
+
+### Allstate: (Sponsor)
+<img class="sponsor-logo" alt="Allstate Logo" src="http://www.allstate.com/resources/Allstate/images/global/allstate-logo-header-170x45.png" />
 
 ## Want to become a sponsor?
 
