@@ -39,4 +39,4 @@ The Enforcers belive digital media can be one of the most powerful conduits of o
 <iframe width="560" height="315" src="http://www.youtube.com/embed/BqKIAYgTw7Q" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 
 #### 2014 Build Season Animation
-<iframe width="560" height="315" src="//www.youtube.com/embed/Y9SjSYFWhPw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/Y9SjSYFWhPw" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
