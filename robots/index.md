@@ -6,9 +6,19 @@ published: true
 
 ## Competition History and Robots
 
-### 2012: Rebound Rumble
+#### 2014: Aerial Assist
 
-Rebound Rumble is played by two competing Alliances on a flat, 27 x 54 foot field. Each
+AERIAL ASSIST is played by two competing Alliances of three robots each on a flat 25’ x 54’ footfield, straddled by a truss suspended just over five feet above the floor. The objective is to score as many balls in goals as possible during a two (2)-minute and 30-second match. The more Alliances score their ball in their goals, and the more they work together to do it, the more points their Alliance receives. For the rest of the match, drivers remotely control robots from behind a protective wall. Once all balls in autonomous are scored, only one ball is re-entered in to play, and the Alliances must cycle a single ball as many times as possible for the remainder of the match. With the single ball, they try to maximize their points earned by throwing balls over the truss, catching balls launched over the truss, and scoring in the high and low goals on the far side of the field. Alliances receive large bonuses for “assists,” which are earned for each robot that has possession of the ball in a zone as the ball moves down the field.
+
+
+#### 2013: Ultimate Ascent
+
+ULTIMATE ASCENT is played by two competing alliances on a flat, 27 x 54 foot field. Each Alliance consists of three robots, and they compete to score as many discs into their goals as they can during a two (2)-minute and fifteen (15)-second match. The higher the goal in which the disc is scored, the more points the Alliance receives. The match begins with a fifteen (15)-second Autonomous Period in which robots operate independently of driver inputs. Discs scored during this period are worth additional points. For the remainder of the match, drivers control robots and try to maximize their alliance score by scoring as many goals as possible. The match ends with robots attempting to climb up pyramids located near the middle of the field. Each robot earns points based on how high it climbs.
+
+
+#### 2012: Rebound Rumble
+
+REBOUND RUMBLE is played by two competing Alliances on a flat, 27 x 54 foot field. Each
 Alliance consists of three robots. They compete to score as many basketballs into their hoops as they can during a 2 minute and 15 second match. The higher the hoop in which the basketball is scored, the more points the Alliance receives. The match begins with a 15-second Hybrid Period in which robots operate independently of driver inputs. During this Hybrid Period, one robot on each Alliance may be controlled using a Microsoft Kinect. Baskets scored during this period are worth extra points. For the remainder of the match, drivers control robots and try to maximize their Alliance score by scoring as many baskets as possible. The match ends with robots attempting to balance on bridges located at the middle of the field. In Qualification Matches, a robot from each Alliance will also try to balance on the white Coopertition bridge to score additional ranking points for each Alliance.
 
 #### 2011: Logo Motion
