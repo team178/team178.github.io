@@ -1,4 +1,5 @@
 encoding: utf-8
+markdown: kramdown
 prose:
   media: "files"
   #siteurl: "http://team178.github.io"
