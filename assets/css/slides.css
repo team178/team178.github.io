@@ -1,5 +1,6 @@
 #slideshow #CaptainFalcon {
   display: flex;
+  display: -webkit-flex;
   align-items: center;
   justify-content: center;
 
@@ -12,10 +13,17 @@
 #CaptainFalcon img {
   max-width: 160px;
   flex-shrink: 0;
+  -webkit-flex-shrink: 0;
 }
 
 #CaptainFalcon .slide-text {
   margin: 0; padding: 20px;
   max-width: 500px;
   text-align: center;
+}
+
+@media screen and (max-width: 410px) {
+  #CaptainFalcon img {
+    display: none;
+  }
 }
