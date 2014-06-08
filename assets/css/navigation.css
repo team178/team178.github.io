@@ -108,9 +108,10 @@ nav {
 
 @media screen and (max-width: 680px) {
   #menu-toggle {
-    display: inline-block;
+    float: left;
+    display: block;
     width: 32px; height: 32px;
-    margin: 6px 0 6px 25px;
+    margin: 6px 20px 6px 0;
     background-image: url("../img/menu.png");
     opacity: 0.6;
     transition: 0.2s opacity;

@@ -29,6 +29,8 @@ iframe {max-width: 100%; }
   /* inline-block fix */
   font-size: 0;
   line-height: 0;
+
+  overflow: hidden;
 }
 
 #header h1 {
