@@ -3,38 +3,34 @@
   float: right;
 }
 
-#social-bar .social-link {
+#social-bar a {
   display: inline-block;
   vertical-align: top;
   margin: 0 5px;
 }
 
-#social-bar .social-link a {
-  display: block;
+#social-bar a:hover {
+  margin: -2px 3px;
 }
 
-#social-bar .social-link a:hover {
-  margin: -2px;
-}
-
-#social-bar .social-link a img {
+#social-bar a img {
   width: 32px; height: 32px;
 }
 
-#social-bar .social-link a:hover img:hover {
+#social-bar a:hover img:hover {
   width: 36px; height: 36px;
 }
 
 @media screen and (max-width: 875px) {
-  #social-bar .social-link a:hover {
-    margin: -1px;
+  #social-bar a:hover {
+    margin: -1px 4px;
   }
 
-  #social-bar .social-link a img {
+  #social-bar a img {
     width: 24px; height: 24px;
   }
 
-  #social-bar .social-link a:hover img:hover {
+  #social-bar a:hover img:hover {
     width: 26px; height: 26px;
   }
 }
