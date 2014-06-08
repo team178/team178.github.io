@@ -134,7 +134,7 @@ nav {
     display: block;
 
     width: 0; height: 0;
-    margin: -10px 0 0 53px;
+    margin: -10px 0 0 15px;
 
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
@@ -145,7 +145,8 @@ nav {
     display: none;
 
     position: absolute;
-    margin: 0 0 0 -80px; padding: 10px 0 0 0;
+    left: 10px; top: 44px;
+    margin: 0; padding: 10px 0 0 0;
     max-width: 130px;
     border-radius: 5px;
   }
