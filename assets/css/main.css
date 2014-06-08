@@ -20,6 +20,7 @@ h3 { font-size: 20px; font-weight: 400; line-height: 28px; clear: both; }
 h4 { font-size: 18px; font-weight: 300; }
 
 img { max-width: 100%; }
+iframe {max-width: 100%; }
 
 #header {
   margin: 0; padding: 0 20px;
