@@ -93,16 +93,20 @@ nav {
 @media screen and (max-width: 875px) {
   #nav li a {
     padding: 16px 10px;
-    font-size: 14px;
+    font-size: 16px;
   }
   #nav li ul li a {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
 @media screen and (max-width: 750px) {
   #nav li a {
     padding: 14px 7px;
+    font-size: 15px;
+  }
+  #nav li ul li a {
+    font-size: 12px;
   }
 }
 
