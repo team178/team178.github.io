@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Competition History and Robots
 published: true
 ---

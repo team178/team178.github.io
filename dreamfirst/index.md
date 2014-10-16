@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Dream FIRST"
 published: true
 ---

@@ -1,5 +1,10 @@
 encoding: utf-8
-markdown: kramdown
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
 prose:
   media: "files"
-  #siteurl: "http://team178.github.io"
+  siteurl: "http://farmingtonrobotics.org"

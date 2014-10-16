@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Media
 published: true
 ---
