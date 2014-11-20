@@ -90,7 +90,7 @@ nav {
   border-top: 1px solid rgba(0,0,0, 0.15);
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 1030px) {
   #nav li a {
     padding: 16px 10px;
     font-size: 16px;
@@ -100,7 +100,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 875px) {
   #nav li a {
     padding: 14px 7px;
     font-size: 15px;
@@ -110,7 +110,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 810px) {
   #menu-toggle {
     float: left;
     display: block;
