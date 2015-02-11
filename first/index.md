@@ -2,6 +2,7 @@
 title: "FIRST"
 published: true
 ---
+<img src="http://www.usfirst.org/uploadedImages/Robotics_Programs/FRC/FRC_Communications_Resource_Center/Branding_and_Logos/FIRSTvert_RGB.jpg" alt="FIRST Logo" style="width:326px;height:294px">
 
 FIRST, or For Inspiration and Recognition of Science and Technology, is an organization founded by inventor Dean Kamen in 1989 in order to develop ways to inspire students in engineering and technology fields. The organization is the foundation for the FIRST Robotics Competition, FIRST LEGO League, Junior FIRST Lego League, and FIRST Tech Challenge competitions.
 
