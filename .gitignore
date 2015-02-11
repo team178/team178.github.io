@@ -4,6 +4,9 @@
 # OS X
 .DS_Store
 
+# Windows
+Thumbs.db
+
 # Eclipse project info
 .settings
 .project
