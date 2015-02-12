@@ -34,11 +34,11 @@ Located in Farmington, CT, Farmington Public Schools is committed to helping all
 Located right next-door to our warehouse, Data Management is a customer-focused developer of specialized business forms and systems that help organizations achieve their best results. They also constantly help out our team in many ways, such as donating old equipment or office furniture, or just plowing the driveway during the winter.
 
 ### Barnes Group Inc: (Bronze Sponsor)
-<a href="http://www.barnesgroupinc.com/"><img class="sponsor-logo" alt="Barnes Group Inc Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/barnes.jpg" /></a>
+<a href="http://www.barnesgroupinc.com/"><img class="sponsor-logo" alt="Barnes Group Inc Logo" style="width: 203px;" src="http://www.annualreports.com/HostedData/CompanyLogos/bginc_new_logo.gif" /></a>
 Located in Bristol, CT, Barnes Group Inc is a diversified global manufacturer and logistical services company that provides precision component manufacturing and operating service support and solutions to nearly every industry around the world.
 
 ### Stanley Black & Decker, Inc: (Bronze Sponsor)
-<a href="http://www.stanleyblackanddecker.com/"><img class="sponsor-logo" alt="Stanley Black and Decker Logo" src="http://www.stanleyblackanddecker.com/sites/www.stanleyblackanddecker.com/themes/stanleyblackdecker/logo.png" /></a>
+<a href="http://www.stanleyblackanddecker.com/"><img class="sponsor-logo" alt="Stanley Black and Decker Logo" style="width: 285px;" src="http://www.stanleyblackanddecker.com/sites/www.stanleyblackanddecker.com/themes/stanleyblackdecker/logo.png" /></a>
 
 Headquartered in New Britain, Connecticut, Stanley Black & Decker have provided the nation with industrial tools and household hardware since 1843. Stanley Black & Decker is dedicated to the nation's future in mechanical engineering, by investing in  students, and providing them with a bright future in the world of technology.
 
