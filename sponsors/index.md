@@ -43,7 +43,6 @@ Located in Bristol, CT, Barnes Group Inc is a diversified global manufacturer an
 Headquartered in New Britain, Connecticut, Stanley Black & Decker have provided the nation with industrial tools and household hardware since 1843. Stanley Black & Decker is dedicated to the nation's future in mechanical engineering, by investing in  students, and providing them with a bright future in the world of technology.
 
 ### <a href="http://www.farmingtonchamber.com/">Farmington Chamber of Commerce: (Bronze Sponsor)
-<img class="sponsor-logo" alt="Farmington Chamber of Commerce Logo" style="width: 200px;" src="http://s1083.photobucket.com/user/RawrMeowwww/media/Farmington%20Chamber%20of%20Commerce%20Logo_zpsmrvotmsv.png.html" /></a>
 
 The Farmington Chamber of Commerce is our town's local chamber of commerce with over 200 members that strives to create a network of local leaders and to pool the talents, skills, and resources of Farmington to support our town and improve our community.
 
