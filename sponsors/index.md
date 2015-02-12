@@ -26,7 +26,7 @@ Sikorsky Aircraft, a subsidiary of United Technologies Corporation, is a world l
 Located in New Britain, CT, Parker Fluid Control Division is a world leader in the creation of solenoid valves that control motion, flow and pressure. In addition to valuable engineering expertise and mentorship, they have provided us with safety equipment and scale-size 3-D useful robot models and parts using their 3-D printer.
 
 ### Farmington Public Schools: (Gold and Veteran Sponsor)
-<a href="http://fpsct.org/"><img class="sponsor-logo" alt="Farmington Public Schools Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/fpslogo.jpg" /></a>
+<a href="http://fpsct.org/"><img class="sponsor-logo" alt="Farmington Public Schools Logo" style="width: 305px;" src="http://www.fpsct.org/uploaded/images/new_logo/FPS_vert_rgb_4c_small.jpg" /></a>
 Located in Farmington, CT, Farmington Public Schools is committed to helping all students reach high levels of educational achievement in preparation for productive, rewarding lives and responsible citizenship. Farmington Public Schools graciously allows the use of buildings throughout the district to support robotics for all grade levels, including JFLL, FLL and FRC. In addition, they support our efforts by providing us with outstanding teacher mentors, computers, and transportation to various competitions and community outreach events.
 
 ### Data Management Inc: (Bronze Sponsor)
