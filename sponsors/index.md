@@ -30,7 +30,7 @@ Located in New Britain, CT, Parker Fluid Control Division is a world leader in t
 Located in Farmington, CT, Farmington Public Schools is committed to helping all students reach high levels of educational achievement in preparation for productive, rewarding lives and responsible citizenship. Farmington Public Schools graciously allows the use of buildings throughout the district to support robotics for all grade levels, including JFLL, FLL and FRC. In addition, they support our efforts by providing us with outstanding teacher mentors, computers, and transportation to various competitions and community outreach events.
 
 ### Data Management Inc: (Bronze Sponsor)
-<a href="https://www.datamanage.com/"><img class="sponsor-logo" alt="Data Management Inc Logo" src="http://farmingtonrobotics.org/oldsite/FarmingtonRobotics.org/farmingtonrobotics.org/images/dm_logo.jpg" /></a>
+<a href="https://www.datamanage.com/"><img class="sponsor-logo" alt="Data Management Inc Logo" style="width: 230px;" src="http://www.databac.com/media/images/about_us/partner/partner_data_management.jpg" /></a>
 Located right next-door to our warehouse, Data Management is a customer-focused developer of specialized business forms and systems that help organizations achieve their best results. They also constantly help out our team in many ways, such as donating old equipment or office furniture, or just plowing the driveway during the winter.
 
 ### Barnes Group Inc: (Bronze Sponsor)
