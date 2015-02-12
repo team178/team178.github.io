@@ -47,7 +47,7 @@ Headquartered in New Britain, Connecticut, Stanley Black & Decker have provided 
 The Farmington Chamber of Commerce is our town's local chamber of commerce with over 200 members that strives to create a network of local leaders and to pool the talents, skills, and resources of Farmington to support our town and improve our community.
 
 ### Allstate: (Sponsor)
-<a href="http://www.allstate.com/"><img class="sponsor-logo" alt="Allstate Logo" src="http://www.allstate.com/resources/Allstate/images/global/allstate-logo-header-170x45.png" /></a>
+<a href="http://www.allstate.com/"><img class="sponsor-logo" alt="Allstate Logo" style="width: 160px;" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/p160x160/10481400_10152533348175329_5106209692165027843_n.png?oh=66e4962be2f43cbfbb0585dbcbc1851d&oe=554FA564&__gda__=1435398321_01c2ef271e8dd768b2c3ea8552c4ddc8" /></a>
 
 ## Want to become a sponsor?
 
