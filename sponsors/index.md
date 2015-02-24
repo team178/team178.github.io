@@ -1,5 +1,5 @@
 ---
-title: hi/Sponsors
+title: Sponsors
 published: true
 ---
 
