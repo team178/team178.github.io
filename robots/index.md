@@ -5,6 +5,14 @@ published: true
 
 ## Competition History and Robots
 
+##Timeline
+[Click here!](http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AlGb3cy8zVhrdHlodkhfeG5OaGNaN0ZjM2JzZmRfVkE&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650)
+
+#### 2015: Recycle Rush - The Claaaw
+
+Recycle Rush is a recycling-themed game played by two Alliances of three robots each. Robots score points by stacking totes on scoring platforms, capping those stacks with recycling containers, and properly disposing of pool noodles, representing litter. In keeping with the recycling theme of the game, all game pieces used are reusable or recyclable by teams in their home locations or by FIRST at the end of the season.
+
+
 #### 2014: Aerial Assist - Captain Falcon
 
 AERIAL ASSIST is played by two competing Alliances of three robots each on a flat 25’ x 54’ footfield, straddled by a truss suspended just over five feet above the floor. The objective is to score as many balls in goals as possible during a two (2)-minute and 30-second match. The more Alliances score their ball in their goals, and the more they work together to do it, the more points their Alliance receives. For the rest of the match, drivers remotely control robots from behind a protective wall. Once all balls in autonomous are scored, only one ball is re-entered in to play, and the Alliances must cycle a single ball as many times as possible for the remainder of the match. With the single ball, they try to maximize their points earned by throwing balls over the truss, catching balls launched over the truss, and scoring in the high and low goals on the far side of the field. Alliances receive large bonuses for “assists,” which are earned for each robot that has possession of the ball in a zone as the ball moves down the field.
