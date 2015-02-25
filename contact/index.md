@@ -3,7 +3,7 @@ title: Contact Us
 published: true
 ---
 
-Email us at ContactUs@FarmingtonRobotic.org
+Email us at ContactUs@FarmingtonRobotics.org
 
 Visit our social media sites:
 
