@@ -1,3 +1,8 @@
+---
+title: "About"
+published: true
+---
+
 ## Committees
  
 ### Engineering Committee of Representatives (eCOR)
