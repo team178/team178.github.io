@@ -14,7 +14,7 @@ The Enforcers belive digital media can be one of the most powerful conduits of o
 ### 2015 Build Season Update Videos
 
 #### Brainstorming!
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=PamrDVDoD-A" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PamrDVDoD-A" frameborder="0" allowfullscreen></iframe>
 
 #### Prototyping Robot
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=rjuI2C1lCEM" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
