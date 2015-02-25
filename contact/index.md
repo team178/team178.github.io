@@ -3,6 +3,8 @@ title: Contact Us
 published: true
 ---
 
+##Interested in what we're doing? Want to see us at your school?
+
 Email us at ContactUs@FarmingtonRobotics.org
 
 Visit our social media sites:
