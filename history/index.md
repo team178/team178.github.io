@@ -1,5 +1,6 @@
 ---
 title: Competition History and Robots
+layout: fullwidth
 published: true
 ---
 
