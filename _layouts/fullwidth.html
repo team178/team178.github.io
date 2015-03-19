@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/fullwidth.css" />
 <body>
   {% include header.html %}
   {% include slideshow.html %}
   <div id="content">
+  <article>
   {{ content }}
+  </article>
   </div>
   {% include footer.html %}
 </body>
