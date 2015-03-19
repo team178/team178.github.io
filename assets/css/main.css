@@ -88,6 +88,10 @@ iframe {max-width: 100%; }
 	max-width: 800px;
 }
 
+#content article {
+	width: 100%;
+}
+
 footer {
   padding: 20px 4%;
   background-color: rgba(52, 73, 94, 0.95);
