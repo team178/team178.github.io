@@ -90,6 +90,7 @@ iframe {max-width: 100%; }
 
 #content article {
 	width: 100%;
+	max-width: none;
 }
 
 footer {
