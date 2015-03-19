@@ -1,4 +1,4 @@
-#slideshow #CaptainFalcon {
+#slideshow #TheClaaaw {
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -12,20 +12,20 @@
   color: rgba(255,255,255, 0.8);
 }
 
-#CaptainFalcon img {
+#TheClaaaw img {
   max-width: 160px;
   flex-shrink: 0;
   -webkit-flex-shrink: 0;
 }
 
-#CaptainFalcon .slide-text {
+#TheClaaaw .slide-text {
   margin: 0; padding: 20px;
   max-width: 500px;
   text-align: center;
 }
 
 @media screen and (max-width: 500px) {
-  #CaptainFalcon img {
+  #TheClaaaw img {
     display: none;
   }
 }
