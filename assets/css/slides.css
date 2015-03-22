@@ -13,9 +13,11 @@
 }
 
 #TheClaaaw img {
-  max-width: 160px;
+  width: 160px;
   flex-shrink: 0;
   -webkit-flex-shrink: 0;
+  flex-basis: auto;
+  -webkit-flex-basis: auto;
 }
 
 #TheClaaaw .slide-text {
