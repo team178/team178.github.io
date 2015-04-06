@@ -1,4 +1,4 @@
-The 2nd Law Enforcers Team Website
+# The 2nd Law Enforcers Team Website
 
 ## Contributing
 When making a code related change to the website, be sure to follow the best practices below.
