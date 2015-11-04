@@ -1,0 +1,29 @@
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+#inner-box {
+  width: 50px;
+  height: 100px;
+  background-color: blue;
+}
+
+#money-goal {
+  width: 600px;
+  height: 150px;
+  background-color: gray;
+  border: 3px solid gray;
+  }
+
+#in-the-field {
+  width: 500px;
+  height: 150px;
+  background-color: rgba(255, 100, 255, .75);
+}
+#money-earned {
+  width: 400px;
+  height: 150px;
+  background-color: rgba(0, 255, 0, .5);
+}
