@@ -60,6 +60,6 @@
 /* end half-style hs-vertical-third */
 
 #progress {
-    height: 100px;
     margin: 5% 0%;
+    line-height: initial;
 }
