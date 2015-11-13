@@ -1,0 +1,65 @@
+/*!
+ * HalfStyle
+ * Copyright 2014 Arbel Hakopian
+ * Licensed under MIT (https://github.com/arbelh/HalfStyle/blob/master/license.md)
+ */
+ @font-face {
+    font-family: "Stencil Std";
+    src: url('/assets/fonts/StencilStd.otf') format("opentype");
+}
+ /* start half-style hs-vertical-third */
+.halfStyle.hs-vertical-third {
+    position:relative;
+    display:inline-block;
+    font-family: "Stencil Std";
+    font-size:80px; /* or any font size will work */
+    color: transparent; /* hide the base character */
+    overflow-y:visible;
+    white-space: pre; /* to preserve the spaces from collapsing */
+    color: #FFF; /* for demo purposes */
+    text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+}
+.halfStyle.hs-vertical-third:before { /* creates the left part */
+    display:block;
+    z-index:2;
+    position:absolute;
+    top:0;
+    content: attr(data-content); /* dynamic content for the pseudo element */
+    overflow-x:hidden;
+    overflow-y:hidden;
+    height: 100%;
+    pointer-events: none; /* so the base char is selectable by mouse */
+    color: #0e0096; /* for demo purposes */
+    text-shadow:
+        -2px -2px 0 #fdd51b,
+         2px -2px 0 #fdd51b,
+        -2px 2px 0 #fdd51b,
+         2px 2px 0 #fdd51b;
+}
+.halfStyle.hs-vertical-third:after { /* creates the right part */
+    display:block;
+    z-index:1;
+    position:absolute;
+    top:0;
+    content: attr(data-content); /* dynamic content for the pseudo element */
+    overflow-x:hidden;
+    overflow-y: hidden;
+    height: 100%;
+    pointer-events: none; /* so the base char is selectable by mouse */
+    color: #FFF; /* for demo purposes */
+    text-shadow:
+        -2px -2px 0 #fdd51b,
+         2px -2px 0 #fdd51b,
+        -2px 2px 0 #fdd51b,
+         2px 2px 0 #fdd51b;
+}
+/* end half-style hs-vertical-third */
+
+#progress {
+    height: 100px;
+    margin: 5% 0%;
+}
