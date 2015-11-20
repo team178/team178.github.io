@@ -3,10 +3,8 @@
 }
 
 nav {
-  overflow: hidden;
-  display: inline-block;
-  margin-left: 25px; padding-left: 15px;
-
+  /** White lined separator between logo and navigation **/
+  margin-left: 1.5rem; padding-left: 1rem;
   background-image: linear-gradient(hsla(0,0%,100%,0), hsla(0,0%,100%,.3) 30%, hsla(0,0%,100%,.3) 70%, hsla(0,0%,100%,0)),
                     linear-gradient(hsla(210,54%,20%,0), hsla(210,54%,20%,.3) 30%, hsla(210,54%,20%,.3) 70%, hsla(210,54%,20%,0));
   background-size: 1px, 1px, 1px;
@@ -19,50 +17,52 @@ nav {
   list-style-type: none;
 }
 
+/** Primary navigation items **/
 #nav li {
   display: block;
   margin: 0; padding: 1px;
   float: left;
 }
-
 #nav li a {
   display: block;
-  margin: 0; padding: 18px 12px;
+  margin: 0; padding: 0.5rem 1rem;
 
   color: rgba(255,255,255, 0.8);
   text-decoration: none;
 
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.15rem;
   line-height: 100%;
 
   transition: color 0.2s;
 }
-
 #nav li a:hover {
   color: rgba(255,255,255, 1);
 }
 
 #nav li ul:before {
+  /** This is the arrow above the hover menu **/
   content: "";
   display: block;
 
   width: 0; height: 0;
-  margin: -12px 0 0px 18px;
+  margin-top: 0.75rem;
+  margin-left: 1rem; /** Shift the triangle to the right a little **/
 
+  /** CSS Hack to make a triangle. */
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 10px solid rgb(44, 62, 80);
 }
 
+/** Secondary navigation items **/
 #nav li ul {
   display: none;
   position: absolute;
-  margin: 0 0 0 3px; padding: 10px 0 0 0;
-  min-width: 150px;
+  margin: 0; padding: 0;
+  min-width: 9rem;
   border-radius: 5px;
 }
-
 #nav li:hover ul {
   display: block;
 }
@@ -72,53 +72,30 @@ nav {
   float: none;
   background-color: rgb(44, 62, 80);
 }
-
 #nav li ul li:first-child {
-  border-radius: 5px 5px 0 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
-
 #nav li ul li:last-child {
-  border-radius: 0 0 5px 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
-
-#nav li ul li a {
-  padding: 10px 10px;
-  font-size: 14px;
-}
-
 #nav li ul li + li {
-  border-top: 1px solid rgba(0,0,0, 0.15);
-}
-
-@media screen and (max-width: 1030px) {
-  #nav li a {
-    padding: 16px 10px;
-    font-size: 16px;
-  }
-  #nav li ul li a {
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 875px) {
-  #nav li a {
-    padding: 14px 7px;
-    font-size: 15px;
-  }
-  #nav li ul li a {
-    font-size: 12px;
-  }
+  border-top: 1px solid rgba(0,0,0, 0.5);
 }
 
 @media screen and (max-width: 810px) {
   #menu-toggle {
-    float: left;
+    order: 0;
     display: block;
-    width: 32px; height: 32px;
-    margin: 6px 20px 6px 0;
+    width: 2rem; height: 2rem;
     background-image: url("../img/menu.png");
     opacity: 0.6;
     transition: 0.2s opacity;
+  }
+  #header h1 {
+    order: 1;
+    flex: 1;
   }
 
   #menu-toggle:hover {
@@ -134,7 +111,7 @@ nav {
     display: block;
 
     width: 0; height: 0;
-    margin: -10px 0 0 15px;
+    margin-left: 1rem;
 
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
@@ -145,9 +122,8 @@ nav {
     display: none;
 
     position: absolute;
-    left: 10px; top: 44px;
-    margin: 0; padding: 10px 0 0 0;
-    max-width: 130px;
+    margin: 1.75rem 0 0 -2rem; padding: 0;
+    max-width: 10rem;
     border-radius: 5px;
   }
 

@@ -1,6 +1,5 @@
 #external-links-bar {
-  margin: 12px 0 0 0;
-  float: right;
+  order: 2;
 }
 
 #external-links-bar a {
