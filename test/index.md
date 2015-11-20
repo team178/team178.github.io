@@ -3,4 +3,4 @@ layout: raffle-meter
 published: true
 ---
 
-{% include calendar.html %}
+The calendar would be here.
