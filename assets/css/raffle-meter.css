@@ -18,10 +18,10 @@
     white-space: pre; /* to preserve the spaces from collapsing */
     color: #FFF; /* for demo purposes */
     text-shadow:
-        -1px -1px 0 #000,
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
+        -0.25vw -0.25vw 0 #000,
+         0.25vw -0.25vw 0 #000,
+        -0.25vw 0.25vw 0 #000,
+         0.25vw 0.25vw 0 #000;
 }
 .halfStyle.hs-vertical-third:before { /* creates the left part */
     display:block;
@@ -32,10 +32,10 @@
     overflow-x:hidden;
     color: #0e0096; /* for demo purposes */
     text-shadow:
-        -1.5px -1.5px 0 #fdd51b,
-         1.5px -1.5px 0 #fdd51b,
-        -1.5px 1.5px 0 #fdd51b,
-         1.5px 1.5px 0 #fdd51b;
+        -0.3vw -0.3vw 0 #fdd51b,
+         0.3vw -0.3vw 0 #fdd51b,
+        -0.3vw 0.3vw 0 #fdd51b,
+         0.3vw 0.3vw 0 #fdd51b;
 }
 .halfStyle.hs-vertical-third:after { /* creates the right part */
     display:block;
@@ -46,10 +46,10 @@
     overflow-x:hidden;
     color: #FFF; /* for demo purposes */
     text-shadow:
-        -1.5px -1.5px 0 #fdd51b,
-         1.5px -1.5px 0 #fdd51b,
-        -1.5px 1.5px 0 #fdd51b,
-         1.5px 1.5px 0 #fdd51b;
+        -0.3vw -0.3vw 0 #fdd51b,
+         0.3vw -0.3vw 0 #fdd51b,
+        -0.3vw 0.3vw 0 #fdd51b,
+         0.3vw 0.3vw 0 #fdd51b;
 }
 /* end half-style hs-vertical-third */
 
