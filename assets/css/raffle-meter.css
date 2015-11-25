@@ -13,7 +13,6 @@
     display:inline-block;
     font-family: "Stencil Std";
     font-size:15.5vw; /* or any font size will work */
-    color: transparent; /* hide the base character */
     overflow-y:visible;
     pointer-events: none;
     white-space: pre; /* to preserve the spaces from collapsing */
@@ -33,10 +32,10 @@
     overflow-x:hidden;
     color: #0e0096; /* for demo purposes */
     text-shadow:
-        -2px -2px 0 #fdd51b,
-         2px -2px 0 #fdd51b,
-        -2px 2px 0 #fdd51b,
-         2px 2px 0 #fdd51b;
+        -1.5px -1.5px 0 #fdd51b,
+         1.5px -1.5px 0 #fdd51b,
+        -1.5px 1.5px 0 #fdd51b,
+         1.5px 1.5px 0 #fdd51b;
 }
 .halfStyle.hs-vertical-third:after { /* creates the right part */
     display:block;
@@ -47,15 +46,16 @@
     overflow-x:hidden;
     color: #FFF; /* for demo purposes */
     text-shadow:
-        -2px -2px 0 #fdd51b,
-         2px -2px 0 #fdd51b,
-        -2px 2px 0 #fdd51b,
-         2px 2px 0 #fdd51b;
+        -1.5px -1.5px 0 #fdd51b,
+         1.5px -1.5px 0 #fdd51b,
+        -1.5px 1.5px 0 #fdd51b,
+         1.5px 1.5px 0 #fdd51b;
 }
 /* end half-style hs-vertical-third */
 
 #progress {
-    margin: 5% 0%;
+    margin-top: -.5%;
+    margin-bottom: -4%;
     line-height: initial;
 }
 
