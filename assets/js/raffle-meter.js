@@ -37,5 +37,5 @@ function handleQueryResponse(response){
   var tagHover = sheet.addElementToTag(".halfStyle.hs-vertical-third:after", widthOut);
   console.log(sheet);
   addInlineStyleSheet(sheet);
-
+  $("#raffle-meter-container").show(1000);
 }

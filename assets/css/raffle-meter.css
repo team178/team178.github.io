@@ -63,3 +63,7 @@
     margin: 5% 0%;
     line-height: initial;
 }
+
+#raffle-meter-container {
+    display: none;
+}
