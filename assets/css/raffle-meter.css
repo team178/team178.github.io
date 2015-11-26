@@ -63,7 +63,7 @@
 }
 
 #progress-title{
-    font-size:6vmin;
+    font-size:3.75vmin;
     line-height: initial;
 }
 
@@ -73,7 +73,7 @@
 }
 
 #percent {
-    font-size: 3vmin;
+    font-size: 2.25vmin;
 }
 @media (min-width: 1300px) {
     .halfStyle.hs-vertical-third {
@@ -102,6 +102,12 @@
 @media (min-width: 655px) {
     #raffle-meter-container {
     font-size: 20px;
+    }
+    #progress {
+    margin-bottom: -2%
+    }
+    #percent {
+    margin-bottom: 1%
     }
 }
 @media (max-width: 475px) {
