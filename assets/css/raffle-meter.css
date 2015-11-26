@@ -60,9 +60,15 @@
 }
 
 #progress-title{
-    font-size:1.5em;
+    font-size:6vmin;
+    line-height: initial;
 }
 
 #raffle-meter-container {
     display: none;
+}
+
+#percent {
+    font-size: 3vmin;
+    min-width:100px;
 }
