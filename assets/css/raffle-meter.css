@@ -5,7 +5,7 @@
  */
  @font-face {
     font-family: "Stencil Std";
-    src:url('myfont-webfont.eot?#iefix') format('embedded-opentype'), 
+    src:url('/assets/fonts/StencilStd.eot?#iefix') format('embedded-opentype'), 
         url('/assets/fonts/StencilStd.otf') format("opentype");
 }
 
