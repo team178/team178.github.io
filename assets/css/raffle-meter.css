@@ -14,7 +14,7 @@
     position:relative;
     display:inline-block;
     font-family: "stencil-std";
-    font-size:15.5vmin; /* or any font size will work */
+    font-size:15.5vw; /* or any font size will work */
     overflow-y:visible;
     pointer-events: none;
     white-space: pre; /* to preserve the spaces from collapsing */
@@ -56,7 +56,7 @@
 /* end half-style hs-vertical-third */
 
 #progress {
-    margin-top: -.25%;
+    margin-top: -2.5%;
     margin-bottom: -4%;
     line-height: initial;
     z-index: -1;
