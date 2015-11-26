@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/arbelh/HalfStyle/blob/master/license.md)
  */
  @font-face {
-    font-family: "Stencil Std";
+    font-family: "StencilStd";
     src:url('/assets/fonts/StencilStd.eot?#iefix') format('embedded-opentype'), 
         url('/assets/fonts/StencilStd.otf') format("opentype");
 }
@@ -13,7 +13,7 @@
 .halfStyle.hs-vertical-third {
     position:relative;
     display:inline-block;
-    font-family: "Stencil Std";
+    font-family: "StencilStd";
     font-size:15.5vmin; /* or any font size will work */
     overflow-y:visible;
     pointer-events: none;
