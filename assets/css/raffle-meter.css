@@ -56,7 +56,7 @@
 /* end half-style hs-vertical-third */
 
 #progress {
-    margin-top: -.5%;
+    margin-top: -.25%;
     margin-bottom: -4%;
     line-height: initial;
     z-index: -1;
@@ -69,8 +69,43 @@
 
 #raffle-meter-container {
     display: none;
+    font-size: 3vmin;
 }
 
 #percent {
     font-size: 3vmin;
+}
+@media (min-width: 1300px) {
+    .halfStyle.hs-vertical-third {
+    font-size:200px; /* or any font size will work */
+    text-shadow:
+        -2px -2px 0 #000,
+         2px -2px 0 #000,
+        -2px 2px 0 #000,
+         2px 2px 0 #000;
+    }
+    .halfStyle.hs-vertical-third:before {
+    text-shadow:
+        -3px -3px 0 #fdd51b,
+         3px -3px 0 #fdd51b,
+        -3px 3px 0 #fdd51b,
+         3px 3px 0 #fdd51b;
+    }
+    .halfStyle.hs-vertical-third:after {
+    text-shadow:
+        -3px -3px 0 #fdd51b,
+         3px -3px 0 #fdd51b,
+        -3px 3px 0 #fdd51b,
+         3px 3px 0 #fdd51b;
+    }
+}
+@media (min-width: 655px) {
+    #raffle-meter-container {
+    font-size: 20px;
+    }
+}
+@media (max-width: 475px) {
+    #raffle-meter-container {
+    font-size: 15px;
+    }
 }
