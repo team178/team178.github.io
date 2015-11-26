@@ -14,7 +14,7 @@
     position:relative;
     display:inline-block;
     font-family: "stencil-std";
-    font-size:15.5vw; /* or any font size will work */
+    font-size:10vw; /* or any font size will work */
     overflow-y:visible;
     pointer-events: none;
     white-space: pre; /* to preserve the spaces from collapsing */
@@ -63,7 +63,7 @@
 }
 
 #progress-title{
-    font-size:3.75vmin;
+    font-size:1.5em;
     line-height: initial;
 }
 
@@ -73,11 +73,11 @@
 }
 
 #percent {
-    font-size: 2.25vmin;
+    font-size: .75em;
 }
+/* For wide screens */
 @media (min-width: 1300px) {
     .halfStyle.hs-vertical-third {
-    font-size:200px; /* or any font size will work */
     text-shadow:
         -2px -2px 0 #000,
          2px -2px 0 #000,
@@ -103,19 +103,6 @@
     margin-bottom: -3%;
     }
 }
-@media (min-width: 655px) {
-    #raffle-meter-container {
-    font-size: 20px;
-    }
-    #percent {
-    margin-bottom: .75%;
-    }
-}
-@media (max-width: 475px) {
-    #raffle-meter-container {
-    font-size: 15px;
-    }
-}
 @media (min-width: 1750px) {
     #progress {
     margin-top: -1.75%;
@@ -123,5 +110,16 @@
     }
     #percent {
     margin-bottom: .5%
+    }
+}
+/* For Mobile */
+@media (min-width: 655px) {
+    #percent {
+    margin-bottom: .75%;
+    }
+}
+@media (max-width: 475px) {
+    #raffle-meter-container {
+    font-size: 15px;
     }
 }
