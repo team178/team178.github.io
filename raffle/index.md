@@ -2,15 +2,17 @@
 layout: raffle-meter
 published: true
 ---
-#####Notice to Team Members!! Books are due at the Full Team Meeting on December 2nd! 
+##### Notice to Team Members!! Books are due at the Full Team Meeting on December 2nd! 
 
-##Our biggest fundraiser of the year!
+# Our biggest fundraiser of the year!
+
 The annual raffle for 2015 is currently underway! Hurry and buy a raffle ticket before the drawing on December 10th, 2015.
 
-###Price: $5 each.
-Get in touch with your local Enforcer to purchase a ticket!
+### Price: $5 each.
 
-Not local? Email us at <ContactUs@farmingtonrobotics.org>
+Talk to any Enforcer to purchase a ticket! We will be at events in venues like George's Pizza and Naples Pizza in Farmington and Fitzgeralds Foods of Simsbury! Check our [Team Calendar](/calendar) for future event times and dates.
+
+##### Not local? Email us at <ContactUs@farmingtonrobotics.org>
 
 ###Prizes this year:
 >__1st Prize:__ [Apple iPad Air 2](http://www.apple.com/ipad-air-2) Wifi with 64GB RAM, Apple Care and Smart Case
