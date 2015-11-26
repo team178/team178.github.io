@@ -5,8 +5,10 @@
  */
  @font-face {
     font-family: "Stencil Std";
-    src: url('/assets/fonts/StencilStd.otf') format("opentype");
+    src:url('myfont-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('/assets/fonts/StencilStd.otf') format("opentype");
 }
+
  /* start half-style hs-vertical-third */
 .halfStyle.hs-vertical-third {
     position:relative;
