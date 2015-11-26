@@ -28,7 +28,10 @@ function handleQueryResponse(response){
   var soldPercent = sold / (sold + out + base) * 100;
   var outPercent = (out + sold) / (sold + out + base) * 100;
 
-  document.getElementById('percent').innerHTML = "Percent of tickets sold: " + soldPercent + "%";
+  var deadline = new Date(2015, 11, 10, 18, 0, 0); // note: month is 0-11 but date starts at 1
+  var numDays = Math.ceil((deadline - new Date())/86400000);
+
+  $("#percent").html("Percent of tickets sold: " + soldPercent + "% | " + numDays + " days left! | <a href='/raffle'>About the raffle >></a>");
 
   var sheet = new StyleSheet();
   var widthSold = new StyleSheetElement("width", soldPercent + '%');

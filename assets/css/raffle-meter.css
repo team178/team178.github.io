@@ -59,6 +59,10 @@
     line-height: initial;
 }
 
+#progress-title{
+    font-size:1.5em;
+}
+
 #raffle-meter-container {
     display: none;
 }
