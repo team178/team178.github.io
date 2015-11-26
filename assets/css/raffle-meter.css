@@ -3,17 +3,17 @@
  * Copyright 2014 Arbel Hakopian
  * Licensed under MIT (https://github.com/arbelh/HalfStyle/blob/master/license.md)
  */
- @font-face {
+/* @font-face {
     font-family: "StencilStd";
     src:url('/assets/fonts/StencilStd.eot') format('embedded-opentype'), 
         url('/assets/fonts/StencilStd.otf') format("opentype");
-}
+}*/
 
  /* start half-style hs-vertical-third */
 .halfStyle.hs-vertical-third {
     position:relative;
     display:inline-block;
-    font-family: "StencilStd";
+    font-family: "stencil-std";
     font-size:15.5vmin; /* or any font size will work */
     overflow-y:visible;
     pointer-events: none;
