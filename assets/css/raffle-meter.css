@@ -12,7 +12,7 @@
     position:relative;
     display:inline-block;
     font-family: "Stencil Std";
-    font-size:15.5vw; /* or any font size will work */
+    font-size:15.5vmin; /* or any font size will work */
     overflow-y:visible;
     pointer-events: none;
     white-space: pre; /* to preserve the spaces from collapsing */
