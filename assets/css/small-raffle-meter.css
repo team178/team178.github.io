@@ -1,0 +1,34 @@
+#raffle-meter-goal {
+    position:relative;
+    display:inline-block;
+    overflow-y:visible;
+    pointer-events: none;
+    white-space: pre;
+    color: #FFF;
+}
+#raffle-meter-sold {
+    display:block;
+    z-index:2;
+    position:absolute;
+    top:0;
+    content: attr(data-content);
+    overflow-x:hidden;
+    color: #0e0096;
+}
+#raffle-meter-out {
+    display:block;
+    z-index:1;
+    position:absolute;
+    top:0;
+    content: attr(data-content);
+    overflow-x:hidden;
+    color: #fdd51b;
+}
+#raffle-meter-container-s {
+    display: none;
+    z-index: -1;
+}
+#percent {
+    font-size: 16px;
+    margin-bottom: .3%;
+}

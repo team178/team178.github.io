@@ -1,8 +1,8 @@
 <head>
-<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/raffle-meter.css">
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/small-raffle-meter.css">
 <script type='text/javascript' src="https://www.google.com/jsapi"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type='text/javascript' src="{{ site.url }}/assets/js/raffle-meter.js"></script>
+<script type='text/javascript' src="{{ site.url }}/assets/js/small-raffle-meter.js"></script>
 <script type='text/javascript' src="{{ site.url }}/assets/js/modifying-css.js"></script>
 <script>
   (function(d) {
@@ -18,6 +18,8 @@
 </head>
 
 <div id="raffle-meter-container-s">
-	<div id="small-raffle-meter" class="raffle-meter-s"></div>
+	<div id="raffle-meter-goal" style="width:100%"></div>
+  <div id="raffle-meter-out" style="width:75%"></div>
+  <div id="raffle-meter-sold" style="width:10%"></div>
 	<div id="percent"></div>
 </div>

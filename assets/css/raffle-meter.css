@@ -55,33 +55,6 @@
 }
 /* end half-style hs-vertical-third */
 
-.raffle-meter-s {
-    position:relative;
-    display:inline-block;
-    overflow-y:visible;
-    pointer-events: none;
-    white-space: pre;
-    color: #FFF;
-}
-.raffle-meter-s:before {
-    display:block;
-    z-index:2;
-    position:absolute;
-    top:0;
-    content: attr(data-content);
-    overflow-x:hidden;
-    color: #0e0096;
-}
-.raffle-meter-s:after {
-    display:block;
-    z-index:1;
-    position:absolute;
-    top:0;
-    content: attr(data-content);
-    overflow-x:hidden;
-    color: #fdd51b;
-}
-
 #progress {
     margin-top: -4.5%;
     line-height: initial;
@@ -96,10 +69,6 @@
 }
 #raffle-meter-container {
     display: none;
-}
-#raffle-meter-container-s {
-    display: none;
-    z-index: -1;
 }
 #percent {
     font-size: 16px;
