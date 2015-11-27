@@ -34,6 +34,7 @@
 @media (max-width: 700px) {
     #percent {
     font-size: 14px;
+    margin-right: 0;
     }
 }
 @media (min-width: 847px) {
