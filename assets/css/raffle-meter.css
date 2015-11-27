@@ -56,13 +56,13 @@
 /* end half-style hs-vertical-third */
 
 #progress {
-    margin-top: -2.5%;
+    margin-top: -4.5%;
     line-height: initial;
     z-index: -1;
     margin-bottom: -3.5%;
 }
 #progress-title {
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 1000;
     line-height: initial;
     margin-bottom: -.25%;
@@ -71,7 +71,8 @@
     display: none;
 }
 #percent {
-    font-size: 1.25vw;
+    font-size: 16px;
+    margin-bottom: .3%;
 }
 /* For wide screens */
 @media (min-width: 1000px) {
@@ -98,23 +99,24 @@
          2.75px 2.75px 0 #fdd51b;
     }
     #progress {
-    margin-top: -1.5%;
+    margin-top: -3.3%;
     }
 }
 @media (min-width: 1550px) {
     #progress {
-    margin-top: -1%;
+    margin-top: -2.6%;
     margin-bottom: -2%;
     }
     #percent {
-    margin-bottom: .5%;
+    font-size: 16.5px;
+    margin-bottom: .1%;
     }
     #progress-title {
-    font-size: 1.5vw;
+    font-size: 32px;
     }
 }
 /* For medium screens */
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and (min-width: 950px) {
     .halfStyle.hs-vertical-third {
     font-size: 100px;
     }
@@ -122,7 +124,10 @@
     font-size: 15.5px;
     }
     #progress-title {
-    font-size: 2.3vw;
+    font-size: 2.5vw;
+    }
+    #progress {
+    margin-top: -4.3%;
     }
 }
 
@@ -132,12 +137,12 @@
     font-size: 15.5vw;
     }
     #progress {
-    margin-top: -3.5%;
+    margin-top: -6.5%;
     }
     #percent {
     font-size: 15px;
     margin-bottom: .75%;
-    margin-top: -.25%
+    margin-top: -.25%;
     }
     #progress-title {
     font-size: 20px;
