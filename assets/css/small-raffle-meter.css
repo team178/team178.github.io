@@ -22,40 +22,8 @@
     font-size: 16px;
     margin-top: -5px;
 }
-@media (max-width: 380px) {
-    #raffle-meter-sold {
-    margin-top: 56px;
-    }
-    #raffle-meter-out {
-    margin-top: 56px;
-    }
-}
 @media (max-width: 700px) {
     #percent {
     font-size: 14px;
-    }
-}
-@media (min-width: 847px) {
-    #raffle-meter-sold {
-    margin-top: 96px;
-    }
-    #raffle-meter-out {
-    margin-top: 96px;
-    }
-}
-@media (min-width: 1031px) {
-    #raffle-meter-sold {
-    margin-top: 102px;
-    }
-    #raffle-meter-out {
-    margin-top: 102px;
-    }
-}
-@media (min-width: 1382px) {
-    #raffle-meter-sold {
-    margin-top: 63px;
-    }
-    #raffle-meter-out {
-    margin-top: 63px;
     }
 }
