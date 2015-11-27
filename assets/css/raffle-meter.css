@@ -110,7 +110,7 @@
     margin-bottom: .5%;
     }
     #progress-title {
-    font-size: 1.5vw
+    font-size: 1.5vw;
     }
 }
 /* For medium screens */
@@ -132,7 +132,7 @@
     font-size: 15.5vw;
     }
     #progress {
-    margin-top: -3.5%
+    margin-top: -3.5%;
     }
     #percent {
     font-size: 15px;
@@ -141,6 +141,9 @@
     }
     #progress-title {
     font-size: 20px;
-    margin-bottom: -1%
+    margin-bottom: -1%;
+    }
+    #mouse-over {
+    display: none;
     }
 }
