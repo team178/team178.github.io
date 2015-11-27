@@ -20,7 +20,7 @@
 }
 #percent {
     font-size: 16px;
-    margin-bottom: .3%;
+    margin-right: 15px;
 }
 @media (max-width: 380px) {
     #raffle-meter-sold {
@@ -36,6 +36,14 @@
     }
     #raffle-meter-out {
     margin-top: 127px; 
+    }
+}
+@media (min-width: 817px) {
+    #raffle-meter-sold {
+    margin-top: 96px;
+    }
+    #raffle-meter-out {
+    margin-top: 96px;
     }
 }
 @media (min-width: 847px) {
