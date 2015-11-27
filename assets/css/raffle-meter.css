@@ -14,7 +14,7 @@
     position:relative;
     display:inline-block;
     font-family: "stencil-std";
-    font-size:15.5vw; /* or any font size will work */
+    font-size:10vw; /* or any font size will work */
     overflow-y:visible;
     pointer-events: none;
     white-space: pre; /* to preserve the spaces from collapsing */
@@ -55,6 +55,16 @@
 }
 /* end half-style hs-vertical-third */
 
+<<<<<<< HEAD
+=======
+#progress {
+    margin-top: -2.5%;
+    line-height: initial;
+    z-index: -1;
+    margin-bottom: -3.5%;
+}
+
+>>>>>>> aae43068d299472c1ec497afe018b900dfd2d4a5
 #progress-title{
     font-size:1.5em;
     line-height: initial;
@@ -95,6 +105,7 @@
     #progress {
     margin-bottom: -3%;
     }
+<<<<<<< HEAD
 }
 @media (min-width: 1750px) {
     #progress {
@@ -105,6 +116,18 @@
     margin-bottom: .5%
     }
 }
+=======
+}
+@media (min-width: 1750px) {
+    #progress {
+    margin-top: -1.75%;
+    margin-bottom: -2%
+    }
+    #percent {
+    margin-bottom: .5%
+    }
+}
+>>>>>>> aae43068d299472c1ec497afe018b900dfd2d4a5
 /* For Mobile */
 @media (min-width: 655px) {
     #percent {
