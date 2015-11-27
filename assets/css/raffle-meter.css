@@ -55,8 +55,6 @@
 }
 /* end half-style hs-vertical-third */
 
-<<<<<<< HEAD
-=======
 #progress {
     margin-top: -2.5%;
     line-height: initial;
@@ -64,7 +62,6 @@
     margin-bottom: -3.5%;
 }
 
->>>>>>> aae43068d299472c1ec497afe018b900dfd2d4a5
 #progress-title{
     font-size:1.5em;
     line-height: initial;
@@ -105,7 +102,6 @@
     #progress {
     margin-bottom: -3%;
     }
-<<<<<<< HEAD
 }
 @media (min-width: 1750px) {
     #progress {
@@ -116,8 +112,6 @@
     margin-bottom: .5%
     }
 }
-=======
-}
 @media (min-width: 1750px) {
     #progress {
     margin-top: -1.75%;
@@ -127,7 +121,6 @@
     margin-bottom: .5%
     }
 }
->>>>>>> aae43068d299472c1ec497afe018b900dfd2d4a5
 /* For Mobile */
 @media (min-width: 655px) {
     #percent {
