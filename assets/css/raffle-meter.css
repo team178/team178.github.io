@@ -61,74 +61,86 @@
     z-index: -1;
     margin-bottom: -3.5%;
 }
-
-#progress-title{
-    font-size:1.5em;
+#progress-title {
+    font-size: 2vw;
+    font-weight: 1000;
     line-height: initial;
+    margin-bottom: -.25%;
 }
-
 #raffle-meter-container {
     display: none;
-    font-size: 3vmin;
 }
-
 #percent {
-    font-size: .75em;
+    font-size: 1.25vw;
 }
 /* For wide screens */
-@media (min-width: 1300px) {
+@media (min-width: 1000px) {
     .halfStyle.hs-vertical-third {
+    font-size: 100px;
     text-shadow:
         -2px -2px 0 #000,
          2px -2px 0 #000,
         -2px 2px 0 #000,
          2px 2px 0 #000;
-    margin-bottom: -1.75%
     }
     .halfStyle.hs-vertical-third:before {
     text-shadow:
-        -3px -3px 0 #fdd51b,
-         3px -3px 0 #fdd51b,
-        -3px 3px 0 #fdd51b,
-         3px 3px 0 #fdd51b;
+        -2.75px -2.75px 0 #fdd51b,
+         2.75px -2.75px 0 #fdd51b,
+        -2.75px 2.75px 0 #fdd51b,
+         2.75px 2.75px 0 #fdd51b;
     }
     .halfStyle.hs-vertical-third:after {
     text-shadow:
-        -3px -3px 0 #fdd51b,
-         3px -3px 0 #fdd51b,
-        -3px 3px 0 #fdd51b,
-         3px 3px 0 #fdd51b;
+        -2.75px -2.75px 0 #fdd51b,
+         2.75px -2.75px 0 #fdd51b,
+        -2.75px 2.75px 0 #fdd51b,
+         2.75px 2.75px 0 #fdd51b;
     }
     #progress {
-    margin-bottom: -3%;
+    margin-top: -1.5%;
     }
 }
-@media (min-width: 1750px) {
+@media (min-width: 1550px) {
     #progress {
-    margin-top: -1.75%;
-    margin-bottom: -2%
+    margin-top: -1%;
+    margin-bottom: -2%;
     }
     #percent {
-    margin-bottom: .5%
+    margin-bottom: .5%;
+    }
+    #progress-title {
+    font-size: 1.5vw
     }
 }
-@media (min-width: 1750px) {
-    #progress {
-    margin-top: -1.75%;
-    margin-bottom: -2%
+/* For medium screens */
+@media (max-width: 1200px) {
+    .halfStyle.hs-vertical-third {
+    font-size: 100px;
     }
     #percent {
-    margin-bottom: .5%
+    font-size: 15.5px;
+    }
+    #progress-title {
+    font-size: 2.3vw;
     }
 }
+
 /* For Mobile */
-@media (min-width: 655px) {
-    #percent {
-    margin-bottom: .75%;
+@media (max-width: 655px) {
+    .halfStyle.hs-vertical-third {
+    font-size: 15.5vw;
     }
-}
-@media (max-width: 475px) {
-    #raffle-meter-container {
+    #progress {
+    margin-top: -3.5%
+    }
+    #percent {
     font-size: 15px;
+    margin-bottom: .75%;
+    margin-top: -.25%
+    }
+    #progress-title {
+    font-size: 20px;
+    margin-bottom: -1%
     }
 }
