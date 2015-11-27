@@ -1,25 +1,18 @@
 #raffle-meter-goal {
-    position:relative;
     display:inline-block;
-    overflow-y:visible;
     pointer-events: none;
-    white-space: pre;
 }
 #raffle-meter-sold {
-    display:block;
     z-index:2;
     position:absolute;
     top:0;
-    content: attr(data-content);
-    overflow-x:hidden;
+    margin-top: 65px;
 }
 #raffle-meter-out {
-    display:block;
     z-index:1;
     position:absolute;
     top:0;
-    content: attr(data-content);
-    overflow-x:hidden;
+    margin-top: 65px;
 }
 #raffle-meter-container-s {
     display: none;
@@ -28,4 +21,44 @@
 #percent {
     font-size: 16px;
     margin-bottom: .3%;
+}
+@media (max-width: 380px) {
+    #raffle-meter-sold {
+    margin-top: 56px;
+    }
+    #raffle-meter-out {
+    margin-top: 56px;
+    }
+}
+@media (min-width: 811px) {
+    #raffle-meter-sold {
+    margin-top: 127px;
+    }
+    #raffle-meter-out {
+    margin-top: 127px; 
+    }
+}
+@media (min-width: 847px) {
+    #raffle-meter-sold {
+    margin-top: 96px;
+    }
+    #raffle-meter-out {
+    margin-top: 96px;
+    }
+}
+@media (min-width: 1031px) {
+    #raffle-meter-sold {
+    margin-top: 102px;
+    }
+    #raffle-meter-out {
+    margin-top: 102px;
+    }
+}
+@media (min-width: 1397px) {
+    #raffle-meter-sold {
+    margin-top: 63px;
+    }
+    #raffle-meter-out {
+    margin-top: 63px;
+    }
 }
