@@ -55,15 +55,8 @@
 }
 /* end half-style hs-vertical-third */
 
-#progress {
-    margin-top: -2.5%;
-    margin-bottom: -4%;
-    line-height: initial;
-    z-index: -1;
-}
-
 #progress-title{
-    font-size:6vmin;
+    font-size:1.5em;
     line-height: initial;
 }
 
@@ -73,16 +66,17 @@
 }
 
 #percent {
-    font-size: 3vmin;
+    font-size: .75em;
 }
+/* For wide screens */
 @media (min-width: 1300px) {
     .halfStyle.hs-vertical-third {
-    font-size:200px; /* or any font size will work */
     text-shadow:
         -2px -2px 0 #000,
          2px -2px 0 #000,
         -2px 2px 0 #000,
          2px 2px 0 #000;
+    margin-bottom: -1.75%
     }
     .halfStyle.hs-vertical-third:before {
     text-shadow:
@@ -98,10 +92,23 @@
         -3px 3px 0 #fdd51b,
          3px 3px 0 #fdd51b;
     }
+    #progress {
+    margin-bottom: -3%;
+    }
 }
+@media (min-width: 1750px) {
+    #progress {
+    margin-top: -1.75%;
+    margin-bottom: -2%
+    }
+    #percent {
+    margin-bottom: .5%
+    }
+}
+/* For Mobile */
 @media (min-width: 655px) {
-    #raffle-meter-container {
-    font-size: 20px;
+    #percent {
+    margin-bottom: .75%;
     }
 }
 @media (max-width: 475px) {
