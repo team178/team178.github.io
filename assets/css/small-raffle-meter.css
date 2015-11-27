@@ -4,7 +4,6 @@
     overflow-y:visible;
     pointer-events: none;
     white-space: pre;
-    color: #FFF;
 }
 #raffle-meter-sold {
     display:block;
@@ -13,7 +12,6 @@
     top:0;
     content: attr(data-content);
     overflow-x:hidden;
-    color: #0e0096;
 }
 #raffle-meter-out {
     display:block;
@@ -22,7 +20,6 @@
     top:0;
     content: attr(data-content);
     overflow-x:hidden;
-    color: #fdd51b;
 }
 #raffle-meter-container-s {
     display: none;
