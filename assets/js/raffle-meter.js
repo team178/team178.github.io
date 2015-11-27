@@ -32,13 +32,17 @@ function handleQueryResponse(response){
   var numDays = Math.ceil((deadline - new Date())/86400000);
 
   $("#percent").html("Tickets sold: " + soldPercent + "% | " + numDays + " days left! | <a href='/raffle'>About the raffle >></a>");
-
+// For large meter
   var sheet = new StyleSheet();
   var widthSold = new StyleSheetElement("width", soldPercent + '%');
   var tagA = sheet.addElementToTag(".halfStyle.hs-vertical-third:before", widthSold);
   var widthOut = new StyleSheetElement("width", outPercent + '%');
-  var tagHover = sheet.addElementToTag(".halfStyle.hs-vertical-third:after", widthOut);
+  var tagB = sheet.addElementToTag(".halfStyle.hs-vertical-third:after", widthOut);
+// For small meter
+  var tagC = sheet.addElementToTag(".raffle-meter-s:before")
+  var tagD = sheet.addElementToTag(".raffle-meter-s:after")
   console.log(sheet);
   addInlineStyleSheet(sheet);
   $("#raffle-meter-container").show(1000);
+  $("raffle-meter-container-s").show(1000);
 }
