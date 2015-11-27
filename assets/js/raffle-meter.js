@@ -39,8 +39,8 @@ function handleQueryResponse(response){
   var widthOut = new StyleSheetElement("width", outPercent + '%');
   var tagB = sheet.addElementToTag(".halfStyle.hs-vertical-third:after", widthOut);
 // For small meter
-  var tagC = sheet.addElementToTag(".raffle-meter-s:before")
-  var tagD = sheet.addElementToTag(".raffle-meter-s:after")
+  var tagC = sheet.addElementToTag(".raffle-meter-s:before", widthSold);
+  var tagD = sheet.addElementToTag(".raffle-meter-s:after", widthOut);
   console.log(sheet);
   addInlineStyleSheet(sheet);
   $("#raffle-meter-container").show(1000);
