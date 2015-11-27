@@ -32,14 +32,6 @@
 }
 @media (min-width: 811px) {
     #raffle-meter-sold {
-    margin-top: 127px;
-    }
-    #raffle-meter-out {
-    margin-top: 127px; 
-    }
-}
-@media (min-width: 817px) {
-    #raffle-meter-sold {
     margin-top: 96px;
     }
     #raffle-meter-out {
