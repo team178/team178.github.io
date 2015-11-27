@@ -44,5 +44,5 @@ function handleQueryResponse(response){
   console.log(sheet);
   addInlineStyleSheet(sheet);
   $("#raffle-meter-container").show(1000);
-  $("raffle-meter-container-s").show(1000);
+  $("#raffle-meter-container-s").show(1000);
 }

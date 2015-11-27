@@ -99,8 +99,6 @@
 }
 #raffle-meter-container-s {
     display: none;
-}
-#raffle-meter-s {
     z-index: -1;
 }
 #percent {
