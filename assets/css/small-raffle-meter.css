@@ -2,6 +2,7 @@
     display: none;
     position:relative;
     z-index:-1;
+    text-align:center;
 }
 #raffle-meter-goal {
     width:100%;
@@ -10,7 +11,6 @@
     pointer-events: none;
 }
 #raffle-meter-out {
-    position:relative;
     background-color: #FFD000;
     height:1.5em;
 }
@@ -22,15 +22,17 @@
     height:1.5em;
 }
 #percent {
+    background-color: rgba(255,255,255,.5);
     position:absolute;
-    width:100%;
-    text-align:center;
     top:0px;
-
+    width: 50%;
+    right:25%;
 }
 
 @media (max-width: 700px) and (orientation: portrait){
     #percent {
         font-size:12px;
+        right: 0px;
+        width:auto;
     }
 }
