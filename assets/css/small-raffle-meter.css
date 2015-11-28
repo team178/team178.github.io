@@ -1,27 +1,36 @@
-#raffle-meter-goal {
-    position: absolute;
-    pointer-events: none;
-    z-index: 1;
-}
-#raffle-meter-out {
-    z-index: 2;
-    position:relative;
-    top:0;
-}
-#raffle-meter-sold {
-    z-index: 3;
-    position:relative;
-    top:0;
-    margin-top: -40px;
-}
 #raffle-meter-container-s {
     display: none;
+    position:relative;
+    z-index:-1;
+}
+#raffle-meter-goal {
+    width:100%;
+    height:1.5em;
+    background-color: #FFF;
+    pointer-events: none;
+}
+#raffle-meter-out {
+    position:relative;
+    background-color: #FFD000;
+    height:1.5em;
+}
+#raffle-meter-sold {
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-color: #000178;
+    height:1.5em;
 }
 #percent {
-    font-size: 16px;
+    position:absolute;
+    width:100%;
+    text-align:center;
+    top:0px;
+
 }
-@media (max-width: 700px) {
+
+@media (max-width: 700px) and (orientation: portrait){
     #percent {
-    font-size: 14px;
+        font-size:12px;
     }
 }
