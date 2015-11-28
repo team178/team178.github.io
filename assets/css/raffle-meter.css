@@ -32,12 +32,12 @@
     top:0;
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow-x:hidden;
-    color: #0e0096; /* for demo purposes */
+    color: #000178; /* for demo purposes */
     text-shadow:
-        -0.3vw -0.3vw 0 #fdd51b,
-         0.3vw -0.3vw 0 #fdd51b,
-        -0.3vw 0.3vw 0 #fdd51b,
-         0.3vw 0.3vw 0 #fdd51b;
+        -0.3vw -0.3vw 0 #FFD000,
+         0.3vw -0.3vw 0 #FFD000,
+        -0.3vw 0.3vw 0 #FFD000,
+         0.3vw 0.3vw 0 #FFD000;
 }
 .halfStyle.hs-vertical-third:after { /* creates the right part */
     display:block;
@@ -48,10 +48,10 @@
     overflow-x:hidden;
     color: #FFF; /* for demo purposes */
     text-shadow:
-        -0.3vw -0.3vw 0 #fdd51b,
-         0.3vw -0.3vw 0 #fdd51b,
-        -0.3vw 0.3vw 0 #fdd51b,
-         0.3vw 0.3vw 0 #fdd51b;
+        -0.3vw -0.3vw 0 #FFD000,
+         0.3vw -0.3vw 0 #FFD000,
+        -0.3vw 0.3vw 0 #FFD000,
+         0.3vw 0.3vw 0 #FFD000;
 }
 /* end half-style hs-vertical-third */
 
@@ -86,17 +86,17 @@
     }
     .halfStyle.hs-vertical-third:before {
     text-shadow:
-        -2.75px -2.75px 0 #fdd51b,
-         2.75px -2.75px 0 #fdd51b,
-        -2.75px 2.75px 0 #fdd51b,
-         2.75px 2.75px 0 #fdd51b;
+        -2.75px -2.75px 0 #FFD000,
+         2.75px -2.75px 0 #FFD000,
+        -2.75px 2.75px 0 #FFD000,
+         2.75px 2.75px 0 #FFD000;
     }
     .halfStyle.hs-vertical-third:after {
     text-shadow:
-        -2.75px -2.75px 0 #fdd51b,
-         2.75px -2.75px 0 #fdd51b,
-        -2.75px 2.75px 0 #fdd51b,
-         2.75px 2.75px 0 #fdd51b;
+        -2.75px -2.75px 0 #FFD000,
+         2.75px -2.75px 0 #FFD000,
+        -2.75px 2.75px 0 #FFD000,
+         2.75px 2.75px 0 #FFD000;
     }
     #progress {
     margin-top: -3.3%;
@@ -142,17 +142,17 @@
     }
     .halfStyle.hs-vertical-third:before {
     text-shadow:
-        -1.5px -1.5px 0 #fdd51b,
-         1.5px -1.5px 0 #fdd51b,
-        -1.5px 1.5px 0 #fdd51b,
-         1.5px 1.5px 0 #fdd51b;
+        -1.5px -1.5px 0 #FFD000,
+         1.5px -1.5px 0 #FFD000,
+        -1.5px 1.5px 0 #FFD000,
+         1.5px 1.5px 0 #FFD000;
     }
     .halfStyle.hs-vertical-third:after {
     text-shadow:
-        -1.5px -1.5px 0 #fdd51b,
-         1.5px -1.5px 0 #fdd51b,
-        -1.5px 1.5px 0 #fdd51b,
-         1.5px 2.75px 0 #fdd51b;
+        -1.5px -1.5px 0 #FFD000,
+         1.5px -1.5px 0 #FFD000,
+        -1.5px 1.5px 0 #FFD000,
+         1.5px 2.75px 0 #FFD000;
     }
     #progress {
     margin-top: -8.5%;
