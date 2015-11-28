@@ -3,16 +3,16 @@
     pointer-events: none;
     z-index: -3;
 }
+#raffle-meter-out {
+    z-index: -2;
+    position:relative;
+    top:0;
+}
 #raffle-meter-sold {
     z-index: -1;
     position:relative;
     top:0;
     margin-top: -47px;
-}
-#raffle-meter-out {
-    z-index: -2;
-    position:relative;
-    top:0;
 }
 #raffle-meter-container-s {
     display: none;
