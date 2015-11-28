@@ -1,22 +1,21 @@
 #raffle-meter-goal {
     display: inline-block;
     pointer-events: none;
+    z-index: -3;
 }
 #raffle-meter-sold {
-    z-index: 2;
-    position:absolute;
+    z-index: -1;
+    position:relative;
     top:0;
-    display: inline-block;
+    margin-top: -47px;
 }
 #raffle-meter-out {
-    z-index: 1;
-    position:absolute;
+    z-index: -2;
+    position:relative;
     top:0;
-    display: inline-block;
 }
 #raffle-meter-container-s {
     display: none;
-    z-index: -1;
 }
 #percent {
     font-size: 16px;
