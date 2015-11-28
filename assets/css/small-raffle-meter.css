@@ -6,13 +6,13 @@
     z-index: 2;
     position:absolute;
     top:0;
-    display: none;
+    display: inline-block;
 }
 #raffle-meter-out {
     z-index: 1;
     position:absolute;
     top:0;
-    display: none;
+    display: inline-block;
 }
 #raffle-meter-container-s {
     display: none;
