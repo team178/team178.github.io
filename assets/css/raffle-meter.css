@@ -56,7 +56,7 @@
 /* end half-style hs-vertical-third */
 
 #progress {
-    margin-top: -4.5%;
+    margin-top: -8%;
     line-height: initial;
     z-index: -1;
     margin-bottom: -3.5%;
@@ -99,12 +99,12 @@
          2.75px 2.75px 0 #FFD000;
     }
     #progress {
-    margin-top: -3.3%;
+    margin-top: -7%;
     }
 }
 @media (min-width: 1550px) {
     #progress {
-    margin-top: -2.6%;
+    margin-top: -6.5%;
     margin-bottom: -2%;
     }
     #percent {
@@ -127,11 +127,11 @@
     font-size: 2.5vw;
     }
     #progress {
-    margin-top: -4.3%;
+    margin-top: -7.4%;
     }
 }
 /* For Mobile */
-@media (max-width: 655px) {
+@media (max-width: 750px) {
     .halfStyle.hs-vertical-third {
     font-size: 15.5vw;
     text-shadow:
@@ -175,6 +175,6 @@
     display: none;
     }
     #progress {
-    margin-top: -5.5%;
+    margin-top: -7%;
     }
 }
