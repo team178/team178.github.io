@@ -121,7 +121,7 @@ nav {
 
   #nav {
     display: none;
-
+    z-index: 1;
     position: absolute;
     margin: 1.75rem 0 0 -2rem; padding: 0;
     max-width: 10rem;
