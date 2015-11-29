@@ -1,8 +1,8 @@
 #raffle-meter-container-s {
     display: none;
     position:relative;
-    z-index:-1;
     text-align:center;
+    overflow: hidden;
 }
 #raffle-meter-goal {
     width:100%;

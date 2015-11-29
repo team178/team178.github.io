@@ -57,6 +57,7 @@ nav {
 
 /** Secondary navigation items **/
 #nav li ul {
+  z-index: 1;
   display: none;
   position: absolute;
   margin: 0; padding: 0;
