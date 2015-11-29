@@ -130,11 +130,6 @@
     margin-top: -7.4%;
     }
 }
-@media (max-width 750px) {
-    #progress {
-    
-    }
-}
 /* For Mobile */
 @media (max-width: 655px) {
     .halfStyle.hs-vertical-third {
