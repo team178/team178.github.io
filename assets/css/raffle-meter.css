@@ -130,8 +130,13 @@
     margin-top: -7.4%;
     }
 }
+@media (max-width 750px) {
+    #progress {
+    
+    }
+}
 /* For Mobile */
-@media (max-width: 750px) {
+@media (max-width: 655px) {
     .halfStyle.hs-vertical-third {
     font-size: 15.5vw;
     text-shadow:
@@ -170,6 +175,7 @@
     display: none;
     }
 }
+/* For landscape */
 @media (max-width: 750px) and (orientation: landscape) {
     #mouse-over {
     display: none;
