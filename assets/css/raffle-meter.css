@@ -14,11 +14,11 @@
     position:relative;
     display:inline-block;
     font-family: "stencil-std";
-    font-size:10vw; /* or any font size will work */
+    font-size:10vw;
     overflow-y:visible;
     pointer-events: none;
     white-space: pre; /* to preserve the spaces from collapsing */
-    color: #FFF; /* for demo purposes */
+    color: #FFF;
     text-shadow:
         -0.25vw -0.25vw 0 #000,
          0.25vw -0.25vw 0 #000,
@@ -32,7 +32,7 @@
     top:0;
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow-x:hidden;
-    color: #000178; /* for demo purposes */
+    color: #000178;
     text-shadow:
         -0.3vw -0.3vw 0 #FFD000,
          0.3vw -0.3vw 0 #FFD000,
@@ -46,7 +46,7 @@
     top:0;
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow-x:hidden;
-    color: #FFF; /* for demo purposes */
+    color: #FFF;
     text-shadow:
         -0.3vw -0.3vw 0 #FFD000,
          0.3vw -0.3vw 0 #FFD000,
@@ -74,7 +74,7 @@
     font-size: 16px;
     margin-bottom: .3%;
 }
-/* For wide screens */
+/* For large screens */
 @media (min-width: 1000px) {
     .halfStyle.hs-vertical-third {
     font-size: 100px;
@@ -130,7 +130,7 @@
     margin-top: -7.4%;
     }
 }
-/* For Mobile */
+/* For mobile */
 @media (max-width: 655px) {
     .halfStyle.hs-vertical-third {
     font-size: 15.5vw;
@@ -170,7 +170,7 @@
     display: none;
     }
 }
-/* For landscape */
+/* For mobile (landscape) */
 @media (max-width: 750px) and (orientation: landscape) {
     #mouse-over {
     display: none;
