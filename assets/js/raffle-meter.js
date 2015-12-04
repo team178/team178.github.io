@@ -40,6 +40,9 @@ function handleQueryResponse(response){
   var deadline = new Date(2015, 11, 10, 18, 0, 0); // note: month is 0-11 but date starts at 1
   var numDays = Math.ceil((deadline - new Date())/86400000);
  
-  $("#percent").html("Tickets sold: " + soldPercent + "% | " + numDays + " days left! | <a href='/raffle'>About the raffle >></a>");
+  var soldPercentString = soldPercent.toString(); // turns the double into a string
+  var soldPercentShort = soldPercentString.substring(0, 5); // makes length of sold percentage 5 characters long
+ 
+  $("#percent").html("Tickets sold: " + soldPercentShort + "% | " + numDays + " days left! | <a href='/raffle'>About the raffle >></a>");
   $("#raffle-meter-container").show(1000);
 }
