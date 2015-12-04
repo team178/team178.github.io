@@ -28,19 +28,21 @@ function handleQueryResponse(response){
   var soldPercent = sold / (sold + out + base) * 100;
   var outPercent = (out + sold) / (sold + out + base) * 100;
   
-  // For tooltip
-  var deadline = new Date(2015, 11, 10, 18, 0, 0); // note: month is 0-11 but date starts at 1
-  var numDays = Math.ceil((deadline - new Date())/86400000);
-  
-  $("#percent").html("Tickets sold: " + soldPercent + "% | " + numDays + " days left! | <a href='/raffle'>About the raffle >></a>");
-  
-  // For meter again
   var sheet = new StyleSheet();
   var widthSold = new StyleSheetElement("width", soldPercent + '%');
   var tagA = sheet.addElementToTag("#raffle-meter-sold", widthSold);
   var widthOut = new StyleSheetElement("width", outPercent + '%');
-  var tagD = sheet.addElementToTag("#raffle-meter-out", widthOut);
+  var tagB = sheet.addElementToTag("#raffle-meter-out", widthOut);
   console.log(sheet);
   addInlineStyleSheet(sheet);
-  $("#raffle-meter-container-s").show(1000);
+  
+   // For tooltip
+  var deadline = new Date(2015, 11, 10, 18, 0, 0); // note: month is 0-11 but date starts at 1
+  var numDays = Math.ceil((deadline - new Date())/86400000);
+ 
+  var soldPercentString = soldPercent.toString(); // turns the double into a string
+  var soldPercentShort = soldPercentString.substring(0, 5); // makes length of sold percentage 5 characters long
+ 
+  $("#percent").html("Tickets sold: " + soldPercentShort + "% | " + numDays + " days left! | <a href='/raffle'>About the raffle >></a>");
+  $("#raffle-meter-container").show(1000);
 }
