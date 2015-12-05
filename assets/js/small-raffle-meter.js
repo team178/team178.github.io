@@ -1,3 +1,4 @@
+/*
 google.load('visualization', 1.0);
 google.setOnLoadCallback(test);
 function test() {
@@ -36,7 +37,7 @@ function handleQueryResponse(response){
   console.log(sheet);
   addInlineStyleSheet(sheet);
   
-   // For tooltip
+   // For text
   var deadline = new Date(2015, 11, 10, 18, 0, 0); // note: month is 0-11 but date starts at 1
   var numDays = Math.ceil((deadline - new Date())/86400000);
  
@@ -46,3 +47,4 @@ function handleQueryResponse(response){
   $("#percent").html("Tickets sold: " + soldPercentShort + "% | " + numDays + " days left! | <a href='/raffle'>About the raffle >></a>");
   $("#raffle-meter-container-s").show(1000);
 }
+*/
