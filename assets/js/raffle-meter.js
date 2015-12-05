@@ -64,4 +64,3 @@ function handleQueryResponse(response){
   $("#raffle-meter-container").show(1000);
   $("#raffle-meter-container-s").show(1000); //added
 }
-}
