@@ -1,4 +1,3 @@
-/*
 google.load('visualization', 1.0);
 google.setOnLoadCallback(test);
 function test() {
@@ -47,4 +46,3 @@ function handleQueryResponse(response){
   $("#percent").html("Tickets sold: " + soldPercentShort + "% | " + numDays + " days left! | <a href='/raffle'>About the raffle >></a>");
   $("#raffle-meter-container-s").show(1000);
 }
-*/

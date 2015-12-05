@@ -28,32 +28,15 @@ function handleQueryResponse(response){
   var soldPercent = sold / (sold + out + base) * 100;
   var outPercent = (out + sold) / (sold + out + base) * 100;
   
-  /* 
   var sheet = new StyleSheet();
   var widthSold = new StyleSheetElement("width", soldPercent + '%');
   var tagA = sheet.addElementToTag(".halfStyle.hs-vertical-third:before", widthSold);
   var widthOut = new StyleSheetElement("width", outPercent + '%');
   var tagB = sheet.addElementToTag(".halfStyle.hs-vertical-third:after", widthOut);
   console.log(sheet);
-  addInlineStyleSheet(sheet); */
-
-  var sheet1 = new StyleSheet();
-  var widthSold = new StyleSheetElement("width", soldPercent + '%');
-  var tagA = sheet1.addElementToTag(".halfStyle.hs-vertical-third:before", widthSold);
-  var widthOut = new StyleSheetElement("width", outPercent + '%');
-  var tagB = sheet1.addElementToTag(".halfStyle.hs-vertical-third:after", widthOut);
-  console.log(sheet1);
-  addInlineStyleSheet(sheet1);
-
-  var sheet2 = new StyleSheet();
-  var widthSold = new StyleSheetElement("width", soldPercent + '%');
-  var tagC = sheet2.addElementToTag("#raffle-meter-sold", widthSold);
-  var widthOut = new StyleSheetElement("width", outPercent + '%');
-  var tagD = sheet2.addElementToTag("#raffle-meter-out", widthOut);
-  console.log(sheet2);
-  addInlineStyleSheet(sheet2);
+  addInlineStyleSheet(sheet);
   
-  // For text
+   // For text
   var deadline = new Date(2015, 11, 10, 18, 0, 0); // note: month is 0-11 but date starts at 1
   var numDays = Math.ceil((deadline - new Date())/86400000);
  
@@ -62,5 +45,4 @@ function handleQueryResponse(response){
  
   $("#percent").html("Tickets sold: " + soldPercentShort + "% | " + numDays + " days left! | <a href='/raffle'>About the raffle >></a>");
   $("#raffle-meter-container").show(1000);
-  $("#raffle-meter-container-s").show(1000); //added
 }
