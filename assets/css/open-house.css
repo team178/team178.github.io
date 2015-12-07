@@ -10,7 +10,7 @@
 }*/
 
  /* start half-style hs-vertical-third */
-.halfStyle.hs-vertical-third {
+#open-house-meter {
     position:relative;
     display:inline-block;
     font-family: "stencil-std";
@@ -25,7 +25,7 @@
         -0.25vw 0.25vw 0 #000,
          0.25vw 0.25vw 0 #000;
 }
-.halfStyle.hs-vertical-third:before { /* creates the left part */
+#open-house-meter:before { /* creates the left part */
     display:block;
     z-index:2;
     position:absolute;
@@ -39,7 +39,7 @@
         -0.3vw 0.3vw 0 #FFD000,
          0.3vw 0.3vw 0 #FFD000;
 }
-.halfStyle.hs-vertical-third:after { /* creates the right part */
+#open-house-meter:after { /* creates the right part */
     display:block;
     z-index:1;
     position:absolute;
