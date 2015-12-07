@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  {% include header.html %}
+  {% include open-house.html %}
+  {% include slideshow.html %}
+  <div id="content">
+    <article>
+      {{ content }}
+    </article>
+  </div>
+  {% include footer.html %}
+</body>
+</html>
