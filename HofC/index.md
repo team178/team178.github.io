@@ -1,4 +1,4 @@
 ---
-layout: hour-of-code
+layout: hour-of-code.html
 published: true
 ---
