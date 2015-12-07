@@ -30,9 +30,9 @@ function handleQueryResponse(response){
   
   var sheet = new StyleSheet();
   var widthSold = new StyleSheetElement("width", soldPercent + '%');
-  var tagA = sheet.addElementToTag("#open-house-meter:before", widthSold);
+  var tagA = sheet.addElementToTag(".halfStyle.hs-vertical-third:before", widthSold);
   var widthOut = new StyleSheetElement("width", outPercent + '%');
-  var tagB = sheet.addElementToTag("#open-house-meter:after", widthOut);
+  var tagB = sheet.addElementToTag(".halfStyle.hs-vertical-third:after", widthOut);
   addInlineStyleSheet(sheet);
   
    // For text
