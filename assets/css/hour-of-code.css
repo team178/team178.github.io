@@ -64,60 +64,60 @@ h2 {
 
 /* Start Here */
 #garden-bot {
-  background-image: url('garden_bot.png') no-repeat;
+  background-image: url('/assets/img/garden_bot.png') no-repeat;
 }
 
 #minecraft {
-  background-image: url('./assets/img/logo_tall_mc.jpg') no-repeat;
+  background-image: url('/assets/img/logo_tall_mc.jpg') no-repeat;
 }
 
 #frozen {
-  background-image: url('./assets/img/logo_tall_frozen.jpg') no-repeat;
+  background-image: url('/assets/img/logo_tall_frozen.jpg') no-repeat;
 }
 
 #starwars {
-  background-image: url('./assets/img/logo_tall_starwars.jpg') no-repeat;
+  background-image: url('/assets/img/logo_tall_starwars.jpg') no-repeat;
 }
 
 /* Try More */
 #dress {
-  background-image: url('./assets/img/dress.jpg') no-repeat;
+  background-image: url('/assets/img/dress.jpg') no-repeat;
 }
 
 #bubble-name {
-  background-image: url('./assets/img/bubble-name.jpg') no-repeat;
+  background-image: url('/assets/img/bubble-name.jpg') no-repeat;
 }
 
 #about-me-website {
-  background-image: url('./assets/img/about_me.jpg') no-repeat;
+  background-image: url('/assets/img/about_me.jpg') no-repeat;
 }
 
 #solar-system-website {
-  background-image: url('./assets/img/solar_system.jpg') no-repeat;
+  background-image: url('/assets/img/solar_system.jpg') no-repeat;
 }
 
 #light-bot {
-  background-image: url('./assets/img/light_bot.png') no-repeat;
+  background-image: url('/assets/img/light_bot.png') no-repeat;
 }
 
 #java {
-  background-image: url('./assets/img/java-oracle.png') no-repeat;
+  background-image: url('/assets/img/java-oracle.png') no-repeat;
 }
 
 /* I want a challenge */
 #flappy-bird {
-  background-image: url('./assets/img/flappy.jpg') no-repeat;
+  background-image: url('/assets/img/flappy.jpg') no-repeat;
 }
 
 #edit-me {
-  background-image: url('./assets/img/edit_me.gif') no-repeat;
+  background-image: url('/assets/img/edit_me.gif') no-repeat;
 }
 
 #holiday-lights {
-  background-image: url('./assets/img/tree.jpg') no-repeat;
+  background-image: url('/assets/img/tree.jpg') no-repeat;
 }
 
 #scratch {
-  background-image: url('./assets/img/scratch.jpg') no-repeat;
+  background-image: url('/assets/img/scratch.jpg') no-repeat;
 }
 
