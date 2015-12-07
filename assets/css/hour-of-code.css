@@ -68,7 +68,7 @@ h2 {
 }
 
 #minecraft {
-  background: url('/assets/img/logo_tall_mc.jpg') no-repeat;
+  background: url('/assets/img/minecraft.jpg') no-repeat;
 }
 
 #frozen {
@@ -101,12 +101,28 @@ h2 {
 }
 
 #java {
-  background: url('/assets/img/java-oracle.png') no-repeat;
+  background: url('/assets/img/java-oracle.jpg') no-repeat;
+}
+
+#code-combat {
+  background: url('/assets/img/code-combat.jpg') no-repeat;
 }
 
 /* I want a challenge */
 #flappy-bird {
   background: url('/assets/img/flappy.jpg') no-repeat;
+}
+
+#scratch {
+  background: url('/assets/img/scratch.jpg') no-repeat;
+}
+
+#build-game {
+  background: url('/assets/img/build-game.jpg') no-repeat;
+}
+
+#khan-academy {
+  background: url('/assets/img/khan-academy.png') no-repeat;
 }
 
 #edit-me {
@@ -115,8 +131,4 @@ h2 {
 
 #holiday-lights {
   background: url('/assets/img/tree.jpg') no-repeat;
-}
-
-#scratch {
-  background: url('/assets/img/scratch.jpg') no-repeat;
 }
