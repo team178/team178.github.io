@@ -14,7 +14,7 @@
     position:relative;
     display:inline-block;
     font-family: "stencil-std";
-    font-size:10vw;
+    font-size:15.5vw;
     overflow-y:visible;
     pointer-events: none;
     white-space: pre; /* to preserve the spaces from collapsing */
@@ -74,6 +74,7 @@
     font-size: 16px;
     margin-bottom: .3%;
 }
+<!-- This would make the formatting changed based on the size of the viewer.
 /* For large screens */
 @media (min-width: 1000px) {
     .halfStyle.hs-vertical-third {
@@ -179,3 +180,4 @@
     margin-top: -7%;
     }
 }
+-->
