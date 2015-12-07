@@ -65,60 +65,60 @@ h2 {
 /* These set the background picture, which are all stored in a folder called img */
 /* Start Here */
 #garden-bot {
-  background:url('./img/garden_bot.png') no-repeat;
+  background:url('{{ site.url }}/assets/img/garden_bot.png') no-repeat;
 }
 
 #minecraft {
-  background:url('./img/logo_tall_mc.jpg') no-repeat;
+  background:url('{{ site.url }}/assets/img/logo_tall_mc.jpg') no-repeat;
 }
 
 #frozen {
-  background:url('./img/logo_tall_frozen.jpg') no-repeat;
+  background:url('{{ site.url }}/assets/img/logo_tall_frozen.jpg') no-repeat;
 }
 
 #starwars {
-  background:url('./img/logo_tall_starwars.jpg') no-repeat;
+  background:url('{{ site.url }}/assets/img/logo_tall_starwars.jpg') no-repeat;
 }
 
 /* Try More */
 #dress {
-  background:url('./img/dress.jpg') no-repeat;
+  background:url('{{ site.url }}/assets/img/dress.jpg') no-repeat;
 }
 
 #bubble-name {
-  background: url('./img/bubble-name.jpg') no-repeat;
+  background: url('{{ site.url }}/assets/img/bubble-name.jpg') no-repeat;
 }
 
 #about-me-website {
-  background:url('./img/about_me.jpg') no-repeat;
+  background:url('{{ site.url }}/assets/img/about_me.jpg') no-repeat;
 }
 
 #solar-system-website {
-  background:url('./img/solar_system.jpg') no-repeat;
+  background:url('{{ site.url }}/assets/img/solar_system.jpg') no-repeat;
 }
 
 #light-bot {
-  background: url('./img/light_bot.png') no-repeat;
+  background: url('{{ site.url }}/assets/img/light_bot.png') no-repeat;
 }
 
 #java {
-  background: url('./img/java-oracle.png') no-repeat;
+  background: url('{{ site.url }}/assets/img/java-oracle.png') no-repeat;
 }
 
 /* I want a challenge */
 #flappy-bird {
-  background:url('./img/flappy.jpg') no-repeat;
+  background:url('{{ site.url }}/assets/img/flappy.jpg') no-repeat;
 }
 
 #edit-me {
-  background:url('./img/edit_me.gif') no-repeat;
+  background:url('{{ site.url }}/assets/img/edit_me.gif') no-repeat;
 }
 
 #holiday-lights {
-  background:url('./img/tree.jpg') no-repeat;
+  background:url('{{ site.url }}/assets/img/tree.jpg') no-repeat;
 }
 
 #scratch {
-  background:url('./img/scratch.jpg') no-repeat;
+  background:url('{{ site.url }}/assets/img/scratch.jpg') no-repeat;
 }
 
