@@ -56,9 +56,10 @@
 /* end half-style hs-vertical-third */
 
 #progress {
+    margin-top: -3.5%;
     line-height: initial;
     z-index: -1;
-    margin-bottom: -3.5%;
+    margin-bottom: -1.5%;
 }
 #progress-title {
     font-size: 2.5vw;
