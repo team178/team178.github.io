@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/* Set default values here */
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+/* This styles the "title" of the page */
+#header {
+  text-align: center;
+}
+
+/* This styles all links */
+a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* These styles the "h1" and "h2" tags. ex: <h1> TEXT </h1> */
+h1 a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 100px;
+  -webkit-margin-after: 0;
+  text-shadow: none;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 45px;
+  line-height: 1.5em;
+  font-weight: normal;
+  -webkit-margin-after: 0;
+}
+
+/* This styles anything with class="category" */
+.category {
+  clear: both;
+}
+
+/* This class styles only the image links with class="activity" */
+.activity {
+  margin: 10px;
+  padding: 5px;
+  width: 220px;
+  height: 200px;
+  float: left;
+}
+
+/* This class styles the "even more" links at the bottom */
+.link {
+  line-height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(100, 100, 150, 0.5);
+}
+
+/* These set the background picture, which are all stored in a folder called img */
+/* Start Here */
+#garden-bot {
+  background:url('./img/garden_bot.png') no-repeat;
+}
+
+#minecraft {
+  background:url('./img/logo_tall_mc.jpg') no-repeat;
+}
+
+#frozen {
+  background:url('./img/logo_tall_frozen.jpg') no-repeat;
+}
+
+#starwars {
+  background:url('./img/logo_tall_starwars.jpg') no-repeat;
+}
+
+/* Try More */
+#dress {
+  background:url('./img/dress.jpg') no-repeat;
+}
+
+#bubble-name {
+  background: url('./img/bubble-name.jpg') no-repeat;
+}
+
+#about-me-website {
+  background:url('./img/about_me.jpg') no-repeat;
+}
+
+#solar-system-website {
+  background:url('./img/solar_system.jpg') no-repeat;
+}
+
+#light-bot {
+  background: url('./img/light_bot.png') no-repeat;
+}
+
+#java {
+  background: url('./img/java-oracle.png') no-repeat;
+}
+
+/* I want a challenge */
+#flappy-bird {
+  background:url('./img/flappy.jpg') no-repeat;
+}
+
+#edit-me {
+  background:url('./img/edit_me.gif') no-repeat;
+}
+
+#holiday-lights {
+  background:url('./img/tree.jpg') no-repeat;
+}
+
+#scratch {
+  background:url('./img/scratch.jpg') no-repeat;
+}
+
