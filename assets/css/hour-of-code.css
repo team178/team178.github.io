@@ -39,6 +39,12 @@ h2 {
   font-weight: normal;
   -webkit-margin-after: 0;
 }
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  -webkit-margin-after: 0;
+}
 
 /* This styles anything with class="category" */
 .category {
