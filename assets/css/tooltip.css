@@ -8,6 +8,7 @@
     background: rgba(0,0,0,.8);
     border-radius: 5px;
     color: #fff;
+    white-space: pre;
     content: attr(title);
     left: 20%;
     padding: 5px 15px;
