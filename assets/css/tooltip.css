@@ -10,7 +10,6 @@
     color: #fff;
     white-space: pre;
     content: attr(title);
-    left: 20%;
     padding: 5px 15px;
     position: absolute;
     z-index: 98;
