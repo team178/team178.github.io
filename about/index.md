@@ -5,7 +5,7 @@ published: true
 
 ## The 2nd Law Enforcers
 
-<img src="/assets/img/gizmo-playing.jpg" alt="Gizmo" style="width:610px;height:393px">
+<img src="/assets/img/gizmo-playing.jpg" alt="Gizmo">
 
 The 2nd Law Enforcers have been an active participant in FIRST (For Inspiration and Recognition of Science and Technology) since our rookie year (1997). Our team is a strong partnership of Farmington High School students, engineering professionals (from sponsors UTC Otis Elevator, ebm-papst Inc. UTC Sikorsky and Parker-Hannifin), teachers, parents, adult mentors, and alumni mentors. We are proud to say that our team is student driven and mentor nurtured. Our first robot, Gizmo, helped us to win Rookie All-Star Award at the DEKA New England Regional in New Hampshire in 1997. Since this successful first season, we continue to participate through attending the UTC sponsored Connecticut Regional and then either the FIRST Championship or a second regional competition. Since 2006, the team has been honored with the prestigious Engineering Inspiration Award 4 times at regionals in Connecticut, Boston and Toronto. In 2007, we were selected out of over 350 teams for the Engineering Inspiration Award at the FIRST Championship. For more details about our Team History, including all of our robots and competition history, see the Competition History page.
 
