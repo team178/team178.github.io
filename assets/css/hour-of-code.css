@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
+/* @font-face {
+    font-family: "StencilStd";
+    src:url('/assets/fonts/StencilStd.eot') format('embedded-opentype'), 
+        url('/assets/fonts/StencilStd.otf') format("opentype"); */
+
 
 /* Set default values here */
 body {
@@ -142,4 +147,14 @@ h3 {
   height: 75px;
   float: left;
   margin: 10px;
+}
+
+#team-178 {
+  font-family: "stencilstd";
+  line-height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #000178;
+  border-radius: 20px; /* Gives box rounded corners */
+  color: #FFD000;
 }
