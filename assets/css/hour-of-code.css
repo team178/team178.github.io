@@ -49,6 +49,7 @@ h3 {
 /* This styles anything with class="category" */
 .category {
   clear: both;
+  margin-left: 15px;
 }
 
 /* This class styles only the image links with class="activity" */
@@ -133,4 +134,12 @@ h3 {
 
 #khan-academy {
   background: url('/assets/img/khan-academy.png') no-repeat;
+}
+
+#symantec {
+  background: url('/assets/img/symantec.png') no-repeat;
+  width: 200px;
+  height: 75px;
+  float: left;
+  margin: 10px;
 }
