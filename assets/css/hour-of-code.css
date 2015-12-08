@@ -104,6 +104,10 @@ h2 {
   background: url('/assets/img/java-logo.jpg') no-repeat;
 }
 
+#app-inventor {
+  background: url('/assets/img/app-inventor.png') no-repeat;
+}
+
 #code-combat {
   background: url('/assets/img/code-combat.jpg') no-repeat;
 }
