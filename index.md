@@ -16,13 +16,12 @@ published: true
 
 ### Upcoming events
 
-<ul>
-  <li> Hour of Code at Union School: December 8, 2015</li>
-  <li> Hour of Code at Farmington High School: December 9, 2015</li>
-  <li> Hour of Code at Irving A. Robbins: December 10, 2015</li>
-  <li> Hour of Code at West Woods: December 10, 2015</li>
-  <li> Open House and Raffle Ticket Drawing: December 10, 2015</li>
-</ul>
+- Hour of Code at Union School: December 8, 2015
+- [Hour of Code](http://farmingtonrobotics.org/hofc) at Farmington High School: December 9, 2015
+- Hour of Code at Farmington High School: December 9, 2015
+- Hour of Code at Irving A. Robbins: December 10, 2015
+- Hour of Code at West Woods: December 10, 2015
+- Open House and Raffle Ticket Drawing: December 10, 2015
 
 ### How to join
 
