@@ -143,15 +143,16 @@ h3 {
 
 #symantec {
   background: url('/assets/img/symantec.png') no-repeat;
-  width: 200px;
-  height: 75px;
+  width: 370px;
+  height: 120px;
   float: left;
   margin: 10px;
 }
 
-.team-178 {
+#team-178 {
   font-family: "stencil-std";
-  line-height: 100px;
+  line-height: 150px;
+  font-size: 30px;
   margin: 10px;
   padding: 10px;
   background-color: #000178;
