@@ -16,6 +16,14 @@ body {
 /* This styles the "title" of the page */
 #header {
   text-align: center;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+/* These things style the videos */
+.video {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* This styles all links */
