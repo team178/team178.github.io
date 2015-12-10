@@ -9,7 +9,7 @@
     border-radius: 5px;
     color: #fff;
     white-space: pre;
-    content: attr(title);
+    content: attr(data-content);
     padding: 5px 15px;
     position: absolute;
     z-index: 98;

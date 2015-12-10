@@ -18,7 +18,7 @@
     overflow-y:visible;
     pointer-events: none;
     white-space: pre; /* to preserve the spaces from collapsing */
-    color: #FFF;
+    color: #ecf0f1;
     text-shadow:
         -0.25vw -0.25vw 0 #000,
          0.25vw -0.25vw 0 #000,
@@ -46,7 +46,7 @@
     top:0;
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow-x:hidden;
-    color: #FFF;
+    color: #ecf0f1;
     text-shadow:
         -0.3vw -0.3vw 0 #FFD000,
          0.3vw -0.3vw 0 #FFD000,

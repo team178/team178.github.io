@@ -5,6 +5,8 @@ function test() {
   var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1FMUnpsYp62pe9NrZirIqQFhtZojWlxcc_ggJGIewYGk/edit?usp=sharing', opts);
   query.setQuery('select B');
   query.send(handleQueryResponse);
+
+  setTimeout(function(){ test(); }, 100);
 }
 function handleQueryResponse(response){
   if(response.isError()){
