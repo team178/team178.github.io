@@ -2,7 +2,7 @@ google.load('visualization', 1.0);
 google.setOnLoadCallback(test);
 function test() {
   var opts = {sendMethod: 'auto'};
-  var query = new google.visualization.Query('https://docs.google.com/a/fpsct.org/spreadsheets/d/1FMUnpsYp62pe9NrZirIqQFhtZojWlxcc_ggJGIewYGk/edit?usp=sharing', opts);
+  var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1FMUnpsYp62pe9NrZirIqQFhtZojWlxcc_ggJGIewYGk/edit?usp=sharing', opts);
   query.setQuery('select B');
   query.send(handleQueryResponse);
 }
