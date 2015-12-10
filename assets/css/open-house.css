@@ -63,17 +63,17 @@
     margin-bottom: -1.5%;
 }
 #progress-title {
-    font-size: 2.5vw;
+    font-size: 40px;
     font-weight: 1000;
     line-height: initial;
     margin-bottom: -.25%;
 }
 #raffle-meter-container {
     display: none;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 #percent {
-    font-size: 16px;
+    font-size: 30px;
     margin-bottom: .3%;
 }
 a.raffle-link {
