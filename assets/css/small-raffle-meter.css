@@ -33,6 +33,10 @@
     margin-left:auto;
     margin-right:auto;
 }
+a.raffle-link {
+    /* This is here if we ever need to change anything. */
+}
+
 /* For mobile */
 @media (max-width: 700px) and (orientation: portrait){
     #percent {

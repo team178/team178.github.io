@@ -75,7 +75,11 @@
     font-size: 16px;
     margin-bottom: .3%;
 }
-<!-- This would make the formatting changed based on the size of the viewer.
+a.raffle-link {
+    /* This is here if we ever need to change anything. */
+}
+
+<!-- This would make the formatting changed based on the size of the viewport/window.
 /* For large screens */
 @media (min-width: 1000px) {
     .halfStyle.hs-vertical-third {

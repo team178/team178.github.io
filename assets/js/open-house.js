@@ -36,9 +36,11 @@ function handleQueryResponse(response){
   addInlineStyleSheet(sheet);
   
    // For text
+  var money = sold * 100;
+
   var soldPercentString = soldPercent.toString(); // turns the double into a string
   var soldPercentShort = soldPercentString.substring(0, 5); // makes length of sold percentage 5 characters long
  
-  $("#percent").html("Tickets sold: " + soldPercentShort + "% | <a href='/raffle'>About the raffle >></a>");
+  $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + " earned | <a href='/raffle'>About >></a>");
   $("#raffle-meter-container").show(1000);
 }
