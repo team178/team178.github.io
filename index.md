@@ -15,13 +15,11 @@ published: true
 >One of the ways our team is able to function is through the help of our wonderful sponsors, including UTC Otis Elevator, ebm-papst Inc., and UTC Sikorsky Aircraft Corporation. Learn more about each of our sponsors [here](http://farmingtonrobotics.org/sponsors).
 
 ### Upcoming events
-
-- Hour of Code at Union School: December 8, 2015
-- [Hour of Code](http://farmingtonrobotics.org/hofc) at Farmington High School: December 9, 2015
-- Hour of Code at Farmington High School: December 9, 2015
+- Computer Science Week: December 7-14, 2015 (Check out our Hour of Code [here](http://farmingtonrobotics.org/hofc)!)
 - Hour of Code at Irving A. Robbins: December 10, 2015
 - Hour of Code at West Woods: December 10, 2015
 - Open House and Raffle Ticket Drawing: December 10, 2015
+- FRC Kickoff: January 9, 2016
 
 ### How to join
 
