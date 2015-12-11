@@ -35,7 +35,6 @@ function handleQueryResponse(response){
   var tagA = sheet.addElementToTag(".halfStyle.hs-vertical-third:before", widthSold);
   var widthOut = new StyleSheetElement("width", outPercent + '%');
   var tagB = sheet.addElementToTag(".halfStyle.hs-vertical-third:after", widthOut);
-  console.log(sheet);
   addInlineStyleSheet(sheet);
   
    // For text

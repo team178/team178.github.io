@@ -35,7 +35,6 @@ function handleQueryResponse(response){
   var tagA = sheet.addElementToTag("#raffle-meter-sold", widthSold);
   var widthOut = new StyleSheetElement("width", outPercent + '%');
   var tagB = sheet.addElementToTag("#raffle-meter-out", widthOut);
-  console.log(sheet);
   addInlineStyleSheet(sheet);
   
    // For text
