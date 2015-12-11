@@ -47,7 +47,7 @@ function handleQueryResponse(response){
   var soldPercentString = soldPercent.toString(); // turns the double into a string
   var soldPercentShort = soldPercentString.substring(0, 5); // makes length of sold percentage 5 characters long
  
-  if numdays == 0 {
+  if(numdays == 0) {
     $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | No time left! | <a class='raffle-link' href='/raffle'>About >></a>");
  } else {
     $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | Only " + numDays + " minutes left! | <a class='raffle-link' href='/raffle'>About >></a>");
