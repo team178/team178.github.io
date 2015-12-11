@@ -16,13 +16,11 @@ published: true
 
 ### Upcoming events
 - Computer Science Week: December 7-14, 2015 (Check out our Hour of Code [here](http://farmingtonrobotics.org/hofc)!)
-- Hour of Code at Irving A. Robbins: December 10, 2015
-- Hour of Code at West Woods: December 10, 2015
-- Open House and Raffle Ticket Drawing: December 10, 2015
 - FRC Kickoff: January 9, 2016
+- Jr. FLL Expo: January 31, 2016
 
 ### How to join
 
-Interested in joining the team? Email us at <ContactUs@farmingtonrobotics.org>
+Interested in joining the team? Check our [how to join](http://farmingtonrobotics.org/join) page!
 
 {% include calendar.html %}
