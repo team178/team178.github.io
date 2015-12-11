@@ -47,5 +47,5 @@ function handleQueryResponse(response){
   var soldPercentShort = soldPercentString.substring(0, 5); // makes length of sold percentage 5 characters long
  
   $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | No time left! | <a class='raffle-link' href='/raffle'>About >></a>");
-  $("#raffle-meter-container").show(1000);
+  $("#raffle-meter-container-s").show(1000);
 }
