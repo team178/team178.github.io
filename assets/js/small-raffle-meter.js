@@ -40,13 +40,13 @@ function handleQueryResponse(response){
   
    // For text
   var deadline = new Date(2015, 11, 10, 20, 15, 0); // note: month is 0-11 but date starts at 1
-  var numDays = Math.ceil((deadline - new Date())/3600000);
+  var numDays = Math.ceil((deadline - new Date())/60000);
  
   var money = sold * 100;
  
   var soldPercentString = soldPercent.toString(); // turns the double into a string
   var soldPercentShort = soldPercentString.substring(0, 5); // makes length of sold percentage 5 characters long
  
-  $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | Only " + numDays + " hours left! | <a class='raffle-link' href='/raffle'>About >></a>");
+  $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | About " + numDays + " minutes left! | <a class='raffle-link' href='/raffle'>About >></a>");
   $("#raffle-meter-container-s").show(1000);
 }
