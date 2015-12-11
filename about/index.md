@@ -1,5 +1,6 @@
 ---
 title: "About"
+layout: default
 published: true
 ---
 
