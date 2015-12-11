@@ -5,6 +5,8 @@ function test() {
   var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1X8Ba3bd-JEhASUNs5VDcA18dTPyxIS5lwxRKBBKWKqs/edit#gid=0', opts);
   query.setQuery('select F');
   query.send(handleQueryResponse);
+
+  setTimeout(function(){ test(); }, 100);
 }
 function handleQueryResponse(response){
   if(response.isError()){
