@@ -35,7 +35,6 @@ function handleQueryResponse(response){
   var tagA = sheet.addElementToTag(".halfStyle.hs-vertical-third:before", widthSold);
   var widthOut = new StyleSheetElement("width", outPercent + '%');
   var tagB = sheet.addElementToTag(".halfStyle.hs-vertical-third:after", widthOut);
-  console.log(sheet);
   addInlineStyleSheet(sheet);
   
    // For text
@@ -47,6 +46,10 @@ function handleQueryResponse(response){
   var soldPercentString = soldPercent.toString(); // turns the double into a string
   var soldPercentShort = soldPercentString.substring(0, 5); // makes length of sold percentage 5 characters long
  
-  $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | About " + numDays + " minutes left! | <a class='raffle-link' href='/raffle'>About >></a>");
+  if(numDays <= 0) {
+    $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | No time left! | <a class='raffle-link' href='/raffle'>About >></a>");
+ } else {
+    $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | Only " + numDays + " minutes left! | <a class='raffle-link' href='/raffle'>About >></a>");
+ }
   $("#raffle-meter-container").show(1000);
 }
