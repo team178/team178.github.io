@@ -34,12 +34,14 @@
     margin-right:auto;
 }
 a.raffle-link {
-    /* This is here if we ever need to change anything. */
     font-weight: bold;
     color: #fff;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
-
+a.raffle-link:hover {
+    color: #C0C0C0;
+    text-shadow: white 0 0 0;
+}
 /* For mobile */
 @media (max-width: 700px) and (orientation: portrait){
     #percent {
