@@ -35,6 +35,9 @@
 }
 a.raffle-link {
     /* This is here if we ever need to change anything. */
+    font-weight: bold;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 /* For mobile */
