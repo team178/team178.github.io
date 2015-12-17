@@ -1,5 +1,5 @@
 ---
-layout: raffle-meter
+layout: default
 published: true
 large-raffle-meter: true
 --- 
