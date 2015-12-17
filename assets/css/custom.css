@@ -1,4 +1,34 @@
-.sponsor-logo {
+/* For making pictures "float" to the left or 
+right side of the screen, with text wrapping 
+around it. */
+
+.float-left {
   margin-right: 20px;
   float: left;
+}
+
+.float-right {
+  margin-left: 20px;
+  float: right;
+}
+
+
+/* For adding hover tooltips to elements */
+
+.tooltip{
+    display: inline-block;
+    position: relative;
+}
+
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    color: #fff;
+    white-space: pre;
+    content: attr(data-content);
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
 }
