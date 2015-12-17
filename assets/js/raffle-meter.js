@@ -2,8 +2,25 @@
 var raffle_deadline = new Date(2015, 11, 10, 20, 15, 0); // Make sure to set this to the proper deadline
 var numDays = Math.ceil((raffle_deadline - new Date())/3600000);
 
+var container;
+var soldTag; // blue
+var outTag; // yellow
+
+$( document ).ready(function() {
+  // Does not do this stuff until all the elements on the page are done rendering.
+if($("#raffle-meter-container").length > 0) { // length = number of elements with this id
+    container = "#raffle-meter-container";
+    soldTag = ".halfStyle.hs-vertical-third:before";
+    outTag = ".halfStyle.hs-vertical-third:after";
+  } else {
+    container = "#raffle-meter-container-s";
+    soldTag = "#raffle-meter-sold";
+    outTag = "#raffle-meter-out";
+  }
+
 if(/*numDays >= -2 &&*/ true) { // The true is there so that you can manually turn this off before the two days after.
   google.load('visualization', 1.0);
+
   google.setOnLoadCallback(get_data);
   function get_data() {
     var opts = {sendMethod: 'auto'};                // Make sure to change the link to the proper spreadsheet
@@ -42,9 +59,9 @@ if(/*numDays >= -2 &&*/ true) { // The true is there so that you can manually tu
     
     var sheet = new StyleSheet();
     var widthSold = new StyleSheetElement("width", soldPercent + '%');
-    var tagA = sheet.addElementToTag(".halfStyle.hs-vertical-third:before", widthSold);
+    var tagA = sheet.addElementToTag(soldTag, widthSold);
     var widthOut = new StyleSheetElement("width", outPercent + '%');
-    var tagB = sheet.addElementToTag(".halfStyle.hs-vertical-third:after", widthOut);
+    var tagB = sheet.addElementToTag(outTag, widthOut);
     addInlineStyleSheet(sheet);
     
      // For text
@@ -67,22 +84,23 @@ if(/*numDays >= -2 &&*/ true) { // The true is there so that you can manually tu
       var timeLeft = "There's no more time!"
     }
     $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft +"| <a class='raffle-link' href='/raffle'>About >></a>");
-    $("#raffle-meter-container").show(1000);
+    $(container).show(1000);
   }
 
-// This will be run after two days have passed or if you change the true to a false.
+// This will be run if you change the true to a false.
 } else { 
 
   var sheet = new StyleSheet();
   var deliberateSold = 67.58; // Set this manually
   var widthSold = new StyleSheetElement("width", deliberateSold + '%');
-  var tagA = sheet.addElementToTag(".halfStyle.hs-vertical-third:before", widthSold);
+  var tagA = sheet.addElementToTag(soldTag, widthSold);
   // The outPercent has been removed because it isn't useful information anymore.
   addInlineStyleSheet(sheet);
   //                                      Set this manually   V V V V
-  $("#percent").html("Tickets sold: " + deliberateSold + "% | $11,300 earned | "+ timeLeft +"| <a class='raffle-link' href='/raffle'>About >></a>");
+  $("#percent").html("Tickets sold: " + deliberateSold + "% | $11,300 earned | "+ "Thanks for supporting us!" +" | <a class='raffle-link' href='/raffle'>About >></a>");
   
   // This changes the tooltip to not include the checkout part.
-  document.getElementsByTagName("raffle-tooltip")[0].setAttribute("data-content", "Blue: Tickets sold &#013;&#10;Black: Not yet touched");
-  $("#raffle-meter-container").show(1000);
+  if($("#raffle-meter-container").length > 0) document.getElementById("raffle-tooltip").setAttribute("data-content", "Blue: Tickets sold");
+  $(container).show(1000);
 }
+});
