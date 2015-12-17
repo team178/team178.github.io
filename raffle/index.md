@@ -1,6 +1,7 @@
 ---
 layout: raffle-meter
 published: true
+large-raffle-meter: true
 --- 
 
 # Our biggest fundraiser of the year!

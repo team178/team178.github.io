@@ -1,6 +1,7 @@
 ---
 layout: homepage
 published: true
+large-raffle-meter: true
 ---
 ### About the team
 

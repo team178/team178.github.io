@@ -2,11 +2,12 @@
 <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/raffle-meter.css">
 <script type='text/javascript' src="https://www.google.com/jsapi"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type='text/javascript' src="{{ site.url }}/assets/js/raffle-meter.js"></script>
 <script type='text/javascript' src="{{ site.url }}/assets/js/tooltip.js"></script>
 <script type='text/javascript' src="{{ site.url }}/assets/js/modifying-css.js"></script>
 
 </head>
+{% if page.large-raffle-meter %}
+<script type='text/javascript' src="{{ site.url }}/assets/js/raffle-meter.js"></script>
 
 <div id="raffle-meter-container" align="center">
   <div id="progress-title">Raffle Progress Bar</div>
@@ -16,3 +17,17 @@
   </div>
   <div id="percent"></div>
 </div>
+
+{% else %}
+
+<script type='text/javascript' src="{{ site.url }}/assets/js/small-raffle-meter.js"></script>
+
+<div id="raffle-meter-container-s">
+  <div id="raffle-meter-goal">
+    <div id="raffle-meter-out"></div>  
+    <div id="raffle-meter-sold"></div>
+  </div>
+  <div id="percent"></div>
+</div>
+
+{% endif %}
