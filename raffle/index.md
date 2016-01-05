@@ -1,4 +1,5 @@
 ---
+title: Raffle
 layout: raffle
 published: true
 large-raffle-meter: true
