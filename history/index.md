@@ -1,5 +1,5 @@
 ---
-title: Competition History and Robots
+title: Team History
 layout: fullwidth
 published: true
 ---
