@@ -19,7 +19,7 @@ $( document ).ready(function() {
     outTag = "#raffle-meter-out";
   }
 
-  if(/*numDays >= -2 &&*/ true) { // The true is there so that you can manually turn this off before the two days after.
+  if(numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after.
 
     google.setOnLoadCallback(get_data);
     function get_data() {
@@ -27,15 +27,15 @@ $( document ).ready(function() {
       var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1X8Ba3bd-JEhASUNs5VDcA18dTPyxIS5lwxRKBBKWKqs/edit#gid=0', opts);
       query.setQuery('select F'); // Make sure to select the proper column
       query.send(handleQueryResponse);
-      // Note: The function will only refresh when page is refreshed
-    /*
+      // Note: The function will only run when the page is loaded.
+    
       if(numDays <= 1 && numDays > (1/24)) { // Makes function automatically refresh every 30 seconds when there's only a day left
         setTimeout(function(){ get_data(); }, 30000);
       } else if(numDays <= (1/24)) { // Makes function automatically refresh every 100 miliseconds when there's only an hour left
-        setTimeout(function(){ get_data(); }, 100);
-      }*/
+        setTimeout(function(){ get_data(); }, 100);   
+      }
     }
-    function handleQueryResponse(response){
+    function handleQueryResponse(response){ // This function makes sure you get a usable error message (in case anything goes wrong).
       if(response.isError()){
         console.log('Error: ' + response.getMessage() + ' ' + response.getDetailedMessage());
         return;
@@ -48,9 +48,9 @@ $( document ).ready(function() {
         if(data.getValue(i,0) == 0) {
           base += 1;
         } else if(data.getValue(i,0) == 1) {
-           out += 1;
+          out += 1;
         } else if(data.getValue(i,0) == 2) {
-           sold += 1;
+          sold += 1;
         }
       }        
 
@@ -64,7 +64,7 @@ $( document ).ready(function() {
       var tagB = sheet.addElementToTag(outTag, widthOut);
       addInlineStyleSheet(sheet);
       
-       // For text
+      // For text
       var money = sold * 100;
       var soldPercentString = soldPercent.toString(); // turns the double into a string
       var soldPercentShort = soldPercentString.substring(0, 5); // makes length of sold percentage 5 characters long
@@ -81,25 +81,25 @@ $( document ).ready(function() {
         var timeLeft = "Only" + numDays / 1440 + "minutes left!"
       } else{
         // no time left
-        var timeLeft = "There's no more time!"
+        var timeLeft = "There's no time left!"
       }
-      $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft +"| <a class='raffle-link' href='/raffle'>About >></a>");
+      $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft +"| <a class='raffle-link' href='/raffle'>About the raffle >></a>");
       $(container).show(1000);
     }
 
-  // This will be run if you change the true to a false.
+  // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else { 
 
     var sheet = new StyleSheet();
-    var deliberateSold = 67.58; // Set this manually
+    var deliberateSold = 64.37; // Set this manually
     var widthSold = new StyleSheetElement("width", deliberateSold + '%');
     var tagA = sheet.addElementToTag(soldTag, widthSold);
     // The outPercent has been removed because it isn't useful information anymore.
     addInlineStyleSheet(sheet);
-    //                                      Set this manually   V V V V
-    $("#percent").html("Tickets sold: " + deliberateSold + "% | $11,300 earned | "+ "Thanks for supporting us!" +" | <a class='raffle-link' href='/raffle'>About >></a>");
+    //                                                                   Set this manually   V V V V
+    $("#percent").html("Our 2015 raffle has ended! | Tickets sold: " + deliberateSold + "% | $10,300+ earned | <a class='raffle-link' href='/raffle'>Winners >></a>");
     
-    // This changes the tooltip to not include the checkout part.
+    // This changes the tooltip to not include the tickets checked out.
     if($("#raffle-meter-container").length > 0) document.getElementById("raffle-tooltip").setAttribute("data-content", "Blue: Tickets sold");
     $(container).show(1000);
   }
