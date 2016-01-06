@@ -84,73 +84,73 @@ h3 {
 
 /* Start Here */
 #garden-bot {
-  background: url('/assets/img/garden_bot.png') no-repeat;
+  background: url('/assets/img/hour-of-code/garden_bot.png') no-repeat;
 }
 
 #minecraft {
-  background: url('/assets/img/minecraft.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/minecraft.jpg') no-repeat;
 }
 
 #frozen {
-  background: url('/assets/img/logo_tall_frozen.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/logo_tall_frozen.jpg') no-repeat;
 }
 
 #starwars {
-  background: url('/assets/img/logo_tall_starwars.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/logo_tall_starwars.jpg') no-repeat;
 }
 
 /* Try More */
 #dress {
-  background: url('/assets/img/dress.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/dress.jpg') no-repeat;
 }
 
 #bubble-name {
-  background: url('/assets/img/bubble-name.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/bubble-name.jpg') no-repeat;
 }
 
 #about-me-website {
-  background: url('/assets/img/about_me.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/about_me.jpg') no-repeat;
 }
 
 #solar-system {
-  background: url('/assets/img/solar-system.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/solar-system.jpg') no-repeat;
 }
 
 #light-bot {
-  background: url('/assets/img/light_bot.png') no-repeat;
+  background: url('/assets/img/hour-of-code/light_bot.png') no-repeat;
 }
 
 #java {
-  background: url('/assets/img/java-logo.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/java-logo.jpg') no-repeat;
 }
 
 #app-inventor {
-  background: url('/assets/img/app-inventor.png') no-repeat;
+  background: url('/assets/img/hour-of-code/app-inventor.png') no-repeat;
 }
 
 #code-combat {
-  background: url('/assets/img/code-combat.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/code-combat.jpg') no-repeat;
 }
 
 /* I want a challenge */
 #flappy-bird {
-  background: url('/assets/img/flappy.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/flappy.jpg') no-repeat;
 }
 
 #scratch {
-  background: url('/assets/img/scratch.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/scratch.jpg') no-repeat;
 }
 
 #build-game {
-  background: url('/assets/img/build-game.jpg') no-repeat;
+  background: url('/assets/img/hour-of-code/build-game.jpg') no-repeat;
 }
 
 #khan-academy {
-  background: url('/assets/img/khan-academy.png') no-repeat;
+  background: url('/assets/img/hour-of-code/khan-academy.png') no-repeat;
 }
 
 #symantec {
-  background: url('/assets/img/symantec.png') no-repeat;
+  background: url('/assets/img/hour-of-code/symantec.png') no-repeat;
   width: 370px;
   height: 120px;
   float: left;
