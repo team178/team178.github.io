@@ -6,13 +6,13 @@ large-raffle-meter: true
 ---
 
 
-#The annual raffle for 2015 has recently ended!
+# **The annual raffle for 2015 has recently ended!**
 
 A big thank you goes out to all of our supporters who bought tickets as well as congratulations to the prize winners!
 We will be posting the final amount raised shortly.
 
 <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/raffle-pictures.css">
-<div id="raffle-pictures">
+<div id="raffle-pictures" align="center">
 	<img id="raffle-ipad" alt="iPad Air 2" style="width: 17%;" src="{{ site.url }}/assets/img/raffle/ipad-air.png">
 	<img alt="Toshiba Laptop" style="width: 17%; padding: 10px;" src="{{ site.url }}/assets/img/raffle/laptop.png">
 	<img alt="Dewalt Tool Kit" style="width: 17%; padding: 10px;" src="{{ site.url }}/assets/img/raffle/tool-kit.png">

@@ -20,7 +20,7 @@ Thank you for taking the time to read this.
 */
 google.load('visualization', 1.0);
 // Note: The month is 0-11 but date starts at 1
-var raffle_deadline = new Date(2015, 11, 10, 20, 15, 0); // Make sure to set this to the proper deadline
+var raffle_deadline = new Date(2015, 11, 10, 20, 15, 0); // Make sure to set this to the proper deadline.
 var numDays = Math.ceil((raffle_deadline - new Date())/3600000);
 
 var container; // entire progress bar
@@ -29,7 +29,7 @@ var outTag; // yellow
 
 $( document ).ready(function() {
   // Does not do this stuff until all the elements on the page are done rendering.
-  if($("#raffle-meter-container").length > 0) { // length = number of elements with this id
+  if($("#raffle-meter-container").length > 0) { // Length is the number of elements with this id.
     container = "#raffle-meter-container";
     soldTag = ".halfStyle.hs-vertical-third:before";
     outTag = ".halfStyle.hs-vertical-third:after";
@@ -64,12 +64,12 @@ $( document ).ready(function() {
       var base = 0;
       var sold = 0;
       var out = 0;
-      for(var i = 0; i < data.getNumberOfRows(); i++){ // The i++ adds 1 to i after it goes through the loop once.
-        if(data.getValue(i,0) == 0) { // Checks for 0 in row i.
+      for(var i = 0; i < data.getNumberOfRows(); i++){ // The i++ adds 1 to 'i' after it goes through the loop once.
+        if(data.getValue(i,0) == 0) { // Checks for 0 in row 'i'.
           base += 1; // Adds 1 to the base if ^^^^ is true.
-        } else if(data.getValue(i,0) == 1) { // Checks for a 1 in row i.
+        } else if(data.getValue(i,0) == 1) { // Checks for a 1 in row 'i'.
           out += 1;
-        } else if(data.getValue(i,0) == 2) { // Checks for a 2 in row i.
+        } else if(data.getValue(i,0) == 2) { // Checks for a 2 in row 'i'.
           sold += 1;
         }
       /* In this loop, 'i' is used as the row number. As long as 'i' is less than the number of rows there are, the loop keeps going.
@@ -112,14 +112,13 @@ $( document ).ready(function() {
     }
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
-  } else { 
-
-    var sheet = new StyleSheet();
+  } else {
+    var sheet = new StyleSheet(); // Creates a kind of "false" CSS file that the widths are inserted into.
     var deliberateSold = 64.37; // Set this percent manually.
-    var widthSold = new StyleSheetElement("width", deliberateSold + '%');
-    var tagA = sheet.addElementToTag(soldTag, widthSold);
+    var widthSold = new StyleSheetElement("width", deliberateSold + '%'); // Puts manual sold info into widthSold.
+    var tagA = sheet.addElementToTag(soldTag, widthSold); // Injects widthSold into soldTag.
     // The outPercent has been removed because it isn't useful information not that the raffle is over.
-    addInlineStyleSheet(sheet);
+    addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
     //                                                                   Set this manually.  V V V V
     $("#percent").html("Our 2015 raffle has ended! | Tickets sold: " + deliberateSold + "% | $10,300+ earned | <a class='raffle-link' href='/raffle'>Winners >></a>");
     
