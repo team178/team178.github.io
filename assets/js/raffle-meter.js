@@ -12,6 +12,13 @@ THINGS TO ENTER IN YOURSELF:
   change the comment to match.)
 *(maybe) The amount sold is multiplied by to create the money variable. (It's explained more at the point in the code.)
 * The message that automatically shows up when the time is up (I'm still iffy on what I've written there.)
+WHAT THIS CODE DOES:
+It pulls information from a Google Spreadsheet and counts the number of 0s,1s, and 2s there are in a specified column. The
+number of 0s is counted as the number of booklets that haven't been touched; the number of 1s counts as the booklets that're
+out being sold; and the 2s count as the number of booklets that have been sold. These numbers are then turned into statistics
+that get displayed on the website as the progress bar. There are two different ways it gets displayed based on if large-raffle-meter= true
+in the .md file of the page.
+
 If you're /still/ confused after reading all of this please contact either [Tim Scalzo](19scalzoti@fpsct.org) or 
 [Giselle Koo](gisellegk@gmail.com) for help. (Yes, I realize that this isn't actually markdown; I just wanted to do that.)
 
