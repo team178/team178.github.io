@@ -5,7 +5,7 @@ published: true
 
 ## Media
 
-The Enforcers belive digital media can be one of the most powerful conduits of outreach. Various implementations of these efforts can be seen below.
+The Enforcers believe digital media can be one of the most powerful conduits of outreach. Various implementations of these efforts can be seen below.
 
 ### YouTube
 
@@ -14,12 +14,12 @@ The Enforcers belive digital media can be one of the most powerful conduits of o
 ### 2015 Build Season Update Videos
 
 #### Brainstorming!
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PamrDVDoD-A" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PamrDVDoD-A" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 #### Prototyping Robot
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rjuI2C1lCEM" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-#### Bulilding the Field
+#### Building the Field
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/a4By92A33s0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 #### Drive Train
