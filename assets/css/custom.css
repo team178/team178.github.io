@@ -1,5 +1,5 @@
-/* For making pictures "float" to the left or 
-right side of the screen, with text wrapping 
+/* For making pictures "float" to the left or
+right side of the screen, with text wrapping
 around it. */
 
 .float-left {
@@ -31,4 +31,34 @@ around it. */
     position: absolute;
     z-index: 98;
     width: 220px;
+}
+
+
+/* For styling buttons */
+
+.btn {
+  background: #4147fc;
+  background-image: -webkit-linear-gradient(top, #4147fc, #000178);
+  background-image: -moz-linear-gradient(top, #4147fc, #000178);
+  background-image: -ms-linear-gradient(top, #4147fc, #000178);
+  background-image: -o-linear-gradient(top, #4147fc, #000178);
+  background-image: linear-gradient(to bottom, #4147fc, #000178);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  color: #ffc000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f0ce68;
+  background-image: -webkit-linear-gradient(top, #f0ce68, #c29200);
+  background-image: -moz-linear-gradient(top, #f0ce68, #c29200);
+  background-image: -ms-linear-gradient(top, #f0ce68, #c29200);
+  background-image: -o-linear-gradient(top, #f0ce68, #c29200);
+  background-image: linear-gradient(to bottom, #f0ce68, #c29200);
+  color: #000178;
+  text-decoration: none;
 }
