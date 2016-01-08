@@ -5,7 +5,7 @@ large-raffle-meter: true
 ---
 ### About the team
 
->The 2nd Law Enforcers have been an active participant in FIRST For Inspiration and Recognition of Science and Technology) since 1997. We aim to provide real-world opportunities for our team members to grow as team members and leaders and to educate the public about STEM topics. Read more [here](http://farmingtonrobotics.org/about).
+>The 2nd Law Enforcers have been an active participant in FIRST (For Inspiration and Recognition of Science and Technology) since 1997. We aim to provide real-world opportunities for our team members to grow as team members and leaders and to educate the public about STEM topics. Read more [here](http://farmingtonrobotics.org/about).
 
 ### Dream FIRST
 
