@@ -22,6 +22,6 @@ large-raffle-meter: true
 
 ### How to join
 
-Interested in joining the team? Check our [how to join](http://farmingtonrobotics.org/join) page!
+Interested in joining the team? Check our [how to join](http://farmingtonrobotics.org/members) page!
 
 {% include calendar.html %}
