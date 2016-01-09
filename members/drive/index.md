@@ -1,5 +1,5 @@
 ---
-title: Join Folder
+title: Shared Folder
 published: true
 ---
 
