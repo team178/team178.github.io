@@ -27,7 +27,7 @@ __1st Prize:__ Melinda Krusz won an [Apple iPad Air 2](http://www.apple.com/ipad
 __2nd Prize:__ Gail Adams won a [Toshiba Satellite](http://us.toshiba.com/computers/laptops/satellite) 15.6 in Laptop, i5 Processor, 8GB RAM, and 1TB HDD.
 
 __3rd Prize:__ Jeffrey Yang won a Dewalt 20-Volt Lithium-Ion Cordless 2-Tool Combo Kit.
- 		
+
 __4th Prize:__ Jim Prior won a $178.00 Visa GIft Card.
 
-__5th Prize:__ Meagan Lyons won a [#Doodler 2.0 Printing Pen](https://www.kickstarter.com/projects/1351910088/3doodler-20-the-worlds-first-3d-printing-pen-reinv) with plastic supply material.
+__5th Prize:__ Meagan Lyons won a [3Doodler 2.0 Printing Pen](https://www.kickstarter.com/projects/1351910088/3doodler-20-the-worlds-first-3d-printing-pen-reinv) with plastic supply material.
