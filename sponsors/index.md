@@ -36,7 +36,7 @@ Located in Farmington, CT, Farmington Public Schools is committed to helping all
 Located right next-door to our warehouse, Data Management is a customer-focused developer of specialized business forms and systems that help organizations achieve their best results. They also constantly help out our team in many ways, such as donating old equipment or office furniture, or just plowing the driveway during the winter.
 
 ### Barnes Group Inc: (Bronze Sponsor)
-<a href="http://www.barnesgroupinc.com/"><img class="float-left" alt="Barnes Group Inc Logo" style="width: 203px;" src="{{ site.url }}/assets/img/sponsors/barns-group.jpg" /></a>
+<a href="http://www.barnesgroupinc.com/"><img class="float-left" alt="Barnes Group Inc Logo" style="width: 203px;" src="{{ site.url }}/assets/img/sponsors/barnes-group.jpg" /></a>
 Located in Bristol, CT, Barnes Group Inc is a diversified global manufacturer and logistical services company that provides precision component manufacturing and operating service support and solutions to nearly every industry around the world.
 
 ### Stanley Black & Decker, Inc: (Bronze Sponsor)
