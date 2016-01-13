@@ -19,7 +19,7 @@ out being sold; and the 2s count as the number of booklets that have been sold. 
 that get displayed on the website as the progress bar. There are two different ways it gets displayed based on if large-raffle-meter= true
 in the .md file of the page.
 
-If you're /still/ confused after reading all of this please contact either [Tim Scalzo](19scalzoti@fpsct.org) or 
+If you're /still/ confused after reading all of this please contact either [Tim Scalzo](19scalzoti@fpsct.org) or
 [Giselle Koo](gisellegk@gmail.com) for help. (Yes, I realize that this isn't actually markdown; I just wanted to do that.)
 
 Thank you for taking the time to read this.
@@ -55,11 +55,11 @@ $( document ).ready(function() {
       query.setQuery('select F'); // Make sure to manually select the proper column.
       query.send(handleQueryResponse);
       // Note: The function will only run when the page is loaded.
-    
+
       if(numDays <= 1 && numDays > (1/24)) { // Makes function automatically refresh every 30 seconds when there's only a day left
         setTimeout(function(){ get_data(); }, 30000);
       } else if(numDays <= (1/24)) { // Makes function automatically refresh every 100 miliseconds when there's only an hour left
-        setTimeout(function(){ get_data(); }, 100);   
+        setTimeout(function(){ get_data(); }, 100);
       }
     }
     function handleQueryResponse(response){ // This function makes sure you get a usable error message (in case anything goes wrong).
@@ -83,18 +83,18 @@ $( document ).ready(function() {
         It goes through and checks row 'i' to see if the number in it matches 0, 1, or 2. If there's anything other than those
         numbers it ignores it. I'm not quite sure what it does if it sees "1 2" or something else. Maybe it'll add 1 to both
         out and sold? */
-      }        
+      }
 
       var soldPercent = sold / (sold + out + base) * 100; // Divides the amount sold by the total and makes it into percent form.
       var outPercent = (out + sold) / (sold + out + base) * 100;
-      
+
       var sheet = new StyleSheet(); // Creates a kind of "false" CSS file that the widths are inserted into.
       var widthSold = new StyleSheetElement("width", soldPercent + '%'); // Puts sold info into widthSold.
       var tagA = sheet.addElementToTag(soldTag, widthSold); // Injects widthSold into soldTag.
       var widthOut = new StyleSheetElement("width", outPercent + '%'); // Puts out info into widthOut.
       var tagB = sheet.addElementToTag(outTag, widthOut); // Injects widthOut into outTag.
       addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
-      
+
       // For text
       var money = sold * 100; // Each 1 in sold is a booklet. When I made this each booklet was worth $100.00; change this if that changes.
       var soldPercentString = soldPercent.toString(); // Turns the double into a string.
@@ -124,11 +124,14 @@ $( document ).ready(function() {
     var deliberateSold = 64.37; // Set this percent manually.
     var widthSold = new StyleSheetElement("width", deliberateSold + '%'); // Puts manual sold info into widthSold.
     var tagA = sheet.addElementToTag(soldTag, widthSold); // Injects widthSold into soldTag.
-    // The outPercent has been removed because it isn't useful information not that the raffle is over.
+    // The outPercent has been removed because it isn't useful information now that the raffle is over.
+    var tooltipWidthAfterRaffle = 170; // Sets a value for the width of the tooltip.
+    var tooltipWidth = new StyleSheetElement("width", tooltipWidthAfterRaffle + 'px'); // Puts the tooltip's width into tootltipWidth.
+    var tagB = sheet.addElementToTag(".tooltip:hover:after", tooltipWidth); // Injects tootltipWidth into the tooltip's class.
     addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
     //                                                                   Set this manually.  V V V V
     $("#percent").html("Our 2015 raffle has ended! | Tickets sold: " + deliberateSold + "% | $10,300+ earned | <a class='raffle-link' href='/raffle'>Winners >></a>");
-    
+
     // This changes the tooltip to not include the tickets checked out.
     if($("#raffle-meter-container").length > 0) document.getElementById("raffle-tooltip").setAttribute("data-content", "Blue: Tickets sold \nYellow: Tickets not sold");
     $(container).show(1000); // Makes the container visible; it's hidden by default.
