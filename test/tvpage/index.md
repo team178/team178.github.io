@@ -22,7 +22,6 @@ published: true
         <p>This is a paragraph.</p>
     </div>
     <div id="projectsheet">
-        <h1>This is a heading</h1>
-        <p>This is a paragraph.</p>
+        <iframe src="https://docs.google.com/spreadsheets/d/1HY-cqkMma91cLso2RQJD929eSSkkceIxmiAQAVTw51M/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
     </div>
 </div>
