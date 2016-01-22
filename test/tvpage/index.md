@@ -9,6 +9,11 @@ published: true
     width: 50%;
     background-color: lightgrey;
 }
+#projectsheet{
+    float:right;
+    width: 50%;
+    background-color:blue;
+}
 
 </style>
 <div style="width: 100%;">
@@ -16,7 +21,7 @@ published: true
         <h1>This is a heading</h1>
         <p>This is a paragraph.</p>
     </div>
-    <div style="float:right;background-color:blue;">
+    <div id="projectsheet">
         <h1>This is a heading</h1>
         <p>This is a paragraph.</p>
     </div>
