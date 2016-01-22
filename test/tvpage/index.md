@@ -5,12 +5,14 @@ published: true
 
 <style>
 #countdown{
-    float:left; 
+    margin: 0;
+    padding: 0;
     width: 50%;
     background-color: lightgrey;
 }
 #projectsheet{
-    float:right;
+    margin: 0;
+    padding: 0;
     width: 50%;
     height:100vh;
     background-color:blue;
