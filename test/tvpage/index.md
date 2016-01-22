@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blankspace
 published: true
 ---
 <div style="width: 100%;">
