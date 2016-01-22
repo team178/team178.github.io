@@ -8,6 +8,7 @@ published: true
     float:left;
     margin: 0;
     padding: 0;
+    height:100vh;
     width: 50%;
     background-color: lightgrey;
 }
