@@ -4,6 +4,10 @@ published: true
 ---
 
 <style>
+body{
+    padding: 0;
+    margin: 0;
+}
 #countdown{
     float:left;
     margin: 0;
