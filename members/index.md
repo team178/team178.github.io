@@ -2,7 +2,6 @@
 title: How to Join
 published: true
 ---
-
 ### This section is currently under construction. Check back in later for updates.
 
 <!--

@@ -2,7 +2,6 @@
 title: Handbook
 published: true
 ---
-
 <a name="handbook" />
 
 ## Our Handbook
