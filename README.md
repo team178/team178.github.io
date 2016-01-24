@@ -16,7 +16,7 @@ This section of the README file is copied from the [Changing HTML and CSS on the
 Many of the website team use [Atom](https://atom.io/) as our text editor of choice. If you already have a preferred text editor, you are free to use that! But if you are just starting out, you can try Atom.
 
 You can get the installer for your OS on [Atom's homepage](https://atom.io/). If you're on Ubuntu, you can use this guide:
-[Guide for Ubuntu](https://codeforgeek.com/2014/09/install-atom-editor-ubuntu-14-04/)
+[Guide for Ubuntu](https://codeforgeek.com/2014/09/install-atom-editor-ubuntu-14-04/) If you're on Windows you need to right click the installer and click "Run as Administrator". If it fails restart your computer and try installing it a couple of times. If that also fails go to Google for help.
 
 ## License
 
