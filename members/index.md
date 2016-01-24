@@ -12,7 +12,7 @@ We accept new members from September to mid-November or from May to the end of s
 2. Email [ContactUs@FarmingtonRobotics.org](contactus@farmingtonrobotics.org)
 
 # After doing one of the above, please fill out the following forms.
-**Note:** You must print the two forms out, fill them out *legibly*, scan them into your computer, turn them into a single .pdf file ([help](#pdf-help)), upload that file to Google Drive, and share it with [Trips@FarmingtonRobotics.org](trips@farmingtonrobotics.org).
+**Note:** You must print the two forms out, fill them out *legibly*, scan them into your computer, turn them into a single .pdf file ([help](#pdf-help)), upload that file to Google Drive, and share it with [Trips@FarmingtonRobotics.org](mailto:trips@farmingtonrobotics.org).
 <div class="iframe-doc">
 <iframe src="https://drive.google.com/a/fpsct.org/file/d/0B73oD9WuzOePeXQ1eVZ4RTN5TzRIZ0FXbTVwUXYycDdDNGE0/preview" width="100%" frameborder="0"></iframe>
 </div><div class="iframe-doc">
