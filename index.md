@@ -5,11 +5,11 @@ large-raffle-meter: true
 ---
 ### About the team
 
->The 2nd Law Enforcers have been an active participant in FIRST (For Inspiration and Recognition of Science and Technology) since 1997. We aim to provide real-world opportunities for our team members to grow as team members and leaders and to educate the public about STEM topics. Read more [here](http://farmingtonrobotics.org/about).
+>The 2nd Law Enforcers have been an active participant in *FIRST* (For Inspiration & Recognition of Science & Technology) since 1997. We aim to provide real-world opportunities for our team members to grow as team members and leaders and to educate the public about STEM topics. Read more [here](http://farmingtonrobotics.org/about).
 
-### Dream FIRST
+### Dream *FIRST*
 
->Dream FIRST is our main outreach program for children ages 3 to 10, developed by our team. The goal of this program is to cultivate children's interest in science, technology, engineering, and math (STEM) because we believe that by training the kids at a young age, we can spark an interest in science that lasts a lifetime. Read more about this program [here](http://farmingtonrobotics.org/dreamfirst).
+>Dream *FIRST* is our main outreach program for children ages 3 to 10, developed by our team. The goal of this program is to cultivate children's interest in science, technology, engineering, and math (STEM) because we believe that by training the kids at a young age, we can spark an interest in science that lasts a lifetime. Read more about this program [here](http://farmingtonrobotics.org/dreamfirst).
 
 ### Our Sponsors
 
