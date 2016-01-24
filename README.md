@@ -11,6 +11,13 @@ When making a code related change to the website, be sure to follow the best pra
 
 This section of the README file is copied from the [Changing HTML and CSS on the Website wiki page](https://github.com/team178/team178.github.io/wiki/Changing-HTML-and-CSS-on-the-Website).
 
+## Text Editor of Choice
+
+Many of the website team use [Atom](https://atom.io/) as our text editor of choice. If you already have a preferred text editor, you are free to use that! But if you are just starting out, you can try Atom.
+
+You can get the installer for your OS on [Atom's homepage](https://atom.io/). If you're on Ubuntu, you can use this guide:
+[Guide for Ubuntu](https://codeforgeek.com/2014/09/install-atom-editor-ubuntu-14-04/)
+
 ## License
 
 This Source Code Form is subject to the terms of the Mozilla Public
