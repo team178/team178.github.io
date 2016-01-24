@@ -16,8 +16,6 @@ large-raffle-meter: true
 >One of the ways our team is able to function is through the help of our wonderful sponsors, including UTC Otis Elevator, ebm-papst Inc., and UTC Sikorsky Aircraft Corporation. Learn more about each of our sponsors [here](http://farmingtonrobotics.org/sponsors).
 
 ### Upcoming events
-- Computer Science Week: December 7-14, 2015 (Check out our Hour of Code [here](http://farmingtonrobotics.org/hofc)!)
-- FRC Kickoff: January 9, 2016
 - Jr. FLL Expo: January 31, 2016
 
 ### How to join
