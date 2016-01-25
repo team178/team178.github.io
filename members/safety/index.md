@@ -2,7 +2,6 @@
 title: Safety
 published: true
 ---
-
 ## <a name="safety" />Safety Video
 
 <div class="iframe-video">
