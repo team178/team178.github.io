@@ -1,6 +1,5 @@
 ---
-layout: raffle-meter
+layout: default
 published: false
 ---
-
-The calendar would be here.
+{% include flag.html %}
