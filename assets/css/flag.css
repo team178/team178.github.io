@@ -39,8 +39,8 @@
 	height: 250px;
 	overflow: hidden;
 	margin: 0 auto;
-	border-left: 1px solid #631a15; /* left edge */
-	border-right: 1px solid #631a15; /* right edge */
+	border-left: 1px solid #0F0838; /* left edge */
+	border-right: 1px solid #0F0838; /* right edge */
 }
 
 .base {
