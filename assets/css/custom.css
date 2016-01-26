@@ -96,3 +96,8 @@ around it. */
   height: 100%;
   left: 0; top: 0;
 }
+
+/* makes content wider */
+#content article.fullwidth {
+    max-width: 100%;
+}
