@@ -9,5 +9,5 @@ The Enforcers store files and documents in a Google Drive folder that is shared 
 After you've been added, you should add the folder to your <a href="https://support.google.com/drive/answer/2375043?hl=en" target="_blank">drive</a>.
 
 <div style="text-align:center; padding:5px;">
-<a class="btn" href="https://drive.google.com/open?id=0B8-N1pSXiqwhb2diaHFIdWtoY0k&authuser=0">Join Folder</a>
+<a class="btn" href="https://drive.google.com/open?id=0B8-N1pSXiqwhb2diaHFIdWtoY0k&authuser=0" target="_blank">Join Folder</a>
 </div>
