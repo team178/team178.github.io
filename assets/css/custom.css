@@ -38,14 +38,14 @@ around it. */
 
 .btn {
   background: rgba(12,0,120,1);
-  background-image: -webkit-linear-gradient(top, rgba(12,0,120,1), #000178);
-  background-image: -moz-linear-gradient(top, rgba(12,0,120,1), #000178);
-  background-image: -ms-linear-gradient(top, rgba(12,0,120,1), #000178);
-  background-image: -o-linear-gradient(top, rgba(12,0,120,1), #000178);
-  background-image: linear-gradient(to bottom, rgba(12,0,120,1), #000178);
+  background-image: -webkit-linear-gradient(top, #000178, rgba(13,0,84,1));
+  background-image: -moz-linear-gradient(top, #000178, rgba(13,0,84,1));
+  background-image: -ms-linear-gradient(top, #000178, rgba(13,0,84,1));
+  background-image: -o-linear-gradient(top, #000178, rgba(13,0,84,1));
+  background-image: linear-gradient(to bottom, #000178, rgba(13,0,84,1));
   -webkit-border-radius: 15;
   -moz-border-radius: 15;
-  border-radius: 15px;
+  border-radius: 5px;
   color: #FFD000;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
