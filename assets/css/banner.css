@@ -1,4 +1,4 @@
-#slideshow #Stronghold {
+#banner #Stronghold {
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -20,7 +20,7 @@
   -webkit-flex-basis: auto;
 }
 
-#Stronghold .slide-text {
+#Stronghold .banner-text {
   margin: 0; padding: 20px;
   max-width: 500px;
   text-align: center;

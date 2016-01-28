@@ -52,11 +52,11 @@ iframe {max-width: 100%; }
   color: #fcff5f;
 }
 
-#slideshow {
+#banner {
   width: 100%; min-height: 12rem;
   background-color: rgba(52, 73, 94, 0.95);
 }
-#slideshow .slide {
+#banner .banner {
   margin: auto;
 }
 
