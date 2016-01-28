@@ -39,12 +39,18 @@ iframe {max-width: 100%; }
 }
 
 #header h1 {
+  font-family: "stencil-std";
+  transform : scale(1,1.5);
+-webkit-transform:scale(1,1.5); /* Safari and Chrome */
+-moz-transform:scale(1,1.5); /* Firefox */
+-ms-transform:scale(1,1.5); /* IE 9+ */
+-o-transform:scale(1,1.5); /* Opera */
   margin: 0; padding: 0;
 }
 #header h1 a {
   margin: 0; padding: 0;
 
-  color: #ffff00;
+  color: #FFD000;
   text-decoration: none;
   transition: color 0.2s;
 }
