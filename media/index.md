@@ -18,3 +18,7 @@ The Enforcers believe digital media can be one of the most powerful conduits of 
 {% include videoslides.html %}
 
 {% include facebookalbum.html %}
+<br>
+<div width="100%" style="text-align:center;">
+<a href="https://www.facebook.com/media/set/?set=a.1035245586498309.1073741838.509649582391248&type=3" target="_blank">Click here to see all of our albums.</a>
+</div>
