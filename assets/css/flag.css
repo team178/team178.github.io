@@ -114,7 +114,7 @@
 	transform: rotate(45deg);
 }
 
-@media (max-width: 952px) {
+@media (max-width: 900px) {
 	#ribbon-left {
 		display:none;
 	}
