@@ -39,8 +39,8 @@
 	height: 250px;
 	overflow: hidden;
 	margin: 0 auto;
-	border-left: 1px solid #0F0838; /* left edge */
-	border-right: 1px solid #0F0838; /* right edge */
+	border-left: 1px solid #000178; /* left edge */
+	border-right: 1px solid #000178; /* right edge */
 }
 
 .base {
@@ -48,12 +48,12 @@
 	width: 100px;
 
 	background: rgb(199,59,60);
-	background: -moz-linear-gradient(top,  rgba(12,0,120,1) 0%, rgba(13,0,84,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,1,120,1)), color-stop(100%,rgba(13,0,84,1)));
-	background: -webkit-linear-gradient(top,  rgba(0,1,120,1) 0%,rgba(13,0,84,1) 100%);
-	background: -o-linear-gradient(top,  rgba(0,1,120,1) 0%,rgba(13,0,84,1) 100%);
-	background: -ms-linear-gradient(top,  rgba(0,1,120,1) 0%,rgba(13,0,84,1) 100%);
-	background: linear-gradient(top,  rgba(0,1,120,1) 0%,rgba(13,0,84,1) 100%);
+	background: -moz-linear-gradient(top,  #0D0054 0%, rgba(15,8,56,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0D0054), color-stop(100%,rgba(15,8,56,1)));
+	background: -webkit-linear-gradient(top,  #0D0054 0%,rgba(15,8,56,1) 100%);
+	background: -o-linear-gradient(top,  #0D0054 0%,rgba(15,8,56,1) 100%);
+	background: -ms-linear-gradient(top,  #0D0054 0%,rgba(15,8,56,1) 100%);
+	background: linear-gradient(top,  #0D0054 0%,rgba(15,8,56,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c73b3c', endColorstr='#b8201f',GradientType=0 );
 
 	position: relative;
@@ -85,7 +85,7 @@
 .left_corner { /* bottom left corner of ribbon */
 	width: 100px;
 	height: 100px;
-	background: #0d0054;
+	background: rgba(15,8,56,1);
 	position: absolute;
 	bottom: 70px;
 	left: -50px;
@@ -101,7 +101,7 @@
 .right_corner { /* bottom right corner of ribbon */
 	width: 100px;
 	height: 100px;
-	background: #0d0054;
+	background: rgba(15,8,56,1);
 	position: absolute;
 	bottom: 70px;
 	right: -50px;

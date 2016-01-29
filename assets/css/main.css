@@ -32,7 +32,7 @@ iframe {max-width: 100%; }
 #header {
   display: flex;
   margin: 0; padding: 0.75rem 1rem;
-  background-color: rgb(44, 62, 80);
+  background-color: #0F0838;
 
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@ iframe {max-width: 100%; }
 
 #banner {
   width: 100%; min-height: 12rem;
-  background-color: rgba(52, 73, 94, 0.95);
+  background-color: #112239;
 }
 #banner .banner {
   margin: auto;
