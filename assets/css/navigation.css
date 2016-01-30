@@ -68,7 +68,7 @@ nav {
   display: block;
 }
 
-#nav li ul li {
+#nav li ul li { /* Styles the body of the nav menu item's dropdowns */
   padding: 0;
   float: none;
   background-color: rgb(44, 62, 80);
@@ -85,13 +85,20 @@ nav {
   border-top: 1px solid rgba(0,0,0, 0.5);
 }
 
+/** Styles everything for mobile **/
 @media screen and (max-width: 810px) {
   #menu-toggle {
     order: 0;
+    padding-right: 10px;
+    /* margin-left: 15px;
+    * I've commented this out because the dropdowns would need their margins
+    * adjusted if it wasn't. Note to self: Create an issue and do this at some
+    * point. */
+    background-repeat: no-repeat;
     display: block;
     width: 2rem; height: 2rem;
-    background-image: url("../img/menu.png");
-    opacity: 0.6;
+    background-image: url("../img/white-menu.png");
+    opacity: 0.95;
     transition: 0.2s opacity;
   }
   #header h1 {
@@ -107,7 +114,7 @@ nav {
     padding: 0; margin: 0;
   }
 
-  #nav::before {
+  #nav::before { /* Styles triangle of whole nav bar dropdown */
     content: "";
     display: block;
 
@@ -132,7 +139,7 @@ nav {
     display: block;
   }
 
-  #nav li {
+  #nav li { /* Styles dropdown for whole nav bar */
     display: block;
     width: 100%;
     background-color: rgb(44, 62, 80);
