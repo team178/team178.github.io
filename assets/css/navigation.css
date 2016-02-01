@@ -93,7 +93,7 @@ nav {
     background-repeat: no-repeat;
     display: block;
     width: 2rem; height: 2rem;
-    background-image: url("../img/white-menu.png");
+    background-image: url("../img/gold-menu.png");
     opacity: 0.95;
     transition: 0.2s opacity;
   }
