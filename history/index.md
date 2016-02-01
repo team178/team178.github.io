@@ -6,6 +6,6 @@ published: true
 
 ## Competition History and Robots
 
-###Timeline
+### Timeline
 
 {% include timeline.html %}
