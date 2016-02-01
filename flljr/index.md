@@ -12,6 +12,5 @@ published: true
 # *FIRST* Lego League Junior Regional Expo
 On January 31, 2016, teams are given the opportunity to display their achievements and ideas. They also participate in various STEM and theme-based activities. We, the 2nd Law Enforcers, organized the event with the assistance of members from other nearby FRC teams.
 
-### <a name="expopics" />Pictures from the expo: Coming Soon!
-<!--Remove "Coming Soon!" and the comment tags (Google HTML comment tags if you don't know what they are). Also, replace the Xs that are in the link below with the characters in the url of the gallery/slideshow (Ex: "aRCk7Hgo")
-<iframe id="picshoembed" src="http://picsho.com/embed/?XXXXXXXX" style="margin: 0; padding: 0; border: none; width: 100%; height: 2337px; overflow: hidden;" scrolling="no" /> Lastly, adjust the height if images are getting cut off or there's a bunch of white at the bottom (there's a 7 at the end of the number for a reason). -->
+### <a name="expopics" />Pictures from the expo:
+<iframe id="picshoembed" src="http://picsho.com/embed/?LOocvaOY" style="margin: 0; padding: 0; border: none; width: 100%; height: 790px; overflow: hidden;" scrolling="no" />
