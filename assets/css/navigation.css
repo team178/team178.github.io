@@ -37,7 +37,7 @@ nav {
   transition: color 0.2s;
 }
 #nav li a:hover {
-  color: #fff;
+  color: #FFF;
 }
 
 #nav li ul:before {
@@ -52,7 +52,7 @@ nav {
   /** CSS Hack to make a triangle. */
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #FDE921;
+  border-bottom: 10px solid #FFD000;
 }
 
 /** Secondary navigation items **/
@@ -71,7 +71,7 @@ nav {
 #nav li ul li { /* Styles the body of the nav menu item's dropdowns */
   padding: 0;
   float: none;
-  background-color: #FDE921;
+  background-color: #FFD000;
 }
 #nav li ul li a {
   color: #0F0838;
@@ -155,7 +155,7 @@ nav {
     color: rgba(255,208,0, .9);
   }
   #nav li a:hover {
-    color: #ffd000;
+    color: #FFD000;
   }
 
   #nav li:first-child {
