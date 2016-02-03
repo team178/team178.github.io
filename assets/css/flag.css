@@ -39,22 +39,22 @@
 	height: 250px;
 	overflow: hidden;
 	margin: 0 auto;
-	border-left: 1px solid #000178; /* left edge */
-	border-right: 1px solid #000178; /* right edge */
+	border-left: 1px solid #1A245B; /* left edge */
+	border-right: 1px solid #1A245B; /* right edge */
 }
 
 .base {
 	height: 150px;
 	width: 100px;
 
-	background: rgb(199,59,60);
-	background: -moz-linear-gradient(top,  #ffd000 0%, #CCA700 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd000), color-stop(100%,#CCA700));
-	background: -webkit-linear-gradient(top,  #ffd000 0%,#CCA700 100%);
-	background: -o-linear-gradient(top,  #ffd000 0%,#CCA700 100%);
-	background: -ms-linear-gradient(top,  #ffd000 0%,#CCA700 100%);
-	background: linear-gradient(top,  #ffd000 0%,#CCA700 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c73b3c', endColorstr='#b8201f',GradientType=0 );
+	background: #0F0838;
+	background: -moz-linear-gradient(top,  #C09000 0%, #FFD000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C09000), color-stop(100%,#FFD000));
+	background: -webkit-linear-gradient(top,  #C09000 0%,#FFD000 100%);
+	background: -o-linear-gradient(top,  #C09000 0%,#FFD000 100%);
+	background: -ms-linear-gradient(top,  #C09000 0%,#FFD000 100%);
+	background: linear-gradient(top,  #C09000 0%,#FFD000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C09000', endColorstr='#FFD000',GradientType=0 );
 
 	position: relative;
 	z-index: 2;
@@ -67,8 +67,8 @@
 	width: 86px;
 	left: 6px;
 	height: 192px;
-	border-left: 1px dashed #0D0054; /* left dashed */
-	border-right: 1px dashed #0D0054; /* right dashed */
+	border-left: 1px dashed #0F0838; /* left dashed */
+	border-right: 1px dashed #0F0838; /* right dashed */
 }
 
 .base:before { /* right parts of dashes */
@@ -78,14 +78,14 @@
 	width: 86px;
 	left: 7px;
 	height: 192px;
-	border-left: 1px dashed #291599; /* left dashed */
-	border-right: 1px dashed #291599; /* right dashed */
+	border-left: 1px dashed #FCFF5F; /* left dashed */
+	border-right: 1px dashed #FCFF5F; /* right dashed */
 }
 
 .left_corner { /* bottom left corner of ribbon */
 	width: 100px;
 	height: 100px;
-	background: #CCA700;
+	background: #FFD000;
 	position: absolute;
 	bottom: 70px;
 	left: -50px;
@@ -101,7 +101,7 @@
 .right_corner { /* bottom right corner of ribbon */
 	width: 100px;
 	height: 100px;
-	background: #CCA700;
+	background: #FFD000;
 	position: absolute;
 	bottom: 70px;
 	right: -50px;

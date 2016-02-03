@@ -52,7 +52,7 @@ nav {
   /** CSS Hack to make a triangle. */
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #FFD000;
+  border-bottom: 10px solid #0F0838;
 }
 
 /** Secondary navigation items **/
@@ -71,15 +71,15 @@ nav {
 #nav li ul li { /* Styles the body of the nav menu item's dropdowns */
   padding: 0;
   float: none;
-  background-color: #FFD000;
+  background-color: #0F0838;
 }
 #nav li ul li a {
-  color: #0F0838;
+  color: #rgba(255,255,255, 0.8);
   font-weight: 500;
 }
 
 #nav li ul li a:hover {
-  color: rgba(15, 8, 56,.75);
+  color:rgba(255,255,255, 1);
 }
 #nav li ul li:first-child {
   border-top-left-radius: 5px;
@@ -152,10 +152,10 @@ nav {
   #nav li a {
     display: block;
     margin: 0; padding: 5px 12px;
-    color: rgba(255,208,0, .9);
+    color: rgba(255,255,255, 0.8);
   }
   #nav li a:hover {
-    color: #FFD000;
+    color: rgba(255,255,255, 1);
   }
 
   #nav li:first-child {

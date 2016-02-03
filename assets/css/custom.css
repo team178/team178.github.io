@@ -37,12 +37,12 @@ around it. */
 /* For styling buttons */
 
 .btn {
-  background: rgba(12,0,120,1);
-  background-image: -webkit-linear-gradient(top, #000178, rgba(13,0,84,1));
-  background-image: -moz-linear-gradient(top, #000178, rgba(13,0,84,1));
-  background-image: -ms-linear-gradient(top, #000178, rgba(13,0,84,1));
-  background-image: -o-linear-gradient(top, #000178, rgba(13,0,84,1));
-  background-image: linear-gradient(to bottom, #000178, rgba(13,0,84,1));
+  background: #1A245B;
+  background-image: -webkit-linear-gradient(top, #1A245B, #0F0838);
+  background-image: -moz-linear-gradient(top, #1A245B, #0F0838);
+  background-image: -ms-linear-gradient(top, #1A245B, #0F0838);
+  background-image: -o-linear-gradient(top, #1A245B, #0F0838);
+  background-image: linear-gradient(to bottom, #1A245B, #0F0838);
   -webkit-border-radius: 15;
   -moz-border-radius: 15;
   border-radius: 5px;
@@ -53,13 +53,13 @@ around it. */
 }
 
 .btn:hover {
-  background: #f0ce68;
-  background-image: -webkit-linear-gradient(top, #f0ce68, #c29200);
-  background-image: -moz-linear-gradient(top, #f0ce68, #c29200);
-  background-image: -ms-linear-gradient(top, #f0ce68, #c29200);
-  background-image: -o-linear-gradient(top, #f0ce68, #c29200);
-  background-image: linear-gradient(to bottom, #f0ce68, #c29200);
-  color: #000178;
+  background: #FFD000;
+  background-image: -webkit-linear-gradient(top, #FFD000, #C09000);
+  background-image: -moz-linear-gradient(top, #FFD000, #C09000);
+  background-image: -ms-linear-gradient(top, #FFD000, #C09000);
+  background-image: -o-linear-gradient(top, #FFD000, #C09000);
+  background-image: linear-gradient(to bottom, #FFD000, #C09000);
+  color: #1A245B;
   text-decoration: none;
 }
 

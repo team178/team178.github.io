@@ -8,7 +8,7 @@ body {
   line-height: 1.6rem;
   font-weight: 400;
 
-  background-color: #ecf0f1;
+  background-color: #fff;
 
   -webkit-text-size-adjust: 100%;
 }
@@ -19,11 +19,11 @@ h3 { font-size: 1.25rem; font-weight: 400; line-height: 28px; clear: both; }
 h4 { font-size: 1.125rem; font-weight: 300; }
 
 a {
-  color: #2E6BFF;
+  color: #C09000;
   transition: 0.1s color ease-in;
 }
 a:hover {
-  color: #659CFC;
+  color: #FFD000;
 }
 
 img { max-width: 100%; }
@@ -60,7 +60,13 @@ iframe {max-width: 100%; }
 
 #banner {
   width: 100%; min-height: 12rem;
-  background-color: #0F0838;
+  background-color: #1A245B;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
+        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
+        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
+        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
 }
 #banner .banner {
   margin: auto;
@@ -81,12 +87,7 @@ footer {
   background-color: #0F0838;
   color: rgba(255,255,255, 0.8);
 }
-footer a {
-  color: #83C2EC;
-}
-footer a:hover {
-  color: #AADCFE;
-}
+
 
 @media screen and (max-width: 1030px) {
   #header h1 {
