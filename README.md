@@ -7,7 +7,9 @@ When making a code related change to the website, be sure to follow the best pra
 2. Make sure existing code organization is followed. Not limited to but including:
   - 2 space indents (not tabs) on both HTML and CSS.
   - Indents are used where they should be to maintain hierarchy in code.
-2. If you don't know, ask!
+3. Make sure you use the official team colors found [here](https://docs.google.com/document/d/1osKZBafFCetyKy_8zcLG-VpnZgxy6UWzadQuC-JZQuI/edit?usp=sharing)
+4. Please **please PLEASE** comment your code!
+5. Lastly: If you don't know, ask!
 
 This section of the README file is copied from the [Changing HTML and CSS on the Website wiki page](https://github.com/team178/team178.github.io/wiki/Changing-HTML-and-CSS-on-the-Website).
 
