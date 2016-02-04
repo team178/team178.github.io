@@ -47,15 +47,15 @@ iframe {max-width: 100%; }
 -o-transform:scale(1,1.5); /* Opera */
   margin: 0; padding: 0;
 }
-#header h1 a {
+#header h1, footer a {
   margin: 0; padding: 0;
 
   color: #FFD000;
   text-decoration: none;
   transition: color 0.2s;
 }
-#header h1 a:hover {
-  color: #fcff5f;
+#header h1, footer a:hover {
+  color: #FcFF5F;
 }
 
 #banner {
@@ -87,7 +87,6 @@ footer {
   background-color: #0F0838;
   color: rgba(255,255,255, 0.8);
 }
-
 
 @media screen and (max-width: 1030px) {
   #header h1 {
