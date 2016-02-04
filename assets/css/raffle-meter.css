@@ -5,7 +5,7 @@
  */
 /* @font-face {
     font-family: "StencilStd";
-    src:url('/assets/fonts/StencilStd.eot') format('embedded-opentype'), 
+    src:url('/assets/fonts/StencilStd.eot') format('embedded-opentype'),
         url('/assets/fonts/StencilStd.otf') format("opentype");
 
 
@@ -18,7 +18,7 @@
     overflow-y:visible;
     pointer-events: none;
     white-space: pre; /* to preserve the spaces from collapsing */
-    color: #ecf0f1;
+    color: #FFF;
     text-shadow:
         -0.25vw -0.25vw 0 #000,
          0.25vw -0.25vw 0 #000,
@@ -32,7 +32,7 @@
     top:0;
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow-x:hidden;
-    color: #000178;
+    color: #1A245B;
     text-shadow:
         -0.3vw -0.3vw 0 #FFD000,
          0.3vw -0.3vw 0 #FFD000,
@@ -46,7 +46,7 @@
     top:0;
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow-x:hidden;
-    color: #ecf0f1;
+    color: #FFF;
     text-shadow:
         -0.3vw -0.3vw 0 #FFD000,
          0.3vw -0.3vw 0 #FFD000,
