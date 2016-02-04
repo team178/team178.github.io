@@ -47,14 +47,14 @@ iframe {max-width: 100%; }
 -o-transform:scale(1,1.5); /* Opera */
   margin: 0; padding: 0;
 }
-#header h1, footer a {
+#header h1 a, footer a {
   margin: 0; padding: 0;
 
   color: #FFD000;
   text-decoration: none;
   transition: color 0.2s;
 }
-#header h1, footer a:hover {
+#header h1 a:hover, footer a:hover {
   color: #FcFF5F;
 }
 
