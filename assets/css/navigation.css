@@ -73,15 +73,15 @@ nav {
   float: none;
   background-color: #0F0838;
 }
-#nav li ul li a {
+#nav li ul li a { /* Styles the text of the nav menu item's dropdowns */
   color: #rgba(255,255,255, 0.8);
   font-weight: 500;
 }
-
 #nav li ul li a:hover {
   color:rgba(255,255,255, 1);
 }
-#nav li ul li:first-child {
+
+#nav li ul li:first-child { /* Adds rounded corners to dropdowns */
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -89,7 +89,7 @@ nav {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-#nav li ul li + li {
+#nav li ul li + li { /* Styles divider lines for dropdowns */
   border-top: 1px solid rgba(255,255,255, 0.35);
 }
 
@@ -104,6 +104,9 @@ nav {
     background-image: url("../img/gold-menu.png");
     opacity: 0.95;
     transition: 0.2s opacity;
+/*    -webkit-transition: .65s ease-in-out;
+    -moz-transition: .65s ease-in-out;
+    -o-transition: .65s ease-in-out; */
   }
   #header h1 {
     order: 1;
@@ -112,6 +115,11 @@ nav {
 
   #menu-toggle:hover {
     opacity: 1;
+/*    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg); */
   }
 
   nav {
@@ -134,8 +142,8 @@ nav {
     display: none;
     z-index: 1;
     position: absolute;
-    margin: 1.75rem 0 0 -2rem; padding: 0;
-    max-width: 10rem;
+    margin: 2rem 0 0 -3rem; padding: 0;
+    max-width: 9rem;
     border-radius: 5px;
   }
 
@@ -169,5 +177,15 @@ nav {
   #nav li + li {
     border-top: 2.5px solid rgba(255,255,255, 0.25);
     margin: 0;
+  }
+  #nav li ul {
+    margin-left: 9.75rem;
+    margin-top: -2.25rem;
+  }
+  /* Moves triangle for secondary dropdowns to side */
+  #nav li ul:before {
+    transform: rotate(270deg);
+    margin-bottom: -1.25rem;
+    margin-left: -.9rem;
   }
 }
