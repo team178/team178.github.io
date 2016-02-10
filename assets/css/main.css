@@ -100,3 +100,15 @@ footer {
     line-height: 1.5rem;
   }
 }
+/* Makes the large and small calendars switch when on mobile */
+#small-calendar {
+  display: none;
+}
+@media screen and (max-width: 655px) {
+  #calendar {
+    display: none;
+  }
+  #small-calendar {
+    display: block;
+  }
+}
