@@ -11,6 +11,10 @@ body {
   background-color: #fff;
 
   -webkit-text-size-adjust: 100%;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 h1 { font-weight: 300; }
@@ -74,6 +78,7 @@ iframe {max-width: 100%; }
 
 #content {
   padding: 1rem;
+  flex: 1;
 }
 #content article {
 	margin: auto;
