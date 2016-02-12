@@ -21,5 +21,5 @@ large-raffle-meter: true
 ### How to join
 
 Interested in joining the team? Check our [how to join](http://farmingtonrobotics.org/members) page!
-
+<div width="100%" style="text-align:center; font-size:25px; font-weight:bold;">Full Team Calendar</div>
 {% include calendar.html %}

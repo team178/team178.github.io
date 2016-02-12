@@ -13,7 +13,7 @@ THINGS TO ENTER IN YOURSELF:
 *(maybe) The amount sold is multiplied by to create the money variable. (It's explained more at the point in the code.)
 * The message that automatically shows up when the time is up (I'm still iffy on what I've written there.)
 WHAT THIS CODE DOES:
-It pulls information from a Google Spreadsheet and counts the number of 0s,1s, and 2s there are in a specified column. The
+It pulls information from a Google Spreadsheet and counts the number of 0s ,1s, and 2s there are in a specified column. The
 number of 0s is counted as the number of booklets that haven't been touched; the number of 1s counts as the booklets that're
 out being sold; and the 2s count as the number of booklets that have been sold. These numbers are then turned into statistics
 that get displayed on the website as the progress bar. There are two different ways it gets displayed based on if large-raffle-meter= true
@@ -100,28 +100,24 @@ $( document ).ready(function() {
       var soldPercentString = soldPercent.toString(); // Turns the double into a string.
       var soldPercentShort = soldPercentString.substring(0, 5); // Makes the length of the sold string 5 characters long.
 
-      var timeLeft;
-      if(numDays > 1) { // Generates the phrase that is the time left.
-        // in days
+      var timeLeft; // Generates the phrase that is the time left.
+      if(numDays > 1) { // in days
         var timeLeft = numDays + "days left"
-      } else if(numDays <= 1 && numDays > (1/24)) {
-        // in hours
+      } else if(numDays <= 1 && numDays > (1/24)) { // in hours
         var timeLeft = numDays / 24 + "hours left"
-      } else if(numDays <= (1/24) && numDays > 0) {
-        // in minutes
+      } else if(numDays <= (1/24) && numDays > 0) { // in minutes
         var timeLeft = "Only" + numDays / 1440 + "minutes left!"
-      } else{
-        // no time left
+      } else{ // no time left
         var timeLeft = "There's no time left!"
       }
       $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft +"| <a class='raffle-link' href='/raffle'>About the raffle >></a>");
-      $(container).show(1000); // Makes the container visible; it's hidden by default.
+      $(container).show(1000); // Makes the container visible; it's hidden by default so that a half-loaded meter isn't displayed.
     }
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
     var sheet = new StyleSheet(); // Creates a kind of "false" CSS file that the widths are inserted into.
-    var deliberateSold = 64.37; // Set this percent manually.
+    var deliberateSold = 68.28; // Set this percent manually.
     var widthSold = new StyleSheetElement("width", deliberateSold + '%'); // Puts manual sold info into widthSold.
     var tagA = sheet.addElementToTag(soldTag, widthSold); // Injects widthSold into soldTag.
     // The outPercent has been removed because it isn't useful information now that the raffle is over.
@@ -130,10 +126,10 @@ $( document ).ready(function() {
     var tagB = sheet.addElementToTag(".tooltip:hover:after", tooltipWidth); // Injects tootltipWidth into the tooltip's class.
     addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
     //                                                                   Set this manually.  V V V V
-    $("#percent").html("Our 2015 raffle has ended! | Tickets sold: " + deliberateSold + "% | $10,300+ earned | <a class='raffle-link' href='/raffle'>Winners >></a>");
+    $("#percent").html("Our 2015 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,250+ earned | <a class='raffle-link' href='/raffle'>Winners >></a>");
 
     // This changes the tooltip to not include the tickets checked out.
     if($("#raffle-meter-container").length > 0) document.getElementById("raffle-tooltip").setAttribute("data-content", "Blue: Tickets sold \nYellow: Tickets not sold");
-    $(container).show(1000); // Makes the container visible; it's hidden by default.
+    $(container).show(1000); // Makes the container visible; it's hidden by default so that a half-loaded meter isn't displayed.
   }
 });

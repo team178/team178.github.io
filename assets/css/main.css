@@ -11,6 +11,10 @@ body {
   background-color: #fff;
 
   -webkit-text-size-adjust: 100%;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 h1 { font-weight: 300; }
@@ -47,33 +51,20 @@ iframe {max-width: 100%; }
 -o-transform:scale(1,1.5); /* Opera */
   margin: 0; padding: 0;
 }
-#header h1 a {
+#header h1 a, footer a {
   margin: 0; padding: 0;
 
   color: #FFD000;
   text-decoration: none;
   transition: color 0.2s;
 }
-#header h1 a:hover {
-  color: #fcff5f;
-}
-
-#banner {
-  width: 100%; min-height: 12rem;
-  background-color: #1A245B;
-  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
-        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
-        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
-        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
-}
-#banner .banner {
-  margin: auto;
+#header h1 a:hover, footer a:hover {
+  color: #FcFF5F;
 }
 
 #content {
   padding: 1rem;
+  flex: 1;
 }
 #content article {
 	margin: auto;
@@ -88,7 +79,6 @@ footer {
   color: rgba(255,255,255, 0.8);
 }
 
-
 @media screen and (max-width: 1030px) {
   #header h1 {
     font-size: 1.5rem;
@@ -99,5 +89,17 @@ footer {
   body {
     font-size: 0.9rem;
     line-height: 1.5rem;
+  }
+}
+/* Makes the large and small calendars switch when on mobile */
+#small-calendar {
+  display: none;
+}
+@media screen and (max-width: 655px) {
+  #calendar {
+    display: none;
+  }
+  #small-calendar {
+    display: block;
   }
 }

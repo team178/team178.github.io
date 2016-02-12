@@ -1,25 +1,20 @@
 /* For making pictures "float" to the left or
 right side of the screen, with text wrapping
 around it. */
-
 .float-left {
   margin-right: 20px;
   float: left;
 }
-
 .float-right {
   margin-left: 20px;
   float: right;
 }
 
-
 /* For adding hover tooltips to elements */
-
 .tooltip{
     display: inline-block;
     position: relative;
 }
-
 .tooltip:hover:after{
     background: #333;
     background: rgba(0,0,0,.8);
@@ -33,9 +28,7 @@ around it. */
     width: 195px;
 }
 
-
 /* For styling buttons */
-
 .btn {
   background: #1A245B;
   background-image: -webkit-linear-gradient(top, #1A245B, #0F0838);
@@ -51,7 +44,6 @@ around it. */
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
-
 .btn:hover {
   background: #FFD000;
   background-image: -webkit-linear-gradient(top, #FFD000, #C09000);
@@ -63,16 +55,13 @@ around it. */
   text-decoration: none;
 }
 
-
 /* For making iframe embedded videos keep their ratio */
-
 .iframe-video {
   position: relative;
   width: 100%;
   height: 0;
   padding-bottom: 51%; /* This is what makes it work; you can make it larger/smaller for different ratios as seen below. */
 }
-
 .iframe-video iframe {
   position: absolute;
   width: 100%;
@@ -80,16 +69,13 @@ around it. */
   left: 0; top: 0;
 }
 
-
 /* For making iframe embedded documents keep their ratio */
-
 .iframe-doc {
   position: relative;
   width: 100%;
   height: 0;
   padding-bottom: 70%;
 }
-
 .iframe-doc iframe {
   position: absolute;
   width: 100%;
@@ -97,7 +83,39 @@ around it. */
   left: 0; top: 0;
 }
 
-/* makes content wider */
+/* Makes content wider */
 #content article.fullwidth {
     max-width: 100%;
+}
+
+/* Styles the box about forms */
+#form-help {
+  background-color: #1A245B;
+  color: rgba(255,255,255, 0.8);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 1px;
+  margin-top: 15px;
+/* This creates drop shadow on the box */
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
+        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
+        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
+        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
+}
+#form-help a {
+  color: #FFD000;
+}
+#form-help a:hover {
+  color: #FcFF5F;
+}
+#form-help h2, h1 {
+  margin-bottom: 5px;
+  margin-top: 15px;
 }

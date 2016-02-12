@@ -18,12 +18,12 @@
     position:absolute;
     top:0px;
     left:0px;
-    background-color: #000178;
+    background-color: #1A245B;
     height:2.5em;
 }
 #percent {
     background-color: rgba(255,255,255,.5);
-    position:absolute; 
+    position:absolute;
     top:.5em;
     height: 1.5em;
     padding: 0px;
@@ -35,7 +35,7 @@
 }
 a.raffle-link {
     font-weight: bold;
-    color: #fff;
+    color: #FFF;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 /* For mobile */
