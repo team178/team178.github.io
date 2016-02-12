@@ -74,7 +74,7 @@ nav {
   background-color: #0F0838;
 }
 #nav li ul li a { /* Styles the text of the nav menu item's dropdowns */
-  color: #rgba(255,255,255, 0.8);
+  color: rgba(255,255,255, 0.8);
   font-weight: 500;
 }
 #nav li ul li a:hover {
