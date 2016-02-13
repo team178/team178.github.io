@@ -35,21 +35,34 @@ iframe {max-width: 100%; }
 
 #header {
   display: flex;
-  margin: 0; padding: 0.75rem 1rem;
+  margin: 0; padding: .75rem 1rem;
   background-color: #0F0838;
 
   justify-content: center;
   align-items: center;
+
+  white-space:nowrap;
 }
 
 #header h1 {
   font-family: "stencil-std";
-  transform : scale(1,1.5);
+  transform: scale(1,1.5);
 -webkit-transform:scale(1,1.5); /* Safari and Chrome */
 -moz-transform:scale(1,1.5); /* Firefox */
 -ms-transform:scale(1,1.5); /* IE 9+ */
 -o-transform:scale(1,1.5); /* Opera */
   margin: 0; padding: 0;
+}
+#header h1 a:before {
+  content: "E";
+  display: inline-block;
+  transform: scale(1,1.55);
+  -webkit-transform:scale(1,1.55); /* Safari and Chrome */
+  -moz-transform:scale(1,1.55); /* Firefox */
+  -ms-transform:scale(1,1.55); /* IE 9+ */
+  -o-transform:scale(1,1.55); /* Opera */
+  position: relative;
+  bottom: .2em;
 }
 #header h1 a, footer a {
   margin: 0; padding: 0;
@@ -58,6 +71,11 @@ iframe {max-width: 100%; }
   text-decoration: none;
   transition: color 0.2s;
 }
+
+#nforcers {
+  font-size: .75em;
+}
+
 #header h1 a:hover, footer a:hover {
   color: #FcFF5F;
 }
@@ -89,5 +107,8 @@ footer {
   body {
     font-size: 0.9rem;
     line-height: 1.5rem;
+  }
+  #header h1 a:before {
+    bottom: .15em;
   }
 }
