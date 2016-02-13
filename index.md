@@ -3,7 +3,7 @@ layout: homepage
 published: true
 large-raffle-meter: true
 ---
-### About the team
+### Team 178, The 2nd Law Enforcers
 
 >The 2nd Law Enforcers have been an active participant in *FIRST* (For Inspiration & Recognition of Science & Technology) since 1997. We aim to provide real-world opportunities for our team members to grow as team members and leaders and to educate the public about STEM topics. Read more [here](http://farmingtonrobotics.org/about).
 

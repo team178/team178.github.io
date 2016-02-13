@@ -4,7 +4,7 @@ layout: fullwidth
 published: true
 ---
 
-## Competition History and Robots
+## The 2nd Law Enforcer's Team History 
 
 ### Timeline
 
