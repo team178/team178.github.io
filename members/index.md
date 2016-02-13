@@ -2,19 +2,29 @@
 title: Members Section
 published: true
 ---
-## Join Today
+## Members Section
 
-If you would like to join the team or contact the coaches, information is available here.
+# Join Today
 
-<a class="btn2" href= "http://www.farmingtonrobotics.org/members/communication">Contact information</a>  <a class="btn2" href="http://farmingtonrobotics.org/members/join">How To join</a>.  
+If you are interested in joining the team or contacting the coaches, all of the information is available here:
+<div style="text-align:center; padding:5px;">
+  <a class="btn" href="{{ site.url }}/members/join">How To join</a>
+  <a class="btn" href= "{{ site.url }}/members/communication">Communication</a>
+</div>
 
-## Parents
-Parents, if you would like your son or daughter to join, information is available in the <a class="btn2" href="http://farmingtonrobotics.org/members/join">Join Section</a>.
+# Curious People
+If you're wondering what the 2nd Law Enforcers are and what we're all about, take a look at these links:
+<div style="text-align:center; padding:5px;">
+  <a class="btn" href="{{ site.url }}/about">About Us</a>
+  <a class="btn" href="{{ site.url }}/history">Team History</a>
+  <a class="btn" href="{{ site.url }}/members/handbook">Team Handbook</a>
+</div>
 
-If you have any questions about Team 178 as a whole, take a look at the
-<a class="btn2" href="http://farmingtonrobotics.org/members/handbook">Team Handbook</a>.
-
-
-## Current Members
-
-Click here for the <a class="members_calendar" href="http://farmingtonrobotics.org/members/calendar">Calendar</a>, <a class="members_handbook" href="http://farmingtonrobotics.org/members/handbook">Forms</a>, and <a class="members_drive" href="http://farmingtonrobotics.org/members/drive">Shared Drive</a>.
+# Current Members
+Here are some important places to go:
+<div style="text-align:center; padding:5px;">
+  <a class="btn" href="{{ site.url }}/calendar">Calendar</a>
+  <a class="btn" href="{{ site.url }}/members/forms">Forms</a>
+  <a class="btn" href="{{ site.url }}/members/drive">Shared Drive</a>
+  <a class="btn" href="{{ site.url }}/members/safety">Safety Video</a>
+</div>
