@@ -119,30 +119,3 @@ around it. */
   margin-bottom: 5px;
   margin-top: 15px;
 }
-/* This is a smaller button that fuctions the same as the "btn" class */
-.btn2 {
-  background: #1A245B;
-  background-image: -webkit-linear-gradient(top, #1A245B, #0F0838);
-  background-image: -moz-linear-gradient(top, #1A245B, #0F0838);
-  background-image: -ms-linear-gradient(top, #1A245B, #0F0838);
-  background-image: -o-linear-gradient(top, #1A245B, #0F0838);
-  background-image: linear-gradient(to bottom, #1A245B, #0F0838);
-  -webkit-border-radius: 15;
-  -moz-border-radius: 15;
-  border-radius: 5px;
-  color: #FFD000;
-  font-size: 20px;
-  margin:;
-  padding: 5px 10px 5px 10px;
-  text-decoration: none;
-}
-.btn2:hover {
-  background: #FFD000;
-  background-image: -webkit-linear-gradient(top, #FFD000, #C09000);
-  background-image: -moz-linear-gradient(top, #FFD000, #C09000);
-  background-image: -ms-linear-gradient(top, #FFD000, #C09000);
-  background-image: -o-linear-gradient(top, #FFD000, #C09000);
-  background-image: linear-gradient(to bottom, #FFD000, #C09000);
-  color: #1A245B;
-  text-decoration: none;
-}
