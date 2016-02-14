@@ -143,7 +143,7 @@ nav {
     z-index: 1;
     position: absolute;
     margin: 2rem 0 0 -3rem; padding: 0;
-    max-width: 9rem;
+    max-width: 10.25rem;
     border-radius: 5px;
   }
 
@@ -179,7 +179,7 @@ nav {
     margin: 0;
   }
   #nav li ul {
-    margin-left: 9.75rem;
+    margin-left: 10.9rem;
     margin-top: -2.25rem;
   }
   /* Moves triangle for secondary dropdowns to side */
