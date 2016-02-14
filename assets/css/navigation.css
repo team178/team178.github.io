@@ -1,7 +1,5 @@
 #menu-toggle {
   display: none;
-  position:fixed;
-
 }
 
 nav {
@@ -12,13 +10,11 @@ nav {
   background-size: 1px, 1px, 1px;
   background-position: 0px 0px, 1px 0px, 2px 0px;
   background-repeat: no-repeat;
-
 }
 
 #nav {
   margin: 0; padding: 0;
   list-style-type: none;
-
 }
 
 /** Primary navigation items **/
