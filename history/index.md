@@ -4,7 +4,7 @@ layout: fullwidth
 published: true
 ---
 
-## The 2nd Law Enforcer's Team History 
+## Our Team History 
 
 ### Timeline
 
