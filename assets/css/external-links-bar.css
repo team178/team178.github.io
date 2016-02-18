@@ -1,45 +1,62 @@
 #external-links-bar {
   order: 2;
+  margin-right: 25px;
 }
 
 #external-links-bar a {
   display: inline-block;
   vertical-align: top;
   margin: 0 5px;
+  width: 32px; height: 32px;
+  background-size: 32px 32px;
 }
 
 #external-links-bar a:hover {
   margin: -2px 3px;
-}
-
-#external-links-bar a img {
-  width: 32px; height: 32px;
-}
-
-#external-links-bar a:hover img:hover {
   width: 36px; height: 36px;
+  background-size: 36px 36px;
+}
+/* This is the code that gives the links their background images. */
+#facebook-link {
+  background-image: url("../img/externals/facebook.png");
+}
+#twitter-link {
+  background-image: url("../img/externals/twitter.png");
+}
+#youtube-link {
+  background-image: url("../img/externals/youtube.png");
+}
+#tumblr-link {
+  background-image: url("../img/externals/tumblr.png");
+}
+#github-link {
+  background-image: url("../img/externals/github.png");
 }
 
 @media screen and (max-width: 1030px) {
   #external-links-bar a:hover {
     margin: -1px 4px;
-  }
-
-  #external-links-bar a img {
-    width: 24px; height: 24px;
-  }
-
-  #external-links-bar a:hover img:hover {
     width: 26px; height: 26px;
+    background-size: 26px 26px;
+  }
+  #external-links-bar a {
+    width: 24px; height: 24px;
+    background-size: 24px 24px;
+  }
+  #external-links-bar {
+    margin-right: 45px;
   }
 }
-
 @media screen and (max-width: 875px) {
   #external-links-bar {
-    margin: 10px 0 0 0;
+    margin-right: 60px;
   }
 }
-
+@media screen and (max-width: 810px) {
+  #external-links-bar {
+    margin-right: 0;
+  }
+}
 @media screen and (max-width: 380px) {
   #external-links-bar {
     display: none;

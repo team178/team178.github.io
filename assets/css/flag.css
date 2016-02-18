@@ -1,6 +1,6 @@
 .inset { /* shadow at top */
-	width: 200px;
-	height: 55px;
+	width: 200px; height: 55px;
+	margin-left: -40px;
 	position: absolute;
 	top: -50px;
 	left: -10px;

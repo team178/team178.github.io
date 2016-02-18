@@ -1,7 +1,5 @@
 #menu-toggle {
   display: none;
-  position:fixed;
-
 }
 
 nav {
@@ -12,13 +10,11 @@ nav {
   background-size: 1px, 1px, 1px;
   background-position: 0px 0px, 1px 0px, 2px 0px;
   background-repeat: no-repeat;
-
 }
 
 #nav {
   margin: 0; padding: 0;
   list-style-type: none;
-
 }
 
 /** Primary navigation items **/
@@ -101,29 +97,38 @@ nav {
 @media screen and (max-width: 810px) {
   #menu-toggle {
     order: 0;
-    padding-right: 10px;
-    background-repeat: no-repeat;
+    margin-right: 10px;
     display: block;
-    width: 2rem; height: 2rem;
-    background-image: url("../img/gold-menu.png");
-    opacity: 0.95;
-    transition: 0.2s opacity;
-/*    -webkit-transition: .65s ease-in-out;
-    -moz-transition: .65s ease-in-out;
-    -o-transition: .65s ease-in-out; */
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ffd000;
+    width: 2.25rem; height: 2.25rem;
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    -o-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+    /* Makes menu icon not selectable by user */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently not supported by any browser */
+    cursor: default;
   }
+  #menu-toggle.rotate {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    transform-origin: 50% 35%;
+}
+
   #header h1 {
     order: 1;
     flex: 1;
-  }
-
-  #menu-toggle:hover {
-    opacity: 1;
-/*    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg); */
   }
 
   nav {
@@ -147,7 +152,7 @@ nav {
     z-index: 1;
     position: absolute;
     margin: 2rem 0 0 -3rem; padding: 0;
-    max-width: 9rem;
+    max-width: 10.25rem;
     border-radius: 5px;
   }
 
@@ -183,7 +188,7 @@ nav {
     margin: 0;
   }
   #nav li ul {
-    margin-left: 9.75rem;
+    margin-left: 10.9rem;
     margin-top: -2.25rem;
   }
   /* Moves triangle for secondary dropdowns to side */
