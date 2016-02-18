@@ -108,11 +108,6 @@ nav {
     -moz-transition: .35s ease-in-out;
     -o-transition: .35s ease-in-out;
     transition: .35s ease-in-out;
-    -webkit-transform: scale(1,1.15);
-    -moz-transform: scale(1,1.15);
-    -ms-transform: scale(1,1.15);
-    -o-transform: scale(1,1.15);
-    transform: scale(1,1.15);
     /* Makes menu icon not selectable by user */
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none;   /* Chrome/Safari/Opera */
