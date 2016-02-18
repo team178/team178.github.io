@@ -6,4 +6,5 @@ $(function() {
 
 function toggleMenu() {
     $("#nav").toggleClass('show');
+    $("#menu-toggle").toggleClass('rotate')
 }
