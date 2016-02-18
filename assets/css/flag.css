@@ -112,7 +112,6 @@
 	 50% {opacity: 1.0;}
 	 100% {-webkit-transform: scale(1, 1); opacity: 1.0;}
 }
-}
 
 @media (max-width: 835px) {
 	.flags {
