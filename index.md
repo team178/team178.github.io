@@ -15,11 +15,12 @@ large-raffle-meter: true
 
 >One of the ways our team is able to function is through the help of our wonderful sponsors, including UTC Otis Elevator, ebm-papst Inc., and UTC Sikorsky Aircraft Corporation. Learn more about each of our sponsors [here](http://farmingtonrobotics.org/sponsors).
 
+<!--
 ### Upcoming events
-- Suffield Shakedown Scrimmage - Feb 20, 2016
 
 ### How to join
 
 Interested in joining the team? Check our [how to join](http://farmingtonrobotics.org/members) page!
-<div width="100%" style="text-align:center; font-size:25px; font-weight:bold;">Full Team Calendar</div>
+-->
+
 {% include calendar.html %}
