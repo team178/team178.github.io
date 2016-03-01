@@ -25,6 +25,7 @@
 	margin: 0 auto;
 	border-left: 1px solid #1A245B; /* left edge */
 	border-right: 1px solid #1A245B; /* right edge */
+	z-index: 0;
 }
 
 .base {
