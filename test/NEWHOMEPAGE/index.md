@@ -4,7 +4,7 @@ published: true
 large-raffle-meter: true
 ---
 
-#This is the test homepage!!!!!!
+# This is the test homepage!!!!!!
 
 <img class ="float-right" alt= "Team Photo 178" style="width:100%;" src="/assets/img/TeamPhoto.jpeg"/>
 
