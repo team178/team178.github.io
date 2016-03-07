@@ -119,3 +119,11 @@ around it. */
   margin-bottom: 5px;
   margin-top: 15px;
 }
+
+/* This makes third headers that are links not be bright gold (for sponsor page) */
+h3 a {
+  color: #8A7200;
+}
+h3 a:hover {
+    color: #E5BB00;
+}
