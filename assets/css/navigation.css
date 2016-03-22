@@ -110,10 +110,10 @@ nav {
     margin-right: 10px;
     display: block;
     width: 2rem; height: 2rem;
-    -webkit-transition: .35s ease-in-out;
-    -moz-transition: .35s ease-in-out;
-    -o-transition: .35s ease-in-out;
-    transition: .35s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
     margin-bottom: 4px;
   }
   #menu-toggle.rotate {
@@ -188,6 +188,9 @@ nav {
   #nav li ul {
     margin-left: 10.9rem;
     margin-top: -2.25rem;
+  }
+  #nav li ul a {
+    font-size: 1.025rem;
   }
   /* Moves triangle for secondary dropdowns to side */
   #nav li ul:before {
