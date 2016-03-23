@@ -33,18 +33,10 @@ Located in New Britain, CT, Parker Fluid Control Division is a world leader in t
 <a target="_blank" href="http://fpsct.org"><img class="float-left" alt="Farmington Public Schools Logo" style="width: 225px;" src="{{ site.url }}/assets/img/sponsors/fps-logo.jpg" /></a>
 Located in Farmington, CT, Farmington Public Schools is committed to helping all students reach high levels of educational achievement in preparation for productive, rewarding lives and responsible citizenship. Farmington Public Schools graciously allows the use of buildings throughout the district to support robotics for all grade levels, including FLLJr., FLL and FRC. In addition, they support our efforts by providing us with outstanding teacher mentors, computers, and transportation to various competitions and community outreach events.
 
-### Data Management Inc: (Bronze Sponsor)
-<a target="_blank" href="https://www.datamanage.com"><img class="float-left" alt="Data Management Inc Logo" style="width: 230px;" src="{{ site.url }}/assets/img/sponsors/data-management.jpg" /></a>
-Located right next-door to our warehouse, Data Management is a customer-focused developer of specialized business forms and systems that help organizations achieve their best results. They also constantly help out our team in many ways, such as donating old equipment or office furniture, or just plowing the driveway during the winter.
-
-### Barnes Group Inc: (Bronze Sponsor)
-<a target="_blank" href="http://www.barnesgroupinc.com"><img class="float-left" alt="Barnes Group Inc Logo" style="width: 200px;" src="{{ site.url }}/assets/img/sponsors/barnes-logo.gif" /></a>
-Located in Bristol, CT, Barnes Group Inc is a diversified global manufacturer and logistical services company that provides precision component manufacturing and operating service support and solutions to nearly every industry around the world.
-
-### Stanley Black & Decker, Inc: (Bronze Sponsor)
+<!--### Stanley Black & Decker, Inc: (Bronze Sponsor)
 <a target="_blank" href="http://www.stanleyblackanddecker.com"><img class="float-left" alt="Stanley Black and Decker Logo" style="width: 285px;" src="{{ site.url }}/assets/img/sponsors/stanley-logo.png" /></a>
 
-Headquartered in New Britain, Connecticut, Stanley Black & Decker have provided the nation with industrial tools and household hardware since 1843. Stanley Black & Decker is dedicated to the nation's future in mechanical engineering, by investing in  students, and providing them with a bright future in the world of technology.
+Headquartered in New Britain, Connecticut, Stanley Black & Decker have provided the nation with industrial tools and household hardware since 1843. Stanley Black & Decker is dedicated to the nation's future in mechanical engineering, by investing in  students, and providing them with a bright future in the world of technology.-->
 
 ### Travelers: (Bronze Sponsor)
 <a target="_blank" href="https://www.travelers.com"><img class="float-left" alt="Travelers Logo" style="width: 200px;" src="{{ site.url }}/assets/img/sponsors/travelers-logo.png" /></a>
@@ -61,34 +53,34 @@ Team 178 is looking for:
 
  - Mentors (donate your time!)
  - Monetary donations
- - Donations of supplies
- - Raffle prizes
+ - Supplies
  - Food
  - Tools/machines
  - Discounts
+ - Raffle prizes
 
 ## Sponsorship Levels
 
-Sponsor $50- $499
+Sponsor $50- $499 or 2-20 mentoring hours
 
  - Company name displayed on website
 
-Bronze Sponsor $500-$999
+Bronze Sponsor $500-$999 or 20-40 mentoring hours
 
  - Company prominently displayed on website
 
-Silver Sponsor $1,000-$4,999
+Silver Sponsor $1,000-$4,999 or 40-200 mentoring hours
 
  - Company prominently displayed on website
  - Company added to team t-shirt
 
-Gold Sponsor $5,000-$9,999
+Gold Sponsor $5,000-$9,999 or 200-400 mentoring hours
 
  - Company prominently displayed on website
  - Company added to team t-shirt
  - Company name displayed on team banner for 4 years
 
-Platinum Sponsor $10,000+
+Platinum Sponsor $10,000+ or 400+ mentoring hours
 
  - Company prominently displayed on website
  - Company added to team t-shirt
