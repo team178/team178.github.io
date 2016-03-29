@@ -33,10 +33,10 @@ Located in New Britain, CT, Parker Fluid Control Division is a world leader in t
 <a target="_blank" href="http://fpsct.org"><img class="float-left" alt="Farmington Public Schools Logo" style="width: 225px;" src="{{ site.url }}/assets/img/sponsors/fps-logo.jpg" /></a>
 Located in Farmington, CT, Farmington Public Schools is committed to helping all students reach high levels of educational achievement in preparation for productive, rewarding lives and responsible citizenship. Farmington Public Schools graciously allows the use of buildings throughout the district to support robotics for all grade levels, including FLLJr., FLL and FRC. In addition, they support our efforts by providing us with outstanding teacher mentors, computers, and transportation to various competitions and community outreach events.
 
-<!--### Stanley Black & Decker, Inc: (Bronze Sponsor)
+### Stanley Black & Decker, Inc: (Silver Sponsor)
 <a target="_blank" href="http://www.stanleyblackanddecker.com"><img class="float-left" alt="Stanley Black and Decker Logo" style="width: 285px;" src="{{ site.url }}/assets/img/sponsors/stanley-logo.png" /></a>
 
-Headquartered in New Britain, Connecticut, Stanley Black & Decker have provided the nation with industrial tools and household hardware since 1843. Stanley Black & Decker is dedicated to the nation's future in mechanical engineering, by investing in  students, and providing them with a bright future in the world of technology.-->
+Headquartered in New Britain, Connecticut, Stanley Black & Decker have provided the nation with industrial tools and household hardware since 1843. Stanley Black & Decker is dedicated to the nation's future in mechanical engineering, by investing in  students, and providing them with a bright future in the world of technology.
 
 ### Travelers: (Bronze Sponsor)
 <a target="_blank" href="https://www.travelers.com"><img class="float-left" alt="Travelers Logo" style="width: 200px;" src="{{ site.url }}/assets/img/sponsors/travelers-logo.png" /></a>
