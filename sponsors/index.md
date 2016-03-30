@@ -15,11 +15,11 @@ Farmington High *FIRST* Robotics, Team 178, is sponsored by Farmington-based Oti
 
 ### ebm-papst Inc.: (Platinum and Veteran Sponsor)
 <a target="_blank" href="http://www.ebmpapst.us"><img class="float-left" alt="ebm-papst Logo" style="width: 200px;" src="{{ site.url }}/assets/img/sponsors/ebmpapst-logo.svg.png" /></a>
-ebm-papst Inc. and the Enforcers have had a successful partnership since 2004. Mentors from ebm have guided our student led design process; providing invaluable feedback based on their engineering experience. Students determine what type of CAD files and geometry are needed to effectively produce robot parts off of ebm-papst Inc. “state of the art” equipment. Their mentors help with troubleshooting and working parts to production. ebm-papst Inc. provides materials, shop equipment time, and engineering resources. We especially would like to thank: Bill Aston, Matt Crossman, Dale Watson, and T.J. Swistro for their dedication and continued support.<br><br>
-
-In the March of 2015, ebm-papst Inc. was selected by the Connecticut Association of Schools as the recipient of their <a target="_blank" href="http://cas.casciac.org/?page_id=607">Distinguished Friend of Education Award</a>. They were nominated for this award by Farmington Public Schools. This award is given annually to a business which has made strong contributions to public education. ebm-papst Inc. has been a strong supporter of *FIRST* programs and a longtime advocate for STEM in New England and beyond. They generously support two FRC teams: ourselves and FRC 2836, Team Beta from Nonnewaug High School in Woodbury CT.<br><br>
-
-Moreover, ebm-papst Inc. is the world’s leading source for engineered air movement solutions. Every year, they also donates thousands of fans that go inside speed controllers and other components as part of the annual FRC kit of parts to *FIRST* teams around the world.
+ebm-papst Inc. and the Enforcers have had a successful partnership since 2004. Mentors from ebm have guided our student led design process; providing invaluable feedback based on their engineering experience. Students determine what type of CAD files and geometry are needed to effectively produce robot parts off of ebm-papst Inc. “state of the art” equipment. Their mentors help with troubleshooting and working parts to production. ebm-papst Inc. provides materials, shop equipment time, and engineering resources. We especially would like to thank: Bill Aston, Matt Crossman, Dale Watson, and T.J. Swistro for their dedication and continued support.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the March of 2015, ebm-papst Inc. was selected by the Connecticut Association of Schools as the recipient of their <a target="_blank" href="http://cas.casciac.org/?page_id=607">Distinguished Friend of Education Award</a>. They were nominated for this award by Farmington Public Schools. This award is given annually to a business which has made strong contributions to public education. ebm-papst Inc. has been a strong supporter of *FIRST* programs and a longtime advocate for STEM in New England and beyond. They generously support two FRC teams: ourselves and FRC 2836, Team Beta from Nonnewaug High School in Woodbury CT.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moreover, ebm-papst Inc. is the world’s leading source for engineered air movement solutions. Every year, they also donates thousands of fans that go inside speed controllers and other components as part of the annual FRC kit of parts to *FIRST* teams around the world.
 
 ### UTC Sikorsky Aircraft Corporation: (Platinum and Veteran Sponsor)
 <a target="_blank" href="http://www.sikorsky.com"><img class="float-left" alt="Sikorsky Aircraft Logo" style="width: 250px;" src="{{ site.url }}/assets/img/sponsors/sikorsky-logo.gif" /></a>
@@ -35,16 +35,13 @@ Located in Farmington, CT, Farmington Public Schools is committed to helping all
 
 ### Stanley Black & Decker, Inc: (Silver Sponsor)
 <a target="_blank" href="http://www.stanleyblackanddecker.com"><img class="float-left" alt="Stanley Black and Decker Logo" style="width: 285px;" src="{{ site.url }}/assets/img/sponsors/stanley-logo.png" /></a>
-
 Headquartered in New Britain, Connecticut, Stanley Black & Decker have provided the nation with industrial tools and household hardware since 1843. Stanley Black & Decker is dedicated to the nation's future in mechanical engineering, by investing in  students, and providing them with a bright future in the world of technology.
 
 ### Travelers: (Bronze Sponsor)
 <a target="_blank" href="https://www.travelers.com"><img class="float-left" alt="Travelers Logo" style="width: 200px;" src="{{ site.url }}/assets/img/sponsors/travelers-logo.png" /></a>
-
 Travelers is an insurance leader, committed to keeping pace with the ever-changing needs of their customers, and anticipating their needs for the future.
 
 ### <a target="_blank" href="http://www.farmingtonchamber.com">Farmington Chamber of Commerce: (Bronze Sponsor)
-
 The Farmington Chamber of Commerce is our town's local chamber of commerce with over 200 members that strives to create a network of local leaders and to pool the talents, skills, and resources of Farmington to support our town and improve our community.
 
 ## Want to become a sponsor?
