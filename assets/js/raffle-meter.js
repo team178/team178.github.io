@@ -1,26 +1,37 @@
 /*
-Hi! If you're reading this then you're probably not me. That means that you also probably don't understand how this works.
-I'll try and help you understand. There're a bunch of comments scattered around that should help you along. I would suggest
-that you read through this code carefully; the things that you have to change manually should be clearly marked, However,
-if they aren't everything should be explained below.
+Hi! If you're reading this then you're probably not me. That means that you also
+probably don't understand how this works.I'll try and help you understand.
+There're a bunch of comments scattered around that should help you along. I
+would suggest that you read through this code carefully; the things that you
+have to change manually should be clearly marked, However, if they aren't
+everything should be explained below.
 THINGS TO ENTER IN YOURSELF:
 * The date and time that the raffle ends.
-* After what number of days after the raffle that you want the meter content to change.
+* The number of days after the raffle that you want the meter content to change.
 * The link to the Google Sheet that the information is being stored in.
 * The column that the status of the tickets is recorded in.
-* The characters that are used to symbolize each state of the tickets. (If you change it for whatever reason, please also
-  change the comment to match.)
-*(maybe) The amount sold is multiplied by to create the money variable. (It's explained more at the point in the code.)
-* The message that automatically shows up when the time is up (I'm still iffy on what I've written there.)
-WHAT THIS CODE DOES:
-It pulls information from a Google Spreadsheet and counts the number of 0s ,1s, and 2s there are in a specified column. The
-number of 0s is counted as the number of booklets that haven't been touched; the number of 1s counts as the booklets that're
-out being sold; and the 2s count as the number of booklets that have been sold. These numbers are then turned into statistics
-that get displayed on the website as the progress bar. There are two different ways it gets displayed based on if large-raffle-meter= true
-in the .md file of the page.
+* The characters that are used to symbolize each state of the tickets. (If you
+change it for whatever reason, please also change the comment to match.)
+*(maybe) The amount "sold" is multiplied by to create the money variable. (It's
+explained more at the specific place in the code.)
+* The message that automatically shows up when the raffle ends. (I'm still iffy
+on what I've written there.)
+* The year that it currently is. (I'm sure there's a way to dynamically change
+that but I don't feel like coding that right now.)
 
-If you're /still/ confused after reading all of this please contact either [Tim Scalzo](19scalzoti@fpsct.org) or
-[Giselle Koo](gisellegk@gmail.com) for help. (Yes, I realize that this isn't actually markdown; I just wanted to do that.)
+WHAT THIS CODE DOES:
+It pulls information from a Google Spreadsheet and counts the number of 0s ,1s,
+and 2s there are in a specified column. The number of 0s is counted as the
+number of booklets that haven't been touched; the number of 1s counts as the
+booklets that're out being sold; and the 2s count as the number of booklets that
+have been sold. These numbers are then turned into statistics that get displayed
+on the website as the progress bar. There are two different ways it gets
+displayed based on if large-raffle-meter = true in the front matter of the page.
+
+If you're /still/ confused after reading all of this please contact either
+[Tim Scalzo](19scalzoti@fpsct.org) or [Giselle Koo](gisellegk@gmail.com) for
+help. (Yes, I realize that this isn't actually markdown; I just wanted to do
+that.)
 
 Thank you for taking the time to read this.
 ~~~~~~-Tim Scalzo
@@ -35,7 +46,7 @@ var soldTag; // blue
 var outTag; // yellow
 
 $( document ).ready(function() {
-  // Does not do this stuff until all the elements on the page are done rendering.
+  // Does not do this stuff until all the elements on the page are done loading.
   if($("#raffle-meter-container").length > 0) { // Length is the number of elements with this id.
     container = "#raffle-meter-container";
     soldTag = ".halfStyle.hs-vertical-third:before";
@@ -46,7 +57,7 @@ $( document ).ready(function() {
     outTag = "#raffle-meter-out";
   }
 
-  if(numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after.
+  if(numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after if you want.
 
     google.setOnLoadCallback(get_data);
     function get_data() {
@@ -56,8 +67,8 @@ $( document ).ready(function() {
       query.send(handleQueryResponse);
       // Note: The function will only run when the page is loaded.
 
-      if(numDays <= 1 && numDays > (1/24)) { // Makes function automatically refresh every 30 seconds when there's only a day left
-        setTimeout(function(){ get_data(); }, 30000);
+      if(numDays <= 1 && numDays > (1/24)) { // Makes function automatically refresh every minute when there's only a day left
+        setTimeout(function(){ get_data(); }, 60000);
       } else if(numDays <= (1/24)) { // Makes function automatically refresh every 100 miliseconds when there's only an hour left
         setTimeout(function(){ get_data(); }, 100);
       }
