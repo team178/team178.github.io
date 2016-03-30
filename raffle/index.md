@@ -20,13 +20,20 @@ large-raffle-meter: true
 #raffle-pictures {
 	padding: 1px 20px;
 }
+hr {
+	height: 5px;
+	color: #020579;
+	background-color: #020579;
+	border: none;
+	border-radius: 2px;
+}
 @media screen and (max-width: 768px) {
   #raffle-pictures {
     display: none;
   }
 }
 </style>
-
+<hr>
 # **The annual raffle for 2015 has recently ended!**
 
 A big thank you goes out to all of our supporters who bought tickets as well as congratulations to the prize winners!

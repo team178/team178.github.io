@@ -32,7 +32,7 @@
     top:0;
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow-x:hidden;
-    color: #1A245B;
+    color: #020579;
     text-shadow:
         -0.3vw -0.3vw 0 #FFD000,
          0.3vw -0.3vw 0 #FFD000,
