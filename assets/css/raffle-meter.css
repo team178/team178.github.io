@@ -74,8 +74,8 @@
     font-size: 16px;
     margin-bottom: .3%;
 }
-a.raffle-link {
-    /* This is here if we ever need to change anything. */
+.raffle-link {
+    display: inline;
 }
 
 /* For large screens */

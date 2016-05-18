@@ -121,8 +121,7 @@ $( document ).ready(function() {
       } else{ // no time left
         var timeLeft = "There's no time left!"
       }
-      $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft +"| <a class='raffle-link' href='/raffle'>About the raffle >></a>");
-      $(container).show(1000); // Makes the container visible; it's hidden by default so that a half-loaded meter isn't displayed.
+      $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft +"<div class='raffle-link'> | <a href='/raffle'>About the raffle >></a></div>");
     }
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
@@ -137,10 +136,13 @@ $( document ).ready(function() {
     var tagB = sheet.addElementToTag(".tooltip:hover:after", tooltipWidth); // Injects tootltipWidth into the tooltip's class.
     addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
     //                                                                   Set this manually.  V V V V
-    $("#percent").html("Our 2015 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,250+ earned | <a class='raffle-link' href='/raffle'>Winners >></a>");
+    $("#percent").html("Our 2015 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,250+ earned<div class='raffle-link'> | <a href='/raffle'>Winners >></a></div>");
 
     // This changes the tooltip to not include the tickets checked out.
     if($("#raffle-meter-container").length > 0) document.getElementById("raffle-tooltip").setAttribute("data-content", "Blue: Tickets sold \nYellow: Tickets not sold");
-    $(container).show(1000); // Makes the container visible; it's hidden by default so that a half-loaded meter isn't displayed.
   }
+  if (window.location.pathname == '/raffle' || '/raffle/') {
+    $('.raffle-link').hide(1000);
+  }
+  $(container).show(1000); // Makes the container visible; it's hidden by default so that a half-loaded meter isn't displayed.
 });
