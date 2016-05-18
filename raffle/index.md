@@ -27,7 +27,7 @@ hr {
 	border: none;
 	border-radius: 2px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 785px) {
   #raffle-pictures {
     display: none;
   }
