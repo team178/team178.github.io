@@ -48,7 +48,8 @@ A big thank you goes out to all of our supporters who bought tickets as well as 
 </div>
 
 
-###This Year's Winners:
+### This Year's Winners:
+
 __1st Prize:__ Melinda Krusz won an [Apple iPad Air 2](http://www.apple.com/ipad-air-2){:target="_blank"} Wifi with 64GB RAM, Apple Care and a [Smart Case](http://www.apple.com/shop/product/MGTT2ZM/A/ipad-air-2-smart-case-midnight-blue).
 
 __2nd Prize:__ Gail Adams won a [Toshiba Satellite](http://us.toshiba.com/computers/laptops/satellite) 15.6 in Laptop, i5 Processor, 8GB RAM, and 1TB HDD.
