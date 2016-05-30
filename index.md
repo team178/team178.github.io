@@ -5,22 +5,22 @@ large-raffle-meter: true
 ---
 ### About Team 178
 
->The 2nd Law Enforcers have been an active participant in *FIRST* (For Inspiration & Recognition of Science & Technology) since 1997. We aim to provide real-world opportunities for our team members to grow as team members and leaders and to educate the public about STEM topics. Read more [here](http://farmingtonrobotics.org/about).
+>The 2nd Law Enforcers have been an active participant in *FIRST* (For Inspiration & Recognition of Science & Technology) since 1997. We aim to provide real-world opportunities for our team members to grow as team members and leaders and to educate the public about STEM topics. Read more [here]({{ site.url }}/about).
 
 ### Dream *FIRST*
 
->Dream *FIRST* is our main outreach program for children ages 3 to 10, developed by our team. The goal of this program is to cultivate children's interest in science, technology, engineering, and math (STEM) because we believe that by training the kids at a young age, we can spark an interest in science that lasts a lifetime. Read more about this program [here](http://farmingtonrobotics.org/dreamfirst).
+>Dream *FIRST* is our main outreach program for children ages 3 to 10, developed by our team. The goal of this program is to cultivate children's interest in science, technology, engineering, and math (STEM) because we believe that by training the kids at a young age, we can spark an interest in science that lasts a lifetime. Read more about this program [here]({{ site.url }}/dreamfirst).
 
 ### Our Sponsors
 
->One of the ways our team is able to function is through the help of our wonderful sponsors, including UTC Otis Elevator, ebm-papst Inc., and UTC Sikorsky Aircraft Corporation. Learn more about each of our sponsors [here](http://farmingtonrobotics.org/sponsors).
+>One of the ways our team is able to function is through the help of our wonderful sponsors, including UTC Otis Elevator, ebm-papst Inc., and UTC Sikorsky Aircraft Corporation. Learn more about each of our sponsors [here]({{ site.url }}/sponsors).
 
 <!--
 ### Upcoming events
 
 ### How to join
 
-Interested in joining the team? Check our [how to join](http://farmingtonrobotics.org/members) page!
+Interested in joining the team? Check our [how to join]({{ site.url }}/members) page!
 -->
 
 {% include calendar.html %}
