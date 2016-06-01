@@ -1,5 +1,7 @@
 # The 2nd Law Enforcers Team Website
 
+[![Join the chat at https://gitter.im/team178/team178.github.io](https://badges.gitter.im/team178/team178.github.io.svg)](https://gitter.im/team178/team178.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Contributing
 When making a code related change to the website, be sure to follow the best practices below.
 
