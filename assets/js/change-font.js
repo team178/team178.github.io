@@ -19,7 +19,7 @@ function fontCookieCheck() {
 function fontAlert1() {
   swal({
     title: 'Dyslexia Font',
-    text: 'To use a dyslexia friendly font on this site called "Open Dyslexic" click the button below.',
+    text: 'To use the dyslexia friendly font <i>Open Dyslexic</i> on this site click, the button below.',
     type: 'info',
     showCancelButton: true,
     confirmButtonText: 'Open Dyslexic',
@@ -31,7 +31,7 @@ function fontAlert1() {
       createFontCookie();
       swal({
         title: 'You\'ve set the font!',
-        text: 'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings back to the original font, click the button next to the slider.',
+        text: 'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings back to the original font, click the button next to the switch.',
         showCloseButton: true,
         type: 'success',
       });
@@ -40,7 +40,7 @@ function fontAlert1() {
       createFontCookie();
       swal({
         title: 'You\'ve kept the same font!',
-        text: 'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings to use "Open Dyslexic," click the button next to the slider.',
+        text: 'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings to use <i>Open Dyslexic</i>, click the button next to the switch.',
         showCloseButton: true,
         type: 'success',
       });
@@ -70,7 +70,7 @@ function toggleFont() {
 
 function fontAlert2() {
   swal({
-    title: 'Choose a font',
+    title: 'Which font?',
     type: 'question',
     showCancelButton: true,
     confirmButtonText: 'Open Dyslexic',
@@ -98,8 +98,8 @@ function fontAlert2() {
       });
     } else {
       swal(
-        'No changes have been made',
-        'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings to use a different font, click the button next to the slider.'
+        'Nothing\'s changed',
+        'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings to use a different font, click the button next to the switch.'
       );
     }
   });
