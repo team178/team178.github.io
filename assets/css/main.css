@@ -85,8 +85,8 @@ iframe {max-width: 100%; }
   flex: 1;
 }
 #content article {
-	margin: auto;
-	max-width: 800px;
+  margin: auto;
+  max-width: 800px;
 }
 
 footer {
