@@ -19,7 +19,7 @@ function fontCookieCheck() {
 function fontAlert1() {
   swal({
     title: 'Dyslexia Font',
-    html: 'We have added support for using a dyslexia friendly font on this site. The font is called "Open Dyslexic" and if you would like to use it please click the button below.<br><br>If you don\'t want to use a special font, click cancel.',
+    text: 'To use a dyslexia friendly font on this site called "Open Dyslexic" click the button below.',
     type: 'info',
     showCancelButton: true,
     confirmButtonText: 'Open Dyslexic',
@@ -31,9 +31,8 @@ function fontAlert1() {
       createFontCookie();
       swal({
         title: 'You\'ve set the font!',
-        text: 'If you ever want to change the font temporarily, toggle the switch at the bottom of the page.<br><br>If you want to change your settings back to the original font, click the button next to the slider.',
+        text: 'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings back to the original font, click the button next to the slider.',
         showCloseButton: true,
-        timer: 10000,
         type: 'success',
       });
     } else if (isConfirm == false) {
@@ -41,9 +40,8 @@ function fontAlert1() {
       createFontCookie();
       swal({
         title: 'You\'ve kept the same font!',
-        text: 'If you ever want to change the font temporarily, toggle the switch at the bottom of the page.<br><br>If you want to change your settings to use Open Dyslexic, click the button next to the slider.',
+        text: 'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings to use "Open Dyslexic," click the button next to the slider.',
         showCloseButton: true,
-        timer: 10000,
         type: 'success',
       });
     } else {
@@ -72,7 +70,7 @@ function toggleFont() {
 
 function fontAlert2() {
   swal({
-    title: 'Which font do you want to use?',
+    title: 'Choose a font',
     type: 'question',
     showCancelButton: true,
     confirmButtonText: 'Open Dyslexic',
@@ -85,9 +83,8 @@ function fontAlert2() {
       createFontCookie();
       swal({
         title: 'The font is Open Dyslexic!',
-        text: 'If you ever want to change the font temporarily, toggle the switch at the bottom of the page.',
+        text: 'To change the font temporarily, toggle the switch at the bottom of the page.',
         showCloseButton: true,
-        timer: 10000,
         type: 'success',
       });
     } else if (isConfirm == false) {
@@ -95,15 +92,14 @@ function fontAlert2() {
       createFontCookie();
       swal({
         title: 'The font is Open Sans!',
-        text: 'If you ever want to change the font temporarily, toggle the switch at the bottom of the page.',
+        text: 'To change the font temporarily, toggle the switch at the bottom of the page.',
         showCloseButton: true,
-        timer: 10000,
         type: 'success',
       });
     } else {
       swal(
         'No changes have been made',
-        'If you ever want to change the font temporarily just toggle the switch at the bottom of the page.<br><br>If you want to change your settings to use Open Dyslexic, click the button next to the slider.'
+        'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings to use a different font, click the button next to the slider.'
       );
     }
   });
