@@ -29,6 +29,7 @@ around it. */
 }
 
 /* For styling buttons */
+/* Big, main buttons: */
 .btn {
   background: #1A245B;
   background-image: -webkit-linear-gradient(top, #1A245B, #0F0838);
@@ -41,7 +42,7 @@ around it. */
   border-radius: 5px;
   color: #FFD000;
   font-size: 20px;
-  padding: 7.5px 12.5px 7.5px 12.5px;
+  padding: 7.5px 12.5px;
   text-decoration: none;
 }
 .btn:hover {
@@ -52,7 +53,31 @@ around it. */
   background-image: -o-linear-gradient(top, #FFD000, #C09000);
   background-image: linear-gradient(to bottom, #FFD000, #C09000);
   color: #1A245B;
+}
+/* Small, footer button: */
+.sbtn {
+  background: #FFD000;
+  background-image: -webkit-linear-gradient(top, #FFD000, #C09000);
+  background-image: -moz-linear-gradient(top, #FFD000, #C09000);
+  background-image: -ms-linear-gradient(top, #FFD000, #C09000);
+  background-image: -o-linear-gradient(top, #FFD000, #C09000);
+  background-image: linear-gradient(to bottom, #FFD000, #C09000);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 10px;
+  color: #1A245B;
+  font-size: 15px;
+  padding: 5px 10px;
   text-decoration: none;
+}
+.sbtn:hover {
+  background: #FcFF5F;
+  background-image: -webkit-linear-gradient(top, #FcFF5F, #FFD000);
+  background-image: -moz-linear-gradient(top, #FcFF5F, #FFD000);
+  background-image: -ms-linear-gradient(top, #FcFF5F, #FFD000);
+  background-image: -o-linear-gradient(top, #FcFF5F, #FFD000);
+  background-image: linear-gradient(to bottom, #FcFF5F, #FFD000);
+  color: #1A245B;
 }
 
 /* For making iframe embedded videos keep their ratio */
