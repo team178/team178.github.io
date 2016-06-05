@@ -1,18 +1,15 @@
-var font = null;
-var font4Cookie = null;
-var fontInCookie = null;
 function fontCookieCheck() {
-  fontInCookie = readCookie('178fontcookie');
+  var fontInCookie = readCookie('178fontcookie');
   if (!fontInCookie) {
-    font = null;
     fontAlert1();
   } else {
       if (fontInCookie == "Open Dyslexic") {
-      font = "Open Dyslexic";
+      var font = "Open Dyslexic";
     } else if (fontInCookie == "Open Sans") {
-      font = "Open Sans";
+      var font = "Open Sans";
     }
-    setFont();
+    setFont(font);
+    return font;
   }
 }
 
@@ -27,8 +24,7 @@ function fontAlert1() {
     allowEscapeKey: false,
   }).then(function setFont4Cookie(isConfirm) {
     if (isConfirm) {
-      font4Cookie = "Open Dyslexic";
-      createFontCookie();
+      createFontCookie("Open Dyslexic");
       swal({
         title: 'You\'ve set the font!',
         text: 'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings back to the original font, click the button next to the switch.',
@@ -36,8 +32,7 @@ function fontAlert1() {
         type: 'success',
       });
     } else if (isConfirm == false) {
-      font4Cookie = "Open Sans";
-      createFontCookie();
+      createFontCookie("Open Sans");
       swal({
         title: 'You\'ve kept the same font!',
         text: 'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings to use <i>Open Dyslexic</i>, click the button next to the switch.',
@@ -54,18 +49,18 @@ function fontAlert1() {
   });
 }
 
-function createFontCookie() {
+function createFontCookie(font4Cookie) {
   createCookie('178fontcookie',font4Cookie,5475);
   fontCookieCheck();
 }
 
 function toggleFont() {
   if (document.body.style.fontFamily = "Open Sans") {
-    font = "Open Dyslexic";
+    var font = "Open Dyslexic";
   } else {
-    font = "Open Sans";
+    var font = "Open Sans";
   }
-  setFont();
+  setFont(font);
 }
 
 function fontAlert2() {
@@ -79,8 +74,7 @@ function fontAlert2() {
     showCloseButton: true,
   }).then(function setFont4Cookie(isConfirm) {
     if (isConfirm) {
-      font4Cookie = "Open Dyslexic";
-      createFontCookie();
+      createFontCookie("Open Dyslexic");
       swal({
         title: 'The font is Open Dyslexic!',
         text: 'To change the font temporarily, toggle the switch at the bottom of the page.',
@@ -88,8 +82,7 @@ function fontAlert2() {
         type: 'success',
       });
     } else if (isConfirm == false) {
-      font4Cookie = "Open Sans";
-      createFontCookie();
+      createFontCookie("Open Sans");
       swal({
         title: 'The font is Open Sans!',
         text: 'To change the font temporarily, toggle the switch at the bottom of the page.',
@@ -105,7 +98,7 @@ function fontAlert2() {
   });
 }
 
-function setFont() {
+function setFont(font) {
   if (font != null) {
     document.body.style.fontFamily = font;
     // This part makes everything zoom out to look like it's the right size.
