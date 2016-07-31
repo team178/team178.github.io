@@ -3,13 +3,9 @@ function fontCookieCheck() {
   if (!fontInCookie) {
     fontAlert1();
   } else {
-      if (fontInCookie == "Open Dyslexic") {
-      var font = "Open Dyslexic";
-    } else if (fontInCookie == "Open Sans") {
-      var font = "Open Sans";
-    }
-    setFont(font);
-    return font;
+      var font = fontInCookie;
+      setFont(font);
+      return font;
   }
 }
 
@@ -55,12 +51,11 @@ function createFontCookie(font4Cookie) {
 }
 
 function toggleFont() {
-  if (document.body.style.fontFamily = "Open Sans") {
-    var font = "Open Dyslexic";
+  if ($("body").css('fontFamily') == "'Open Sans'") {
+    setFont("Open Dyslexic");
   } else {
-    var font = "Open Sans";
+    setFont("Open Sans");
   }
-  setFont(font);
 }
 
 function fontAlert2() {
@@ -103,7 +98,7 @@ function setFont(font) {
     document.body.style.fontFamily = font;
     // This part makes everything zoom out to look like it's the right size.
     // TODO: Make things look *more* correct by setting other styles to be different.
-    if (font == "Open Dyslexic") {
+    if ($("body").css('fontFamily') == "'Open Dyslexic'") {
       document.body.style.zoom = .95;
     } else {
       document.body.style.zoom = 1;
