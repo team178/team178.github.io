@@ -12,24 +12,23 @@ around it. */
 
 /* For adding hover tooltips to elements */
 .tooltip{
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 .tooltip:hover:after{
-    background: #333;
-    background: rgba(0,0,0,.8);
-    border-radius: 5px;
-    color: #fff;
-    white-space: pre;
-    content: attr(data-content);
-    padding: 5px 15px;
-    position: absolute;
-    z-index: 98;
-    width: 195px;
+  background: #333;
+  background: rgba(0,0,0,.8);
+  border-radius: 5px;
+  color: #fff;
+  white-space: pre;
+  content: attr(data-content);
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 98;
+  width: 195px;
 }
 
 /* For styling buttons */
-/* Big, main buttons: */
 .btn {
   background: #1A245B;
   background-image: -webkit-linear-gradient(top, #1A245B, #0F0838);
@@ -85,7 +84,7 @@ around it. */
 
 /* Makes content wider */
 #content article.fullwidth {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /* This makes third headers that are links not be bright gold (for sponsor page) */
@@ -93,5 +92,5 @@ h3 a {
   color: #8A7200;
 }
 h3 a:hover {
-    color: #E5BB00;
+  color: #E5BB00;
 }
