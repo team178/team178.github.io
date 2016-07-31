@@ -100,7 +100,9 @@ function setFont(font) {
     // TODO: Make things look *more* correct by setting other styles to be different.
     if ($("body").css('fontFamily') == "'Open Dyslexic'") {
       document.body.style.zoom = .95;
+      $('.switch-input')[0].checked = true;
     } else {
+      $('.switch-input')[0].checked = false;
       document.body.style.zoom = 1;
     }
   }

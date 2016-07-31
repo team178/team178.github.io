@@ -1,0 +1,128 @@
+/* Font toggle switch: */
+.switch-container {
+  background: #E5BB00;
+  border: 2px solid #C09000;
+  border-radius: 18px;
+  display: inline-block;
+  margin-right: 2.5px;
+  background-image: -webkit-linear-gradient(top, #E5BB00, #C09000);
+  background-image: -moz-linear-gradient(top, #E5BB00, #C09000);
+  background-image: -ms-linear-gradient(top, #E5BB00, #C09000);
+  background-image: -o-linear-gradient(top, #E5BB00, #C09000);
+  background-image: linear-gradient(to bottom, #E5BB00, #C09000);
+}
+.switch-info {
+  color: #1A245B;
+  float: left;
+  margin-left: 10px;
+  margin-right: 5px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 15px;
+  font-family: Open Dyslexic
+}
+.switch-info:empty {
+  margin: 0px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 56px;
+  height: 20px;
+  padding: 3px;
+  background-color: #FFDE4C;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.switch-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.switch-label {
+  position: relative;
+  display: block;
+  height: inherit;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #1A245B;
+  border-radius: inherit;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+  -webkit-transition-property: opacity background;
+  -moz-transition-property: opacity background;
+  -o-transition-property: opacity background;
+  transition-property: opacity background;
+}
+.switch-label:before, .switch-label:after {
+  position: absolute;
+  top: 50%;
+  margin-top: -.5em;
+  line-height: 1;
+  -webkit-transition: inherit;
+  -moz-transition: inherit;
+  -o-transition: inherit;
+  transition: inherit;
+}
+.switch-label:before {
+  content: attr(data-off);
+  right: 8px;
+  color: #FcFF5F;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+.switch-label:after {
+  content: attr(data-on);
+  left: 11px;
+  color: #1A245B;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+}
+.switch-input:checked ~ .switch-label {
+  background: #FFDE4C;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.switch-input:checked ~ .switch-label:before {
+  opacity: 0;
+}
+.switch-input:checked ~ .switch-label:after {
+  opacity: 1;
+}
+.switch-handle {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 18px;
+  height: 18px;
+  background: #FFD000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  background-image: -webkit-linear-gradient(top, #E5BB00, #C09000);
+  background-image: -moz-linear-gradient(top, #E5BB00, #C09000);
+  background-image: -ms-linear-gradient(top, #E5BB00, #C09000);
+  background-image: -o-linear-gradient(top, #E5BB00, #C09000);
+  background-image: linear-gradient(to bottom, #E5BB00, #C09000);
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+}
+.switch-handle:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -6px 0 0 -6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+}
+.switch-input:checked ~ .switch-handle {
+  left: 40px;
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
