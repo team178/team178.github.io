@@ -29,6 +29,7 @@ around it. */
 }
 
 /* For styling buttons */
+/* Big, main buttons: */
 .btn {
   background: #1A245B;
   background-image: -webkit-linear-gradient(top, #1A245B, #0F0838);
@@ -44,13 +45,35 @@ around it. */
   padding: 7.5px 12.5px;
   text-decoration: none;
 }
-.btn:hover {
+.btn:hover, .sbtn {
+  background: #E5BB00;
+  background-image: -webkit-linear-gradient(top, #E5BB00, #C09000);
+  background-image: -moz-linear-gradient(top, #E5BB00, #C09000);
+  background-image: -ms-linear-gradient(top, #E5BB00, #C09000);
+  background-image: -o-linear-gradient(top, #E5BB00, #C09000);
+  background-image: linear-gradient(to bottom, #E5BB00, #C09000);
+  color: #1A245B;
+}
+/* Small, footer button: */
+.sbtn {
+  height: 26px;
+  font-family: Open Dyslexic;
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border: 2px solid #C09000;
+  border-radius: 18px;
+  font-size: 15px;
+  padding: 0px 10px;
+  text-decoration: none;
+  margin-left: 2.5px;
+}
+.sbtn:hover {
   background: #FFD000;
-  background-image: -webkit-linear-gradient(top, #FFD000, #C09000);
-  background-image: -moz-linear-gradient(top, #FFD000, #C09000);
-  background-image: -ms-linear-gradient(top, #FFD000, #C09000);
-  background-image: -o-linear-gradient(top, #FFD000, #C09000);
-  background-image: linear-gradient(to bottom, #FFD000, #C09000);
+  background-image: -webkit-linear-gradient(top, #FFD000, #E5BB00);
+  background-image: -moz-linear-gradient(top, #FFD000, #E5BB00);
+  background-image: -ms-linear-gradient(top, #FFD000, #E5BB00);
+  background-image: -o-linear-gradient(top, #FFD000, #E5BB00);
+  background-image: linear-gradient(to bottom, #FFD000, #E5BB00);
   color: #1A245B;
 }
 
@@ -93,4 +116,9 @@ h3 a {
 }
 h3 a:hover {
   color: #E5BB00;
+}
+
+/* This styles the container for all of the font stuff in the footer */
+#font-stuff {
+  margin-bottom: 10px;
 }
