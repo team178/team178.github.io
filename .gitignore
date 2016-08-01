@@ -3,6 +3,7 @@
 
 # OS X
 .DS_Store
+.hushlogin
 
 # Windows
 Thumbs.db
