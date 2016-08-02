@@ -29,6 +29,7 @@ function fontAlert1() {
         showCloseButton: true,
         type: 'success',
       });
+      $("#font-stuff").css('display', 'block');
     } else if (isConfirm == false) {
       createFontCookie("Open Sans");
       swal({
@@ -37,6 +38,7 @@ function fontAlert1() {
         showCloseButton: true,
         type: 'success',
       });
+      $("#font-stuff").css('display', 'block');
     } else {
       swal(
         'Uhhhh...',
