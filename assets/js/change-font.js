@@ -89,6 +89,8 @@ function fontAlert2() {
         type: 'success',
       });
     } else {
+      $(".swal2-modal").css('fontFamily', $("body").css('fontFamily'));
+      $("button").css('fontFamily', $("body").css('fontFamily'));
       swal(
         'Nothing\'s changed',
         'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings to use a different font, select the button next to the switch.'
