@@ -29,7 +29,6 @@ function fontAlert1() {
         showCloseButton: true,
         type: 'success',
       });
-      $("#font-stuff").css('display', 'block');
     } else if (isConfirm == false) {
       createFontCookie("Open Sans");
       swal({
@@ -38,7 +37,6 @@ function fontAlert1() {
         showCloseButton: true,
         type: 'success',
       });
-      $("#font-stuff").css('display', 'block');
     } else {
       swal(
         'Uhhhh...',
@@ -104,6 +102,7 @@ function setFont(font) {
     $("body").css('fontFamily', font);
     $(".swal2-modal").css('fontFamily', font);
     $("button").css('fontFamily', font);
+    $("#font-stuff").css('display', 'block');
     // This part makes everything zoom out to look like it's the right size.
     // TODO: Make things look *more* correct by setting other styles to be different.
     if ($("body").css('fontFamily') == "'Open Dyslexic'") {
