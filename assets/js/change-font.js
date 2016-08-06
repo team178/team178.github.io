@@ -1,11 +1,17 @@
+var isDyslexic = "false";
 function fontCookieCheck() {
   var fontInCookie = readCookie('178fontcookie');
+  isDyslexic = fontInCookie;
   if (!fontInCookie) {
     fontAlert1();
   } else {
-      var font = fontInCookie;
+      if (isDyslexic == "true") {
+        var font = "Open Dyslexic";
+      } else {
+        var font = "Open Sans";
+      }
       setFont(font);
-      return font;
+      
   }
 }
 
@@ -22,7 +28,7 @@ function fontAlert1() {
     allowEscapeKey: false,
   }).then(function setFont4Cookie(isConfirm) {
     if (isConfirm) {
-      createFontCookie("Open Dyslexic");
+      createFontCookie("true");
       swal({
         title: 'You\'ve set the font!',
         text: 'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings back to the original font, select the button next to the switch.',
@@ -30,7 +36,7 @@ function fontAlert1() {
         type: 'success',
       });
     } else if (isConfirm == false) {
-      createFontCookie("Open Sans");
+      createFontCookie("false");
       swal({
         title: 'You\'ve kept the same font!',
         text: 'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings to use <i>Open Dyslexic</i>, select the button next to the switch.',
@@ -49,14 +55,17 @@ function fontAlert1() {
 
 function createFontCookie(font4Cookie) {
   createCookie('178fontcookie',font4Cookie,5475);
+  isDyslexic = font4Cookie;
   fontCookieCheck();
 }
 
 function toggleFont() {
-  if ($("body").css('fontFamily') == "'Open Sans'") {
-    setFont("Open Dyslexic");
-  } else {
+  if (isDyslexic == "true") {
+    isDyslexic = "false";
     setFont("Open Sans");
+  } else {
+    isDyslexic = "true";
+    setFont("Open Dyslexic");
   }
 }
 
@@ -73,7 +82,7 @@ function fontAlert2() {
     showCloseButton: true,
   }).then(function setFont4Cookie(isConfirm) {
     if (isConfirm) {
-      createFontCookie("Open Dyslexic");
+      createFontCookie("true");
       swal({
         title: 'The font is Open Dyslexic!',
         text: 'To change the font temporarily, toggle the switch at the bottom of the page.',
@@ -81,7 +90,7 @@ function fontAlert2() {
         type: 'success',
       });
     } else if (isConfirm == false) {
-      createFontCookie("Open Sans");
+      createFontCookie("false");
       swal({
         title: 'The font is Open Sans!',
         text: 'To change the font temporarily, toggle the switch at the bottom of the page.',
@@ -107,7 +116,7 @@ function setFont(font) {
     $("#font-stuff").css('display', 'block');
     // This part makes everything zoom out to look like it's the right size.
     // TODO: Make things look *more* correct by setting other styles to be different.
-    if ($("body").css('fontFamily') == "'Open Dyslexic'") {
+    if (isDyslexic == "true") {
       document.body.style.zoom = .95;
       $('.switch-input')[0].checked = true;
     } else {
