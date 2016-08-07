@@ -14,6 +14,7 @@ layout: blank
     <a class="sbtn" style="cursor: pointer; display: none;" onclick="fontAlert2()">Change Font Settings</a>
     <a class="sbtn" style="cursor: pointer;" onclick="fontCookieCheck()">Check for Cookie</a>
     <a class="sbtn" style="cursor: pointer;" onclick="eraseCookie('178fontcookie')">Remove Cookie</a>
+    <br><a class="sbtn" style="cursor: pointer;" onclick="alert($(window).width())">What's the width?</a>
   </div>
 </footer>
   <h1>Oh no! There's a bunch of weird latin stuff!</h1>
