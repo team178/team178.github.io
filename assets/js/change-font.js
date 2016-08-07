@@ -11,12 +11,11 @@ function fontCookieCheck() {
         var font = "Open Sans";
       }
       setFont(font);
-
   }
 }
 
 function fontAlert1() {
-  if ($(window).width() >= 435) {
+  if ($(window).width() > 667) {
     $(".swal2-modal").css('fontFamily', 'Open Dyslexic');
     $("button").css('fontFamily', 'Open Dyslexic');
     swal({
