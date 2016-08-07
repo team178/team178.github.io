@@ -4,14 +4,14 @@ layout: blank
 <footer>
   <div id="test-font-stuff">
     <div class="switch-container">
-        <div class="switch-info">Dyslexia font:</div>
+        <div class="switch-info">Dyslexia font is</div>
         <label class="switch">
           <input type="checkbox" class="switch-input" onclick="toggleFont()">
           <span class="switch-label" data-on="On" data-off="Off"></span>
           <span class="switch-handle"></span>
         </label>
     </div>
-    <a class="sbtn" style="cursor: pointer;" onclick="fontAlert2()">Change Font Settings</a>
+    <a class="sbtn" style="cursor: pointer; display: none;" onclick="fontAlert2()">Change Font Settings</a>
     <a class="sbtn" style="cursor: pointer;" onclick="fontCookieCheck()">Check for Cookie</a>
     <a class="sbtn" style="cursor: pointer;" onclick="eraseCookie('178fontcookie')">Remove Cookie</a>
   </div>
