@@ -15,7 +15,16 @@ function fontCookieCheck() {
 }
 
 function fontAlert1() {
-  if ($(window).width() > 667) {
+  if (($(window).height() <= 565 && $(window).width() <= 675) || ($(window).height() <= 420) || ($(window).width() <= 420)) {
+    isDyslexic = confirm("Would you like to use a Dyslexia friendly font on this website?");
+    if (isDyslexic == true) {
+      createFontCookie("true");
+      alert("The font is now set to Open Dyslexic.\n\nTo change your settings, use the switch at the bottom of the page.")
+    } else {
+      createFontCookie("false")
+      alert("The font is the same font it's always been.\n\nTo change your settings, use the switch at the bottom of the page.")
+    }
+  } else {
     $(".swal2-modal").css('fontFamily', 'Open Dyslexic');
     $("button").css('fontFamily', 'Open Dyslexic');
     swal({
@@ -51,15 +60,6 @@ function fontAlert1() {
         );
       }
     });
-  } else {
-    isDyslexic = confirm("Would you like to use a Dyslexia friendly font on this website?");
-    if (isDyslexic == true) {
-      createFontCookie("true");
-      alert("The font is now set to Open Dyslexic.\n\nTo change your settings, use the switch at the bottom of the page.")
-    } else {
-      createFontCookie("false")
-      alert("The font is the same font it's always been.\n\nTo change your settings, use the switch at the bottom of the page.")
-    }
   }
 }
 
