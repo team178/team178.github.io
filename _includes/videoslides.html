@@ -1,22 +1,57 @@
-<!-- bxSlider Javascript file -->
-<script src="{{ site.url }}/assets/js/jquery.bxslider.min.js"></script>
-<!-- bxSlider CSS file -->
-<link href="{{ site.url }}/assets/css/jquery.bxslider.css" rel="stylesheet" />
+<head>
+  <!-- Slick CSS Files: -->
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/slick/slick.css"/>
+</head>
 
-<ul class="bxslider">
-  <li><div class="iframe-video"><iframe width="100%" height="56.25%" title="Brainstorming 2015" src="https://www.youtube-nocookie.com/embed/PamrDVDoD-A" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></li>
-  <li><div class="iframe-video"><iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/rjuI2C1lCEM" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></li>
-  <li><div class="iframe-video"><iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/a4By92A33s0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></li>
-  <li><div class="iframe-video"><iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/Nv4A25gA1vM" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></li>
-  <li><div class="iframe-video"><iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/32f-OtEJJBM" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></li>
-  <li><div class="iframe-video"><iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/P6tiBmdEuTU" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></li>
-  <li><div class="iframe-video"><iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/8aZYZkQN0tY" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></li>
-</ul>
+<div class="youtube-videos">
+  <div class="iframe-slide"><iframe width="100%" height="56.25%" title="Brainstorming 2015" src="https://www.youtube-nocookie.com/embed/PamrDVDoD-A" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+  <div class="iframe-slide"><iframe width="100%" height="56.25%" title="Prototyping 2015" src="https://www.youtube-nocookie.com/embed/rjuI2C1lCEM" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+  <div class="iframe-slide"><iframe width="100%" height="56.25%" title="Field Building" src="https://www.youtube-nocookie.com/embed/a4By92A33s0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+  <div class="iframe-slide"><iframe width="100%" height="56.25%" title="Robot Got Moves" src="https://www.youtube-nocookie.com/embed/Nv4A25gA1vM" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+  <div class="iframe-slide"><iframe width="100%" height="56.25%" title="Grabber Arms" src="https://www.youtube-nocookie.com/embed/32f-OtEJJBM" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+  <div class="iframe-slide"><iframe width="100%" height="56.25%" title="Drive Train Gyros" src="https://www.youtube-nocookie.com/embed/P6tiBmdEuTU" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+  <div class="iframe-slide"><iframe width="100%" height="56.25%" title="The Claaaw!" src="https://www.youtube-nocookie.com/embed/8aZYZkQN0tY" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+<div class="videos-nav">
+  <div id="0" class="nav-slide">Brainstorming Recycle Rush</div>
+  <div id="1" class="nav-slide">Prototyping Robot 2015</div>
+  <div id="2" class="nav-slide">Field Building</div>
+  <div id="3" class="nav-slide">Our Robot Has Some Moves!</div>
+  <div id="4" class="nav-slide">Grabber Arms</div>
+  <div id="5" class="nav-slide">Drive Train Gyros</div>
+  <div id="6" class="nav-slide">The Claaw!</div>
+</div>
 
 <script>
-$(document).ready(function(){
-  $('.bxslider').bxSlider({
-
+  $(document).ready(function(){
+    $('.youtube-videos').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      asNavFor: '.videos-nav',
+      fade: true
+    });
+    $('.videos-nav').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: '.youtube-videos',
+      dots: true,
+      arrows: false,
+      centerMode: true,
+      draggable: false,
+      focusOnSelect: true,
+      variableWidth: true,
+      cssEase: 'ease-in-out'
+    });
+    $('#0').css({"color":"#FFD000","backgroundColor":"#1A245B"});
   });
-});
+  $('.videos-nav').on('afterChange', function(event, slick, currentSlide, nextSlide){
+    for (i = 0; i <= 7; i++) {
+      var slideIds = '#' + i;
+      if (i != currentSlide) {
+        $(slideIds).css({"padding":"auto","color":"#1A245B","backgroundColor":"#FFD000"});
+      }
+    }
+    var slideId = '#' + currentSlide;
+    $(slideId).css({"color":"#FFD000","backgroundColor":"#1A245B"});
+  });
 </script>
