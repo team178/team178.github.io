@@ -84,13 +84,6 @@ around it. */
   height: 0;
   padding-bottom: 51%; /* This is what makes it work; you can make it larger/smaller for different ratios as seen below. */
 }
-.iframe-video iframe, .iframe-slide iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0; top: 0;
-}
-
 /* For making iframes in slideshows keep their ratio */
 .iframe-slide {
   position: relative;
@@ -98,25 +91,6 @@ around it. */
   height: 0;
   padding-bottom: 8%;
 }
-.videos-nav {
-  background-color: #FFD000;
-}
-.nav-slide {
-  text-align:center;
-  cursor: pointer;
-  background-color: #FFD000;
-  color: #1A245B;
-  border-radius: 7px;
-  padding: 0px 7px;
-  margin: 6px 3px;
-  overflow: hidden;
-  transition: all .25s linear;
-  -webkit-transition: all .25s linear;
-}
-.nav-slide:focus {
-  outline: none;
-}
-
 /* For making iframe embedded documents keep their ratio */
 .iframe-doc {
   position: relative;
@@ -124,7 +98,7 @@ around it. */
   height: 0;
   padding-bottom: 70%;
 }
-.iframe-doc iframe {
+.iframe-video iframe, .iframe-doc iframe, .iframe-slide iframe {
   position: absolute;
   width: 100%;
   height: 100%;
