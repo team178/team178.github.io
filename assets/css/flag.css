@@ -105,17 +105,8 @@
 	margin-right: 10px; margin-left: 10px;
 	overflow: hidden;
 }
-/*	 -webkit-animation: pulsate 1s ease-out;
-	 -webkit-animation-iteration-count: 1;
-	 opacity: 1.0
-}
-@-webkit-keyframes pulsate {
-	 0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-	 50% {opacity: 1.0;}
-	 100% {-webkit-transform: scale(1, 1); opacity: 1.0;}
-}*/
 
-@media (max-width: 835px) {
+@media (max-width: 666px) {
 	.flags {
 		display: none;
 	}

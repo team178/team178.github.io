@@ -9,11 +9,11 @@
         inset 0px 5px 10px 0px rgba(0,0,0,0.3);
 }
 
-#banner .banner {
+#banner .slide {
   margin: auto;
 }
 
-#banner #Stronghold {
+#banner #intro {
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -27,7 +27,7 @@
   color: rgba(255,255,255, 0.8);
 }
 
-#Stronghold img {
+#intro img {
   width: 160px;
   flex-shrink: 0;
   -webkit-flex-shrink: 0;
@@ -35,14 +35,14 @@
   -webkit-flex-basis: auto;
 }
 
-#Stronghold .banner-text {
+#intro .banner-text {
   margin: 0; padding: 20px;
   max-width: 500px;
   text-align: center;
 }
 
 @media screen and (max-width: 500px) {
-  #Stronghold img {
+  #intro img {
     display: none;
   }
 }
