@@ -123,3 +123,23 @@ h3 a:hover {
   margin-bottom: 10px;
   display: none;
 }
+
+/* Styles nav for slideshow */
+.videos-nav {
+  background-color: #FFD000;
+}
+.nav-slide {
+  text-align:center;
+  cursor: pointer;
+  background-color: #FFD000;
+  color: #1A245B;
+  border-radius: 7px;
+  padding: 0px 7px;
+  margin: 6px 3px;
+  overflow: hidden;
+  transition: all .25s linear;
+  -webkit-transition: all .25s linear;
+}
+.nav-slide:focus {
+  outline: none;
+}
