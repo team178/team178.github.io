@@ -9,7 +9,7 @@ Here's a selection of photos and videos of our activities!
 
 {% include facebookalbum.html %}
 
-<div width="100%" style="text-align:center;margin-top:1em;"><a class="btn" href="https://www.facebook.com/media/set/?set=a.1035245586498309.1073741838.509649582391248&type=3" target="_blank">All Our Albums</a>
+<div width="100%" style="text-align:center;margin-top:1em;"><a class="btn" href="https://www.facebook.com/FRC178/photos/?tab=albums" target="_blank">All Our Albums</a>
 </div>
 <br><br>
 
