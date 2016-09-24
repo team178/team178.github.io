@@ -101,10 +101,7 @@ footer {
 .info-box {
   background-color: #1A245B;
   color: rgba(255,255,255, 0.8);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-radius: 15px;
   padding: 1px 20px 20px;
   margin-top: 15px;
 /* This creates drop shadow on the box */
@@ -140,4 +137,7 @@ footer {
   #header h1 a:before {
     bottom: .15em;
   }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.125rem; }
+  h4 { font-size: 1rem; }
 }
