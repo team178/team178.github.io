@@ -39,7 +39,7 @@ around it. */
   background-image: linear-gradient(to bottom, #1A245B, #0F0838);
   -webkit-border-radius: 15;
   -moz-border-radius: 15;
-  border-radius: 5px;
+  border-radius: 7px;
   color: #FFD000;
   font-size: 20px;
   padding: 7.5px 12.5px;
