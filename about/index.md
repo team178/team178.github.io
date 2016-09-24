@@ -1,7 +1,6 @@
 ---
 title: About
 layout: default
-published: true
 ---
 
 ## About Us
