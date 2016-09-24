@@ -12,7 +12,7 @@ large-raffle-meter: true
 
 ### Our Sponsors
 
->One of the ways our team is able to function is through the help of our wonderful sponsors, including UTC Otis Elevator, ebm-papst Inc., and UTC Sikorsky Aircraft Corporation. Learn more about each of our sponsors [here]({{ site.url }}/sponsors).
+>One of the reasons our team is able to function is through the help of our wonderful sponsors, including UTC Otis Elevator, ebm-papst Inc., and UTC Sikorsky Aircraft Corporation. Learn more about each of our sponsors [here]({{ site.url }}/sponsors).
 
 <!--
 ### Upcoming events
