@@ -1,10 +1,9 @@
 ---
 title: Team History
 layout: fullwidth
-published: true
 ---
 
-## Our Team History 
+## Our Team History
 
 ### Timeline
 

@@ -1,6 +1,5 @@
 ---
 title: Media
-published: true
 ---
 
 ## Media

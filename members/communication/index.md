@@ -1,6 +1,5 @@
 ---
 title: Communication
-published: true
 ---
 ## Communication
 There are several ways to contact The Enforcers. If you have general questions email us at

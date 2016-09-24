@@ -1,7 +1,5 @@
 ---
-layout: default
 title: FLL Jr.
-published: true
 ---
 ## *FIRST* LEGO League Junior
 <img class="float-left" alt="FLL Junior Logo" style="width:260px;" src="{{ site.url }}/assets/img/FIRST-logos/FLL-jr-logo.png"/>

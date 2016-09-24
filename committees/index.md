@@ -1,6 +1,5 @@
 ---
 title: Committees
-published: true
 ---
 
 ## Committees

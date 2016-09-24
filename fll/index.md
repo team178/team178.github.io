@@ -1,7 +1,5 @@
 ---
-layout: default
 title: FLL
-published: true
 ---
 ## *FIRST* LEGO League
 <img class="float-left" alt="FLL Logo" style="width:185px;" src="{{ site.url }}/assets/img/FIRST-logos/FLL-logo.png"/> *FIRST* LEGO League is for kids from grades 4-8. Each team has at least two adult coaches and up to 10 members. They are challenged to solve realistic problems such as recycling, food safety, energy, etc, by coming up with an original solution. Each season, there is a different theme which encourages creativity. They are required to design, build, and program a robot, while using LEGO MINDSTORMS<sup>&reg;</sup>, then compete with other teams on a field to complete missions which earn them points. While applying science, technology, engineering, and math concepts (STEM) with their imagination to solve these problems, they are being innovative while having fun.

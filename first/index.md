@@ -1,6 +1,5 @@
 ---
 title: FIRST
-published: true
 ---
 ## *FIRST*
 <img src="{{ site.url }}/assets/img/FIRST-logos/FIRST-logo.png" style="width:310px;" class="float-left">

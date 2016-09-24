@@ -1,6 +1,5 @@
 ---
 title: How to Join
-published: true
 ---
 ## How to Join
 We accept new members from September to mid-November or from May to the end of school.
