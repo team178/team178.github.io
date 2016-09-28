@@ -10,15 +10,9 @@ We accept new members from September to mid-November or from May to the end of s
   * Mrs. Hall - Talk to her in person in the math office or send her an email at [HallM@fpsct.org](mailto:hallm@fpsct.org)
 2. Email [ContactUs@FarmingtonRobotics.org](contactus@farmingtonrobotics.org)
 
-# After doing one of the above, please fill out the following forms.
+# Forms
 
-<div class="iframe-doc">
-  <iframe src="https://drive.google.com/a/fpsct.org/file/d/0B73oD9WuzOePeXQ1eVZ4RTN5TzRIZ0FXbTVwUXYycDdDNGE0/preview" width="100%" frameborder="0"></iframe>
-</div><div class="iframe-doc">
-  <iframe src="https://drive.google.com/a/fpsct.org/file/d/0B2By5Y_DrT_RU1FreS1rQjcza1U/preview" width="100%" height="480" frameborder="0"></iframe>
-</div>
-
-{% include form-help.html %}
+Information should have been emailed out at the start of the season. In case you can't find that email, there's a [page full of forms]({{ site.url }}/members/forms).
 
 # Parents
 Learn about [Friends of Robotics](http://www.farmingtonfor.org), a non-profit organization created to support <i>FIRST</i> robotics teams in Farmington.
