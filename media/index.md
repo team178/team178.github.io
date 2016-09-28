@@ -12,9 +12,4 @@ Here's a selection of photos and videos of our activities!
 </div>
 <br><br>
 
-### 2015 Build Season Update Videos
-
 {% include videoslides.html %}
-<div width="100%" style="text-align:center; margin-top: 35px;"><a class="btn" href="http://www.youtube.com/user/Team178Enforcers" target="_blank">Our YouTube Channel</a>
-</div>
-<br>

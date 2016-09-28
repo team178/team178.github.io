@@ -1,3 +1,10 @@
+<noscript>
+  <style>
+  #history-link {
+    display: none !important;
+  }
+  </style>
+</noscript>
 <div id="menu-toggle">
   <div class="menu-tangles"></div>
   <div class="menu-tangles"></div>
@@ -9,8 +16,8 @@
     <li>
       <a href="{{ site.url }}/about">About</a>
       <ul>
-        <li><a href="{{ site.url }}/history">Team History</a></li>
         <li><a href="{{ site.url }}/committees">Committees</a></li>
+        <li><a id="history-link" href="{{ site.url }}/history">Team History</a></li>
         <li><a href="{{ site.url }}/dreamfirst">Dream FIRST</a></li>
       </ul>
     </li>

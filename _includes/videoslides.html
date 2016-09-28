@@ -1,7 +1,17 @@
 <head>
   <!-- Slick CSS Files: -->
   <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/slick/slick.css"/>
+  <noscript>
+    <style>
+    #videoslides {
+      display: none !important;
+    }
+    </style>
+  </noscript>
 </head>
+
+<div id="videoslides">
+<h3>2015 Build Season Update Videos</h3>
 
 <div class="youtube-videos">
   <div class="iframe-slide"><iframe width="100%" height="56.25%" title="Brainstorming 2015" src="https://www.youtube-nocookie.com/embed/PamrDVDoD-A" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
@@ -22,6 +32,9 @@
   <div id="6" class="nav-slide">The Claaw!</div>
 </div>
 
+<div width="100%" style="text-align:center; margin-top: 35px;"><a class="btn" href="http://www.youtube.com/user/Team178Enforcers" target="_blank">Our YouTube Channel</a>
+</div>
+</div>
 <script>
   $(document).ready(function(){
     $('.youtube-videos').slick({
