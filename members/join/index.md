@@ -4,7 +4,7 @@ title: How to Join
 ## How to Join
 We accept new members from September to mid-November or from May to the end of school.
 
-# There are two ways that you can join the team:
+# Two ways to join team:
 1. Talk to a coach
   * Mr. Barron - Talk to him in person in the science office or send him an email at [BarronT@fpsct.org](mailto:barront@fpsct.org)
   * Mrs. Hall - Talk to her in person in the math office or send her an email at [HallM@fpsct.org](mailto:hallm@fpsct.org)
