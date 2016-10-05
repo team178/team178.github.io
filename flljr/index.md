@@ -11,4 +11,4 @@ title: FLL Jr.
 On January 31, 2016, teams are given the opportunity to display their achievements and ideas. They also participate in various STEM and theme-based activities. We, the 2nd Law Enforcers, organized the event with the assistance of members from other nearby FRC teams.
 
 ### <a name="expopics" />Pictures from the expo:
-<iframe id="picshoembed" src="http://picsho.com/embed/?LOocvaOY" style="margin: 0; padding: 0; border: none; width: 100%; height: 790px; overflow: hidden;" scrolling="no" />
+<iframe id="picshoembed" src="http://picsho.com/embed/?LOocvaOY" style="margin: 0; padding: 0; border: none; width: 100%; height: 790px; overflow: hidden;" scrolling="no"></iframe>
