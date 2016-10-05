@@ -1,11 +1,11 @@
-var isDyslexic = "false";
+var isDyslexic = false;
 function fontCookieCheck() {
-  var fontInCookie = readCookie('178fontcookie');
-  isDyslexic = fontInCookie;
-  if (!fontInCookie) {
+  var infoInCookie = readCookie('178fontcookie');
+  isDyslexic = eval(infoInCookie);
+  if (!infoInCookie) {
     fontAlert1();
   } else {
-      if (isDyslexic == "true") {
+      if (isDyslexic == true) {
         var font = "Open Dyslexic";
       } else {
         var font = "Open Sans";
@@ -65,19 +65,19 @@ function fontAlert1() {
 
 function createFontCookie(font4Cookie) {
   createCookie('178fontcookie',font4Cookie,5475);
-  isDyslexic = font4Cookie;
+  isDyslexic = eval(font4Cookie);
   fontCookieCheck();
 }
 
 function toggleFont() {
-  if (isDyslexic == "true") {
-    isDyslexic = "false";
+  if (isDyslexic == true) {
+    isDyslexic = false;
     setFont("Open Sans");
   } else {
-    isDyslexic = "true";
+    isDyslexic = true;
     setFont("Open Dyslexic");
   }
-  createFontCookie(isDyslexic);
+  createFontCookie(isDyslexic.toString());
 }
 
 function setFont(font) {
@@ -88,7 +88,7 @@ function setFont(font) {
     $("#font-stuff").css('display', 'block');
     // TODO: Make things look *more* correct by setting specific styles to be different.
     // This part makes everything zoom out to look like it's the right size:
-    if (isDyslexic == "true") {
+    if (isDyslexic == true) {
       $('body').css('zoom', .95);
       $('.switch-input')[0].checked = true;
     } else {
