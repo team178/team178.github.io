@@ -125,14 +125,14 @@ function setFont(font) {
     $(".swal2-modal").css('fontFamily', font);
     $("button").css('fontFamily', font);
     $("#font-stuff").css('display', 'block');
-    // This part makes everything zoom out to look like it's the right size.
-    // TODO: Make things look *more* correct by setting other styles to be different.
+    // TODO: Make things look *more* correct by setting specific styles to be different.
+    // This part makes everything zoom out to look like it's the right size:
     if (isDyslexic == "true") {
-      document.body.style.zoom = .95;
+      $('body').css('zoom', .95);
       $('.switch-input')[0].checked = true;
     } else {
       $('.switch-input')[0].checked = false;
-      document.body.style.zoom = 1;
+      $('body').css('zoom', 1);
     }
   }
 }
