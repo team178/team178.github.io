@@ -90,6 +90,7 @@ function setFont(font) {
     // This part makes everything zoom out to look like it's the right size:
     if (isDyslexic == true) {
       $('body').css('zoom', .95);
+      $('#picshoembed').css('zoom', 1.25);
       $('.switch-input')[0].checked = true;
     } else {
       $('.switch-input')[0].checked = false;
@@ -98,4 +99,7 @@ function setFont(font) {
   }
 }
 
-$(window).load(fontCookieCheck); // Runs the function fontCookieCheck everytime the page loads.
+$(document).ready(fontCookieCheck); // Runs the function fontCookieCheck everytime the page loads.
+$(window).load(function() {
+  $("body").css("display", "block");
+});
