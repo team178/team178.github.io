@@ -98,4 +98,4 @@ function setFont(font) {
   }
 }
 
-/*$( window ).load(fontCookieCheck);*/ // Runs the function fontCookieCheck everytime the page loads.
+$(window).load(fontCookieCheck); // Runs the function fontCookieCheck everytime the page loads.
