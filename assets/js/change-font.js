@@ -80,45 +80,6 @@ function toggleFont() {
   createFontCookie(isDyslexic);
 }
 
-/*function fontAlert2() {
-  $(".swal2-modal").css('fontFamily', 'Open Dyslexic');
-  $("button").css('fontFamily', 'Open Dyslexic');
-  swal({
-    title: 'Which font?',
-    type: 'question',
-    showCancelButton: true,
-    confirmButtonText: 'Open Dyslexic',
-    cancelButtonText: 'Open Sans',
-    cancelButtonColor: '#3085d6',
-    showCloseButton: true,
-  }).then(function setFont4Cookie(isConfirm) {
-    if (isConfirm) {
-      createFontCookie("true");
-      swal({
-        title: 'The font is Open Dyslexic!',
-        text: 'To change the font temporarily, toggle the switch at the bottom of the page.',
-        showCloseButton: true,
-        type: 'success',
-      });
-    } else if (isConfirm == false) {
-      createFontCookie("false");
-      swal({
-        title: 'The font is Open Sans!',
-        text: 'To change the font temporarily, toggle the switch at the bottom of the page.',
-        showCloseButton: true,
-        type: 'success',
-      });
-    } else {
-      $(".swal2-modal").css('fontFamily', $("body").css('fontFamily'));
-      $("button").css('fontFamily', $("body").css('fontFamily'));
-      swal(
-        'Nothing\'s changed',
-        'To change the font temporarily, toggle the switch at the bottom of the page.<br><br>To change your settings to use a different font, select the button next to the switch.'
-      );
-    }
-  });
-}*/
-
 function setFont(font) {
   if (font != null) {
     $("body").css('fontFamily', font);
