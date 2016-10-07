@@ -73,8 +73,8 @@ $( document ).ready(function() {
         setTimeout(function(){ get_data(); }, 100);
       }
     }
-    function handleQueryResponse(response){ // This function makes sure you get a usable error message (in case anything goes wrong).
-      if(response.isError()){
+    function handleQueryResponse(response){ // This function uses the data gathered to make percents and send them to the meter
+      if(response.isError()){ // This makes sure you get a usable error message (in case anything goes wrong).
         console.log('Error: ' + response.getMessage() + ' ' + response.getDetailedMessage());
         return;
       }
