@@ -1,7 +1,7 @@
 ---
 title: Raffle
 layout: raffle
-published: true
+published: false
 large-raffle-meter: true
 ---
 <style>
