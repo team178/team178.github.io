@@ -1,11 +1,53 @@
 ---
 title: Sponsors
-published: true
 ---
+
+<head>
+  <style>
+    #container1 {
+      margin-top:10px;
+      display:flex;
+      align-items:center;
+    }
+    #container2 {
+      display:flex;
+      flex-direction:column;
+      margin-left:15px;
+    }
+    #ffor-logo {
+      width:275px;
+      margin-right:10px;
+      margin-bottom:-7px;
+    }
+    @media screen and (max-width: 675px) {
+      #container1 {
+        flex-direction:column;
+      }
+      #container2 {
+        margin:auto;
+      }
+      #ffor-logo {
+        width:200px;
+        margin-bottom:auto;
+      }
+    }
+  </style>
+</head>
 
 <!--
 Hello fellow Enforcer! This page may be a bit more complicated than the rest. It uses HTML to format the logos and align them to the left. It should be intuitive enough to understand what's going on though. If you have questions about this, please ask. :)
 -->
+
+<div class="info-box">
+  <h2>Want to be a sponsor?</h2>
+  <div id="container1">
+    <a href="http://www.farmingtonfor.org"><img id="ffor-logo" alt="Farmington Friends of Robotics Logo" src="{{ site.url }}/assets/img/sponsors/ffor-logo.png"></a>
+    <div id="container2">
+      <div style="margin-bottom:5px;">If you're interested in making a contribution to support the team visit <a href="http://www.farmingtonfor.org">Farmington Friends of Robotics</a>.</div>
+      <div style="margin-top:5px;">It is a non-profit organization consisting of parents, mentors, and supporters of robotics in Farmington.</div>
+    </div>
+  </div>
+</div>
 
 ## Our Sponsors
 
@@ -43,44 +85,3 @@ Travelers is an insurance leader, committed to keeping pace with the ever-changi
 
 ### <a target="_blank" href="http://www.farmingtonchamber.com">Farmington Chamber of Commerce: (Bronze Sponsor)
 The Farmington Chamber of Commerce is our town's local chamber of commerce with over 200 members that strives to create a network of local leaders and to pool the talents, skills, and resources of Farmington to support our town and improve our community.
-
-## Want to become a sponsor?
-
-Team 178 is looking for:
-
- - Mentors (donate your time!)
- - Monetary donations
- - Supplies
- - Food
- - Tools/machines
- - Discounts
- - Raffle prizes
-
-## Sponsorship Levels
-
-Sponsor $50- $499 or 2-20 mentoring hours
-
- - Company name displayed on website
-
-Bronze Sponsor $500-$999 or 20-40 mentoring hours
-
- - Company prominently displayed on website
-
-Silver Sponsor $1,000-$4,999 or 40-200 mentoring hours
-
- - Company prominently displayed on website
- - Company added to team t-shirt
-
-Gold Sponsor $5,000-$9,999 or 200-400 mentoring hours
-
- - Company prominently displayed on website
- - Company added to team t-shirt
- - Company name displayed on team banner for 4 years
-
-Platinum Sponsor $10,000+ or 400+ mentoring hours
-
- - Company prominently displayed on website
- - Company added to team t-shirt
- - Company name displayed on team banner for 4 years
- - Company name added to robot
- - Company name added to official team name
