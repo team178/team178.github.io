@@ -28,9 +28,9 @@ hr {
 	border-radius: 2px;
 }
 @media screen and (max-width: 785px) {
-  #raffle-pictures {
-    display: none;
-  }
+	#raffle-pictures {
+		display: none;
+	}
 }
 </style>
 <hr>
@@ -44,7 +44,7 @@ A big thank you goes out to all of our supporters who bought tickets as well as 
 	<img alt="Toshiba Laptop" style="width: 17%; padding:  0px 10px;" src="{{ site.url }}/assets/img/raffle/laptop.png">
 	<img alt="Dewalt Tool Kit" style="width: 17%; padding: 0px 10px;" src="{{ site.url }}/assets/img/raffle/tool-kit.png">
 	<img alt="Visa Gift Card" style="width: 17%; padding: 0px 10px;" src="{{ site.url }}/assets/img/raffle/visa-card.png">
-	<img id="raffle-3doodler" alt="3Doodler 2.0 Printing Pen" style="width: 17%;" src="{{ site.url }}/assets/img/raffle/3doodler-pen.png">
+	<img id="raffle-3doodler" alt="3Doodler 2.0 Printing Pen" style="width: 16%;" src="{{ site.url }}/assets/img/raffle/3doodler-pen.png">
 </div>
 
 
