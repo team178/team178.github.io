@@ -2,19 +2,15 @@ var isDyslexic = false;
 function fontCookieCheck() {
   var infoInCookie = readCookie('178fontcookie');
   isDyslexic = eval(infoInCookie);
-  if (!infoInCookie) {
-    fontAlert1();
-  } else {
-      if (isDyslexic == true) {
-        var font = "Open Dyslexic";
-      } else {
-        var font = "Open Sans";
-      }
-      setFont(font);
-  }
+    if (isDyslexic == true) {
+      var font = "Open Dyslexic";
+    } else {
+      var font = "Open Sans";
+    }
+    setFont(font);
 }
 
-function fontAlert1() {
+/*function fontAlert1() {
   if (($(window).height() <= 565 && $(window).width() <= 675) || ($(window).height() <= 420) || ($(window).width() <= 420)) {
     isDyslexic = confirm("Would you like to use a Dyslexia friendly font on this website?");
     if (isDyslexic == true) {
@@ -61,7 +57,7 @@ function fontAlert1() {
       }
     });
   }
-}
+}*/
 
 function createFontCookie(font4Cookie) {
   createCookie('178fontcookie',font4Cookie,5475);
