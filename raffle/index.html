@@ -5,20 +5,29 @@ published: false
 large-raffle-meter: true
 ---
 <style>
-#raffle-ipad {
-	margin-left: 20px;
-	margin-bottom: 12px;
-	margin-right: 5px;
+#raffle-pencil {
+	width: 1.75%;
+	margin-left: -20px;
+	margin-right: 10px;
+	vertical-align: middle;
 }
-#raffle-3doodler {
-	margin-left: 5px;
-	margin-bottom: 5px;
+.raffle-picture:not(#raffle-pencil){
+	vertical-align: middle;
+	padding: 0px 10px;
+	width: 17%;
 }
-#raffle-pictures img {
+.raffle-picture-vertical {
+	width: 12%;
+	padding: 0px 10px;
 	vertical-align: middle;
 }
 #raffle-pictures {
 	padding: 1px 20px;
+}
+#raffle-picture-helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
 }
 #raffle-divider {
 	height: 5px;
@@ -27,6 +36,8 @@ large-raffle-meter: true
 	border: none;
 	border-radius: 2px;
 }
+
+/* List Styles */
 #raffle-prizes {
 	margin-left: 0;
 	padding-right: 0;
@@ -52,36 +63,49 @@ large-raffle-meter: true
 	margin-right: 10px;
 	font-style: italic;
 }
-@media screen and (max-width: 785px) {
+.prize-details {
+	font-size: 12px;
+}
+@media screen and (max-width: 525px) {
 	#raffle-pictures {
 		display: none;
+	}
+	#raffle-prizes li:nth-of-type(n+3)::before {
+		content: counter(step-counter) "th:";
+	}
+	#raffle-prizes li:nth-of-type(1)::before {
+		content: "1st:";
+	}
+	#raffle-prizes li:nth-of-type(2)::before {
+		content: "2nd:";
+	}
+	#raffle-prizes li:nth-of-type(3)::before {
+		content: "3rd:";
 	}
 }
 </style>
 <hr id="raffle-divider">
 <h1>Our biggest fundraiser of the year!</h1>
-
-The annual raffle for 2016 is currently underway! Hurry and buy a raffle ticket before the drawing on Thursday, December 11th.
-<br><b>Tickets are $5 each</b>. So talk to any Enforcer to purchase a ticket. We may hold events at George's Pizza and Naples Pizza in Farmington and Simsbury and many more! Check our <a href="/calendar">Team Calendar</a> for future event times and dates.
+<br>
+The annual raffle for 2016 is currently underway! Hurry and buy a raffle ticket before the drawing on Thursday, December 11th. <b>Tickets are $5 each</b>, so talk to any Enforcer to purchase a ticket. We may hold events at George's Pizza and Naples Pizza in Farmington and Simsbury and many more! Check our <a href="/calendar">Team Calendar</a> for future event times and dates.
 
 <br><br><b>Not local? Email us at <a href="mailto:ContactUs@farmingtonrobotics.org">ContactUs@farmingtonrobotics.org</a></b>
 
 <h3>Prizes this year:</h3>
 <div id="raffle-pictures" class="info-box" align="center">
-	<img class="raffle-picture" id="raffle-ipad" alt="iPad Air 2" style="width: 17%;" src="{{ site.url }}/assets/img/raffle/ipad-air.png">
-	<img class="raffle-picture" alt="Toshiba Laptop" style="width: 17%; padding:  0px 10px;" src="{{ site.url }}/assets/img/raffle/laptop.png">
-	<img class="raffle-picture" alt="Dewalt Tool Kit" style="width: 17%; padding: 0px 10px;" src="{{ site.url }}/assets/img/raffle/tool-kit.png">
-	<img class="raffle-picture" alt="Visa Gift Card" style="width: 17%; padding: 0px 10px;" src="{{ site.url }}/assets/img/raffle/visa-card.png">
-	<img class="raffle-picture" id="raffle-3doodler" alt="3Doodler 2.0 Printing Pen" style="width: 16%;" src="{{ site.url }}/assets/img/raffle/3doodler-pen.png">
+	<div id="raffle-picture-helper">
+		<img class="raffle-picture" alt="iPad Pro" src="{{ site.url }}/assets/img/raffle/ipad-pro.png"><img class="raffle-picture" id="raffle-pencil" alt="Apple Pencil" src="{{ site.url }}/assets/img/raffle/apple-pencil.png">
+		<img class="raffle-picture" alt="3DS XL Galaxy Style" src="{{ site.url }}/assets/img/raffle/3ds-xl-galaxy.png">
+		<img class="raffle-picture-vertical" alt="Amazon Fire HD 8" src="{{ site.url }}/assets/img/raffle/amazon-fire-hd-8.png">
+		<img class="raffle-picture" alt="Visa Gift Card" src="{{ site.url }}/assets/img/raffle/visa-card.png">
+		<img class="raffle-picture-vertical" alt="BB-8 Sphero Droid" src="{{ site.url }}/assets/img/raffle/bb-8-sphero.png">
+	</div>
 </div>
 
-
-<h3>This Year's Winners:</h3>
-
 <ol id="raffle-prizes">
-	<li>12.9 inch Space Gray <a href="http://www.apple.com/ipad-pro">Apple iPad Pro</a> 64GB, with wifi & Apple Care+, and an <a href="http://www.apple.com/apple-pencil">Apple Pencil</a></li>
-	<li>Gail Adams won a <a href="http://us.toshiba.com/computers/laptops/satellite">Toshiba Satellite</a> 15.6 in Laptop, i5 Processor, 8GB RAM, and 1TB HDD</li>
-	<li>Jeffrey Yang won a Dewalt 20-Volt Lithium-Ion Cordless 2-Tool Combo Kit.</li>
+	<li>Apple <a href="http://www.apple.com/ipad-pro">iPad Pro</a> 64GB Wifi <span class="prize-details">w/<a href="http://www.apple.com/apple-pencil">Apple Pencil</a> and Apple Care+</span></li>
+	<li>Nintendo <a href="http://www.gamestop.com/nintendo-3ds/consoles/nintendo-new-3ds-xl-galaxy-style/134028">3DS XL-Galaxy Style</a> <span class="prize-details">w/Pokemon Sun/Moon w. 1 year guarantee</span></li>
+	<li><a href="https://www.amazon.com/All-New-Fire-Tablet-Display-Wi-Fi/dp/B018SZT3BK">Amazon Fire HD 8</a> Tablet (6th gen) 16 GB Wifi <span class="prize-details">w/32GB SD card & 2 year guarantee</span></li>
 	<li>$178.00 Visa Gift Card</li>
-	<li><a href="http://www.sphero.com/starwars/bb8">BB-8™</a> App-Enabled Droid™ by Sphero</li>
+	<li><a href="http://www.sphero.com/starwars/bb8">BB-8™</a> App-Enabled Droid™ <span class="prize-details">by <a href="http://www.sphero.com">Sphero</a></span></li>
 </ol>
