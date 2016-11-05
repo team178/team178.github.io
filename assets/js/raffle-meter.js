@@ -142,8 +142,10 @@ $( document ).ready(function() {
     if($("#raffle-meter-container").length > 0) document.getElementById("raffle-tooltip").setAttribute("data-content", "Blue: Tickets sold \nYellow: Tickets not sold");
   }
   if (window.location.pathname == '/raffle' || '/raffle/') {
-    $('.raffle-link').hide(1000);
+    $(container).show(1000);
+    $('.raffle-link').hide();
+    $('#raffle-divider').css('display', 'block');
+  } else {
+    $(container).show(); // Makes the container visible; it's hidden by default so that a half-loaded meter isn't displayed.
   }
-  $('#raffle-divider').css('display', 'block');
-  $(container).show(1000); // Makes the container visible; it's hidden by default so that a half-loaded meter isn't displayed.
 });

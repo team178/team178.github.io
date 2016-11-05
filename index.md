@@ -1,6 +1,7 @@
 ---
 layout: homepage
-large-raffle-meter: true
+large-raffle-meter: false
+# It doesn't look right with the way the header's styled now.
 ---
 ### About Team 178
 
