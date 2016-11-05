@@ -144,5 +144,6 @@ $( document ).ready(function() {
   if (window.location.pathname == '/raffle' || '/raffle/') {
     $('.raffle-link').hide(1000);
   }
+  $('#raffle-divider').css('display', 'block');
   $(container).show(1000); // Makes the container visible; it's hidden by default so that a half-loaded meter isn't displayed.
 });
