@@ -85,7 +85,7 @@ $( document ).ready(function() {
       for(var i = 0; i < data.getNumberOfRows(); i++){ // The i++ adds 1 to 'i' after it goes through the loop once.
         if(data.getValue(i,0) == 0 || data.getValue(i,0) == 9) { // Checks for 0 and 9 in row 'i'.
           base += 1; // Adds 1 to the base if ^^^^ is true.
-        } else if(data.getValue(i,0) == 1) { // Checks for a 1 in row 'i'.
+        } else if(data.getValue(i,0) == 1 || data.getValue(i,0) == 3) { // Checks for 1 and 3 in row 'i'.
           out += 1;
         } else if(data.getValue(i,0) == 2) { // Checks for a 2 in row 'i'.
           sold += 1;
