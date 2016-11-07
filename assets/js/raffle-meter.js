@@ -44,6 +44,7 @@ var numDays = Math.ceil((raffle_deadline - new Date())/86400000);
 var container; // entire progress bar
 var soldTag; // blue
 var outTag; // yellow
+var rafflePage; // if large raffle meter, it must be on raffle page (that's how it works right now, don't judge me)
 
 $( document ).ready(function() {
   // Does not do this stuff until all the elements on the page are done loading.
@@ -51,10 +52,12 @@ $( document ).ready(function() {
     container = "#raffle-meter-container";
     soldTag = ".halfStyle.hs-vertical-third:before";
     outTag = ".halfStyle.hs-vertical-third:after";
+    rafflePage = true;
   } else {
     container = "#raffle-meter-container-s";
     soldTag = "#raffle-meter-sold";
     outTag = "#raffle-meter-out";
+    rafflePage = false;
   }
 
   if(numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after if you want.
@@ -118,10 +121,13 @@ $( document ).ready(function() {
         var timeLeft = numDays / 24 + " hours left"
       } else if(numDays <= (1/24) && numDays > 0) { // in minutes
         var timeLeft = "Only " + numDays / 1440 + " minutes left!"
-      } else{ // no time left
+      } else { // no time left
         var timeLeft = "There's no time left!"
       }
-      $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft +"<span class='raffle-link'> | <a href='/raffle'>About the raffle >></a></span>");
+      $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft);
+      if (!rafflePage) {
+        $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>About the raffle >></a></span>");
+      }
     }
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
@@ -136,14 +142,15 @@ $( document ).ready(function() {
     var tagB = sheet.addElementToTag(".tooltip:hover:after", tooltipWidth); // Injects tootltipWidth into the tooltip's class.
     addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
     //                                                                   Set this manually.  V V V V
-    $("#percent").html("Our 2015 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,250+ earned<span class='raffle-link'> | <a href='/raffle'>Winners >></a></span>");
-
+    $("#percent").html("Our 2015 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,250+ earned");
+    if (!rafflePage) {
+      $("#percent").append(" | <a href='/raffle'>Winners >></a></span>");
+    }
     // This changes the tooltip to not include the tickets checked out.
     if($("#raffle-meter-container").length > 0) document.getElementById("raffle-tooltip").setAttribute("data-content", "Blue: Tickets sold \nYellow: Tickets not sold");
   }
   if (window.location.pathname == '/raffle' || '/raffle/') {
     $(container).show(1000);
-    $('.raffle-link').hide();
     $('#raffle-divider').css('display', 'block');
   } else {
     $(container).show(); // Makes the container visible; it's hidden by default so that a half-loaded meter isn't displayed.
