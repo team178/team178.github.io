@@ -10,24 +10,6 @@ around it. */
   float: right;
 }
 
-/* For adding hover tooltips to elements */
-.tooltip{
-  display: inline-block;
-  position: relative;
-}
-.tooltip:hover:after{
-  background: #333;
-  background: rgba(0,0,0,.8);
-  border-radius: 5px;
-  color: #fff;
-  white-space: pre;
-  content: attr(data-content);
-  padding: 5px 15px;
-  position: absolute;
-  z-index: 98;
-  width: 195px;
-}
-
 /* For styling buttons */
 /* Big, main buttons: */
 .btn {

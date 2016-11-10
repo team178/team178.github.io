@@ -60,7 +60,7 @@ $( document ).ready(function() {
     rafflePage = false;
   }
 
-  if(numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after if you want.
+  if(numDays >= -2 && false) { // The true is there so that you can manually turn this off before the two days after if you want.
 
     google.setOnLoadCallback(get_data);
     function get_data() {
@@ -137,18 +137,18 @@ $( document ).ready(function() {
     var widthSold = new StyleSheetElement("width", deliberateSold + '%'); // Puts manual sold info into widthSold.
     var tagA = sheet.addElementToTag(soldTag, widthSold); // Injects widthSold into soldTag.
     // The outPercent has been removed because it isn't useful information now that the raffle is over.
-    var tooltipWidthAfterRaffle = 170; // Sets a value for the width of the tooltip.
-    var tooltipWidth = new StyleSheetElement("width", tooltipWidthAfterRaffle + 'px'); // Puts the tooltip's width into tootltipWidth.
-    var tagB = sheet.addElementToTag(".tooltip:hover:after", tooltipWidth); // Injects tootltipWidth into the tooltip's class.
     addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
     //                                                                   Set this manually.  V V V V
-    $("#percent").html("Our 2015 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,250+ earned");
+    $("#percent").html("Our 2016 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,250+ earned");
     if (!rafflePage) {
       $("#percent").append(" | <a href='/raffle'>Winners >></a></span>");
+    } else {
+      // This changes the line of info to not include the tickets checked out
+      $('#progress-info').html("Blue: Tickets sold | Yellow: Tickets not sold");
     }
-    // This changes the tooltip to not include the tickets checked out.
-    if($("#raffle-meter-container").length > 0) document.getElementById("raffle-tooltip").setAttribute("data-content", "Blue: Tickets sold \nYellow: Tickets not sold");
+
   }
+  // This runs everytime
   if (window.location.pathname == '/raffle' || '/raffle/') {
     $(container).show(1000);
     $('#raffle-divider').css('display', 'block');

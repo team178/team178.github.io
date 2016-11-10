@@ -61,6 +61,10 @@
     z-index: -1;
     margin-bottom: -3.5%;
 }
+#progress-container {
+  display: inline-block;
+  position: relative;
+}
 #progress-title {
     font-size: 2.5vw;
     font-weight: 1000;
@@ -136,6 +140,12 @@
 }
 /* For mobile */
 @media (max-width: 655px) {
+    #progress-info {
+        margin-top: -5px;
+        margin-bottom: 5px;
+        font-size: 13px;
+        overflow: hidden;
+    }
     .halfStyle.hs-vertical-third {
     font-size: 15vw;
     text-shadow:
@@ -170,16 +180,22 @@
     font-size: 20px;
     margin-bottom: 1%;
     }
-    #mouse-over {
-    display: none;
-    }
 }
 /* For mobile (landscape) */
 @media (max-width: 750px) and (orientation: landscape) {
-    #mouse-over {
-    display: none;
+    #progress-info {
+      margin-bottom: -10px;
     }
     #progress {
     margin-top: -7%;
+    }
+}
+/* For extra special mobile stuff */
+@media (max-width: 475px) {
+    #progress-info {
+        margin-top: -6px;
+        margin-bottom: -1px;
+        font-size: 12px;
+        overflow: hidden;
     }
 }
