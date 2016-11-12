@@ -149,9 +149,10 @@ $( document ).ready(function() {
 
   }
   // This runs everytime
-  if (window.location.pathname == '/raffle' || '/raffle/') {
-    $(container).show(1000);
+  if (rafflePage) {
+    $(container).show(200);
     $('#raffle-divider').css('display', 'block');
+    $('#banner').hide();
   } else {
     $(container).show(); // Makes the container visible; it's hidden by default so that a half-loaded meter isn't displayed.
   }

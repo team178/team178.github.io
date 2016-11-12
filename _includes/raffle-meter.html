@@ -1,7 +1,9 @@
 <head>
-  <script type='text/javascript' src="https://www.google.com/jsapi"></script>
-  <script type='text/javascript' src="{{ site.url }}/assets/js/modifying-css.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/assets/js/raffle-meter.js"></script>
+  <!--[if !IE]><!-->
+    <script type='text/javascript' src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript' src="{{ site.url }}/assets/js/modifying-css.js"></script>
+    <script type='text/javascript' src="{{ site.url }}/assets/js/raffle-meter.js"></script>
+  <!--<![endif]-->
 {% if page.large-raffle-meter %} <!-- Checks if the large-raffle-meter tag is in the .md file. -->
   <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/raffle-meter.css">
 </head>
