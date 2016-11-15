@@ -149,10 +149,10 @@
     .halfStyle.hs-vertical-third {
     font-size: 15vw;
     text-shadow:
-        -1px -1px 0 #000,
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
+        -1.5px -1.5px 0 #000,
+         1.5px -1.5px 0 #000,
+        -1.5px 1.5px 0 #000,
+         1.5px 1.5px 0 #000;
     }
     .halfStyle.hs-vertical-third:before {
     text-shadow:
