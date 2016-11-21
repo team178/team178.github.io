@@ -30,3 +30,10 @@
     ga('send', 'pageview');
   </script>
   {% include dyslexic-font.html %}
+  <!-- Should check if the browser is IE -->
+  <![if IE]>
+  <script type='text/javascript'>
+  if(/*@cc_on!@*/false)
+  var bIsIE = 1;
+  </script>
+  <![endif]>

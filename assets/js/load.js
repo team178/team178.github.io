@@ -12,11 +12,18 @@
 $(window).load(function() {
   // For raffle:
   if ($('#raffle-meter-container').length > 0) {
-    $('#raffle-meter-container').ready(function() {
-      $('#raffle-meter-container').show();
-      $('#raffle-divider').show();
-      $('#banner').hide();
-    })
+    if (!(typeof (bIsIE) != 'undefined')) {
+      $('#raffle-meter-container').ready(function() {
+        $('#raffle-meter-container').show();
+        $('#raffle-divider').show();
+        $('#banner').hide();
+      })
+    } else {
+      $('#raffle-meter-container-s').ready(function() {
+        $('#raffle-meter-container-s').show();
+      })
+    }
+
   } else {
     $('#raffle-meter-container-s').ready(function() {
       $('#raffle-meter-container-s').show();
