@@ -96,6 +96,3 @@ function setFont(font) {
 }
 
 $(document).ready(fontCookieCheck); // Runs the function fontCookieCheck everytime the page loads.
-$(window).load(function() {
-  $("body").css("display", "block");
-});

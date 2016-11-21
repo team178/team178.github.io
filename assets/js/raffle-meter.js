@@ -146,14 +146,5 @@ $( document ).ready(function() {
       // This changes the line of info to not include the tickets checked out
       $('#progress-info').html("Blue: Tickets sold | Yellow: Tickets not sold");
     }
-
-  }
-  // This runs everytime
-  if (rafflePage) {
-    $(container).show(200);
-    $('#raffle-divider').css('display', 'block');
-    $('#banner').hide();
-  } else {
-    $(container).show(); // Makes the container visible; it's hidden by default so that a half-loaded meter isn't displayed.
   }
 });
