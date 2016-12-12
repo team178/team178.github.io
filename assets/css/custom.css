@@ -19,8 +19,8 @@ around it. */
   background-image: -ms-linear-gradient(top, #1A245B, #0F0838);
   background-image: -o-linear-gradient(top, #1A245B, #0F0838);
   background-image: linear-gradient(to bottom, #1A245B, #0F0838);
-  -webkit-border-radius: 15;
-  -moz-border-radius: 15;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
   border-radius: 7px;
   color: #FFD000;
   font-size: 20px;
