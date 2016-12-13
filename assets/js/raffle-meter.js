@@ -120,13 +120,23 @@ $( document ).ready(function() {
       if(numDays > 1) { // in days
         var timeLeft = numDays + " days left"
       } else if(millisecondsLeft > 3600000) { // in hours
-        var timeLeft = Math.round(millisecondsLeft / 3600000) + " hours left"
+        var hoursLeft = Math.round(millisecondsLeft / 3600000);
+        if (hoursLeft > 1) {
+          var timeLeft = hoursLeft + " hours left"
+        } else {
+          var timeLeft = hoursLeft + " hour left"
+        }
       } else if(millisecondsLeft > 0) { // in minutes
-        var timeLeft = "Only " + Math.round(millisecondsLeft / 60000) + " minutes left!"
+        var minutesLeft = Math.round(millisecondsLeft / 60000);
+        if (minutesLeft > 1) {
+          var timeLeft = minutesLeft + " hours left"
+        } else {
+          var timeLeft = minutesLeft + " hour left"
+        }
       } else { // no time left
         var timeLeft = "There's no time left!"
       }
-      $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft);
+      $("#percent").html("Tickets sold: >" + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft);
       if (!rafflePage) {
         $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>About the raffle >></a></span>");
       }
