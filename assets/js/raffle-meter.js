@@ -38,8 +38,9 @@ Thank you for taking the time to read this.
 */
 google.load('visualization', 1.0);
 // For info on how `Date()` is formatted, check out http://www.w3schools.com/jsref/jsref_obj_date.asp
-var raffle_deadline = new Date(2016, 11, 13, 19, 30, 0); // Make sure to set this to the proper deadline.
-var numDays = Math.ceil((raffle_deadline - new Date())/86400000);
+var raffleDeadline = new Date(2016, 11, 13, 19, 30, 0); // Make sure to set this to the proper deadline.
+var millisecondsLeft = raffleDeadline - new Date()
+var numDays = Math.ceil(millisecondsLeft/86400000);
 
 var container; // entire progress bar
 var soldTag; // blue
@@ -118,10 +119,10 @@ $( document ).ready(function() {
       var timeLeft; // Generates the phrase that is the time left.
       if(numDays > 1) { // in days
         var timeLeft = numDays + " days left"
-      } else if(numDays <= 1 && numDays > (1/24)) { // in hours
-        var timeLeft = numDays / 24 + " hours left"
-      } else if(numDays <= (1/24) && numDays > 0) { // in minutes
-        var timeLeft = "Only " + numDays / 1440 + " minutes left!"
+      } else if(millisecondsLeft > 3600000) { // in hours
+        var timeLeft = Math.round(millisecondsLeft / 3600000) + " hours left"
+      } else if(millisecondsLeft > 0) { // in minutes
+        var timeLeft = "Only " + Math.round(millisecondsLeft / 60000) + " minutes left!"
       } else { // no time left
         var timeLeft = "There's no time left!"
       }
