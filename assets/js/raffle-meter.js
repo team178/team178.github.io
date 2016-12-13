@@ -111,6 +111,7 @@ $( document ).ready(function() {
 
       // For text
       var money = sold * 100; // Each 1 in sold is a booklet. When I made this each booklet was worth $100.00; change this if that changes.
+      money = money + 1600; // Adds the money not counted because it's from impartial books.
       var soldPercentString = soldPercent.toString(); // Turns the double into a string.
       var soldPercentShort = soldPercentString.substring(0, 5); // Makes the length of the sold string 5 characters long.
 
