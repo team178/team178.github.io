@@ -129,9 +129,9 @@ $( document ).ready(function() {
       } else if(millisecondsLeft > 0) { // in minutes
         var minutesLeft = Math.round(millisecondsLeft / 60000);
         if (minutesLeft > 1) {
-          var timeLeft = minutesLeft + " hours left"
+          var timeLeft = minutesLeft + " minutes left"
         } else {
-          var timeLeft = minutesLeft + " hour left"
+          var timeLeft = minutesLeft + " minute left"
         }
       } else { // no time left
         var timeLeft = "There's no time left!"
