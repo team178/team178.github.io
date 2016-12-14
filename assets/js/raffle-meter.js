@@ -61,7 +61,7 @@ $( document ).ready(function() {
     rafflePage = false;
   }
 
-  if(numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after if you want.
+  if(numDays >= -2 && false) { // The true is there so that you can manually turn this off before the two days after if you want.
 
     google.setOnLoadCallback(get_data);
     function get_data() {
@@ -145,15 +145,15 @@ $( document ).ready(function() {
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
     var sheet = new StyleSheet(); // Creates a kind of "false" CSS file that the widths are inserted into.
-    var deliberateSold = 68.28; // Set this percent manually.
+    var deliberateSold = 69.59; // Set this percent manually.
     var widthSold = new StyleSheetElement("width", deliberateSold + '%'); // Puts manual sold info into widthSold.
     var tagA = sheet.addElementToTag(soldTag, widthSold); // Injects widthSold into soldTag.
     // The outPercent has been removed because it isn't useful information now that the raffle is over.
     addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
     //                                                                   Set this manually.  V V V V
-    $("#percent").html("Our 2016 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,250+ earned");
+    $("#percent").html("Our 2016 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,135 earned");
     if (!rafflePage) {
-      $("#percent").append(" | <a href='/raffle'>Winners >></a></span>");
+      $("#percent").append(" | <a href='/raffle'>About >></a></span>");
     } else {
       // This changes the line of info to not include the tickets checked out
       $('#progress-info').html("Blue: Tickets sold | Yellow: Tickets not sold");
