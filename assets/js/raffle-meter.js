@@ -153,7 +153,7 @@ $( document ).ready(function() {
     //                                                                   Set this manually.  V V V V
     $("#percent").html("Our 2016 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,135 earned");
     if (!rafflePage) {
-      $("#percent").append(" | <a href='/raffle'>About >></a></span>");
+      $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>Winners >></a></span>");
     } else {
       // This changes the line of info to not include the tickets checked out
       $('#progress-info').html("Blue: Tickets sold | Yellow: Tickets not sold");

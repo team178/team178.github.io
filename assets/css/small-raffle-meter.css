@@ -28,13 +28,13 @@
   margin-left:auto;
   margin-right:auto;
 }
-a.raffle-link {
-  font-weight: bold;
+span.raffle-link > a {
+  display: inline-block;
   color: #FFF;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 /* For mobile */
-@media (max-width: 475px){
+@media (max-width: 530px){
   #percent {
     font-size: 12px;
     right: 0px;
