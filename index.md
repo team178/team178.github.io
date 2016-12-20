@@ -2,8 +2,9 @@
 layout: homepage
 large-raffle-meter: false
 # It doesn't look right with the way the header's styled now.
-title:
 ---
+<div id="jekyll-title-blocker" style="display:none;">Hey, Jekyll! Please don't add a title when I don't want it. Thanks!</div>
+
 ### About Team 178
 
 >The 2nd Law Enforcers have been an active participant in *FIRST* (For Inspiration & Recognition of Science & Technology) since 1997. We aim to provide real-world opportunities for our team members to grow as team members and leaders and to educate the public about STEM topics. Read more [here]({{ site.url }}/about).
