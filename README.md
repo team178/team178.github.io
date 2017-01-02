@@ -15,8 +15,6 @@ When making a code related change to the website, be sure to follow the best pra
 6. Please **please PLEASE** comment your code!
 7. Lastly: If you don't know, ask!
 
-This section of the README file is copied from the [Changing HTML and CSS on the Website wiki page](https://github.com/team178/team178.github.io/wiki/Changing-HTML-and-CSS-on-the-Website).
-
 ### Running Locally
 
 Start by making sure you have Ruby installed:
