@@ -39,7 +39,7 @@ Thank you for taking the time to read this.
 google.load('visualization', 1.0);
 // For info on how `Date()` is formatted, check out http://www.w3schools.com/jsref/jsref_obj_date.asp
 var raffleDeadline = new Date(2016, 11, 13, 19, 30, 0); // Make sure to set this to the proper deadline.
-var millisecondsLeft = raffleDeadline - new Date()
+var millisecondsLeft = raffleDeadline - new Date();
 var numDays = Math.ceil(millisecondsLeft/86400000);
 
 var container; // entire progress bar
@@ -118,23 +118,23 @@ $( document ).ready(function() {
 
       var timeLeft; // Generates the phrase that is the time left.
       if(numDays > 1) { // in days
-        var timeLeft = numDays + " days left"
+        timeLeft = numDays + " days left";
       } else if(millisecondsLeft > 3600000) { // in hours
         var hoursLeft = Math.round(millisecondsLeft / 3600000);
         if (hoursLeft > 1) {
-          var timeLeft = hoursLeft + " hours left"
+          timeLeft = hoursLeft + " hours left";
         } else {
-          var timeLeft = hoursLeft + " hour left"
+          timeLeft = hoursLeft + " hour left";
         }
       } else if(millisecondsLeft > 0) { // in minutes
         var minutesLeft = Math.round(millisecondsLeft / 60000);
         if (minutesLeft > 1) {
-          var timeLeft = minutesLeft + " minutes left"
+          timeLeft = minutesLeft + " minutes left";
         } else {
-          var timeLeft = minutesLeft + " minute left"
+          timeLeft = minutesLeft + " minute left";
         }
       } else { // no time left
-        var timeLeft = "There's no time left!"
+        timeLeft = "There's no time left!";
       }
       $("#percent").html("Tickets sold: >" + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft);
       if (!rafflePage) {
