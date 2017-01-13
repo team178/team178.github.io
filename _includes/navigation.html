@@ -5,11 +5,12 @@
   }
   </style>
 </noscript>
-<div id="menu-toggle">
-  <div class="menu-tangles"></div>
-  <div class="menu-tangles"></div>
-  <div class="menu-tangles"></div>
-</div>
+<input id="menu-check" type="checkbox">
+<label id="menu-toggle" for="menu-check">
+  <div class="menu-tangle"></div>
+  <div class="menu-tangle"></div>
+  <div class="menu-tangle"></div>
+</label>
 <nav>
   <ul id="nav">
     <li><a href="{{ site.url }}/">Home</a></li>
@@ -32,7 +33,7 @@
     </li>
     <li><a href="{{ site.url }}/media">Media</a></li>
     <li>
-      <a href="#" style="cursor:default;">Members Section</a>
+      <a href="#" style="cursor:default;">Members</a>
       <ul>
         <li><a href="{{ site.url }}/members/join">How To Join</a></li>
         <li><a href="{{ site.url }}/members/communication">Communication</a></li>
