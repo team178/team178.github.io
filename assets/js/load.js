@@ -16,7 +16,6 @@ $(window).load(function() {
       $('#raffle-meter-container').ready(function() {
         $('#raffle-meter-container').show();
         $('#raffle-divider').show();
-        $('#banner').hide();
       })
     } else {
       $('#raffle-meter-container-s').ready(function() {
