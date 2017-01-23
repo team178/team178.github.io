@@ -1,6 +1,6 @@
 ---
 title: Members Section
-published: false
+published: true
 ---
 ## Members Section
 
@@ -16,7 +16,7 @@ If you are interested in joining the team or contacting the coaches, all of the 
 If you're wondering what the 2nd Law Enforcers are and what we're all about, take a look at these links:
 <div style="text-align:center; padding:5px;">
   <a class="btn" href="{{ site.url }}/about">About Us</a>
-  <a class="btn" href="{{ site.url }}/history">Team History</a>
+  <a class="btn" href="{{ site.url }}/about/history">Team History</a>
   <a class="btn" href="{{ site.url }}/members/handbook">Team Handbook</a>
 </div>
 
