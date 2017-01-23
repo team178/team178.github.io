@@ -10,6 +10,6 @@ Click [here](http://www.firstinspires.org/robotics/frc/what-is-first-robotics-co
 This season's game is *FIRST* STEAMworks. No information has been released so far other than a teaser trailer which can be viewed [here](https://youtu.be/37GBEBLfhWA). The game manual is currently available for download. However, the password to open it won't be released until after the Kickoff stream on January 7th.
 
 <div width="100%" style="text-align:center;margin-top:1em;">
-  <a class="btn" href="https://drive.google.com/uc?export=download&id=0BwepyUiHjmNjZGJxeEJmOE5CeWM" target="_blank">Download Manual</a>
+  <a class="btn" href="https://firstfrc.blob.core.windows.net/frc2017/Manual/2017FRCGameSeasonManual.pdf" target="_blank">Download Manual</a>
   <a class="btn" href="http://www.firstinspires.org/resource-library/frc/competition-manual-qa-system?utm_source=hs_email&utm_medium=email&utm_content=40176757&_hsenc=p2ANqtz-9sRtvBregjMA_3wwl7OVcCXZdE7pCduMWXk9_UYkxStV180YhEK_6jamp_zNM9VP7Dety_tN46Pex47KTi8U5wjLgX3Q&_hsmi=40176757" target="_blank">Other Resources</a>
 </div>
