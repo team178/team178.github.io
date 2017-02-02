@@ -156,7 +156,7 @@ $( document ).ready(function() {
       $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>Winners >></a></span>");
     } else {
       // This changes the line of info to not include the tickets checked out
-      $('#progress-info').html("Blue: Tickets sold | Yellow: Tickets not sold");
+      $('#progress-info').html("Blue: Tickets sold | White: Tickets not sold");
     }
   }
 });
