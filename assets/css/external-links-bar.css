@@ -23,6 +23,9 @@
 #twitter-link {
   background-image: url("../img/externals/twitter.png");
 }
+#instagram-link {
+  background-image: url("../img/externals/instagram.png");
+}
 #youtube-link {
   background-image: url("../img/externals/youtube.png");
 }
@@ -57,7 +60,7 @@
     margin-right: 0;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 410px) {
   #external-links-bar {
     display: none;
   }
