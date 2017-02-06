@@ -113,12 +113,8 @@ $( document ).ready(function() {
       var soldPercent = sold / (sold + out + base) * 100; // Divides the amount sold by the total and makes it into percent form.
       var outPercent = (out + sold) / (sold + out + base) * 100;
 
-      var sheet = new StyleSheet(); // Creates a kind of "false" CSS file that the widths are inserted into.
-      var widthSold = new StyleSheetElement("width", soldPercent + '%'); // Puts sold info into widthSold.
-      var tagA = sheet.addElementToTag(soldTag, widthSold); // Injects widthSold into soldTag.
-      var widthOut = new StyleSheetElement("width", outPercent + '%'); // Puts out info into widthOut.
-      var tagB = sheet.addElementToTag(outTag, widthOut); // Injects widthOut into outTag.
-      addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
+      $(soldTag).css('width', soldPercent + '%'); // Sets the soldTag's width to the soldPercent
+      $(outTag).css('width', outPercent + '%'); // Sets the outTag's width to the outPercent
 
       // For text
       var money = sold * 5; // Each 1 in sold is a ticket. When I made this each ticket was worth $5.00; change this if that changes.
@@ -153,14 +149,10 @@ $( document ).ready(function() {
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
-    var sheet = new StyleSheet(); // Creates a kind of "false" CSS file that the widths are inserted into.
-    var deliberateSold = 69.59; // Set this percent manually.
-    var widthSold = new StyleSheetElement("width", deliberateSold + '%'); // Puts manual sold info into widthSold.
-    var tagA = sheet.addElementToTag(soldTag, widthSold); // Injects widthSold into soldTag.
-    // The outPercent has been removed because it isn't useful information now that the raffle is over.
-    addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
+    var deliberateSoldPercent = 69.59; // Set this percent manually.
+    $(soldTag).css('width', deliberateSoldPercent + '%'); // Sets the soldTag's width to the deliberateSoldPercent
     //                                                                   Set this manually.  V V V V
-    $("#percent").html("Our 2016 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,135 earned");
+    $("#percent").html("Our 2016 raffle has ended! | Tickets sold: " + deliberateSoldPercent + "% | $11,135 earned");
     if (!rafflePage) {
       $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>Winners >></a></span>");
     } else {
