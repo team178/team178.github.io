@@ -38,8 +38,9 @@ Thank you for taking the time to read this.
 */
 google.load('visualization', 1.0);
 // For info on how `Date()` is formatted, check out http://www.w3schools.com/jsref/jsref_obj_date.asp
-var raffle_deadline = new Date(2016, 11, 13, 19, 30, 0); // Make sure to set this to the proper deadline.
-var numDays = Math.ceil((raffle_deadline - new Date())/86400000);
+var raffleDeadline = new Date(2016, 11, 13, 19, 30, 0); // Make sure to set this to the proper deadline.
+var millisecondsLeft = raffleDeadline - new Date();
+var numDays = Math.ceil(millisecondsLeft/86400000);
 
 var container; // entire progress bar
 var soldTag; // blue
@@ -60,7 +61,7 @@ $( document ).ready(function() {
     rafflePage = false;
   }
 
-  if(numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after if you want.
+  if(numDays >= -2 && false) { // The true is there so that you can manually turn this off before the two days after if you want.
 
     google.setOnLoadCallback(get_data);
     function get_data() {
@@ -126,15 +127,25 @@ $( document ).ready(function() {
 
       var timeLeft; // Generates the phrase that is the time left.
       if(numDays > 1) { // in days
-        var timeLeft = numDays + " days left"
-      } else if(numDays <= 1 && numDays > (1/24)) { // in hours
-        var timeLeft = numDays / 24 + " hours left"
-      } else if(numDays <= (1/24) && numDays > 0) { // in minutes
-        var timeLeft = "Only " + numDays / 1440 + " minutes left!"
+        timeLeft = numDays + " days left";
+      } else if(millisecondsLeft > 3600000) { // in hours
+        var hoursLeft = Math.round(millisecondsLeft / 3600000);
+        if (hoursLeft > 1) {
+          timeLeft = hoursLeft + " hours left";
+        } else {
+          timeLeft = hoursLeft + " hour left";
+        }
+      } else if(millisecondsLeft > 0) { // in minutes
+        var minutesLeft = Math.round(millisecondsLeft / 60000);
+        if (minutesLeft > 1) {
+          timeLeft = minutesLeft + " minutes left";
+        } else {
+          timeLeft = minutesLeft + " minute left";
+        }
       } else { // no time left
-        var timeLeft = "There's no time left!"
+        timeLeft = "There's no time left!";
       }
-      $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft);
+      $("#percent").html("Tickets sold: >" + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft);
       if (!rafflePage) {
         $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>About the raffle >></a></span>");
       }
@@ -143,18 +154,18 @@ $( document ).ready(function() {
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
     var sheet = new StyleSheet(); // Creates a kind of "false" CSS file that the widths are inserted into.
-    var deliberateSold = 68.28; // Set this percent manually.
+    var deliberateSold = 69.59; // Set this percent manually.
     var widthSold = new StyleSheetElement("width", deliberateSold + '%'); // Puts manual sold info into widthSold.
     var tagA = sheet.addElementToTag(soldTag, widthSold); // Injects widthSold into soldTag.
     // The outPercent has been removed because it isn't useful information now that the raffle is over.
     addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
     //                                                                   Set this manually.  V V V V
-    $("#percent").html("Our 2016 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,250+ earned");
+    $("#percent").html("Our 2016 raffle has ended! | Tickets sold: " + deliberateSold + "% | $11,135 earned");
     if (!rafflePage) {
-      $("#percent").append(" | <a href='/raffle'>Winners >></a></span>");
+      $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>Winners >></a></span>");
     } else {
       // This changes the line of info to not include the tickets checked out
-      $('#progress-info').html("Blue: Tickets sold | Yellow: Tickets not sold");
+      $('#progress-info').html("Blue: Tickets sold | White: Tickets not sold");
     }
   }
 });

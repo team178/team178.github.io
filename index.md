@@ -2,6 +2,7 @@
 layout: homepage
 large-raffle-meter: false
 # It doesn't look right with the way the header's styled now.
+title: ''
 ---
 ### About Team 178
 

@@ -5,7 +5,7 @@
 ## Contributing
 When making a code related change to the website, be sure to follow the best practices below.
 
-1. Check changes with a local offline copy before committing to master. See [Using Jekyll with Pages - Installing Jekyll](https://help.github.com/articles/using-jekyll-with-pages/#installing-jekyll) for how to do this.
+1. Check changes with a local offline copy before committing to master. See [Running Locally](#running-locally) below for how to set this up.
 2. Make sure existing code organization is followed. Not limited to but including:
   - 2 space indents (not tabs) on both HTML and CSS.
   - Indents are used where they should be to maintain hierarchy in code.
@@ -15,11 +15,49 @@ When making a code related change to the website, be sure to follow the best pra
 6. Please **please PLEASE** comment your code!
 7. Lastly: If you don't know, ask!
 
-This section of the README file is copied from the [Changing HTML and CSS on the Website wiki page](https://github.com/team178/team178.github.io/wiki/Changing-HTML-and-CSS-on-the-Website).
+### Running Locally
+
+Start by making sure you have Ruby installed:
+
+```
+ruby -v
+```
+
+If nothing appears as a result, [install Ruby](https://www.ruby-lang.org/en/documentation/installation).
+
+Then install [Bundler](http://gembundler.com), if you don't already have it:
+
+```
+gem install bundler
+```
+
+If you're new to the team, you'll want to make a fork of the repository. This makes it easier for you to make changes and get them reviewed before they're added to the live site.
+
+Once you've forked the repository you'll want to access that code on your own computer.
+To do this just clone the repository down to your local machine:
+
+```
+git clone https://github.com/username/team178.github.io.git
+```
+
+(Make sure to replace `username` with your username.)
+
+Then you need to navigate into your newly cloned repository:
+
+```
+cd team178.github.io
+```
+
+The last thing you need to do before you can run locally is do a `bundle install` to install the required gems.
+
+Then just run `jekyll serve` to see the website running on `http://localhost:4000`.
+
+If you get any errors or warnings, try running `bundle exec jekyll serve` instead.
+
 
 ## Text Editor of Choice
 
-Many of the website team use [Atom](https://atom.io/) as our text editor of choice. If you already have a preferred text editor, you are free to use that! But if you are just starting out, you can try Atom.
+Some on the website team use [Atom](https://atom.io/) as our text editor of choice. If you already have a preferred text editor, you are free to use that! But if you are just starting out, you can try Atom.
 
 You can get the installer for your OS on [Atom's homepage](https://atom.io/). If you're on Ubuntu, you can use this guide:
 [Guide for Ubuntu](https://codeforgeek.com/2014/09/install-atom-editor-ubuntu-14-04/) If you're on Windows you need to right click the installer and click "Run as Administrator". If it fails restart your computer and try installing it a couple of times. If that also fails go to Google for help.

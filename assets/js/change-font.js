@@ -10,6 +10,7 @@ function fontCookieCheck() {
     setFont(font);
 }
 
+// If you want to use this make sure to install SweetAlert2 and Promise
 /*function fontAlert1() {
   if (($(window).height() <= 565 && $(window).width() <= 675) || ($(window).height() <= 420) || ($(window).width() <= 420)) {
     isDyslexic = confirm("Would you like to use a Dyslexia friendly font on this website?");

@@ -3,6 +3,9 @@
   position:relative;
   text-align:center;
   overflow: hidden;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
 }
 #raffle-meter-out {
   background-color: #FFD000;
@@ -28,13 +31,17 @@
   margin-left:auto;
   margin-right:auto;
 }
-a.raffle-link {
-  font-weight: bold;
-  color: #FFF;
+span.raffle-link > a {
+  display: inline-block;
+  color: #EEE;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
+span.raffle-link > a:hover {
+  color: #FFF;
+  text-shadow: black 0.15em 0.15em 0.25em;
+}
 /* For mobile */
-@media (max-width: 475px){
+@media (max-width: 530px){
   #percent {
     font-size: 12px;
     right: 0px;

@@ -5,19 +5,20 @@
   }
   </style>
 </noscript>
-<div id="menu-toggle">
-  <div class="menu-tangles"></div>
-  <div class="menu-tangles"></div>
-  <div class="menu-tangles"></div>
-</div>
+<input id="menu-check" type="checkbox">
+<label id="menu-toggle" for="menu-check">
+  <div class="menu-tangle"></div>
+  <div class="menu-tangle"></div>
+  <div class="menu-tangle"></div>
+</label>
 <nav>
   <ul id="nav">
     <li><a href="{{ site.url }}/">Home</a></li>
     <li>
       <a href="{{ site.url }}/about">About</a>
       <ul>
-        <li><a href="{{ site.url }}/committees">Committees</a></li>
-        <li><a id="history-link" href="{{ site.url }}/history">Team History</a></li>
+        <li><a href="{{ site.url }}/about/committees">Committees</a></li>
+        <li><a id="history-link" href="{{ site.url }}/about/history">Team History</a></li>
         <li><a href="{{ site.url }}/dreamfirst">Dream FIRST</a></li>
       </ul>
     </li>
@@ -25,13 +26,14 @@
     <li>
       <a href="{{ site.url }}/first">FIRST</a>
       <ul>
-        <li><a href="{{ site.url }}/flljr"><span style="font-style:italic;">FIRST</span> Lego League Jr.</a></li>
-        <li><a href="{{ site.url }}/fll"><span style="font-style:italic;">FIRST</span> Lego League</a></li>
+        <li><a href="{{ site.url }}/first/flljr"><span style="font-style:italic;">FIRST</span> Lego League Jr.</a></li>
+        <li><a href="{{ site.url }}/first/fll"><span style="font-style:italic;">FIRST</span> Lego League</a></li>
+        <li><a href="{{ site.url }}/first/frc"><span style="font-style:italic;">FIRST</span> Robotics Competition</a></li>
       </ul>
     </li>
     <li><a href="{{ site.url }}/media">Media</a></li>
     <li>
-      <a href="#" style="cursor:default;">Members Section</a>
+      <a href="{{ site.url }}/members">Members</a>
       <ul>
         <li><a href="{{ site.url }}/members/join">How To Join</a></li>
         <li><a href="{{ site.url }}/members/communication">Communication</a></li>

@@ -1,4 +1,4 @@
-# Editor backup files
+# Editor files
 *~
 
 # OS X
@@ -21,4 +21,5 @@ Thumbs.db
 # External Repo Pages
 /website-testing
 /hofc
-/tvpage
+/countdown
+/bingo

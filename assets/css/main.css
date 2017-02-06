@@ -44,7 +44,7 @@ iframe {max-width: 100%; }
   white-space:nowrap;
 }
 
-#header h1 {
+#header h1 { /* Applies to "ENFORCERS" */
   font-family: "stencil-std";
   transform: scale(1,1.5);
   -webkit-transform:scale(1,1.5); /* Safari and Chrome */
@@ -53,7 +53,7 @@ iframe {max-width: 100%; }
   -o-transform:scale(1,1.5); /* Opera */
   margin: 0; padding: 0;
 }
-#header h1 a:before {
+#header h1 a:before { /* Applies to "ENFORCERS" */
   content: "E";
   display: inline-block;
   transform: scale(1,1.55);
@@ -64,7 +64,7 @@ iframe {max-width: 100%; }
   position: relative;
   bottom: .2em;
 }
-#header h1 a, footer a {
+#header h1 a, footer a { /* Applies to "ENFORCERS" and links in the footer */
   margin: 0; padding: 0;
 
   color: #FFD000;
@@ -76,7 +76,7 @@ iframe {max-width: 100%; }
   font-size: .75em;
 }
 
-#header h1 a:hover, footer a:hover {
+#header h1 a:hover, footer a:hover { /* Applies to "ENFORCERS" and links in the footer */
   color: #FcFF5F;
 }
 
