@@ -67,7 +67,7 @@ $( document ).ready(function() {
     function get_data() {
       var opts = {sendMethod: 'auto'};                // Make sure to manually change the link to the proper Google Sheet.
       var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1xEjQEKM2FLlj_dGCjKW4JWWDM-gDN0r2YXIFon_zraM/edit#gid=0', opts);
-      query.setQuery('select F'); // Make sure to manually select the proper column.
+      query.setQuery('select F, H'); // Make sure to manually select the proper columns.
       query.send(handleQueryResponse);
       // Note: The function will only run when the page is loaded.
 
@@ -87,17 +87,27 @@ $( document ).ready(function() {
       var sold = 0;
       var out = 0;
       for(var i = 0; i < data.getNumberOfRows(); i++){ // The i++ adds 1 to 'i' after it goes through the loop once.
-        if(data.getValue(i,0) == 0 || data.getValue(i,0) == 9) { // Checks for 0 and 9 in row 'i'.
-          base += 1; // Adds 1 to the base if ^^^^ is true.
-        } else if(data.getValue(i,0) == 1 || data.getValue(i,0) == 3) { // Checks for 1 and 3 in row 'i'.
-          out += 1;
+      // 0 = untouched (base)
+      // 1 = checked out (out)
+      // 2 = full book sold (sold)
+      // 3 = original partial book (sold & out)
+      // 4 = other partial books; only happens after a 3 (sold & out)
+        if(data.getValue(i,0) == 0) { // Checks for 0 in row 'i'.
+          base += 20; // Adds 20 to the base if ^^^^ is true.
+        } else if(data.getValue(i,0) == 1) { // Checks for 1 in row 'i'.
+          out += 20;
+        } else if(data.getValue(i,0) == 3) { // Checks for 3 in row 'i'.
+          sold += data.getValue(i,1);
+          out += (20 - data.getValue(i,1));
+        } else if(data.getValue(i,0) == 4) { // Checks for 4 in row 'i'.
+          sold += data.getValue(i,1); // Shouldn't be total sold from book
+          out -= data.getValue(i,1);
         } else if(data.getValue(i,0) == 2) { // Checks for a 2 in row 'i'.
-          sold += 1;
+          sold += 20;
         }
       /* In this loop, 'i' is used as the row number. As long as 'i' is less than the number of rows there are, the loop keeps going.
-        It goes through and checks row 'i' to see if the number in it matches 0, 1, or 2. If there's anything other than those
-        numbers it ignores it. I'm not quite sure what it does if it sees "1 2" or something else. Maybe it'll add 1 to both
-        out and sold? */
+        It goes through and checks row 'i' to see if the number in it matches 0, 1, 2, 3 or 4. If there's anything other than those
+        numbers it ignores it. */
       }
 
       var soldPercent = sold / (sold + out + base) * 100; // Divides the amount sold by the total and makes it into percent form.
@@ -111,8 +121,7 @@ $( document ).ready(function() {
       addInlineStyleSheet(sheet); // Adds the stuff in the StyleSheet to the referenced tags.
 
       // For text
-      var money = sold * 100; // Each 1 in sold is a booklet. When I made this each booklet was worth $100.00; change this if that changes.
-      money = money + 1600; // Adds the money not counted because it's from impartial books.
+      var money = sold * 5; // Each 1 in sold is a ticket. When I made this each ticket was worth $5.00; change this if that changes.
       var soldPercentString = soldPercent.toString(); // Turns the double into a string.
       var soldPercentShort = soldPercentString.substring(0, 5); // Makes the length of the sold string 5 characters long.
 
