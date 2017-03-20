@@ -87,27 +87,33 @@ $( document ).ready(function() {
       var sold = 0;
       var out = 0;
       for(var i = 0; i < data.getNumberOfRows(); i++){ // The i++ adds 1 to 'i' after it goes through the loop once.
+      /* Key for what the values mean: */
       // 0 = untouched (base)
       // 1 = checked out (out)
       // 2 = full book sold (sold)
       // 3 = original partial book (sold & out)
       // 4 = other partial books; only happens after a 3 (sold & out)
+      /* Key for what the columns are for: */
+      // 0 = Status of book
+      // 1 = Number of tickets sold from book
         if(data.getValue(i,0) == 0) { // Checks for 0 in row 'i'.
           base += 20; // Adds 20 to the base if ^^^^ is true.
         } else if(data.getValue(i,0) == 1) { // Checks for 1 in row 'i'.
-          out += 20;
+          out += 20; // Adds 20 to the out if ^^^^ is true.
         } else if(data.getValue(i,0) == 3) { // Checks for 3 in row 'i'.
-          sold += data.getValue(i,1);
-          out += (20 - data.getValue(i,1));
+          sold += data.getValue(i,1); // Adds value in second column at to the sold if ^^^^ is true.
+          out += (20 - data.getValue(i,1)); // Adds the amount left in the book to the out.
         } else if(data.getValue(i,0) == 4) { // Checks for 4 in row 'i'.
-          sold += data.getValue(i,1); // Shouldn't be total sold from book
-          out -= data.getValue(i,1);
+          sold += data.getValue(i,1); // Shouldn't be total sold from book (it should be how much they just sold).
+          out -= data.getValue(i,1); // Removes the amount sold from the out. (Because it's not out anymore, it just got sold.)
         } else if(data.getValue(i,0) == 2) { // Checks for a 2 in row 'i'.
-          sold += 20;
+          sold += 20; // Adds 20 to sold if the entire book is sold.
         }
-      /* In this loop, 'i' is used as the row number. As long as 'i' is less than the number of rows there are, the loop keeps going.
-        It goes through and checks row 'i' to see if the number in it matches 0, 1, 2, 3 or 4. If there's anything other than those
-        numbers it ignores it. */
+      /*
+      In this loop, 'i' is used as the row number. As long as 'i' is less than the number of rows there are, the loop keeps going.
+      It goes through and checks row 'i' to see if the number in it matches 0, 1, 2, 3 or 4. If there's anything other than those
+      numbers it ignores it.
+      */
       }
 
       var soldPercent = sold / (sold + out + base) * 100; // Divides the amount sold by the total and makes it into percent form.
