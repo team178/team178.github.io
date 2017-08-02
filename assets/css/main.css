@@ -58,7 +58,8 @@ iframe {max-width: 100%; }
   -moz-transform:scale(1,1.5); /* Firefox */
   -ms-transform:scale(1,1.5); /* IE 9+ */
   -o-transform:scale(1,1.5); /* Opera */
-  margin: 0; padding: 0;
+  margin-top: .5rem; margin-bottom: 0px;
+  margin-left: 0px; margin-right: 1rem;
 }
 #header h1 a:before { /* Applies to "ENFORCERS" */
   content: "E";
@@ -69,7 +70,8 @@ iframe {max-width: 100%; }
   -ms-transform:scale(1,1.55); /* IE 9+ */
   -o-transform:scale(1,1.55); /* Opera */
   position: relative;
-  bottom: .2em;
+  vertical-align: 20%;
+  line-height: 1.4rem;
 }
 #header h1 a, footer a { /* Applies to "ENFORCERS" and links in the footer */
   margin: 0; padding: 0;
@@ -134,15 +136,16 @@ footer {
   #header h1 {
     font-size: 1.5rem;
   }
+  #header h1 a:before {
+    line-height: 1.5rem;
+    vertical-align: 12%;
+  }
 }
 
 @media screen and (max-width: 875px) {
   body {
     font-size: 0.9rem;
     line-height: 1.5rem;
-  }
-  #header h1 a:before {
-    bottom: .15em;
   }
   h2 { font-size: 1.75rem; }
   h3 { font-size: 1.125rem; }

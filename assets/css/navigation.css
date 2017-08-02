@@ -1,11 +1,5 @@
 nav {
-  /** White lined separator between logo and navigation **/
-  margin-left: 1.5rem; padding-left: 1rem;
-  background-image: linear-gradient(hsla(0,0%,100%,0), hsla(0,0%,100%,.3) 30%, hsla(0,0%,100%,.3) 70%, hsla(0,0%,100%,0)),
-                    linear-gradient(hsla(210,54%,20%,0), hsla(210,54%,20%,.3) 30%, hsla(210,54%,20%,.3) 70%, hsla(210,54%,20%,0));
-  background-size: 1px, 1px, 1px;
-  background-position: 0px 0px, 1px 0px, 2px 0px;
-  background-repeat: no-repeat;
+  /* Nothing's here because what was here didn't work. */
 }
 
 #nav {
