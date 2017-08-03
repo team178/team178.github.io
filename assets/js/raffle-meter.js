@@ -1,15 +1,16 @@
 /*
 Hi! If you're reading this then you're probably not me. That means that you also
-probably don't understand how this works.I'll try and help you understand.
-There're a bunch of comments scattered around that should help you along. I
-would suggest that you read through this code carefully; the things that you
-have to change manually should be clearly marked, However, if they aren't
-everything should be explained below.
+probably don't understand how this works.I'll try and help you understand. There
+are a bunch of comments scattered around that should help you along. I would
+suggest that you read through this code carefully; the things that you have to
+change manually should be clearly marked, However, if they aren't everything
+should be explained below.
 THINGS TO ENTER IN YOURSELF:
 * The date and time that the raffle ends.
 * The number of days after the raffle that you want the meter content to change.
 * The link to the Google Sheet that the information is being stored in.
-* The column that the status of the tickets is recorded in.
+* The column that the status of the books is recorded in.
+* The column that the number of tickets sold is recorded in.
 * The characters that are used to symbolize each state of the tickets. (If you
 change it for whatever reason, please also change the comment to match.)
 *(maybe) The amount "sold" is multiplied by to create the money variable. (It's
@@ -20,18 +21,19 @@ on what I've written there.)
 that but I don't feel like coding that right now.)
 
 WHAT THIS CODE DOES:
-It pulls information from a Google Spreadsheet and counts the number of 0s ,1s,
-and 2s there are in a specified column. The number of 0s is counted as the
-number of booklets that haven't been touched; the number of 1s counts as the
-booklets that're out being sold; and the 2s count as the number of booklets that
-have been sold. These numbers are then turned into statistics that get displayed
-on the website as the progress bar. There are two different ways it gets
-displayed based on if large-raffle-meter = true in the front matter of the page.
+It pulls information from a Google Spreadsheet and counts the number of 0s, 1s,
+2s, 3s, and 4s there are in a specified column. The number of 0s is counted as
+the number of book that haven't been touched; the 1s count as the books that are
+checked out being sold; the 2s count as the number of full books that have been
+sold; the 3s mark original partial books; and the 4s only appear after 3s to
+mark that row as the rest of the above partial book. These numbers are then
+turned into statistics that get displayed on the website as the progress bar.
+There are two different ways it gets displayed based on if large-raffle-meter is
+true in the front matter of the page.
 
-If you're /still/ confused after reading all of this please contact either
-[Tim Scalzo](19scalzoti@fpsct.org) or [Giselle Koo](gisellegk@gmail.com) for
-help. (Yes, I realize that this isn't actually markdown; I just wanted to do
-that.)
+If you're *still* confused after reading all of this please contact either
+Tim Scalzo (19scalzoti@fpsct.org) or Giselle Koo (gisellegk@gmail.com) for
+help.
 
 Thank you for taking the time to read this.
 ~~~~~~-Tim Scalzo
@@ -61,12 +63,12 @@ $( document ).ready(function() {
     rafflePage = false;
   }
 
-  if(numDays >= -2 && false) { // The true is there so that you can manually turn this off before the two days after if you want.
+  if(numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after if you want.
 
     google.setOnLoadCallback(get_data);
     function get_data() {
       var opts = {sendMethod: 'auto'};                // Make sure to manually change the link to the proper Google Sheet.
-      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1xEjQEKM2FLlj_dGCjKW4JWWDM-gDN0r2YXIFon_zraM/edit#gid=0', opts);
+      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1RVyiJEuCTD0pUkbTMRKRsCq-vz-LWK16_pZxRcvIM7s/edit#gid=0', opts);
       query.setQuery('select F, H'); // Make sure to manually select the proper columns.
       query.send(handleQueryResponse);
       // Note: The function will only run when the page is loaded.
