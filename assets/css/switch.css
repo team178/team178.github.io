@@ -19,7 +19,7 @@
   height: 26px;
   line-height: 26px;
   font-size: 15px;
-  font-family: Open Dyslexic;
+  font-family: "Open Dyslexic";
   cursor: default;
 }
 .switch-info:empty {
@@ -48,6 +48,7 @@
   height: inherit;
   font-size: 12px;
   font-weight: bold;
+  font-family: "Open Dyslexic";
   text-transform: uppercase;
   background: #1A245B;
   border-radius: inherit;
