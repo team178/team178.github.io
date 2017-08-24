@@ -28,6 +28,10 @@ $(window).load(function() {
       $('#raffle-meter-container-s').show();
     })
   }
+  // For slideshow on Media page
+  if ($('.youtube-videos').length > 0) {
+    $('.videos-nav').slick('slickPrev');
+  }
   // Makes the page visible:
   $("body").show();
 });

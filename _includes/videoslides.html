@@ -42,7 +42,8 @@
       slidesToScroll: 1,
       asNavFor: '.videos-nav',
       fade: true,
-      arrows: false
+      arrows: false,
+      initialSlide: 1
     });
     $('.videos-nav').slick({
       slidesToShow: 3,
@@ -50,6 +51,7 @@
       asNavFor: '.youtube-videos',
       dots: true,
       arrows: false,
+      initialSlide: 1,
       centerMode: true,
       focusOnSelect: true,
       variableWidth: true,
@@ -57,8 +59,9 @@
     });
     $('#0').css({"color":"#FFD000","backgroundColor":"#1A245B"});
   });
+
   $('.videos-nav').on('afterChange', function(event, slick, currentSlide, nextSlide){
-    for (i = 0; i <= 7; i++) {
+    for (i = 0; i < 7; i++) {
       var slideIds = '#' + i;
       if (i != currentSlide) {
         $(slideIds).css({"padding":"auto","color":"#1A245B","backgroundColor":"#FFD000"});

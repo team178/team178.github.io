@@ -73,6 +73,7 @@
 }
 #raffle-meter-container {
     display: none;
+    margin-top: 10px; /* to not be in the shadow of the header */
 }
 #percent {
     font-size: 16px;
