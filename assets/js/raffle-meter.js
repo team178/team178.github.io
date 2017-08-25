@@ -51,7 +51,7 @@ var rafflePage; // if large raffle meter, it must be on raffle page (that's how 
 
 $( document ).ready(function() {
   // Does not do this stuff until all the elements on the page are done loading.
-  if($("#raffle-meter-container").length > 0) { // Length is the number of elements with this id.
+  if ($("#raffle-meter-container").length > 0) { // Length is the number of elements with this id.
     container = "#raffle-meter-container";
     soldTag = ".halfStyle.hs-vertical-third:before";
     outTag = ".halfStyle.hs-vertical-third:after";
@@ -63,7 +63,7 @@ $( document ).ready(function() {
     rafflePage = false;
   }
 
-  if(numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after if you want.
+  if (numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after if you want.
 
     google.setOnLoadCallback(get_data);
     function get_data() {
@@ -73,14 +73,14 @@ $( document ).ready(function() {
       query.send(handleQueryResponse);
       // Note: The function will only run when the page is loaded.
 
-      if(numDays <= 1 && numDays > (1/24)) { // Makes function automatically refresh every minute when there's only a day left
+      if (numDays <= 1 && numDays > (1/24)) { // Makes function automatically refresh every minute when there's only a day left
         setTimeout(function(){ get_data(); }, 60000);
-      } else if(numDays <= (1/24)) { // Makes function automatically refresh every 100 miliseconds when there's only an hour left
+      } else if (numDays <= (1/24)) { // Makes function automatically refresh every 100 miliseconds when there's only an hour left
         setTimeout(function(){ get_data(); }, 100);
       }
     }
     function handleQueryResponse(response){ // This function uses the data gathered to make percents and send them to the meter
-      if(response.isError()){ // This makes sure you get a usable error message (in case anything goes wrong).
+      if (response.isError()){ // This makes sure you get a usable error message (in case anything goes wrong).
         console.log('Error: ' + response.getMessage() + ' ' + response.getDetailedMessage());
         return;
       }
@@ -88,7 +88,7 @@ $( document ).ready(function() {
       var base = 0;
       var sold = 0;
       var out = 0;
-      for(var i = 0; i < data.getNumberOfRows(); i++){ // The i++ adds 1 to 'i' after it goes through the loop once.
+      for (var i = 0; i < data.getNumberOfRows(); i++){ // The i++ adds 1 to 'i' after it goes through the loop once.
       /* Key for what the values mean: */
       // 0 = untouched (base)
       // 1 = checked out (out)
@@ -98,7 +98,7 @@ $( document ).ready(function() {
       /* Key for what the columns are for: */
       // 0 = Status of book
       // 1 = Number of tickets sold from book
-        if(data.getValue(i,0) == 0) { // Checks for 0 in row 'i'.
+        if (data.getValue(i,0) == 0) { // Checks for 0 in row 'i'.
           base += 20; // Adds 20 to the base if ^^^^ is true.
         } else if(data.getValue(i,0) == 1) { // Checks for 1 in row 'i'.
           out += 20; // Adds 20 to the out if ^^^^ is true.
@@ -121,8 +121,13 @@ $( document ).ready(function() {
       var soldPercent = sold / (sold + out + base) * 100; // Divides the amount sold by the total and makes it into percent form.
       var outPercent = (out + sold) / (sold + out + base) * 100;
 
-      $(soldTag).css('width', soldPercent + '%'); // Sets the soldTag's width to the soldPercent
-      $(outTag).css('width', outPercent + '%'); // Sets the outTag's width to the outPercent
+      if (rafflePage) {
+        $('<style>' + soldTag + '{width:' + soldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the soldPercent
+        $('<style>' + outTag + '{width:' + outPercent + '%}</style>').appendTo('head'); // Sets the outTag's width to the outPercent
+      } else {
+        $(soldTag).css('width', soldPercent + '%'); // Sets the soldTag's width to the soldPercent
+        $(outTag).css('width', outPercent + '%'); // Sets the outTag's width to the outPercent
+      }
 
       // For text
       var money = sold * 5; // Each 1 in sold is a ticket. When I made this each ticket was worth $5.00; change this if that changes.
