@@ -40,7 +40,7 @@ Thank you for taking the time to read this.
 */
 google.load('visualization', 1.0);
 // For info on how `Date()` is formatted, check out http://www.w3schools.com/jsref/jsref_obj_date.asp
-var raffleDeadline = new Date(2016, 11, 13, 19, 30, 0); // Make sure to set this to the proper deadline.
+var raffleDeadline = new Date(2017, 11, 3, 19, 30, 0); // Make sure to set this to the proper deadline.
 var millisecondsLeft = raffleDeadline - new Date();
 var numDays = Math.ceil(millisecondsLeft/86400000);
 
