@@ -149,7 +149,7 @@ $( document ).ready(function() {
       } else { // no time left
         timeLeft = "There's no time left!";
       }
-      $("#percent").html("Tickets sold: >" + soldPercentShort + "% | $" + money + "+ earned | "+ timeLeft);
+      $("#percent").html("Tickets sold: " + soldPercentShort + "% | $" + money.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned | "+ timeLeft);
       if (!rafflePage) {
         $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>About the raffle >></a></span>");
       }
@@ -157,10 +157,16 @@ $( document ).ready(function() {
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
-    var deliberateSoldPercent = 69.59; // Set this percent manually.
-    $(soldTag).css('width', deliberateSoldPercent + '%'); // Sets the soldTag's width to the deliberateSoldPercent
-    //                                                                   Set this manually.  V V V V
-    $("#percent").html("Our 2016 raffle has ended! | Tickets sold: " + deliberateSoldPercent + "% | $11,135 earned");
+    var deliberateSoldPercent = 69.59; // Set this number manually.
+    var deliberateMoney = 11135; // Set this number manually.
+
+    if (rafflePage) {
+      $('<style>' + soldTag + '{width:' + deliberateSoldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the deliberateSoldPercent
+    } else {
+      $(soldTag).css('width', deliberateSoldPercent + '%'); // Sets the soldTag's width to the deliberateSoldPercent
+    }
+
+    $("#percent").html("Our 2016 raffle has ended! | Tickets sold: " + deliberateSoldPercent + "% | $" + deliberateMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned");
     if (!rafflePage) {
       $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>Winners >></a></span>");
     } else {
