@@ -130,16 +130,16 @@ $( document ).ready(function() {
       var soldPercentShort = soldPercentString.substring(0, 5); // Makes the length of the sold string 5 characters long.
 
       var timeLeft; // Generates the phrase that is the time left.
-      if(numDays > 1) { // in days
+      if (numDays > 1) { // 1 day
         timeLeft = numDays + " days left";
-      } else if(millisecondsLeft > 3600000) { // in hours
+      } else if (millisecondsLeft > 3600000) { // 1 hour
         var hoursLeft = Math.round(millisecondsLeft / 3600000);
         if (hoursLeft > 1) {
           timeLeft = hoursLeft + " hours left";
         } else {
           timeLeft = hoursLeft + " hour left";
         }
-      } else if(millisecondsLeft > 0) { // in minutes
+      } else if (millisecondsLeft > 0) { // 0 minutes
         var minutesLeft = Math.round(millisecondsLeft / 60000);
         if (minutesLeft > 1) {
           timeLeft = minutesLeft + " minutes left";
