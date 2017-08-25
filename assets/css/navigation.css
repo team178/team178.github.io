@@ -15,7 +15,7 @@ nav {
 }
 #nav li a {
   display: block;
-  margin: 0; padding: 0.5rem 1rem;
+  margin: 0; padding: 0.5rem .75rem;
 
   color: rgba(255,255,255, 0.8);
   text-decoration: none;

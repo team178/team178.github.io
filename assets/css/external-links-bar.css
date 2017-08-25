@@ -5,7 +5,7 @@
 #external-links-bar a {
   display: inline-block;
   vertical-align: top;
-  margin: 0 5px;
+  margin: 0px 5px;
   width: 32px; height: 32px;
   background-size: 32px 32px;
 }
@@ -35,28 +35,15 @@
   background-image: url("../img/externals/github.png");
 }
 
-@media screen and (max-width: 1030px) {
-  #external-links-bar a:hover {
-    margin: -1px 4px;
+@media screen and (max-width: 810px) {
+  #external-links-bar a {
     width: 26px; height: 26px;
     background-size: 26px 26px;
   }
-  #external-links-bar a {
-    width: 24px; height: 24px;
-    background-size: 24px 24px;
-  }
-  #external-links-bar {
-    margin-right: 45px;
-  }
-}
-@media screen and (max-width: 875px) {
-  #external-links-bar {
-    margin-right: 60px;
-  }
-}
-@media screen and (max-width: 810px) {
-  #external-links-bar {
-    margin-right: 0;
+  #external-links-bar a:hover {
+    margin: -2px 3px;
+    width: 30px; height: 30px;
+    background-size: 30px 30px;
   }
 }
 @media screen and (max-width: 410px) {
