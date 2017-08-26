@@ -35,7 +35,7 @@
   background-image: url("../img/externals/github.png");
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 815px) {
   #external-links-bar a {
     width: 26px; height: 26px;
     background-size: 26px 26px;
@@ -46,7 +46,7 @@
     background-size: 30px 30px;
   }
 }
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 450px) {
   #external-links-bar {
     display: none;
   }
