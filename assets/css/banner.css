@@ -1,12 +1,9 @@
 #banner {
   width: 100%; min-height: 12rem;
   background-color: #1A245B;
-  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
-        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
-        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3),
-        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
 }
 
 #banner .slide {
@@ -22,7 +19,7 @@
   -webkit-justify-content: center;
 
   min-height: 200px;
-  padding: 0 5px;
+  padding: 0;
 
   color: rgba(255,255,255, 0.8);
 }
