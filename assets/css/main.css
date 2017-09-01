@@ -49,12 +49,9 @@ iframe {max-width: 100%; }
 
   white-space:nowrap;
 
-  box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.3),
-        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.3),
-        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
-  -webkit-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.3),
-        inset 0px 5px 10px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.3);
 }
 
 #header h1 { /* Applies to "ENFORCERS" */
@@ -108,6 +105,10 @@ footer {
 
   background-color: #0F0838;
   color: rgba(255,255,255, 0.8);
+
+  box-shadow: 7px 0px 15px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 7px 0px 15px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 7px 0px 15px 0px rgba(0,0,0,0.3);
 }
 
 /* Styles info boxes */
