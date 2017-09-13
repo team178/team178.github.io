@@ -123,8 +123,8 @@ $( document ).ready(function() {
       var outPercent = (out + sold) / (sold + out + base) * 100;
 
       if (rafflePage) {
-        $('<style>' + soldTag + '{width:' + soldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the soldPercent
-        $('<style>' + outTag + '{width:' + outPercent + '%}</style>').appendTo('head'); // Sets the outTag's width to the outPercent
+        $('<style id="soldTagStyle">' + soldTag + '{width:' + soldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the soldPercent
+        $('<style id="outTagStyle">' + outTag + '{width:' + outPercent + '%}</style>').appendTo('head'); // Sets the outTag's width to the outPercent
       } else {
         $(soldTag).css('width', soldPercent + '%'); // Sets the soldTag's width to the soldPercent
         $(outTag).css('width', outPercent + '%'); // Sets the outTag's width to the outPercent
