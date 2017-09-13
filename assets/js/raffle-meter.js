@@ -68,8 +68,8 @@ $( document ).ready(function() {
     google.setOnLoadCallback(get_data);
     function get_data() {
       var opts = {sendMethod: 'auto'};                // Make sure to manually change the link to the proper Google Sheet.
-      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1RVyiJEuCTD0pUkbTMRKRsCq-vz-LWK16_pZxRcvIM7s/edit#gid=0', opts);
-      query.setQuery('select F, H'); // Make sure to manually select the proper columns.
+      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/11NAaoIomIOpAj0hP-duB2xmgKSUD8f6yVyGBM7_eX3c/edit#gid=0', opts);
+      query.setQuery('SELECT G, H'); // Make sure to manually select the proper columns. (Use SQL if you need to do something more complex.)
       query.send(handleQueryResponse);
       // Note: The function will only run when the page is loaded.
 
@@ -85,6 +85,7 @@ $( document ).ready(function() {
         return;
       }
       var data = response.getDataTable();
+      data.Nf.splice(0, 2); // Removes the first row that has stuff that we don't want.
       var base = 0;
       var sold = 0;
       var out = 0;
