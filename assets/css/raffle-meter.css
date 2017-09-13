@@ -9,194 +9,135 @@
         url('/assets/fonts/StencilStd.otf') format("opentype");
 
 
- /* start half-style hs-vertical-third */
-.halfStyle.hs-vertical-third {
-    position:relative;
-    display:inline-block;
-    font-family: "stencil-std";
-    font-size:10vw;
-    overflow-y:visible;
-    pointer-events: none;
-    white-space: pre; /* to preserve the spaces from collapsing */
-    color: #FFF;
-    text-shadow:
-        -0.25vw -0.25vw 0 #000,
-         0.25vw -0.25vw 0 #000,
-        -0.25vw 0.25vw 0 #000,
-         0.25vw 0.25vw 0 #000;
+/* start half-style hs-vertical-third */
+.halfStyle.hs-vertical-third { /* Tickets not touched (right side) */
+  position: relative;
+  display: inline-block;
+  font-family: "stencil-std";
+  font-size: 100px;
+  overflow-y: visible;
+  pointer-events: none;
+  white-space: pre; /* to preserve the spaces from collapsing */
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
 }
-.halfStyle.hs-vertical-third:before { /* creates the left part */
-    display:block;
-    z-index:2;
-    position:absolute;
-    top:0;
-    content: attr(data-content); /* dynamic content for the pseudo element */
-    overflow-x:hidden;
-    color: #020579;
-    text-shadow:
-        -0.3vw -0.3vw 0 #FFD000,
-         0.3vw -0.3vw 0 #FFD000,
-        -0.3vw 0.3vw 0 #FFD000,
-         0.3vw 0.3vw 0 #FFD000;
+.halfStyle.hs-vertical-third:before { /* Tickets sold (left side) */
+  display: block;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  content: attr(data-content); /* dynamic content for the pseudo element */
+  overflow-x: hidden;
+  color: #020579;
+  -webkit-text-fill-color: #020579;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #FFD000;
 }
-.halfStyle.hs-vertical-third:after { /* creates the right part */
-    display:block;
-    z-index:1;
-    position:absolute;
-    top:0;
-    content: attr(data-content); /* dynamic content for the pseudo element */
-    overflow-x:hidden;
-    color: #FFF;
-    text-shadow:
-        -0.3vw -0.3vw 0 #FFD000,
-         0.3vw -0.3vw 0 #FFD000,
-        -0.3vw 0.3vw 0 #FFD000,
-         0.3vw 0.3vw 0 #FFD000;
+.halfStyle.hs-vertical-third:after { /* Tickets checked out (middle) */
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  content: attr(data-content); /* dynamic content for the pseudo element */
+  overflow-x: hidden;
+  color: #FFD000;
+  -webkit-text-fill-color: #FFF;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #FFD000;
 }
 /* end half-style hs-vertical-third */
 
 #progress {
-    margin-top: -8%;
-    line-height: initial;
-    z-index: -1;
-    margin-bottom: -3.5%;
+  margin-top: -7%;
+  line-height: initial;
+  z-index: -1;
+  margin-bottom: -3.5%;
 }
 #progress-container {
   display: inline-block;
   position: relative;
 }
 #progress-title {
-    font-size: 2.5vw;
-    font-weight: 1000;
-    line-height: initial;
-    margin-bottom: -.25%;
+  font-size: 20px;
+  font-weight: 1000;
+  line-height: initial;
+  margin-bottom: -.25%;
 }
 #raffle-meter-container {
-    display: none;
-    margin-top: 10px; /* to not be in the shadow of the header */
+  display: none;
+  margin-top: 10px; /* to not be in the shadow of the header */
 }
 #percent {
-    font-size: 16px;
-    margin-bottom: .3%;
+  font-size: 16px;
+  margin-bottom: .3%;
 }
 .raffle-link {
-    display: inline;
+  display: inline;
 }
 
 /* For large screens */
 @media (min-width: 1000px) {
-    .halfStyle.hs-vertical-third {
+  .halfStyle.hs-vertical-third {
     font-size: 100px;
-    text-shadow:
-        -2px -2px 0 #000,
-         2px -2px 0 #000,
-        -2px 2px 0 #000,
-         2px 2px 0 #000;
-    }
-    .halfStyle.hs-vertical-third:before {
-    text-shadow:
-        -2.75px -2.75px 0 #FFD000,
-         2.75px -2.75px 0 #FFD000,
-        -2.75px 2.75px 0 #FFD000,
-         2.75px 2.75px 0 #FFD000;
-    }
-    .halfStyle.hs-vertical-third:after {
-    text-shadow:
-        -2.75px -2.75px 0 #FFD000,
-         2.75px -2.75px 0 #FFD000,
-        -2.75px 2.75px 0 #FFD000,
-         2.75px 2.75px 0 #FFD000;
-    }
-    #progress {
+  }
+  #progress {
     margin-top: -7%;
-    }
+  }
+  #progress-title {
+    font-size: 28px;
+  }
 }
-@media (min-width: 1550px) {
-    #progress {
+@media (min-width: 1400px) {
+  #progress {
     margin-top: -6.5%;
-    margin-bottom: -2%;
-    }
-    #percent {
-    font-size: 16.5px;
+    margin-bottom: -3%;
+  }
+  #percent {
+    font-size: 17px;
     margin-bottom: .1%;
-    }
-    #progress-title {
+  }
+  #progress-title {
     font-size: 32px;
-    }
-}
-/* For medium screens */
-@media (max-width: 1200px) and (min-width: 950px) {
-    .halfStyle.hs-vertical-third {
-    font-size: 100px;
-    }
-    #percent {
-    font-size: 15.5px;
-    }
-    #progress-title {
-    font-size: 2.5vw;
-    }
-    #progress {
-    margin-top: -7.4%;
-    }
+  }
 }
 /* For mobile */
 @media (max-width: 655px) {
-    #progress-info {
-        margin-top: -5px;
-        margin-bottom: 5px;
-        font-size: 13px;
-        overflow: hidden;
-    }
-    .halfStyle.hs-vertical-third {
+  #progress-info {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    overflow: hidden;
+  }
+  .halfStyle.hs-vertical-third {
     font-size: 15vw;
-    text-shadow:
-        -1.5px -1.5px 0 #000,
-         1.5px -1.5px 0 #000,
-        -1.5px 1.5px 0 #000,
-         1.5px 1.5px 0 #000;
-    }
-    .halfStyle.hs-vertical-third:before {
-    text-shadow:
-        -1.5px -1.5px 0 #FFD000,
-         1.5px -1.5px 0 #FFD000,
-        -1.5px 1.5px 0 #FFD000,
-         1.5px 1.5px 0 #FFD000;
-    }
-    .halfStyle.hs-vertical-third:after {
-    text-shadow:
-        -1.5px -1.5px 0 #FFD000,
-         1.5px -1.5px 0 #FFD000,
-        -1.5px 1.5px 0 #FFD000,
-         1.5px 2.75px 0 #FFD000;
-    }
-    #progress {
+    -webkit-text-stroke-width: 2px;
+  }
+  .halfStyle.hs-vertical-third:before {
+    -webkit-text-stroke-width: 2px;
+  }
+  .halfStyle.hs-vertical-third:after {
+    -webkit-text-stroke-width: 2px;
+  }
+  #progress {
     margin-top: -8.5%;
-    }
-    #percent {
-    font-size: 15px;
+  }
+  #percent {
+    font-size: 14px;
     margin-bottom: .75%;
     margin-top: -.1.55%;
-    }
-    #progress-title {
-    font-size: 20px;
+  }
+  #progress-title {
     margin-bottom: 1%;
-    }
-}
-/* For mobile (landscape) */
-@media (max-width: 750px) and (orientation: landscape) {
-    #progress-info {
-      margin-bottom: -10px;
-    }
-    #progress {
-    margin-top: -7%;
-    }
+  }
 }
 /* For extra special mobile stuff */
 @media (max-width: 475px) {
-    #progress-info {
-        margin-top: -6px;
-        margin-bottom: -1px;
-        font-size: 12px;
-        overflow: hidden;
-    }
+  #progress-info {
+    margin-top: -6px;
+    margin-bottom: -1px;
+    font-size: 12px;
+    overflow: hidden;
+  }
 }
