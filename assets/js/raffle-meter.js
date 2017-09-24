@@ -104,7 +104,7 @@ $( document ).ready(function() {
         } else if(data.getValue(i,0) == 1) { // Checks for 1 in row 'i'.
           out += 20; // Adds 20 to the out if ^^^^ is true.
         } else if(data.getValue(i,0) == 3) { // Checks for 3 in row 'i'.
-          sold += data.getValue(i,1); // Adds value in second column at to the sold if ^^^^ is true.
+          sold += data.getValue(i,1); // Adds value in second column to the sold if ^^^^ is true.
           out += (20 - data.getValue(i,1)); // Adds the amount left in the book to the out.
         } else if(data.getValue(i,0) == 4) { // Checks for 4 in row 'i'.
           sold += data.getValue(i,1); // Shouldn't be total sold from book (it should be how much they just sold).
