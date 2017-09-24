@@ -8,7 +8,7 @@ We accept new members from September to mid-November or from May to the end of s
 1. Talk to a coach
   * Mr. Barron - Talk to him in person in the science office or send him an email at [BarronT@fpsct.org](mailto:barront@fpsct.org)
   * Mrs. Hall - Talk to her in person in the math office or send her an email at [HallM@fpsct.org](mailto:hallm@fpsct.org)
-2. Email [ContactUs@FarmingtonRobotics.org](contactus@farmingtonrobotics.org)
+2. Email {% include obfuscated-email.html %}
 
 # Safety
 
