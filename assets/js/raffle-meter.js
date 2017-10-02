@@ -68,7 +68,7 @@ $( document ).ready(function() {
     google.setOnLoadCallback(get_data);
     function get_data() {
       var opts = {sendMethod: 'auto'};                // Make sure to manually change the link to the proper Google Sheet.
-      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/11NAaoIomIOpAj0hP-duB2xmgKSUD8f6yVyGBM7_eX3c/edit#gid=0', opts);
+      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/19TMfFeu6JbQKMxE45TCdQpcJhbg5jCmbj3YzuBg1B38/edit#gid=0', opts);
       query.setQuery('SELECT G, H'); // Make sure to manually select the proper columns. (Use SQL if you need to do something more complex.)
       query.send(handleQueryResponse);
       // Note: The function will only run when the page is loaded.
