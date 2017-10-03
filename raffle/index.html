@@ -5,24 +5,21 @@ published: true
 large-raffle-meter: true
 ---
 <style>
-#raffle-pencil {
-	width: 1.75%;
-	margin-left: -20px;
-	margin-right: 10px;
+.raffle-picture {
 	vertical-align: middle;
+	padding: 0px 7px;
+	width: 14%;
 }
-.raffle-picture:not(#raffle-pencil){
-	vertical-align: middle;
-	padding: 0px 10px;
-	width: 17%;
+.raffle-picture.vertical {
+	padding: 0px 5px;
+	width: 7%;
 }
-.raffle-picture-vertical {
-	width: 12%;
-	padding: 0px 10px;
-	vertical-align: middle;
+.raffle-picture.big {
+	padding: 0px 5px;
+	width: 22%;
 }
 #raffle-pictures {
-	padding: 1px 20px;
+	padding: 10px;
 }
 #raffle-picture-helper {
 	display: inline-block;
@@ -67,8 +64,9 @@ large-raffle-meter: true
 }
 .prize-details {
 	font-size: 12px;
+	margin-left: 5px;
 }
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 605px) {
 	#raffle-pictures {
 		display: none;
 	}
@@ -87,28 +85,29 @@ large-raffle-meter: true
 }
 </style>
 <hr id="raffle-divider">
-<h1>Our biggest fundraiser of the year has ended!</h1>
-<!--
-<br>
-The annual raffle for 2016 is currently underway! Hurry and buy a raffle ticket before the drawing on Tuesday, December 13th. <b>Tickets are $5 each</b>, so talk to any Enforcer to purchase a ticket. We may hold events at George's Pizza and Naples Pizza in Farmington and Simsbury and many more! Check our <a href="/calendar">Team Calendar</a> for future event times and dates.
+<h2>Support the team!</h2>
+The annual <a href="http://www.farmingtonfor.org">Farmington Friends of Robotics</a> raffle to support The 2nd Law Enforcers is currently underway! Hurry and buy a raffle ticket before the drawing on Sunday, December 10th. <b>Tickets are $5 each</b>, talk to an Enforcer to buy them. We may hold events at George's Pizza in Unionville, Naples Pizza in Farmington, and many more! Check our <a href="/calendar">Team Calendar</a> for future event times and dates.
+<br><br>
 
-<br><br><b>Not local? Email us at <a href="mailto:ContactUs@farmingtonrobotics.org">ContactUs@farmingtonrobotics.org</a></b>
--->
-<h3>Prizes this year:</h3>
+<div width="100%" style="text-align:center;">
+	<b>Not local? Email us at {% include obfuscated-email.html %}</b>
+</div>
+
+<h3>The Prizes</h3>
 <div id="raffle-pictures" class="info-box" align="center">
 	<div id="raffle-picture-helper">
-		<img class="raffle-picture" alt="iPad Pro" src="{{ site.url }}/assets/img/raffle/ipad-pro.png"><img class="raffle-picture" id="raffle-pencil" alt="Apple Pencil" src="{{ site.url }}/assets/img/raffle/apple-pencil.png">
-		<img class="raffle-picture" alt="3DS XL Galaxy Style" src="{{ site.url }}/assets/img/raffle/3ds-xl-galaxy.png">
-		<img class="raffle-picture-vertical" alt="Amazon Fire HD 8" src="{{ site.url }}/assets/img/raffle/amazon-fire-hd-8.png">
+		<img class="raffle-picture big" alt='Yoga 720 15.6" Touch-Screen Laptop' src="{{ site.url }}/assets/img/raffle/yoga-720.png">
+		<img class="raffle-picture big" alt="Nintendo Switch Neon Bundle" src="{{ site.url }}/assets/img/raffle/nintendo-switch-bundle.png">
+		<img class="raffle-picture" alt="Fitbit Blaze Smart Fitness Watch" src="{{ site.url }}/assets/img/raffle/fitbit-blaze.png">
 		<img class="raffle-picture" alt="Visa Gift Card" src="{{ site.url }}/assets/img/raffle/visa-card.png">
-		<img class="raffle-picture-vertical" alt="BB-8 Sphero Droid" src="{{ site.url }}/assets/img/raffle/bb-8-sphero.png">
+		<img class="raffle-picture" alt="Amazon Echo Dot + WeMo Mini Smart Plug" src="{{ site.url }}/assets/img/raffle/amazon-echo-dot+wemo.png">
 	</div>
 </div>
 
 <ol id="raffle-prizes">
-	<li>Mason Demilo won the Apple <a href="http://www.apple.com/ipad-pro">iPad Pro</a> 64GB Wifi <span class="prize-details">w/<a href="http://www.apple.com/apple-pencil">Apple Pencil</a> and Apple Care+</span></li>
-	<li>John Fojtik won the Nintendo <a href="http://www.gamestop.com/nintendo-3ds/consoles/nintendo-new-3ds-xl-galaxy-style/134028">3DS XL-Galaxy Style</a> <span class="prize-details">w/Pokemon Sun/Moon w. 1 year guarantee</span></li>
-	<li>Bob Farnam won the <a href="https://www.amazon.com/All-New-Fire-Tablet-Display-Wi-Fi/dp/B018SZT3BK">Amazon Fire HD 8</a> Tablet (6th gen) 16 GB Wifi <span class="prize-details">w/32GB SD card & 2 year guarantee</span></li>
-	<li>Donna Wilkie won the $178.00 Visa Gift Card</li>
-	<li>Lynn Foren won the <a href="http://www.sphero.com/starwars/bb8">BB-8™</a> App-Enabled Droid™ <span class="prize-details">by <a href="http://www.sphero.com">Sphero</a></span></li>
+	<li>Lenovo - Yoga 720 15.6" Touch-Screen Laptop<span class="prize-details">w/ Intel i7 - 8GB RAM - 256GB</span></li>
+	<li>Nintendo Switch Neon Bundle<span class="prize-details">w/ Mario Kart 8 Deluxe Game Disc, Joy-Con Wheels, & Super Mario Headphones</span></li>
+	<li>Fitbit Blaze Smart Fitness Watch<span class="prize-details">Special Edition - Black / Gunmetal Stainless Steel</span></li>
+	<li>$178.00 Visa Gift Card</li>
+	<li>Amazon Echo Dot + WeMo Mini Smart Plug</li>
 </ol>

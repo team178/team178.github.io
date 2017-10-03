@@ -1,7 +1,7 @@
 #raffle-meter-container-s {
   display: none;
-  position:relative;
-  text-align:center;
+  position: relative;
+  text-align: center;
   overflow: hidden;
   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
   -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
@@ -9,36 +9,36 @@
 }
 #raffle-meter-out {
   background-color: #FFD000;
-  height:2.5em;
+  height: 2.5em;
 }
 #raffle-meter-sold {
-  position:absolute;
-  top:0px;
-  left:0px;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-color: #1A245B;
-  height:2.5em;
+  height: 2.5em;
 }
 #percent {
   background-color: rgba(255,255,255,.5);
-  position:absolute;
-  top:.5em;
+  position: absolute;
+  top: .5em;
   height: 1.5em;
   padding: 0px;
   line-height: 1.5em;
 
-  left:0;
-  right:0;
-  margin-left:auto;
-  margin-right:auto;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 span.raffle-link > a {
   display: inline-block;
-  color: #EEE;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0px 0px 3px #FFD000;
 }
 span.raffle-link > a:hover {
-  color: #FFF;
-  text-shadow: black 0.15em 0.15em 0.25em;
+  text-shadow: 0px 0px 8px #FFD000;
 }
 /* For mobile */
 @media (max-width: 530px){
