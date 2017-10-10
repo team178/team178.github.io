@@ -13,7 +13,7 @@ THINGS TO ENTER IN YOURSELF:
 * The column that the number of tickets sold is recorded in.
 * The characters that are used to symbolize each state of the tickets. (If you
 change it for whatever reason, please also change the comment to match.)
-*(maybe) The amount "sold" is multiplied by to create the money variable. (It's
+*(maybe) The amount "sold" is multiplied by 5 to create the money variable. (It's
 explained more at the specific place in the code.)
 * The message that automatically shows up when the raffle ends. (I'm still iffy
 on what I've written there.)
