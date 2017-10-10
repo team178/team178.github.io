@@ -21,6 +21,9 @@ Robot Support leads and manages all building projects. They also draw rough draf
 #### Systems
 During Build-Season Systems designs and CAD's the robot; as well as helps manage and organize other committees that work on the robot. Durning Off-Season Systems helps repair parts on the robots, as well as helping out other committees. Systems is also in charge of the team's Bill of Material every year.
 
+#### App Development
+App Development (App Dev) is almost a bridge between eCOR and oCOR. App Development works with Programming to allow the robots to see using computer vision. App Dev also creates apps that help Competition Support and Media. The main app that App Dev makes is the Scouting App for Competition Support. It runs on Android and is used during competitions to gather information about other teams' robots.
+
 ### Outreach Committee of Representatives (oCOR)
 
 #### Animation
@@ -29,14 +32,14 @@ In build season Animation works on our 30 second animation to submit each year b
 #### Archiving
 Archiving keeps well organized recoreds of when our team was mentioned in the news or in news papers. They also organize statistics on the happening at Dream *FIRST* events. They are in charge of publicizing our events. Archiving is in charge of the teams Chairman's Essay, and organizing our teams Chairman's Binder.
 
+#### Media
+Media is another bridge between oCOR and eCOR. Media maintains all of the different social media that the team has. In addition to posting to social media, the Media committee also gives its pictures to the Archiving committee. Media works with Programming to maintain the team's website.
+
 #### Dream *FIRST*
 Dream *FIRST* plans and manages our Dream *FIRST* and other community outreach events. Another thing that Dream *FIRST* does is work on the Dream *FIRST* book. Currently, they are putting the final touches on book two, and book three is on its way to being planned out.
 
 #### Fundraising
 Fundraising works with the team treasurer to plan fundraising events, and does things such as pick prizes for raffles or looks into new ways to raise money for the team.
 
-#### Team Member Support
-Team Member Support (TMS) helps out the team by doing things like making sure we have food for the long days we are working on the robot, and keeps things cleaned and organized around the workshop. TMS also helps plan our team events, and also designs the teams t-shirts every year. In addition, TMS makes sure that the representation of the team during competitions is nice and strong, so that everyone knows that we are loud and proud for being the Second Law Enforcers, and that we are the best robotics team out there.
-
-#### Tech & Media
-During pre-season and post-season, Tech & Media works the Team 178's website, as well as maintains the Dream *FIRST* website. Videos such as new member recruitment and other special events are also made to show on the 9:05 news at Farmington High School. During build season, the Chairmans video is most worked on, as well as both of the websites. Also, Tech & Media is also in charge of managing the network and computers at the Youth Center Annex, our new workspace.
+#### Competition Support
+Competition Support helps out the team by doing things like making sure we have food for the long days we are working on the robot, and keeps things cleaned and organized around the workshop. TMS also helps plan our team events, and also designs the teams t-shirts every year. In addition, TMS makes sure that the representation of the team during competitions is nice and strong, so that everyone knows that we are loud and proud for being the Second Law Enforcers, and that we are the best robotics team out there.
