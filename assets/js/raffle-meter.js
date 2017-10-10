@@ -133,7 +133,12 @@ $( document ).ready(function() {
       // For text
       var money = sold * 5; // Each 1 in sold is a ticket. When I made this each ticket was worth $5.00; change this if that changes.
       var soldPercentString = soldPercent.toString(); // Turns the double into a string.
-      var soldPercentShort = soldPercentString.substring(0, 5); // Makes the length of the sold string 5 characters long.
+      var soldPercentShort = "";
+      if (soldPercent < 10) { // When the percent is less than 10,
+        soldPercentShort = soldPercentString.substring(0, 4); // ensures there's only 2 decimal places.
+      } else { // When the percent is more than 10,
+        soldPercentShort = soldPercentString.substring(0, 5); // ensures there's only 2 decimal places.
+      }
 
       var timeLeft; // Generates the phrase that is the time left.
       if (numDays > 1) { // 1 day
