@@ -32,7 +32,7 @@
   overflow-x: hidden;
   color: #020579;
   -webkit-text-fill-color: #020579;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 3.5px;
   -webkit-text-stroke-color: #FFD000;
 }
 .halfStyle.hs-vertical-third:after { /* Tickets checked out (middle) */
@@ -44,7 +44,7 @@
   overflow-x: hidden;
   color: #FFD000;
   -webkit-text-fill-color: #FFF;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 3.5px;
   -webkit-text-stroke-color: #FFD000;
 }
 /* end half-style hs-vertical-third */
