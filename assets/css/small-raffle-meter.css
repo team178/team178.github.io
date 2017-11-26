@@ -35,10 +35,10 @@ span.raffle-link > a {
   display: inline-block;
   font-weight: bold;
   color: #000;
-  text-shadow: 0px 0px 3px #FFD000;
+  text-shadow: 0px 0px 3px #E5BB00;
 }
 span.raffle-link > a:hover {
-  text-shadow: 0px 0px 8px #FFD000;
+  text-shadow: 0px 0px 8px #E5BB00;
 }
 /* For mobile */
 @media (max-width: 530px){
