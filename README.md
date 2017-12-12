@@ -9,7 +9,7 @@ When making a code related change to the website, be sure to follow the best pra
 2. Make sure existing code organization is followed. Not limited to but including:
   - 2 space indents (not tabs) on both HTML and CSS.
   - Indents are used where they should be to maintain hierarchy in code.
-3. Make sure you use the official team colors found [here](https://docs.google.com/document/d/1osKZBafFCetyKy_8zcLG-VpnZgxy6UWzadQuC-JZQuI/edit?usp=sharing)
+3. Make sure you use the official team colors found [here](https://docs.google.com/document/d/1k5BJCM6VXceMDnQpZrepQaSfA9wNGvEflAc6zCQ7PRY/edit?usp=sharing)
 4. Also make sure to follow the branding standards of *FIRST* [here](http://www.firstinspires.org/sites/default/files/uploads/resource_library/first-brand-guidelines-web-2015.pdf)
 5. All of the official logos for the programs of *FIRST* can be found in the drive [here](https://drive.google.com/open?id=0B_S9H2AY2UyEQmNjUHU1bFNBeVk)
 6. Please **please PLEASE** comment your code!
