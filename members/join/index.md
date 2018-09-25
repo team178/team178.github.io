@@ -22,4 +22,4 @@ Information should have been emailed out at the start of the season. In case you
 Learn about [Friends of Robotics](http://www.farmingtonfor.org), a non-profit organization created to support <i>FIRST</i> robotics teams in Farmington.
 
 # After You've Joined
-Head over to other pages in the Members Section to learn how to join our [emailing list]({{ site.url }}/members/communication/#mail-list), how to get access the shared [Google Drive Folder]({{ site.url }}/members/drive), and much more.
+Head over to other pages in the Members Section to learn how to join our [emailing list]({{ site.url }}/members/communication/#mail-list) and much more.

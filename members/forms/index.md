@@ -7,10 +7,11 @@ Linked within the checklist below are all of the forms required to be considered
 
 ### Active Member Checklist
 <div class="iframe-doc">
-  <iframe src="https://docs.google.com/document/d/1yZU746y5D41scOxyVOjK1kr8kKGBtJ6UE23WZAgL06M/preview" width="100%" frameborder="0"></iframe>
+  <iframe src="https://docs.google.com/document/d/1p5USJmt1bm9WjGJxVOYe-U08dq-eZr3nDSvxn3OZ-Os/preview" width="100%" frameborder="0"></iframe>
 </div>
-
+<!--
 ### Season 2017-18 Trips Letter
 <div class="iframe-doc">
   <iframe src="https://drive.google.com/file/d/1g0iSLAthuh332sHJqHB_Yclo8IjT5DWK/preview" width="100%" height="480" frameborder="0"></iframe>
 </div>
+-->

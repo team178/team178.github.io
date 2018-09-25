@@ -25,6 +25,5 @@ Here are some important places to go:
 <div style="text-align:center; padding:5px;">
   <a class="btn" href="{{ site.url }}/calendar">Calendar</a>
   <a class="btn" href="{{ site.url }}/members/forms">Forms</a>
-  <a class="btn" href="{{ site.url }}/members/drive">Shared Drive</a>
   <a class="btn" href="{{ site.url }}/members/safety">Safety Video</a>
 </div>
