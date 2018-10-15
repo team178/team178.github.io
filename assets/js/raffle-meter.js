@@ -40,7 +40,7 @@ Thank you for taking the time to read this.
 */
 google.load('visualization', 1.0);
 // For info on how `Date()` is formatted, check out http://www.w3schools.com/jsref/jsref_obj_date.asp
-var raffleDeadline = new Date(2017, 11, 10, 16, 30, 0); // Make sure to set this to the proper deadline.
+var raffleDeadline = new Date(2018, 11, 8, 16, 30, 0); // Make sure to set this to the proper deadline.
 var millisecondsLeft = raffleDeadline - new Date();
 var numDays = Math.ceil(millisecondsLeft/86400000);
 
@@ -68,7 +68,7 @@ $( document ).ready(function() {
     google.setOnLoadCallback(get_data);
     function get_data() {
       var opts = {sendMethod: 'auto'};                // Make sure to manually change the link to the proper Google Sheet.
-      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/19TMfFeu6JbQKMxE45TCdQpcJhbg5jCmbj3YzuBg1B38/edit#gid=0', opts);
+      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1HXNfZArZZSwAI_QYgPCZ0y4J6Gjur-6FA4qe_dhje2Q/edit#gid=0', opts);
       query.setQuery('SELECT G, H'); // Make sure to manually select the proper columns. (Use SQL if you need to do something more complex.)
       query.send(handleQueryResponse);
       // Note: The function will only run when the page is loaded.
@@ -168,8 +168,8 @@ $( document ).ready(function() {
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
-    var deliberateSoldPercent = 69.59; // Set this number manually.
-    var deliberateMoney = 11135; // Set this number manually.
+    var deliberateSoldPercent = XX.XX; // Set this number manually.
+    var deliberateMoney = XXXXX; // Set this number manually.
 
     if (rafflePage) {
       $('<style>' + soldTag + '{width:' + deliberateSoldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the deliberateSoldPercent
@@ -177,7 +177,7 @@ $( document ).ready(function() {
       $(soldTag).css('width', deliberateSoldPercent + '%'); // Sets the soldTag's width to the deliberateSoldPercent
     }
     // Set this manually    VVVV
-    $("#percent").html("Our 2017 raffle has ended! | Tickets sold: " + deliberateSoldPercent + "% | $" + deliberateMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned");
+    $("#percent").html("Our 2018 raffle has ended! | Tickets sold: " + deliberateSoldPercent + "% | $" + deliberateMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned");
     if (!rafflePage) {
       $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>Winners >></a></span>");
     } else {
