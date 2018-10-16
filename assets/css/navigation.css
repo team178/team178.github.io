@@ -102,6 +102,7 @@ nav {
   #menu-toggle {
     order: 0;
     margin-right: 10px;
+    margin-top: -3px;
     display: block;
     -webkit-transition: .25s ease-in-out;
     -moz-transition: .25s ease-in-out;
@@ -120,7 +121,7 @@ nav {
     display: block !important;
   }
 
-  #header h1 {
+  #header #logo-wrapper {
     order: 1;
     flex: 1;
   }

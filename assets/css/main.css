@@ -54,31 +54,33 @@ iframe {max-width: 100%; }
   -webkit-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.3);
 }
 
-#header h1 { /* Applies to "ENFORCERS" */
-  font-family: "stencil-std";
-  transform: scale(1,1.5);
-  -webkit-transform:scale(1,1.5); /* Safari and Chrome */
-  -moz-transform:scale(1,1.5); /* Firefox */
-  -ms-transform:scale(1,1.5); /* IE 9+ */
-  -o-transform:scale(1,1.5); /* Opera */
-  margin-top: .5rem; margin-bottom: 0px;
-  margin-left: 0px; margin-right: 1rem;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+#enforcers {
+  width: auto; height: auto;
+  margin-right: 12px;
 }
-#header h1 a:before { /* Applies to "ENFORCERS" */
-  content: "E";
-  display: inline-block;
-  transform: scale(1,1.55);
-  -webkit-transform:scale(1,1.55); /* Safari and Chrome */
-  -moz-transform:scale(1,1.55); /* Firefox */
-  -ms-transform:scale(1,1.55); /* IE 9+ */
-  -o-transform:scale(1,1.55); /* Opera */
-  position: relative;
-  vertical-align: 20%;
-  line-height: 1.4rem;
+
+#enforcers svg {
+  width: 145px;
+  margin-bottom: -6px;
 }
-#header h1 a, footer a { /* Applies to "ENFORCERS" and links in the footer */
+
+#enforcers svg .st0 {
+  transition: 0.1s color ease-in;
+}
+
+#enforcers .st0 {
+  fill: #ffd000;
+}
+
+#enforcers:hover .st0 {
+  fill: #FcFF5F;
+}
+
+#logo-wrapper {
+  margin-top: -3px;
+}
+
+#header footer a { /* Applies to links in the footer */
   margin: 0; padding: 0;
 
   color: #FFD000;
@@ -86,7 +88,7 @@ iframe {max-width: 100%; }
   transition: color 0.2s;
 }
 
-#header h1 a:hover, footer a:hover { /* Applies to "ENFORCERS" and links in the footer */
+#header footer a:hover { /* Applies to links in the footer */
   color: #FcFF5F;
 }
 
@@ -148,12 +150,9 @@ footer {
   #header {
     padding: .75rem 1rem;
   }
-  #header h1 {
-    font-size: 1.25rem;
-    line-height: 1.25rem;
-  }
-  #header h1 a:before {
-    line-height: 1.25rem;
-    vertical-align: 20%;;
+  #enforcers svg {
+    width: 125px;
+    margin-bottom: -8px;
+    margin-top: -2px;
   }
 }
