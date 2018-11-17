@@ -80,14 +80,14 @@ function toggleFont() {
 function setFont(font) {
   if (font != null) {
     $("body").css('fontFamily', font);
-    $(".swal2-modal").css('fontFamily', font);
+    // $(".swal2-modal").css('fontFamily', font);
     $("button").css('fontFamily', font);
     $("#font-stuff").css('display', 'block');
     // TODO: Make things look *more* correct by setting specific styles to be different.
     // This part makes everything zoom out to look like it's the right size:
     if (isDyslexic == true) {
       $('body').css('zoom', .95);
-      $('#picshoembed').css('zoom', 1.25);
+      // $('#picshoembed').css('zoom', 1.25);
       $('.switch-input')[0].checked = true;
     } else {
       $('.switch-input')[0].checked = false;
