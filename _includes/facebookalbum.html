@@ -11,7 +11,7 @@
 </head>
 
 <div class="photos">
-  <div class="photo-slide">hello world 1</div>
+  <div class="photo-slide"><img src="{{ site.url }}/assets/img/sponsors/barnes-logo.gif" /></div>
   <div class="photo-slide">hello world 2</div>
   <div class="photo-slide">hello world 3</div>
 </div>
@@ -27,8 +27,7 @@
     $('.photos').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
-      fade: true,
-      arrows: false,
+      arrows: true,
       initialSlide: 1,
       dots: true,
     });
