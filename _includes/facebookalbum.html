@@ -1,28 +1,36 @@
-<!--
-<style>
-/* Makes the large and small albums switch when on mobile */
-#small-facebook-album {
-  display: none;
-}
-@media screen and (max-width: 450px) {
-  #facebook-album {
-    display: none;
-  }
-  #small-facebook-album {
-    display: block;
-  }
-}
-</style>
-<div id="photos">
-  <iframe id="facebook-album" src="//embedsocial.com/facebook_album/album_photos/1035245586498309" width="900" height="500" frameborder="0" scrolling="yes" marginheight="0"  marginwidth="0"></iframe>
-  <iframe id="small-facebook-album" src="//embedsocial.com/facebook_album/album_photos/1035245586498309" width="900" height="250" frameborder="0" scrolling="yes" marginheight="0"  marginwidth="0"></iframe>
+<head>
+  <!-- Slick CSS Files: -->
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/slick/slick.css"/>
+  <noscript>
+    <style>
+    #photoslides {
+      display: none !important;
+    }
+    </style>
+  </noscript>
+</head>
+
+<div class="photos">
+  <div class="photo-slide">hello world 1</div>
+  <div class="photo-slide">hello world 2</div>
+  <div class="photo-slide">hello world 3</div>
 </div>
-<div width="100%" style="text-align:center;margin-top:1em;">
-  <a class="btn" href="https://www.facebook.com/FRC178/photos/?tab=albums" target="_blank">All Our Albums</a>
-</div>
--->
+
 <br>
 <div width="100%" style="text-align:center;margin-top:1em;font-size:17px">
   The website's developer made a mistake and the slideshow of the pictures is gone.
   <br>Until he fixes things, check out our <a href="https://www.instagram.com/team178/">Instagram page</a> for our most recent pictures.
 </div>
+
+<script>
+  $(document).ready(function(){
+    $('.photos').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      fade: true,
+      arrows: false,
+      initialSlide: 1,
+      dots: true,
+    });
+  });
+</script>
