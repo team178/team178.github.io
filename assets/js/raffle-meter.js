@@ -176,8 +176,7 @@ $( document ).ready(function() {
     } else {
       $(soldTag).css('width', deliberateSoldPercent + '%'); // Sets the soldTag's width to the deliberateSoldPercent
     }
-    // Set this manually    VVVV
-    $("#percent").html("Our 2018 raffle has ended! | Tickets sold: " + deliberateSoldPercent + "% | $" + deliberateMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned");
+    $("#percent").html("Our " + raffleDeadline.getFullYear() + " raffle has ended! | Tickets sold: " + deliberateSoldPercent + "% | $" + deliberateMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned");
     if (!rafflePage) {
       $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>Winners >></a></span>");
     } else {
