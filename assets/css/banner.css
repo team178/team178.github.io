@@ -1,4 +1,4 @@
-#banner {
+.banner {
   width: 100%; min-height: 12rem;
   background-color: #1A245B;
   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
@@ -6,11 +6,11 @@
   -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
 }
 
-#banner .slide {
+.banner .slide {
   margin: auto;
 }
 
-#banner #intro {
+.banner #intro {
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -24,6 +24,38 @@
   color: rgba(255,255,255, 0.8);
 }
 
+#birdies {
+  min-height: 0px !important;
+  background-color: #ffd000 !important;
+  line-height: 1.4rem;
+}
+
+#birdies .slide {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+
+  padding: 0;
+}
+
+#birdies .banner-text {
+  margin: -2.5px 0px; padding: 0px 20px;
+  max-width: 750px;
+  text-align: center;
+}
+
+#birdies a {
+  color: #1A245B !important;
+  font-weight: bold;
+}
+
+#birdies a:hover {
+  color: #0123d5 !important;
+}
+
 #intro img {
   width: 160px;
   flex-shrink: 0;
@@ -33,7 +65,7 @@
 }
 
 #intro .banner-text {
-  margin: 0; padding: 20px;
+  margin: 0; padding: 10px 20px 20px;
   max-width: 500px;
   text-align: center;
 }
