@@ -17,21 +17,23 @@ When making a code related change to the website, be sure to follow the best pra
 
 ### Running Locally
 
-Start by making sure you have Ruby installed:
+By running locally, you can preview the changes on only your computer. Then, if you like the way how changes are shown locally, push the code to master branch, which is the final code of the web site. 
+
+Start by making sure you have Ruby installed. Type this in termial:
 
 ```
 ruby -v
 ```
 
-If nothing appears as a result, [install Ruby](https://www.ruby-lang.org/en/documentation/installation).
+If nothing appears as a result, [install Ruby](https://www.ruby-lang.org/en/documentation/installation). During the install of Ruby, when it comes to the terminal, just keep pressing ENTER. 
 
-Then install [Bundler](http://gembundler.com), if you don't already have it:
+Then install [Bundler](http://gembundler.com), if you don't already have it. Type this in terminal:
 
 ```
 gem install bundler
 ```
 
-If you're new to the team, you'll want to make a fork of the repository. This makes it easier for you to make changes and get them reviewed before they're added to the live site.
+If you're new to the team, you'll want to make a fork of the repository. This makes it easier for you to make changes and get them reviewed before they're added to the live site. You can do it on GitHub website. Open web site reposotory, and press "Fork".
 
 Once you've forked the repository you'll want to access that code on your own computer.
 To do this just clone the repository down to your local machine:
@@ -42,10 +44,10 @@ git clone https://github.com/username/team178.github.io.git
 
 (Make sure to replace `username` with your username.)
 
-Then you need to navigate into your newly cloned repository:
+Then you need to navigate into your newly cloned repository. Type "cd " and directory of the cloned reposotory. For example:
 
 ```
-cd team178.github.io
+cd C:\Users\user\Desktop\team178.github.io
 ```
 
 The last thing you need to do before you can run locally is do a `bundle install` to install the required gems.
@@ -53,6 +55,8 @@ The last thing you need to do before you can run locally is do a `bundle install
 Then just run `jekyll serve` to see the website running on `http://localhost:4000`.
 
 If you get any errors or warnings, try running `bundle exec jekyll serve` instead.
+
+And lastly, how to actually see it locally? Well, make changes in the code, open terminal and type "cd" and address of the reposotory on your computer, and type http://localhost:4000 in adress bar. That's how you see changes locally!
 
 
 ## Text Editor of Choice
