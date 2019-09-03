@@ -3,7 +3,7 @@ title: Contact Us
 ---
 ## Contact Us
 
-## Interested in joining our team? Check out the [members](http://farmingtonrobotics.org/members/join/){:target="_blank"} section! 
+## Interested in joining our team? Check out the members section of our site! 
 
 # Interested in what we're doing? Want to see us at your school?
 
