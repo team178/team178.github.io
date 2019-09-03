@@ -20,3 +20,5 @@ Email us at {% include obfuscated-email.html %}
 [Tumblr](http://whatisfrc.tumblr.com/){:target="_blank"}
 
 [GitHub](https://github.com/team178){:target="_blank"}
+
+[Instagram](https://www.instagram.com/team178/?hl=en){:target="_blank"}
