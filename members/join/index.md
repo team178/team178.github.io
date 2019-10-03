@@ -1,10 +1,16 @@
 ---
 title: How to Join
 ---
-## How to Join
-We accept new members from September to mid-November or from May to the end of school.
+## For Prospect New Members
 
-# Two ways to join team:
+### Join our Google Classroom!
+### Classroom Code: 7dxfrxb
+Welcome! Check our [calendar](http://www.farmingtonrobotics.org/calendar){:target="_blank"} for upcoming dates. Look for new member welcome! 
+If you are unable to attend and are interested, contact using one of the methods below. 
+
+We accept new members from September to mid-November or from May to the end of school. 
+
+# Two ways to let us know you're interested:
 1. Talk to a coach
   * Mr. Barron - Talk to him in person in the science office or send him an email at [BarronT@fpsct.org](mailto:barront@fpsct.org)
   * Mrs. Hall - Talk to her in person in the math office or send her an email at [HallM@fpsct.org](mailto:hallm@fpsct.org)
@@ -12,7 +18,7 @@ We accept new members from September to mid-November or from May to the end of s
 
 # Safety
 
-Check our [team calendar]({{ site.url }}/calendar) to find out when safety training is. To do anything on the team you **need** to pass safety training. To prepare, you can watch our [safety video]({{ site.url }}/members/safety) and also fill out all of the proper forms.
+Check our [team calendar]({{ site.url }}/calendar) to find out when safety training is. To do anything on the team you **need** to pass safety training. 
 
 # Forms
 

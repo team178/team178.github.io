@@ -3,11 +3,13 @@ title: Contact Us
 ---
 ## Contact Us
 
+## Interested in joining our team? Check out the members section of our site! 
+
 # Interested in what we're doing? Want to see us at your school?
 
 Email us at {% include obfuscated-email.html %}
 
-Visit our social media sites:
+##### Visit our social media sites:
 
 [Facebook](https://www.facebook.com/FRC178){:target="_blank"}
 
