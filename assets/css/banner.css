@@ -24,37 +24,6 @@
   color: rgba(255,255,255, 0.8);
 }
 
-#birdies {
-  min-height: 0px !important;
-  background-color: #ffd000 !important;
-  line-height: 1.4rem;
-}
-
-#birdies .slide {
-  display: flex;
-  display: -webkit-flex;
-  align-items: center;
-  -webkit-align-items: center;
-  justify-content: center;
-  -webkit-justify-content: center;
-
-  padding: 0;
-}
-
-#birdies .banner-text {
-  margin: -2.5px 0px; padding: 0px 20px;
-  max-width: 750px;
-  text-align: center;
-}
-
-#birdies a {
-  color: #1A245B !important;
-  font-weight: bold;
-}
-
-#birdies a:hover {
-  color: #0123d5 !important;
-}
 
 #intro img {
   width: 160px;
