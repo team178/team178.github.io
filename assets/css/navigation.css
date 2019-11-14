@@ -116,7 +116,7 @@ nav {
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
-}
+  }
   #menu-check:checked ~ nav {
     display: block !important;
   }
