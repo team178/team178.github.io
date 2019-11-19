@@ -64,7 +64,7 @@ $( document ).ready(function() {
     rafflePage = false;
   }
 
-  if (numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after if you want.
+  if (numDays >= -2 && false) { // The true is there so that you can manually turn this off before the two days after if you want.
 
     google.setOnLoadCallback(get_data);
     function get_data() {
@@ -169,17 +169,17 @@ $( document ).ready(function() {
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
-    var deliberateSoldPercent = 3.56; // Set this number manually.
-    var deliberateMoney = 4500; // Set this number manually.
+    var deliberateSoldPercent = 31.87; // Set this number manually.
+    var deliberateMoney = 5100; // Set this number manually.
 
     if (rafflePage) {
       $('<style>' + soldTag + '{width:' + deliberateSoldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the deliberateSoldPercent
     } else {
       $(soldTag).css('width', deliberateSoldPercent + '%'); // Sets the soldTag's width to the deliberateSoldPercent
     }
-    $("#percent").html("Our " + raffleDeadline.getFullYear() + " raffle has ended! | Tickets sold: " + deliberateSoldPercent + "% | $" + deliberateMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned");
+    $("#percent").html("Our " + raffleDeadline.getFullYear() + " still goes on! | Tickets sold: " + deliberateSoldPercent + "% | $" + deliberateMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned");
     if (!rafflePage) {
-      $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>Winners >></a></span>");
+      $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>See the prizes >></a></span>");
     } else {
       // This changes the line of info to not include the tickets checked out
       $('#progress-info').html("Blue: Tickets sold | White: Tickets not sold");
