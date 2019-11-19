@@ -32,7 +32,7 @@ There are two different ways it gets displayed based on if large-raffle-meter is
 true in the front matter of the page.
 
 If you're *still* confused after reading all of this please contact either
-Tim Scalzo (19scalzoti@fpsct.org) or Giselle Koo (gisellegk@gmail.com) for
+Tim Scalzo (timothyjscalzo@gmail.com) or Giselle Koo (gisellegk@gmail.com) for
 help.
 
 Thank you for taking the time to read this.
@@ -40,7 +40,7 @@ Thank you for taking the time to read this.
 */
 google.load('visualization', 1.0);
 // For info on how `Date()` is formatted, check out http://www.w3schools.com/jsref/jsref_obj_date.asp
-var raffleDeadline = new Date(2018, 11, 8, 16, 30, 0); // Make sure to set this to the proper deadline.
+var raffleDeadline = new Date(2019, 12, 19, 17, 00, 0); // Make sure to set this to the proper deadline.
 var millisecondsLeft = raffleDeadline - new Date();
 var numDays = Math.ceil(millisecondsLeft/86400000);
 
