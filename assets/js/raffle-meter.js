@@ -32,7 +32,7 @@ There are two different ways it gets displayed based on if large-raffle-meter is
 true in the front matter of the page.
 
 If you're *still* confused after reading all of this please contact either
-Tim Scalzo, Ekaterina Vasilyeva (22vasilyevaek@fpsct.org) or Giselle Koo (gisellegk@gmail.com) for
+Tim Scalzo (timothyjscalzo@gmail.com), Ekaterina Vasilyeva (22vasilyevaek@fpsct.org) or Giselle Koo (gisellegk@gmail.com) for
 help.
 
 Thank you for taking the time to read this.
