@@ -31,17 +31,16 @@ turned into statistics that get displayed on the website as the progress bar.
 There are two different ways it gets displayed based on if large-raffle-meter is
 true in the front matter of the page.
 
-If you're *still* confused after reading all of this please contact either
-Tim Scalzo (timothyjscalzo@gmail.com), Ekaterina Vasilyeva (22vasilyevaek@fpsct.org) or Giselle Koo (gisellegk@gmail.com) for
+If you're *still* confused after reading all of this please contact either Tim Scalzo (timothyjscalzo@gmail.com), Kate Vasilyeva (22vasilyevaek@fpsct.org)
+or Giselle Koo (gisellegk@gmail.com) for
 help.
 
 Thank you for taking the time to read this.
-~~~~~~-Tim Scalzo
 */
 
 google.load('visualization', 1.0);
 // For info on how `Date()` is formatted, check out http://www.w3schools.com/jsref/jsref_obj_date.asp
-var raffleDeadline = new Date(2019, 12, 19, 17, 30, 0); // Make sure to set this to the proper deadline.
+var raffleDeadline = new Date(2019, 12, 19, 17, 00, 0); // Make sure to set this to the proper deadline.
 var millisecondsLeft = raffleDeadline - new Date();
 var numDays = Math.ceil(millisecondsLeft/86400000);
 
