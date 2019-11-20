@@ -31,13 +31,13 @@ turned into statistics that get displayed on the website as the progress bar.
 There are two different ways it gets displayed based on if large-raffle-meter is
 true in the front matter of the page.
 
-If you're *still* confused after reading all of this please contact either
-Tim Scalzo (timothyjscalzo@gmail.com) or Giselle Koo (gisellegk@gmail.com) for
+If you're *still* confused after reading all of this please contact either Tim Scalzo (timothyjscalzo@gmail.com), Kate Vasilyeva (22vasilyevaek@fpsct.org)
+or Giselle Koo (gisellegk@gmail.com) for
 help.
 
 Thank you for taking the time to read this.
-~~~~~~-Tim Scalzo
 */
+
 google.load('visualization', 1.0);
 // For info on how `Date()` is formatted, check out http://www.w3schools.com/jsref/jsref_obj_date.asp
 var raffleDeadline = new Date(2019, 12, 19, 17, 00, 0); // Make sure to set this to the proper deadline.
@@ -68,7 +68,7 @@ $( document ).ready(function() {
     google.setOnLoadCallback(get_data);
     function get_data() {
       var opts = {sendMethod: 'auto'};                // Make sure to manually change the link to the proper Google Sheet.
-      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1HXNfZArZZSwAI_QYgPCZ0y4J6Gjur-6FA4qe_dhje2Q/edit#gid=0', opts);
+      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1uU3Pm3NhyHXzpDaZV4B0mEFYhUn8C339FmJRpNbMkeo/edit#gid=0', opts);
       query.setQuery('SELECT G, H'); // Make sure to manually select the proper columns. (Use SQL if you need to do something more complex.)
       query.send(handleQueryResponse);
       // Note: The function will only run when the page is loaded.
@@ -168,17 +168,17 @@ $( document ).ready(function() {
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
-    var deliberateSoldPercent = 71.28; // Set this number manually.
-    var deliberateMoney = 11405; // Set this number manually.
+    var deliberateSoldPercent = 31.87; // Set this number manually.
+    var deliberateMoney = 5100; // Set this number manually.
 
     if (rafflePage) {
       $('<style>' + soldTag + '{width:' + deliberateSoldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the deliberateSoldPercent
     } else {
       $(soldTag).css('width', deliberateSoldPercent + '%'); // Sets the soldTag's width to the deliberateSoldPercent
     }
-    $("#percent").html("Our " + raffleDeadline.getFullYear() + " raffle has ended! | Tickets sold: " + deliberateSoldPercent + "% | $" + deliberateMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned");
+    $("#percent").html("Our " + raffleDeadline.getFullYear() + " raffle still goes on! | Tickets sold: " + deliberateSoldPercent + "% | $" + deliberateMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned");
     if (!rafflePage) {
-      $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>Winners >></a></span>");
+      $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>See the prizes >></a></span>");
     } else {
       // This changes the line of info to not include the tickets checked out
       $('#progress-info').html("Blue: Tickets sold | White: Tickets not sold");
