@@ -4,6 +4,7 @@ layout: default
 <link rel="stylesheet" type="text/css" media="all" href="/assets/css/coaches.css"/>
 
 <html>
+<h2>Meet our coaches and mentors!</h2>
 <table>
         <tr>
             <th>Name</th>
@@ -20,7 +21,7 @@ layout: default
         <tr>
             <td>Tim Barron</td>
             <td>Co-coach/Founder of the team</td>
-            <td>As a high school student, he coached a Park & Rec Youth basketball team and that's when he knew that he wanted to be a teacher/coach.</td> <!--Fun fact about Mr. Barron-->
+            <td>As a high school student, he coached a Park & Rec Youth basketball team and that's when he knew that he wanted to be a teacher/coach.</td>
             <td>Farmington High School</td>
         </tr>
         <tr>
@@ -31,14 +32,14 @@ layout: default
         </tr>
         <tr>
             <td>Charlie Bald</td>
-            <td>Mentor since 2007</td>
-            <td></td> <!--Fun fact about Mr. Bald-->
+            <td>Mentor since 2006</td>
+            <td>He is not actually bald.</td>
             <td>Parker Hannifin Fluid Control Division</td>
         </tr>
         <tr>
             <td>Mark Sims</td>
             <td>Alumnus Enforcer (2014) and mentor since 2015</td>
-            <td>This is his 11th year of being involved in FIRST</td> <!--Fun fact about Mark-->
+            <td>This is his 11th year of being involved in FIRST</td>
             <td>Student at CCSU</td>
         </tr>
         <tr>
@@ -50,8 +51,8 @@ layout: default
         <tr>
             <td>Lisa Nollman</td>
             <td>Mentor since 2011</td>
-            <td>She is Connecticut's partner for FIRST LEGO League Jr. for 3 years.</td> <!--Fun fact about Mrs. Nollman-->
-            <td>DaCruz Manufacturing</td> <!--Where she works-->
+            <td>She is Connecticut's partner for FIRST LEGO League Jr. for 3 years.</td>
+            <td>DaCruz Manufacturing</td>
         </tr>
         <tr>
             <td>Mark Hofmann</td>
@@ -80,8 +81,9 @@ layout: default
         <tr> 
             <td>Zarin Salem</td>
             <td>Alumna Enforcer (2017) and mentor since 2019</td>
-            <td>Hello</td>
+            <td>She was a scoutmaster for so long, that she can name all teams in Connecticut.</td>
             <td>Student at NYIT</td>
         </tr>
     </table>
+    <h3>Would you like to be a mentor of our team? </h3>
 </html>
