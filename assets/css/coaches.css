@@ -1,0 +1,12 @@
+table, td, tr, th {
+    border: 1px;
+    border-style: dashed;
+    border-color:rgb(255,208,0);
+}
+th {
+    font-style: italic;
+}
+
+tr {
+    column-width: 20px;
+}
