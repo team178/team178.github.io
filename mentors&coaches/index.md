@@ -85,5 +85,5 @@ layout: default
             <td>Student at NYIT</td>
         </tr>
     </table>
-    <h3>Would you like to be a mentor of our team? </h3>
+    <h3>Would you like to be a mentor of our team? Email us at {% include obfuscated-email.html %}</h3>
 </html>

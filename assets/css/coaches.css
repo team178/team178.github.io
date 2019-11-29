@@ -1,6 +1,9 @@
 table, td, tr, th {
-    border: 1.5px;
-    border-style: dashed;
+    border: 2px;
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-collapse: collapse;
     border-color:rgb(255,208,0);
 }
 
