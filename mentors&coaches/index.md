@@ -15,13 +15,13 @@ layout: default
         <tr>
             <td>Michele Hall</td>
             <td>Co-coach/Founder of the team</td>
-            <td>She worked for 14 summers at Girl Scout day camp and many of the skills that she learned there, she still uses as FRC team coach.</td>
+            <td>She worked for 14 summers at a Girl Scouts day camp. She still uses many of the skills that she learned there as a                      coach.</td>
             <td>Farmington High School</td> 
         </tr>
         <tr>
             <td>Tim Barron</td>
             <td>Co-coach/Founder of the team</td>
-            <td>As a high school student, he coached a Park & Rec Youth basketball team and that's when he knew that he wanted to be a teacher/coach.</td>
+            <td>As a high school student, he coached a Park & Rec Youth basketball team. That's how he realized he wanted to be a teacher/coach.</td>
             <td>Farmington High School</td>
         </tr>
         <tr>
@@ -38,7 +38,7 @@ layout: default
         </tr>
         <tr>
             <td>Mark Sims</td>
-            <td>Alumnus Enforcer (2014) and mentor since 2015</td>
+            <td>Enforcer Alumnus (2014), and mentor since 2015</td>
             <td>This is his 11th year of being involved in FIRST</td>
             <td>Student at CCSU</td>
         </tr>
@@ -51,7 +51,7 @@ layout: default
         <tr>
             <td>Lisa Nollman</td>
             <td>Mentor since 2011</td>
-            <td>She is Connecticut's partner for FIRST LEGO League Jr. for 3 years.</td>
+            <td>She has been Connecticut's partner for FIRST LEGO League Jr. for 3 years.</td>
             <td>DaCruz Manufacturing</td>
         </tr>
         <tr>
@@ -62,26 +62,26 @@ layout: default
         </tr>
         <tr>
             <td>Matt Crossman</td>
-            <td>Alumnus Enforcer (2010) and mentor since 2012</td>
+            <td>Enforcer Alumnus (2010) and mentor since 2012</td>
             <td></td>
             <td>Parker Hannifin</td>
         </tr>
         <tr>
             <td>Tuhan Nguyen</td>
-            <td>Alumna Enforcer (2016) and mentor since 2017</td>
+            <td>Enforcer Alumna (2016) and mentor since 2017</td>
             <td></td>
             <td>Student at Tunxis CC</td>
          </tr>
         <tr>
             <td>Danielle Parkinson</td>
-            <td>Alumna Enforcer (2014) and mentor since 2014</td>
+            <td>Enforcer Alumna (2014) and mentor since 2014</td>
             <td></td>
             <td>Collins Aerospace</td>
         </tr>
         <tr> 
             <td>Zarin Salem</td>
-            <td>Alumna Enforcer (2017) and mentor since 2019</td>
-            <td>She was a scoutmaster for so long, that she can name all teams in Connecticut.</td>
+            <td>Enforcer Alumna (2017) and mentor since 2019</td>
+            <td>She was scoutmaster for so long that she can name every FRC team in Connecticut.</td>
             <td>Student at NYIT</td>
         </tr>
     </table>
