@@ -14,19 +14,19 @@ layout: default
         </tr>
         <tr>
             <td>Michele Hall</td>
-            <td>Co-head coach</td>
+            <td>Co-Head Coach</td>
             <td>She worked for 14 summers at a Girl Scouts day camp. She still uses many of the skills that she learned there as a                      coach.</td>
             <td>Farmington High School</td> 
         </tr>
         <tr>
             <td>Tim Barron</td>
-            <td>Co-head coach</td>
+            <td>Co-Head Coach</td>
             <td>As a high school student, he coached a Park & Rec Youth basketball team. That's how he realized he wanted to be a teacher/coach.</td>
             <td>Farmington High School</td>
         </tr>
         <tr>
             <td>Charles Forstbauer</td>
-            <td>Engineering coach, and mentor since 2006</td>
+            <td>Engineering Coach, and mentor since 2006</td>
             <td>If he had more hair, he would dye it blue. </td>
             <td>Farmington High School</td>
         </tr>
@@ -38,8 +38,8 @@ layout: default
         </tr>
         <tr>
             <td>Trevor Deming</td>
-            <td>Alumnus mentor since 2011</td>
-            <td>He is a volunteer for New England Distrcit event this year</td>
+            <td>Alumni mentor since 2011</td>
+            <td>He is a volunteer for New England District event this year</td>
             <td>Alexis Aerospace Industries</td>
         </tr>
         <tr>
@@ -50,19 +50,19 @@ layout: default
         </tr>
         <tr>
             <td>Matt Crossman</td>
-            <td>Alumnus mentor since 2012</td>
+            <td>Alumni mentor since 2012</td>
             <td></td>
             <td>Parker Hannifin Fluid Control Division</td>
         </tr>
         <tr>
             <td>Danielle Parkinson</td>
-            <td>Alumna mentor since 2014</td>
+            <td>Alumni mentor since 2014</td>
             <td></td>
             <td>Collins Aerospace</td>
         </tr>
         <tr>
             <td>Mark Sims</td>
-            <td>Alumnus Mentor since 2015</td>
+            <td>Alumni Mentor since 2015</td>
             <td>This is his 11th year of being involved in <i>FIRST</i></td>
             <td>Student at CCSU</td>
         </tr>
@@ -74,13 +74,13 @@ layout: default
         </tr>
         <tr>
             <td>Tuhan Nguyen</td>
-            <td>Alumna mentor since 2017</td>
+            <td>Alumni mentor since 2017</td>
             <td></td>
             <td>Student at Tunxis CC</td>
          </tr>
         <tr> 
             <td>Zarin Salem</td>
-            <td>Alumna mentor since 2019</td>
+            <td>Alumni mentor since 2019</td>
             <td>She was scoutmaster for so long that she can name every FRC team in Connecticut.</td>
             <td>Student at NYIT</td>
         </tr>
