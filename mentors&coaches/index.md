@@ -52,7 +52,7 @@ layout: default
             <td>Matt Crossman</td>
             <td>Alumnus mentor since 2012</td>
             <td></td>
-            <td>Parker Hannifin</td>
+            <td>Parker Hannifin Fluid Control Division</td>
         </tr>
         <tr>
             <td>Danielle Parkinson</td>
