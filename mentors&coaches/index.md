@@ -32,7 +32,7 @@ layout: default
         </tr>
         <tr>
             <td>Charlie Bald</td>
-            <td>Mentor since 2006</td>
+            <td>Assistant Coach, and Mentor since 2006</td>
             <td>He is not actually bald.</td>
             <td>Parker Hannifin Fluid Control Division</td>
         </tr>
