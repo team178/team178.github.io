@@ -168,8 +168,8 @@ $( document ).ready(function() {
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
-    var deliberateSoldPercent = 45.63; // Set this number manually.
-    var deliberateMoney = 7400; // Set this number manually.
+    var deliberateSoldPercent = 72.50; // Set this number manually.
+    var deliberateMoney = 11980; // Set this number manually.
 
     if (rafflePage) {
       $('<style>' + soldTag + '{width:' + deliberateSoldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the deliberateSoldPercent
