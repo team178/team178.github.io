@@ -168,15 +168,15 @@ $( document ).ready(function() {
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
-    var deliberateSoldPercent = 72.50; // Set this number manually.
-    var deliberateMoney = 11980; // Set this number manually.
+    var deliberateSoldPercent = 96.88; // Set this number manually.
+    var deliberateMoney = 15550; // Set this number manually.
 
     if (rafflePage) {
       $('<style>' + soldTag + '{width:' + deliberateSoldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the deliberateSoldPercent
     } else {
       $(soldTag).css('width', deliberateSoldPercent + '%'); // Sets the soldTag's width to the deliberateSoldPercent
     }
-    $("#percent").html("Our " + raffleDeadline.getFullYear() + " raffle still goes on! | Tickets sold: " + deliberateSoldPercent + "% | $" + deliberateMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned");
+    $("#percent").html("Our " + raffleDeadline.getFullYear() + " raffle has ended! | Tickets sold: " + deliberateSoldPercent + "% | $" + deliberateMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " earned");
     if (!rafflePage) {
       $("#percent").append("<span class='raffle-link'> | <a href='/raffle'>See the prizes >></a></span>");
     } else {
