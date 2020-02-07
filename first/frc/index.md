@@ -6,8 +6,11 @@ title: FRC
 
 Click [here](http://www.firstinspires.org/robotics/frc/what-is-first-robotics-competition) for more.
 
-# __Infinite Recharge 2020__
-This season's game is *FIRST* Infinite Recharge. The teaser and game rules are posted. You can see them [here](https://www.youtube.com/watch?v=1y9PNhVAGmM) and [here](https://www.youtube.com/watch?v=gmiYWTmFRVE). The game manual is currently available for download. The game manual's password is: R!$E2geTHeR#2020.
+## 2020 Game: Infinite Recharge!
+<img class="float-right" alt="FRC Logo" style="width:275px;" src="{{ site.url }}/assets/img/FIRST-logos/Infinite-Recharge-logo.png"/>
+This season's game is *FIRST* Infinite Recharge. The trailer and game rules are posted. You can see them [here](https://www.youtube.com/watch?v=1y9PNhVAGmM) and [here](https://www.youtube.com/watch?v=gmiYWTmFRVE). The game manual is currently available for download. The game manual's password is: R!$E2geTHeR#2020.
+
+<br>
 
 <div width="100%" style="text-align:center;margin-top:1em;">
   <a class="btn" href="https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf" target="_blank">Download Manual</a>
