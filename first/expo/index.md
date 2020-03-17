@@ -8,12 +8,11 @@ We run & host the Farmington Valley _FIRST_ Expo (FVFE). Students plan every asp
 
 # Activities from 2020
 Here are some actitvites that can be used for your own Expo events and FLL Jr. teams:
-* [Architect Assembly Structured Activity](https://drive.google.com/file/d/1gIQXTvs16d_LLYd8Gc_4ASJzXgzWFL2n/view){:target="_blank"}
-* [Delivery Truck Dash Structured Activity](https://drive.google.com/file/d/1KvIu9n1Sk6wrI985ahchIznALPnHjj1z/view){:target="_blank"}
-* [Gingerbread House Paper Circuits](https://drive.google.com/file/d/15ObwQ5PltB43tfF0R2fnmPSGbTPZCBqF/view){:target="_blank"}
+* [Architect Assembly Structured Activity](https://drive.google.com/a/fpsct.org/file/d/1UMiHE2Dsh3S2RI73uPsL8LnNjLggv5UB/view?usp=sharing){:target="_blank"}
+* [Gingerbread House Paper Circuits](https://drive.google.com/a/fpsct.org/file/d/117ajIwbsilaHCCBNLrcqYF3SadK9TpxH/view?usp=sharing){:target="_blank"}
 * [Pinwheel Instructions](https://drive.google.com/file/d/14vT7fuzKDc57NsDLsy2Ktseh-kDqmll7/view){:target="_blank"}
-* [Popsicle Stick Bridges Structured Activity](https://drive.google.com/file/d/1M6Sl4v65oLXQaTpIUOWftB4EywbpPA9X/view){:target="_blank"}
-* [Snowflake Instructions](https://drive.google.com/file/d/1qSpENS9ygt8nuTwIUQ1PoEblq5DYB3mL/view){:target="_blank"}
+* [Popsicle Stick Bridges Structured Activity](https://drive.google.com/a/fpsct.org/file/d/1v_AMd_Ch-Q9sT92sW8d_s8nABQTUyjib/view?usp=sharing){:target="_blank"}
+* [Snowflake Instructions](https://drive.google.com/a/fpsct.org/file/d/1VQ-DhW6pNlSdUKAeiux09ITp_uZvKYSm/view?usp=sharing){:target="_blank"}
 
 <!--<div width="100%" style="text-align:center;margin-top:1em;">
   <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdNXVEoMg2jUBoxKcRzrTYhRzloZFlHoDk8bpoD3kAnWWhb0A/viewform?usp=sf_link" target="_blank">Expo Registration</a>
