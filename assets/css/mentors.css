@@ -1,0 +1,42 @@
+table, td, tr, th {
+  position: relative;
+  text-align: center;
+  border-spacing: 0;
+  background-color: rgba(255,222,76,0.05);
+}
+
+th {
+  font-style: italic;
+  background-color: rgb(247,235,159);
+  border: 2px;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 4;
+  top: 0;
+}
+
+tr {
+  height: 20px;
+  width: 100px;
+}
+
+table th {
+  /* Apply both top and bottom borders to the <th> */
+  border-top: 2px solid rgb(255,208,0);
+  border-bottom: 2px solid rgb(255,208,0);
+  border-right: 2px solid rgb(255,208,0);
+  padding: 5px;
+}
+
+table td {
+  /* For cells, apply the border to one of each side only (right but not left, bottom but not top) */
+  border-bottom: 2px solid rgb(255,208,0);
+  border-right: 2px solid rgb(255,208,0);
+  padding: 5px;
+}
+
+table th:first-child,
+table td:first-child {
+  /* Apply a left border on the first <td> or <th> in a row */
+  border-left: 2px solid rgb(255,208,0);
+}
