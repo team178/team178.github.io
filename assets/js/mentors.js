@@ -1,5 +1,5 @@
 function offsetHeader() {
-  $('thead').css('top', $('#header').outerHeight() + "px");
+  $('th').css('top', $('#header').outerHeight() + "px");
 }
 
 window.addEventListener('load', offsetHeader, false);
