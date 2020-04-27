@@ -1,23 +1,44 @@
 ---
 title: FRC
 ---
-## *FIRST* Robotics Competition
-<img class="float-left" alt="FRC Logo" style="width:275px;" src="{{ site.url }}/assets/img/FIRST-logos/FRC-logo.png"/> *FIRST* Robotics Competition is for kids from grades 9-12. While each team has students as its members, they also have coaches and mentors who help as needed. A motto created by our team that encapsulates this idea is "Mentor nurtured, student driven." The members of the team do a majority of the work, the mentors are only there to provide guidance when it's needed. Each year the students are challenged to create a robot that can compete in a game. The robot that they create is made almost entirely from scratch; the students do everything from the designing to the programming. This competition provides high school-age kids with professional level experiences in a fun and hands-on way. Read about some fast facts below! 
+## _FIRST_ Robotics Competition
+<img class="float-left" alt="FRC Logo" style="width:275px;" src="{{ site.url }}/assets/img/FIRST-logos/FRC-logo.png"/>
+The _FIRST_ Robotics Competition (FRC) was the original program that _FIRST_ created in 1992. FRC is designed to inspire high school students to become engineers by giving them real world experience working with professional engineers to develop a robot. The inaugural _FIRST_ Robotics Competition was held in 1992 in the Manchester Memorial High School gymnasium. As of 2009, over 3,000 high school teams, totaling over 37,000 students from Brazil, Canada, Israel, Mexico, the Netherlands, the United States, the United Kingdom are all part of the _FIRST_ Robotics Competition. In FRC, students are expected to do a majority of the work; the mentors are just meant to provide guidance as needed. Each year the students are challenged to create a robot that can compete in a game. The robot is created almost entirely from scratch; and students do everything from the designing to the programming.
 
 Click [here](http://www.firstinspires.org/robotics/frc/what-is-first-robotics-competition) for more.
 
-# __Infinite Recharge 2020__
-This season's game is *FIRST* Infinite Recharge. The teaser and game rules are posted. You can see them [here](https://www.youtube.com/watch?v=1y9PNhVAGmM) and [here](https://www.youtube.com/watch?v=gmiYWTmFRVE). The game manual is currently available for download. The game manual's password is: R!$E2geTHeR#2020.
+# How does it all work?
+The whole FRC year/season is divided into 4 parts: pre-season, build season, competition season, and post-season (sometimes 5, including off-season). Pre-season lasts from September to early January, teams have time to have fundraisers, run STEM-related events, and meet with sponsors to raise money for building a robot from scratch during build season. This is also a time for new members to join the team and try out different disciplines. Each FRC team is different, but generally there are groups of members who focus on specific tasks within engineering and outreach on the team. These disciplines can vary from programming to mechanical in engineering and from archiving to digital media in outreach. Pre-season is a time for preparation and practice before build season begins.
+<br />
+<br />
+The build season lasts from Kickoff until the team's first qualifier. On the day of Kickoff, all FRC teams around the world gather together to watch a livestream and see what that year's game will be. Then it's time to get to work! Teams have a period of 6-7 weeks where students, coaches, alumi, and mentors are designing, building, programming, and testing their robot all from scratch. Even in the midst of build season, some teams still run outreach events, help in the community, or run competitions for FLL or FLL Jr. teams in their area. But no matter what, the focus is on preparing everything for competition. This includes submitting awards, preparing team spirit items, testing robot drivers, and of course finalizing the robot.
+<br />
+<br />
+Once the team attends their first competition, competition season has begun! Teams attend competitions in order to earn points that help them qualify for District Championship, and maybe even to the World Championship in Detroit or Houston. Teams compete against each other on the field, and even off the field as well. While the drive team controls the robot and the pit crew works to make sure it stays in one piece, other members of the team talk to judges and compete for awards. Some students give a presentation for the Chairman's Award which is just one of many awards teams can win at competitions.
+<br />
+<br />
+After all this hard work, teams start their post-season. This is a time for everyone on the team to celebrate their achievements during the entire year. Teams take this time to regroup, debrief, and maybe run even more events! In addition, teams prepare for the next season by cleaning out the shop, reviewing the success of previous projects, and creating a plan for the next year. Furthermore, some teams will continue to run meetings over the summer, or take a break before the next season.
 
-<div width="100%" style="text-align:center;margin-top:1em;">
-  <a class="btn" href="https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf" target="_blank">Download Manual</a>
-  <a class="btn" href="http://www.firstinspires.org/resource-library/frc/competition-manual-qa-system?utm_source=hs_email&utm_medium=email&utm_content=40176757&_hsenc=p2ANqtz-9sRtvBregjMA_3wwl7OVcCXZdE7pCduMWXk9_UYkxStV180YhEK_6jamp_zNM9VP7Dety_tN46Pex47KTi8U5wjLgX3Q&_hsmi=40176757" target="_blank">Other Resources</a>
+# Some Fun Facts 
+- In 2019, over 51,000 robots were created by FRC teams.
+- Previous years' world championships have been held in Houston, Texas, Detroit, Michigan and at Walt Disney World's Epcot.
+- Each year the _FIRST_ Robotics Competition has scholarships for participants of the program. In 2019 there was $80 million worth of scholarships from colleges, universities, associations, and corporations.
+- Over 575,000 students have participated in _FIRST_ and 92% of those students have been more interested in attending college because of it.
+- Eighty-nine percent of FRC alumni declare a major in STEM and 99% of _FIRST_ students improve in teamwork and being being able to solve unexpected problems.
+- Female alumni are 5.3 times more likely to major in computer science.
+
+To find out even more about FRC, check out the _FIRST_ [FRC page](https://www.firstinspires.org/robotics/frc)!
+
+<div class="info-box light">
+  <div id="container1">
+    <img id="logo" src="{{ site.url }}/assets/img/FIRST-logos/Infinite-Recharge-logo.png" alt="Infinite Recharge Logo" style="width:200px;"/>
+    <div id="container2">
+      <h2 style="text-align:center">Infinite Recharge 2020</h2>
+      <div style="margin-top:5px;margin-bottom:15px;">This season's game is FRC Infinite Recharge. During the 2.5 minute match, teams earn points by scoring Power Cells, spinning or aligning their Control Panel, and climbing on the Shield Generator. The <a href="https://www.youtube.com/watch?v=1y9PNhVAGmM">teaser</a> and <a href="https://www.youtube.com/watch?v=gmiYWTmFRVE">game animation</a> have been posted.</div>
+      <div width="100%" style="text-align:center;margin-top:1em;margin-bottom:1em;">
+        <a class="btn" href="https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf" target="_blank">Download Manual</a>
+        <a class="btn" href="https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system" target="_blank">Other Resources</a>
+      </div>
+    </div>
+  </div>
 </div>
-
-#What is *FIRST* Robotics Competition? 
-The *FIRST* program all started with the *FIRST* Robotics Competition (FRC), which is designed to inspire high school students to become engineers by giving them real world experience working with professional engineers to develop a robot. The inaugural *FIRST* Robotics Competition was held in 1992 in the Manchester Memorial High School gymnasium. As of 2009, over 3,000 high school teams, totaling over 37,000 students from Brazil, Canada, Israel, Mexico, the Netherlands, the United States, the United Kingdom are all part of the *FIRST* Robotics Competition. The competition challenge changes each year, and the teams can only reuse certain components from previous years. The robots weigh around 120 lb, depending on each year's rules. The kit issued to each team contains a base set of parts. Registration and the kit of parts together cost about $5000 USD. In addition to that, teams are allowed to spend another $3500 on their robot. The purpose of this rule is to lessen the influence of money on teams' competitiveness. Details of the game are released on the first Saturday in January, and the teams are given six weeks to construct a robot that can accomplish the game's tasks. In 2008, teams participated in 41 regional competitions throughout March in an effort to qualify for the *FIRST* Championship in Atlanta, Georgia in April. 
-
-Here are some quick facts: 
-In 2019, over 51,000 robots were created. Previous years' championships have been held in Houston, Texas, Detroit, Michigan and at Walt Disney World's Epcot. Each year the *FIRST* Robotics Competition has scholarships for the participants in the program. In 2019 there was $80 million worth of scholarships from colleges, universities, associations, and corporations. Also, over 575,000 students have participated in *FIRST* and 92% of those students have been more interested in attending college. Eighty-nine percent of alumni declare a major in STEM and 99% of *FIRST* students improve in team work and being being able to solve unexpected problems. Female alumni are 5.3 times major in computer science. 
-
-To find out more about *FIRST* visit [www.firstinspires.org](http://www.firstinspires.org).
