@@ -60,10 +60,10 @@ $( document ).ready(function() {
     container = "#raffle-meter-container-s";
     soldTag = "#raffle-meter-sold";
     outTag = "#raffle-meter-out";
-    rafflePage = false;
+    rafflePage = true;
   }
 
-  if (numDays >= -2 && false) { // The true is there so that you can manually turn this off before the two days after if you want.
+  if (numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after if you want.
 
     google.setOnLoadCallback(get_data);
     function get_data() {

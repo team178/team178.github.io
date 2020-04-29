@@ -7,6 +7,7 @@ The _FIRST_ Robotics Competition (FRC) was the original program that _FIRST_ cre
 
 Click [here](http://www.firstinspires.org/robotics/frc/what-is-first-robotics-competition) for more.
 
+
 # How does it all work?
 The whole FRC year/season is divided into 4 parts: pre-season, build season, competition season, and post-season (sometimes 5, including off-season). Pre-season lasts from September to early January, teams have time to have fundraisers, run STEM-related events, and meet with sponsors to raise money for building a robot from scratch during build season. This is also a time for new members to join the team and try out different disciplines. Each FRC team is different, but generally there are groups of members who focus on specific tasks within engineering and outreach on the team. These disciplines can vary from programming to mechanical in engineering and from archiving to digital media in outreach. Pre-season is a time for preparation and practice before build season begins.
 <br />
@@ -18,7 +19,6 @@ Once the team attends their first competition, competition season has begun! Tea
 <br />
 <br />
 After all this hard work, teams start their post-season. This is a time for everyone on the team to celebrate their achievements during the entire year. Teams take this time to regroup, debrief, and maybe run even more events! In addition, teams prepare for the next season by cleaning out the shop, reviewing the success of previous projects, and creating a plan for the next year. Furthermore, some teams will continue to run meetings over the summer, or take a break before the next season.
-
 # Some Fun Facts 
 - In 2019, over 51,000 robots were created by FRC teams.
 - Previous years' world championships have been held in Houston, Texas, Detroit, Michigan and at Walt Disney World's Epcot.
