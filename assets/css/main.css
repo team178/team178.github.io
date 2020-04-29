@@ -152,10 +152,18 @@ footer {
   flex-direction: column;
   margin-left: 15px;
 }
+.info-box.flip #container2 {
+  margin-left: 5px;
+  margin-right: 15px;
+}
 .info-box #logo {
   width: 275px;
   margin-right: 10px;
   margin-bottom: -7px;
+}
+.info-box.flip #logo {
+  margin-right: 0px;
+  margin-left: 10px;
 }
 @media screen and (max-width: 675px) {
   .info-box #container1 {
