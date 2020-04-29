@@ -118,22 +118,22 @@ footer {
   background-color: #1A245B;
   color: rgba(255,255,255, 0.8);
   border-radius: 15px;
-  padding: 1px 20px 20px;
-  margin-top: 15px;
+  padding: 20px;
+  margin: 15px 0px 10px;
   /* This creates drop shadow on the box */
   box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.3);
   -moz-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.3);
   -webkit-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.3);
 }
-.info-box a:not(.btn,.sbtn) {
+.info-box:not(.light) a:not(.btn,.sbtn) {
   color: #FFD000;
 }
-.info-box a:hover:not(.btn,.sbtn) {
+.info-box:not(.light) a:hover:not(.btn,.sbtn) {
   color: #FcFF5F;
 }
 .info-box h2, h1 {
-  margin-bottom: 5px;
-  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-top: -3px;
 }
 .info-box.light {
   background-color: rgba(255,222,76,.15);
@@ -143,14 +143,7 @@ footer {
   -moz-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.1);
 }
-.info-box.light a:not(.btn,.sbtn) {
-  color: #C09000;
-}
-.info-box.light a:hover:not(.btn,.sbtn) {
-  color: #ffd000;
-}
 .info-box #container1 {
-  margin-top: 10px;
   display: flex;
   align-items: center;
 }
