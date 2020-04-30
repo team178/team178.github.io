@@ -32,7 +32,7 @@ To find out even more about FRC, check out the _FIRST_ [FRC page](https://www.fi
 <div class="info-box light flip">
   <div id="container1">
     <div id="container2">
-      <h2>Infinite Recharge 2020</h2>
+      <h1>Infinite Recharge 2020</h1>
       <div style="margin-bottom:15px;">The game this year is called FRC Infinite Recharge. During the 2 and a half minute match, alliances of three robots each earn points by scoring Power Cells, spinning or aligning their Control Panel, and climbing on the Shield Generator. The <a href="https://www.youtube.com/watch?v=1y9PNhVAGmM">teaser</a> and <a href="https://www.youtube.com/watch?v=gmiYWTmFRVE">game animation</a> have been posted.</div>
       <div class="centered end">
         <a class="btn" href="https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf" target="_blank">Download&nbsp;Manual</a>
