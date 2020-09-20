@@ -4,7 +4,7 @@ title: How to Join
 ## For Prospect New Members
 
 ### Join our Google Classroom!
-### Classroom Code: 7dxfrxb
+### Classroom Code: swyzryz
 Welcome! Check our [calendar](http://www.farmingtonrobotics.org/calendar){:target="_blank"} for upcoming dates. Look for new member welcome! 
 If you are unable to attend and are interested, contact using one of the methods below. 
 
