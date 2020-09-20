@@ -1,4 +1,4 @@
-/* For making pictures "float" to the left or right side of the screen, with text wrapping around it. */
+/* For making elements "float" to the left or right side of the screen, with text wrapping around. */
 .float-left {
   margin-right: 20px;
   float: left;
@@ -6,6 +6,21 @@
 .float-right {
   margin-left: 20px;
   float: right;
+}
+
+/* Makes elements that are floated to the left or right disappear at smaller screen sizes so that they don't make text wrap weirdly. */
+@media screen and (max-width: 675px) {
+  .float-left:not(.stay), .float-right:not(.stay) {
+    display: none;
+  }
+  /* For making elements "stay" visible with the .stay class. Specifically if they're short enough that them taking up the full width of the screen isn't distracting, or if they're important to the content of the page. */
+  .float-left.stay, .float-right.stay {
+    width: 100% !important;
+    margin: auto;
+    float: none;
+    text-align: -webkit-center;
+    align-content: center;
+  }
 }
 
 /* For centering elements horizontally in a div (mostly for buttons) */
