@@ -4,9 +4,13 @@ large-raffle-meter: false
 # It doesn't look right with the way the header's styled now.
 title: ''
 ---
-## Be sure to check out our 12 Days of STEAM event [here]({{ site.url}}/12daysofsteam)!
 
-<img class ="float-left" alt= "Team Photo 178" style="margin-top: 20px; margin-bottom: 20px;" src="{{ site.url }}/assets/img/TeamPhoto.jpg"/>
+<h2 style="text-align: center;">Be sure to check out our 12 Days of STEAM event <a href="{{ site.url}}/12daysofsteam">here</a>!</h2>
+
+<div class= "float-left" style="margin-top: 20px; margin-bottom: 20px; margin-right: 0px">
+  <img alt= "Team Photo 178" style="width: 49%; margin-right: 11px" src="{{ site.url }}/assets/img/LeadershipPhoto.jpg"/>
+  <img alt= "Team Photo 178" style="width: 49%;" src="{{ site.url }}/assets/img/VeteranNewMemberPhoto.jpg"/>
+</div>
 
 ### About Team 178
 
