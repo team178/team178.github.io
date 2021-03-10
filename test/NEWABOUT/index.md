@@ -12,7 +12,6 @@ layout: default
 	border: none;
 	border-radius: 2px;
 }
-
 </style>
 
 ## About Us
