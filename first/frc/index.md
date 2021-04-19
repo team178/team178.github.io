@@ -7,19 +7,19 @@ The _FIRST_ Robotics Competition (FRC) is the original program that _FIRST_ crea
 
 
 # How does it all work?
-<img class="float-right" alt="Preseason Work" style="width:275px;" src="{{ site.url }}/assets/img/first/preseason.JPG"/>
+<img class="float-right" alt="Preseason Work" style="width:275px;" src="{{ site.url }}/assets/img/first/preseason.jpg"/>
 The whole FRC year/season is divided into 4 parts: pre-season, build season, competition season, and post-season. Pre-season lasts from September to early January where teams use time to have fundraisers, run STEM-related events, and meet with sponsors to raise money for building a robot from scratch during build season. This is also a time for new members to join the team and try out different disciplines. Each FRC team is different, but generally there are groups of members who focus on specific tasks within engineering and outreach on the team. These disciplines can vary from programming to mechanical in engineering and from archiving to digital media in outreach. Pre-season gives plenty of time for preparation and practice before the build season begins.
 <br>
 <br>
-<img class="float-left" alt="Build Season Work on the Robot" style="width:275px;" src="{{ site.url }}/assets/img/first/build-season.JPG"/>
+<img class="float-left" alt="Build Season Work on the Robot" style="width:275px;" src="{{ site.url }}/assets/img/first/build-season.jpg"/>
 The build season lasts from Kickoff until the team’s first competition. On the day of Kickoff in January, all FRC teams around the world gather together to watch a livestream and see what that year’s game will be. Then it’s time to get to work! Teams have a period of 6-7 weeks where students, coaches, alumni, and mentors are designing, building, programming, and testing their robot all from scratch. Even in the midst of build season, some teams still run outreach events, help in the community, or run competitions for FLL or FLL Jr. teams in their area. But no matter what, the focus is on preparing everything for competition. This includes submitting awards, preparing team spirit items, testing robot drivers, and of course finalizing the robot.
 <br>
 <br>
-<img class="float-right" alt="Enforcers at a Competition" style="width:275px;" src="{{ site.url }}/assets/img/first/competition-season.JPG"/>
+<img class="float-right" alt="Enforcers at a Competition" style="width:275px;" src="{{ site.url }}/assets/img/first/competition-season.jpg"/>
 Once the team attends their first competition, competition season has begun! Teams attend competitions in order to earn points that help them qualify for the District Championship, and maybe even to the World Championship in Detroit or Houston. Teams compete against each other on the field, and even off the field as well. While the drive team controls the robot and the pit crew works to make sure it stays in one piece, other members of the team talk to judges and compete for awards. Some students give a presentation for the Chairman’s Award which is just one of many awards teams can win at competitions.
 <br>
 <br>
-<img class="float-left" alt="Debrief during Post-Season" style="width:275px;" src="{{ site.url }}/assets/img/first/post-season.JPEG"/>
+<img class="float-left" alt="Debrief during Post-Season" style="width:275px;" src="{{ site.url }}/assets/img/first/post-season.jpeg"/>
 After all this hard work, teams start their post-season. This is a time for everyone on the team to celebrate their achievements during the entire year. Teams take this time to regroup, debrief, and maybe run even more events! In addition, teams prepare for the next season by cleaning out the shop, reviewing the success of previous projects, and creating a plan for the next year. Furthermore, some teams will continue to run meetings over the summer, or take a break before the next season.
 
 <br>
