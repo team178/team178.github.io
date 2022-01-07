@@ -7,4 +7,4 @@ defaults:
       layout: "default"
 prose:
   media: "files"
-  siteurl: "http://farmingtonrobotics.org"
+  siteurl: "https://farmingtonrobotics.org"
