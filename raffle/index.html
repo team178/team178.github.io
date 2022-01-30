@@ -37,51 +37,9 @@ large-raffle-meter: true
 	border-radius: 2px;
 }
 
-/* List Styles */
-#raffle-prizes {
-	margin-left: 0;
-	padding-right: 0;
-	list-style-type: none;
-}
-#raffle-prizes li {
-	counter-increment: step-counter;
-}
-#raffle-prizes li:nth-of-type(n+3)::before {
-	content: counter(step-counter) "th Prize:";
-}
-#raffle-prizes li:nth-of-type(1)::before {
-	content: "1st Prize:";
-}
-#raffle-prizes li:nth-of-type(2)::before {
-	content: "2nd Prize:";
-}
-#raffle-prizes li:nth-of-type(3)::before {
-	content: "3rd Prize:";
-}
-#raffle-prizes li::before {
-	margin-left: -40px;
-	margin-right: 10px;
-	font-style: italic;
-}
-.prize-details {
-	font-size: 12px;
-	margin-left: 5px;
-}
 @media screen and (max-width: 640px) {
 	#raffle-pictures {
 		display: none;
-	}
-	#raffle-prizes li:nth-of-type(n+3)::before {
-		content: counter(step-counter) "th:";
-	}
-	#raffle-prizes li:nth-of-type(1)::before {
-		content: "1st:";
-	}
-	#raffle-prizes li:nth-of-type(2)::before {
-		content: "2nd:";
-	}
-	#raffle-prizes li:nth-of-type(3)::before {
-		content: "3rd:";
 	}
 }
 </style>
