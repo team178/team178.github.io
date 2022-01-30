@@ -89,6 +89,9 @@ large-raffle-meter: true
 		technology, and engineering dreams. The build season includes all aspects of a real-life technical design process, including development, design, planning, and marketing.
 		It is intended to inspire students to become leaders in high-tech engineering, scientific, and technological fields. More information about our team can be found below.
 	</p>
+	<div id="promo-video" class="centered">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/mhCyE5Mf1gE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
 </div>
 
 <div id="achievements">
