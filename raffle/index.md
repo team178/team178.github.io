@@ -50,7 +50,7 @@ large-raffle-meter: true
 <div id="goal" class="centered">
 	<p style="font-size:1.1rem">
 		Our team needs to raise about $15,000 each year in order to sustain our robot building, continue our community outreach, provide financial assistance for students who need
-		it in order to go to competition, and expand the opportunities our team offers to students. Please support us by participating in our raffle. It is our main fundraiser. We appreciate any support that you can give!
+		it in order to go to competition, and expand the opportunities our team offers to students. Please support us by participating in our raffle. It is our main fundraiser. We appreciate any support that you can give!  The prizes are listed below:
 	</p>
 </div>
 
