@@ -49,8 +49,7 @@ large-raffle-meter: true
 
 <div id="goal" class="centered">
 	<p style="font-size:1.1rem">
-		Our team needs to raise about $15,000 each year in order to sustain our robot building, continue our community outreach, provide financial assistance for students who need
-		it in order to go to competition, and expand the opportunities our team offers to students. Please support us by participating in our raffle. It is our main fundraiser. We appreciate any support that you can give!  The prizes are listed below:
+		<strong>Our 2021-2022 raffle has ended. We sold 1260 tickets, raising us $6230 in sales. Thanks to all those who supported through donations. See you all next year for our 2022-2023 raffle!</strong>
 	</p>
 </div>
 
@@ -63,16 +62,28 @@ large-raffle-meter: true
 	</div>
 </div>
 
+<h3>Congratualtions to our winners!</h3>
 <ol id="raffle-prizes">
-	<li>Sony® Playstation 5</li>
-	<li>Bose Sport Earbuds</li>
-	<li>Ninja Foodi DZ201 6-in-1 8-qt. 2-Basket Air Fryer with DualZone Technology</li>
-	<li>$178 Visa Gift Card</li>
+	<li>Feng-Ching Lin (Ticket 1579) - Sony® Playstation 5</li>
+	<li>Akhil Dharmavaram (Ticket 1078) - Bose Sport Earbuds</li>
+	<li>Helene McNerney (Ticket 1601) - Ninja Foodi DZ201 6-in-1 8-qt. 2-Basket Air Fryer</li>
+	<li>Steven Baily (Ticket 2129) - $178 Visa Gift Card</li>
 </ol>
 
-<div id="raffle-button" class="centered">
+<!-- <div id="raffle-button" class="centered">
 	<a style="font-size:2rem;" class="btn" href="https://farmingtonfor.charityraffles.org/" target="_blank" rel="noopener noreferrer"><strong>Buy tickets</strong></a>
 	<p style="margin:1px;">Hosted by <a href="https://chance2win.org/" target="_blank" rel="noopener noreferrer">Chance2Win</a></p>
+</div> -->
+
+<div class="info-box">
+	<div id="container1">
+		<a href="http://www.farmingtonfor.org"><img id="logo" alt="Farmington Friends of Robotics Logo" src="{{ site.url }}/assets/img/sponsors/ffor-logo.png"></a>
+		<div id="container2">
+		<div style="margin-bottom:5px;">If you missed the raffle, but still want to support our team, you may make a direct donation through Farmington Friends of Robotics (FOR), our 501(c)3 booster organization.</div>
+		<div style="margin-top:5px;">It is a non-profit organization consisting of parents, mentors, and supporters of robotics in Farmington.</div>
+		<div class="centered" style="margin-top:5px;"><a class="btn" href="https://farmingtonfor.square.site/" target="_blank" rel="noopener noreferrer">Click here to donate</a></div>
+		</div>
+	</div>
 </div>
 
 <hr>
@@ -114,16 +125,5 @@ large-raffle-meter: true
 </div>
 
 <br>
-
-<div class="info-box">
-	<div id="container1">
-		<a href="http://www.farmingtonfor.org"><img id="logo" alt="Farmington Friends of Robotics Logo" src="{{ site.url }}/assets/img/sponsors/ffor-logo.png"></a>
-		<div id="container2">
-		<div style="margin-bottom:5px;">If you want to support our team in other ways, you may make a direct donation through Farmington Friends of Robotics (FOR), our 501(c)3 booster organization.</div>
-		<div style="margin-top:5px;">It is a non-profit organization consisting of parents, mentors, and supporters of robotics in Farmington.</div>
-		<div class="centered" style="margin-top:5px;"><a class="btn" href="https://farmingtonfor.square.site/" target="_blank" rel="noopener noreferrer">Click here to donate</a></div>
-		</div>
-	</div>
-</div>
 
 <br>
