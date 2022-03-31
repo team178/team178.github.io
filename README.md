@@ -54,7 +54,7 @@ The last thing you need to do before you can run locally is do a `bundle install
 
 Then just run `jekyll serve` to see the website running on `http://localhost:4000`.
 
-If you get any errors or warnings, try running `bundle exec jekyll serve` instead. If that doesn't work, try the command 'bundle add webrick'.
+If you get any errors or warnings, try running `bundle exec jekyll serve` instead. If that doesn't work, try the command `bundle add webrick`.
 
 And lastly, how to actually see it locally? Well, make changes in the code, open terminal and type "cd" and address of the reposotory on your computer, and type http://localhost:4000 in adress bar. That's how you see changes locally!
 
