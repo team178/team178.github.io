@@ -6,8 +6,8 @@ title: ''
 ---
 
 <div class= "float-left" style="margin-top: 20px; margin-bottom: 20px; margin-right: 0px">
-  <img alt= "Team Photo 178" style="width: 49%; margin-right: 1.375%" src="{{ site.url }}/assets/img/LeadershipPhoto.jpg"/>
-  <img alt= "Team Photo 178" style="width: 49%;" src="{{ site.url }}/assets/img/VeteranNewMemberPhoto.jpg"/>
+  <img alt= "Team Photo 178" style="width: 100%; margin-right: 1.375%" src="{{ site.url }}/assets/img/Team2021-22.JPG"/>
+
 </div>
 
 ### About Team 178
