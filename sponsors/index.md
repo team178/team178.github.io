@@ -21,7 +21,7 @@ Hello fellow Enforcer! This page may be a bit more complicated than the rest. It
 
 ### UTC Otis Elevator (Platinum and Founding Sponsor)
 <a target="_blank" href="http://www.otis.com/site/us/Pages/default.aspx"><img class="float-left" alt="Otis Elevator Logo" style="width: 200px;" src="{{ site.url }}/assets/img/sponsors/otis-logo.svg.png" /></a>
-Farmington High *FIRST* Robotics, Team 178, is sponsored by Farmington-based Otis Elevator Company, a wholly owned subsidiary of United Technologies Corporation. Otis is our Founding Sponsor and has annually funded our competition fees and a significant portion of our build season budget. Otis is the leading manufacturer and servicer of elevators, escalators and shuttle systems worldwide. Otis has installed elevators in some of the world's most famous structures, including the Eiffel Tower, Empire State Building, Petronas Twin Towers, Burj Khalifa, CN Tower and the Skylon Tower.
+Farmington High *FIRST* Robotics, Team 178, is sponsored by Farmington-based Otis Elevator Company. Otis is our Founding Sponsor and has annually funded our competition fees and a significant portion of our build season budget. Otis is the leading manufacturer and servicer of elevators, escalators and shuttle systems worldwide. Otis has installed elevators in some of the world's most famous structures, including the Eiffel Tower, Empire State Building, Petronas Twin Towers, Burj Khalifa, CN Tower and the Skylon Tower.
 
 ### Parker Hannifin Fluid Control Division (Platinum and Veteran Sponsor)
 <a target="_blank" href="http://www.parker.com/fcd"><img class="float-left" alt="Parker Hannifin Logo" style="width: 200px;" src="{{ site.url }}/assets/img/sponsors/parker-logo.svg.png" /></a>
