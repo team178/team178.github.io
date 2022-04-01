@@ -19,7 +19,7 @@ When making a code related change to the website, be sure to follow the best pra
 
 By running locally, you can preview the changes on only your computer. Then, if you like the way how changes are shown locally, push the code to master branch, which is the final code of the web site. 
 
-Start by making sure you have Ruby installed. Type this in termial:
+Start by making sure you have Ruby installed. Make sure you have admin access to your local computer (or use 'sudo') and type this in termial:
 
 ```
 ruby -v
