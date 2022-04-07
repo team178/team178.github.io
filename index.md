@@ -10,17 +10,12 @@ title: ''
 
 </div>
 
-### About Team 178
+### What's Up With the Team? Here's our Newsletter
 
->The 2nd Law Enforcers have been an active participant in *FIRST* (For Inspiration & Recognition of Science & Technology) since 1997. We aim to provide real-world opportunities for our team members to grow as team members and leaders and to educate the public about STEM topics. Read more [here]({{ site.url }}/about).
+<div class= "float-left" style="margin-top: 20px; margin-bottom: 20px; margin-right: 0px">
+  <a href="{{ site.url }}/assets/March Robotics Newsletter (1).pdf" target="_blank"> 
 
-### Dream *FIRST*
-
->Dream *FIRST* is our main outreach program for children ages 3 to 10, developed by our team. The goal of this program is to cultivate children's interest in science, technology, engineering, and math (STEM) because we believe that by training the kids at a young age, we can spark an interest in science that lasts a lifetime. Read more about this program [here]({{ site.url }}/dreamfirst).
-
-### Our Sponsors
-
->One of the reasons our team is able to function is through the help of our wonderful sponsors, including UTC Otis Elevator, ebm-papst Inc., and UTC Sikorsky Aircraft Corporation. Learn more about each of our sponsors [here]({{ site.url }}/sponsors).
+  <img alt= "Our Newsletter" style="width: 100%; margin-right: 1.375%" src="{{ site.url }}/assets/img/Final%20Newsletter%20Heading.png"/> </a>
 
 <!--
 ### Upcoming events
