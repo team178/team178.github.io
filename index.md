@@ -14,7 +14,7 @@ title: ''
 # <b> What's Up With the Team? Here's our Newsletter! </b>
 
 <div class= "float-left" style="margin-top: 20px; margin-bottom: 20px; margin-right: 0px">
-  <a href="{{ site.url }}/assets/March Robotics Newsletter.pdf" target="_blank"> 
+  <a href="{{ site.url }}/assets/newsletters/April2022.pdf" target="_blank"> 
 
   <img alt= "Our Newsletter" style="width: 100%; margin-right: 1.375%" src="{{ site.url }}/assets/img/Final%20Newsletter%20Heading.png"/> </a>
 </div>
