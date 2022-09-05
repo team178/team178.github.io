@@ -16,7 +16,7 @@ If you're wondering what the 2nd Law Enforcers are and what we're all about, tak
 <div class="centered">
   <a class="btn" href="{{ site.url }}/about">About&nbsp;Us</a>
   <a class="btn" href="{{ site.url }}/about/history">Team&nbsp;History</a>
-  <a class="btn" href="{{ site.url }}/members/handbook">Team&nbsp;Handbook</a>
+  <a class="btn" href="{{ site.url }}/about/handbook">Team&nbsp;Handbook</a>
 </div>
 
 # Current Members

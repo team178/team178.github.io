@@ -22,4 +22,4 @@ After sending the email you'll receive a response with a button in it. If you're
 <a href="https://www.facebook.com/groups/181303461902744/?fref=nf" target="_blank">here</a>.**
 
 # What Now?
-Now that you're on the mailing list there are a couple of things you can do. You can learn about [safety]({{ site.url }}/members/safety/#safety) on the team or read the [handbook]({{ site.url }}/members/handbook/#handbook).
+Now that you're on the mailing list there are a couple of things you can do. You can learn about [safety]({{ site.url }}/members/safety/#safety) on the team or read the [handbook]({{ site.url }}/about/handbook/#handbook).
