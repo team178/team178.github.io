@@ -44,42 +44,52 @@ large-raffle-meter: true
 }
 </style>
 
-<!--The annual <a href="http://www.farmingtonfor.org"> Farmington Friends of Robotics</a> raffle to support The 2nd Law Enforcers is currently underway! Hurry to buy a raffle ticket before the drawing on Thursday, December 19th. <b>Tickets are $5 each</b>. We will be holding selling events at local businesses in Farmington. Check our <a href="/calendar">Team Calendar</a> for future event times and dates!
-<br>-->
+The annual <a href="http://www.farmingtonfor.org"> Farmington Friends of Robotics</a> raffle to support The 2nd Law Enforcers is currently underway! Hurry to buy a raffle ticket before the final day on Wednesday, January 4th, 2023. The drawing will be held on January 7th, 2023. <b>Tickets are $5 each</b>. We will be holding selling events at local businesses in Farmington. Check our <a href="/calendar">Team Calendar</a> for future event times and dates!
+<br>
+<br>
 
-<div id="goal" class="centered">
+<!-- <div id="goal" class="centered">
 	<p style="font-size:1.1rem">
 		<strong>Our 2021-2022 raffle has ended. We sold 1260 tickets, raising us $6230 in sales. Thanks to all those who supported through donations. See you all next year for our 2022-2023 raffle!</strong>
 	</p>
-</div>
+</div>-->
 
 <div id="raffle-pictures" class="info-box" align="center">
 	<div id="raffle-picture-helper">
 		<img class="raffle-picture big" alt='Sony® Playstation 5' src="{{ site.url }}/assets/img/raffle/ps5.png">
-		<img class="raffle-picture" alt="Bose Sport Earbuds" src="{{ site.url }}/assets/img/raffle/bose-sport-earbuds.png">
-		<img class="raffle-picture" alt="Ninja Foodi DZ201 6-in-1 8-qt. 2-Basket Air Fryer with DualZone Technology" src="{{ site.url }}/assets/img/raffle/clearly-you-dont-own-an-air-fryer.png">
-		<img class="raffle-picture" alt="Visa Gift Card" src="{{ site.url }}/assets/img/raffle/visa-card.png">
+		<img class="raffle-picture big" alt="Portable Pizza Oven" src="{{ site.url }}/assets/img/raffle/pizzaOven.png">
+		<img class="raffle-picture" alt="Beats Fit Pro Earbuds" src="{{ site.url }}/assets/img/raffle/beats.png">
+		<img class="raffle-picture" alt="Amazon Gift Card" src="{{ site.url }}/assets/img/raffle/amazon_gift_card.png">
 	</div>
 </div>
 
-<h3>Congratualtions to our winners!</h3>
+<!-- <h3>Congratualtions to our winners!</h3>
 <ol id="raffle-prizes">
 	<li>Feng-Ching Lin (Ticket 1579) - Sony® Playstation 5</li>
 	<li>Akhil Dharmavaram (Ticket 1078) - Bose Sport Earbuds</li>
 	<li>Helene McNerney (Ticket 1601) - Ninja Foodi DZ201 6-in-1 8-qt. 2-Basket Air Fryer</li>
 	<li>Steven Baily (Ticket 2129) - $178 Visa Gift Card</li>
-</ol>
+</ol> -->
 
-<!-- <div id="raffle-button" class="centered">
-	<a style="font-size:2rem;" class="btn" href="https://farmingtonfor.charityraffles.org/" target="_blank" rel="noopener noreferrer"><strong>Buy tickets</strong></a>
+<h3><b>We have 5 prizes in total!</b></h3>
+<ul id="raffle-prizes">
+	<li>1st Prize – PS5 (value $500)</li>
+	<li>2nd Prize – Portable Pizza Oven (Retail value $399)</li>
+	<li>3rd Prize – Beats Fit Pro Earbuds (Retail value $199)</li>
+	<li>4th Prize – $178 Gift Card</li>
+	<li>5th Prize – $100 Gift Card</li>
+</ul>
+
+<div id="raffle-button" class="centered">
+	<a style="font-size:2rem;" class="btn" href="https://fhsrobotics.charityraffles.org/" target="_blank" rel="noopener noreferrer"><strong>Buy tickets</strong></a>
 	<p style="margin:1px;">Hosted by <a href="https://chance2win.org/" target="_blank" rel="noopener noreferrer">Chance2Win</a></p>
-</div> -->
+</div>
 
 <div class="info-box">
 	<div id="container1">
 		<a href="http://www.farmingtonfor.org"><img id="logo" alt="Farmington Friends of Robotics Logo" src="{{ site.url }}/assets/img/sponsors/ffor-logo.png"></a>
 		<div id="container2">
-		<div style="margin-bottom:5px;">If you missed the raffle, but still want to support our team, you may make a direct donation through Farmington Friends of Robotics (FOR), our 501(c)3 booster organization.</div>
+		<div style="margin-bottom:5px;">If you <!--missed the--> don't want to buy a ticket for the raffle, but still want to support our team, you may make a direct donation through Farmington Friends of Robotics (FOR), our 501(c)3 booster organization.</div>
 		<div style="margin-top:5px;">It is a non-profit organization consisting of parents, mentors, and supporters of robotics in Farmington.</div>
 		<div class="centered" style="margin-top:5px;"><a class="btn" href="https://farmingtonfor.square.site/" target="_blank" rel="noopener noreferrer">Click here to donate</a></div>
 		</div>
@@ -100,8 +110,12 @@ large-raffle-meter: true
 		technology, and engineering dreams. The build season includes all aspects of a real-life technical design process, including development, design, planning, and marketing.
 		It is intended to inspire students to become leaders in high-tech engineering, scientific, and technological fields. More information about our team can be found below.
 	</p>
-	<div id="promo-video" class="centered">
+	<!--<div id="promo-video" class="centered">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/mhCyE5Mf1gE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>-->
+
+	<div class="centered">
+		<img alt="Amazon Gift Card" src="{{ site.url }}/assets/img/robotHallway.png" width="560" height="315">
 	</div>
 </div>
 
