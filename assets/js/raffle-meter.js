@@ -63,13 +63,13 @@ $( document ).ready(function() {
     rafflePage = true;
   }
 
-  if (numDays >= -2 && true) { // The true is there so that you can manually turn this off before the two days after if you want.
+  if (/*numDays >= -2 && */true) { // The true is there so that you can manually turn this off before the two days after if you want.
 
     google.setOnLoadCallback(get_data);
     function get_data() {
       var opts = {sendMethod: 'auto'};                // Make sure to manually change the link to the proper Google Sheet.
-      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1uU3Pm3NhyHXzpDaZV4B0mEFYhUn8C339FmJRpNbMkeo/edit#gid=0', opts);
-      query.setQuery('SELECT G, H'); // Make sure to manually select the proper columns. (Use SQL if you need to do something more complex.)
+      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/182eugNPVXYem_ygqXe6O8IbAAObMqHx2IotRyl2o7IY/edit#gid=0', opts);
+      query.setQuery('SELECT B'); // Make sure to manually select the proper columns. (Use SQL if you need to do something more complex.)
       query.send(handleQueryResponse);
       // Note: The function will only run when the page is loaded.
 
@@ -85,11 +85,11 @@ $( document ).ready(function() {
         return;
       }
       var data = response.getDataTable();
-      data.Nf.splice(0, 2); // Removes the first row that has stuff that we don't want.
+      //data.Nf.splice(0, 2); // Removes the first row that has stuff that we don't want.
       var base = 0;
       var sold = 0;
       var out = 0;
-      for (var i = 0; i < data.getNumberOfRows(); i++){ // The i++ adds 1 to 'i' after it goes through the loop once.
+      //for (var i = 0; i < data.getNumberOfRows(); i++){ // The i++ adds 1 to 'i' after it goes through the loop once.
       /* Key for what the values mean: */
       // 0 = untouched (base)
       // 1 = checked out (out)
@@ -99,28 +99,29 @@ $( document ).ready(function() {
       /* Key for what the columns are for: */
       // 0 = Status of book
       // 1 = Number of tickets sold from book
-        if (data.getValue(i,0) == 0) { // Checks for 0 in row 'i'.
-          base += 20; // Adds 20 to the base if ^^^^ is true.
-        } else if(data.getValue(i,0) == 1) { // Checks for 1 in row 'i'.
-          out += 20; // Adds 20 to the out if ^^^^ is true.
-        } else if(data.getValue(i,0) == 3) { // Checks for 3 in row 'i'.
-          sold += data.getValue(i,1); // Adds value in second column to the sold if ^^^^ is true.
-          out += (20 - data.getValue(i,1)); // Adds the amount left in the book to the out.
-        } else if(data.getValue(i,0) == 4) { // Checks for 4 in row 'i'.
-          sold += data.getValue(i,1); // Shouldn't be total sold from book (it should be how much they just sold).
-          out -= data.getValue(i,1); // Removes the amount sold from the out. (Because it's not out anymore, it just got sold.)
-        } else if(data.getValue(i,0) == 2) { // Checks for a 2 in row 'i'.
-          sold += 20; // Adds 20 to sold if the entire book is sold.
-        }
+        //if (data.getValue(i,0) == 0) { // Checks for 0 in row 'i'.
+        //  base += 20; // Adds 20 to the base if ^^^^ is true.
+        //} else if(data.getValue(i,0) == 1) { // Checks for 1 in row 'i'.
+        //  out += 20; // Adds 20 to the out if ^^^^ is true.
+        //} else if(data.getValue(i,0) == 3) { // Checks for 3 in row 'i'.
+        //  sold += data.getValue(i,1); // Adds value in second column to the sold if ^^^^ is true.
+        //  out += (20 - data.getValue(i,1)); // Adds the amount left in the book to the out.
+        //} else if(data.getValue(i,0) == 4) { // Checks for 4 in row 'i'.
+        //  sold += data.getValue(i,1); // Shouldn't be total sold from book (it should be how much they just sold).
+        //  out -= data.getValue(i,1); // Removes the amount sold from the out. (Because it's not out anymore, it just got sold.)
+        //} else if(data.getValue(i,0) == 2) { // Checks for a 2 in row 'i'.
+        //  sold += 20; // Adds 20 to sold if the entire book is sold.
+        //}
       /*
       In this loop, 'i' is used as the row number. As long as 'i' is less than the number of rows there are, the loop keeps going.
       It goes through and checks row 'i' to see if the number in it matches 0, 1, 2, 3 or 4. If there's anything other than those
       numbers it ignores it.
       */
-      }
+      //}
 
-      var soldPercent = sold / (sold + out + base) * 100; // Divides the amount sold by the total and makes it into percent form.
-      var outPercent = (out + sold) / (sold + out + base) * 100;
+      var soldPercent = data.getValue(0,0)/data.getValue(2,0) * 100; // gets value from 1st row and divides it by value in 3rd row (sold/total)
+      var outPercent = data.getValue(1,0)/data.getValue(2,0) * 100;
+      console.log(soldPercent);
 
       if (rafflePage) {
         $('<style id="soldTagStyle">' + soldTag + '{width:' + soldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the soldPercent
@@ -168,7 +169,7 @@ $( document ).ready(function() {
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
-    var deliberateSoldPercent = 96.88; // Set this number manually.
+    var deliberateSoldPercent = 50; // Set this number manually.
     var deliberateMoney = 15550; // Set this number manually.
 
     if (rafflePage) {
