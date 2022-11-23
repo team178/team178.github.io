@@ -20,7 +20,7 @@ on what I've written there.)
 * The year that it currently is. (I'm sure there's a way to dynamically change
 that but I don't feel like coding that right now.)
 
-WHAT THIS CODE DOES:
+WHAT THIS CODE USED TO DO:
 It pulls information from a Google Spreadsheet and counts the number of 0s, 1s,
 2s, 3s, and 4s there are in a specified column. The number of 0s is counted as
 the number of book that haven't been touched; the 1s count as the books that are
@@ -34,6 +34,11 @@ true in the front matter of the page.
 If you're *still* confused after reading all of this please contact either Tim Scalzo (timothyjscalzo@gmail.com), Kate Vasilyeva (22vasilyevaek@fpsct.org)
 or Giselle Koo (gisellegk@gmail.com) for
 help.
+
+For help on the updated version, email Doorva Garg (doorvagarg01@gmail.com) :D
+
+This code was edited for simplicity since Google Sheets can do the math for us. 
+The data is imported from the first 3 cells of column B in a Google Sheet.
 
 Thank you for taking the time to read this.
 */
@@ -120,15 +125,17 @@ $( document ).ready(function() {
       //}
 
       var soldPercent = data.getValue(0,0)/data.getValue(2,0) * 100; // gets value from 1st row and divides it by value in 3rd row (sold/total)
-      var outPercent = data.getValue(1,0)/data.getValue(2,0) * 100;
+      var outPercent = 100 - soldPercent;
+      var percent = document.getElementById("percentSold");
+      percent.innerHTML = "Percent of Tickets Sold: " + soldPercent;
       console.log(soldPercent);
 
       if (rafflePage) {
         $('<style id="soldTagStyle">' + soldTag + '{width:' + soldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the soldPercent
-        $('<style id="outTagStyle">' + outTag + '{width:' + outPercent + '%}</style>').appendTo('head'); // Sets the outTag's width to the outPercent
+        //$('<style id="outTagStyle">' + outTag + '{width:' + outPercent + '%}</style>').appendTo('head'); // Sets the outTag's width to the outPercent
       } else {
         $(soldTag).css('width', soldPercent + '%'); // Sets the soldTag's width to the soldPercent
-        $(outTag).css('width', outPercent + '%'); // Sets the outTag's width to the outPercent
+        //$(outTag).css('width', outPercent + '%'); // Sets the outTag's width to the outPercent
       }
 
       // For text
