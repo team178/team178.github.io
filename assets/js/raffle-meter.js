@@ -45,7 +45,7 @@ Thank you for taking the time to read this.
 
 google.load('visualization', 1.0);
 // For info on how `Date()` is formatted, check out http://www.w3schools.com/jsref/jsref_obj_date.asp
-var raffleDeadline = new Date(2019, 12, 19, 17, 00, 0); // Make sure to set this to the proper deadline.
+var raffleDeadline = new Date(2023, 1, 4, 0, 0, 0); // Make sure to set this to the proper deadline.
 var millisecondsLeft = raffleDeadline - new Date();
 var numDays = Math.ceil(millisecondsLeft/86400000);
 
@@ -78,7 +78,7 @@ $( document ).ready(function() {
       query.send(handleQueryResponse);
       // Note: The function will only run when the page is loaded.
 
-      if (numDays <= 1 && numDays > (1/24)) { // Makes function automatically refresh every minute when there's only a day left
+      if ((numDays <= 1 && numDays > (1/24)) || raffleDeadline.getTime() < Date.now()) { // Makes function automatically refresh every minute when there's only a day left, or after the raffe deadine has passed
         setTimeout(function(){ get_data(); }, 60000);
       } else if (numDays <= (1/24)) { // Makes function automatically refresh every 100 miliseconds when there's only an hour left
         setTimeout(function(){ get_data(); }, 100);
@@ -128,9 +128,9 @@ $( document ).ready(function() {
       var outPercent = 100 - soldPercent;
       var percent = document.getElementById("percentSold");
       percent.innerHTML = "Percent of Tickets Sold: " + soldPercent;
-      console.log(soldPercent);
+      //console.log(soldPercent);
 
-      if (rafflePage) {
+      if (rafflePage && $(soldTag).length == 0 && $(outTag).length == 0) {
         $('<style id="soldTagStyle">' + soldTag + '{width:' + soldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the soldPercent
         //$('<style id="outTagStyle">' + outTag + '{width:' + outPercent + '%}</style>').appendTo('head'); // Sets the outTag's width to the outPercent
       } else {
