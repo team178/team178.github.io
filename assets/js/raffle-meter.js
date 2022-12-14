@@ -127,7 +127,8 @@ $( document ).ready(function() {
       var soldPercent = data.getValue(0,0)/data.getValue(2,0) * 100; // gets value from 1st row and divides it by value in 3rd row (sold/total)
       var outPercent = 100 - soldPercent;
       var percent = document.getElementById("percentSold");
-      percent.innerHTML = "Percent of Tickets Sold: " + soldPercent;
+      soldPercent = Math.round(soldPercent);
+      percent.innerHTML = "Percent of Tickets Sold: " + soldPercent + "%";
       //console.log(soldPercent);
 
       if (rafflePage && $(soldTag).length == 0 && $(outTag).length == 0) {
