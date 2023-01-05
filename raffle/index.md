@@ -79,12 +79,12 @@ The annual <a href="http://www.farmingtonfor.org"> Farmington Friends of Robotic
 	<li>4th Prize – $178 Gift Card</li>
 	<li>5th Prize – $100 Gift Card</li>
 </ul>
-
+<!--
 <div id="raffle-button" class="centered">
 	<a style="font-size:2rem;" class="btn" href="https://fhsrobotics.charityraffles.org/" target="_blank" rel="noopener noreferrer"><strong>Buy tickets</strong></a>
 	<p style="margin:1px;">Hosted by <a href="https://chance2win.org/" target="_blank" rel="noopener noreferrer">Chance2Win</a></p>
 </div>
-
+-->
 <div class="info-box">
 	<div id="container1">
 		<a href="http://www.farmingtonfor.org"><img id="logo" alt="Farmington Friends of Robotics Logo" src="{{ site.url }}/assets/img/sponsors/ffor-logo.png"></a>
