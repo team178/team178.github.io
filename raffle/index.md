@@ -62,7 +62,7 @@ large-raffle-meter: true
 	</div>
 </div>
 <br>
-<h3><b>Congratualtions to our winners!</b></h3>
+<h3><b>Congratulations to our winners!</b></h3>
 <ol id="raffle-prizes">
 	<li>Lauren LaDuke (Ticket 2409-FHSR-5036) - Sony® Playstation 5</li>
 	<li>Kerry Tharpe (Ticket 0448) - Portable Pizza Oven</li>
