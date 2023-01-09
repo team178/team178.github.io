@@ -68,7 +68,8 @@ $( document ).ready(function() {
     rafflePage = true;
   }
 
-  if (/*numDays >= -2 && */true) { // The true is there so that you can manually turn this off before the two days after if you want.
+  //CHANGE TO TRUE WHEN RAFFLE STARTS
+  if (/*numDays >= -2 && */false) { // The true is there so that you can manually turn this off before the two days after if you want.
 
     google.setOnLoadCallback(get_data);
     function get_data() {
@@ -177,8 +178,8 @@ $( document ).ready(function() {
 
   // This will run if you change the true to a false; it'll also change if the days after the raffle exceeds two.
   } else {
-    var deliberateSoldPercent = 50; // Set this number manually.
-    var deliberateMoney = 15550; // Set this number manually.
+    var deliberateSoldPercent = 100; // Set this number manually.
+    var deliberateMoney = 12000; // Set this number manually.
 
     if (rafflePage) {
       $('<style>' + soldTag + '{width:' + deliberateSoldPercent + '%}</style>').appendTo('head'); // Sets the soldTag's width to the deliberateSoldPercent
