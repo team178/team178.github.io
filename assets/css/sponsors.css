@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:bold,400,300);
+
+/*for sponsors*/
+.sponsor-box {
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 20px 10px;
+    margin: 10px 0px 10px;
+    /* This creates drop shadow on the box */
+    box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.3);
+  }
+  
+  /*Each of these creates a box with a sponsor-related color: subclass of sponsor.box*/
+  /*Syntax in code --> div class="sponsor-box gold-sponsor" */
+  .platinum-sponsor{
+    background-color: #2E3134 ;
+  }
+  .gold-sponsor{
+    background-color: #FFD700 ;
+  }
+  .silver-sponsor{
+    background-color: #71706E  ;
+  }
+  .bronze-sponsor{
+    background-color: #CD7F32  ;
+  }
+
+/*Flex box for Bronze sponsors*/
+.flex-container {
+    display: flex; 
+    flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  }
+  
+.flex-item {
+    flex-basis: 100%;
+    margin: 5%;
+  }
+
+.bronze_logo {
+    height: 150px;
+    max-width: 250px;
+  }
