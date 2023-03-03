@@ -19,13 +19,16 @@
     background-color: #2E3134 ;
   }
   .gold-sponsor{
-    background-color: #FFD700 ;
+    background-color: #FFD000 ;
   }
   .silver-sponsor{
     background-color: #71706E  ;
   }
   .bronze-sponsor{
     background-color: #CD7F32  ;
+  }
+  .neighborhood-sponsor{
+    background-color: #020579  ;
   }
 
 /*Flex box for Bronze sponsors*/
