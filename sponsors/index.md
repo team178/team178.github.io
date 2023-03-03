@@ -160,14 +160,6 @@ The Farmington Chamber of Commerce is our town's local chamber of commerce with 
     </div>
 
   </div>
-  </div>
-
-  <!-- 
-  <div class="flex-item"> 
-    <img src="" alt="">
-    <h3> <b></b> </h3>
-  </div> 
-  -->
 
 
 <div class="sponsor-box neighborhood-sponsor">
