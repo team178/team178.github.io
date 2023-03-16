@@ -3,6 +3,10 @@ title: Dream FIRST
 ---
 ## Dream *FIRST*
 
+<img src="Gizmo.jpg"
+     alt="Picture of Gizmo"
+     style="float: left; width:175px;height:210px;" />
+
 In 2004, The Enforcers and Otis expanded their partnership with mentors from different sponsors. In addition to constructing robotics, Team 178 and Otis took on the task of generating awareness of science and technology in the minds of young children. As a result, the Dream *FIRST* initiative was born.
 
 Dream *FIRST* is a science literacy initiative for children ages 3-10 developed by FRC Team 178, The Enforcers from Farmington High School in Farmington, CT. Dream *FIRST*'s objective is to cultivate children's interest in the science, technology, engineering, and math (STEM) fields from a very young age. Our team believes that by training the kids from a young age, we can spark an interest in science that lasts a lifetime. The program centers upon the adventures of Gizmo, a lovable robot, along with his two human friends, Euki and Oliver, as they strive to achieve their dreams of understanding science and technology. Their story is told in the book Meet Gizmo: The Start of a Journey, published in 2006, and will be continued in future installments.
