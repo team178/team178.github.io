@@ -3,9 +3,11 @@ title: Dream FIRST
 ---
 ## Dream *FIRST*
 
-<img src="Gizmo.jpg"
+<img src="{{ site.url }}/assets/img/first/Gizmo.jpg"
      alt="Picture of Gizmo"
-     style="float: left; width:175px;height:210px;" />
+     style="float: left; width:175px;height:210px;"/>
+
+
 
 In 2004, The Enforcers and Otis expanded their partnership with mentors from different sponsors. In addition to constructing robotics, Team 178 and Otis took on the task of generating awareness of science and technology in the minds of young children. As a result, the Dream *FIRST* initiative was born.
 
