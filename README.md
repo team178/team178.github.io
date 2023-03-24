@@ -59,6 +59,14 @@ If you get any errors or warnings, try running `bundle exec jekyll serve` instea
 And lastly, how to actually see it locally? Well, make changes in the code, open terminal and type "cd" and address of the reposotory on your computer, and type http://localhost:4000 in adress bar. That's how you see changes locally!
 
 
+If, in the terminal, you get the following message or somthing similar... 
+```
+Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+```
+Just add the `gem 'wdm', '>= 0.1.0' if Gem.win_platform?` part to the Gemfile and push changes (Of course, the text will be different). 
+
+
 ## Text Editor of Choice
 
 Some on the website team use [Atom](https://atom.io/) as our text editor of choice. If you already have a preferred text editor, you are free to use that! But if you are just starting out, you can try Atom.
