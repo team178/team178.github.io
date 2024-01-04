@@ -62,6 +62,8 @@ large-raffle-meter: true
 	</div>
 </div>
 <br>
+
+<!--
 <h3><b>Congratulations to our winners!</b></h3>
 <ol id="raffle-prizes">
 	<li>Lauren LaDuke (Ticket 2409-FHSR-5036) - Sony® Playstation 5</li>
@@ -70,6 +72,8 @@ large-raffle-meter: true
 	<li>Angela Nero (Ticket 0025) - $178 Amazon Gift Card</li>
 	<li>Barbara Jackie (Ticket 0069) - $100 Amazon Gift Card</li>
 </ol> 
+-->
+
 <br>
 
 <!-- <h3><b>We have 5 prizes in total!</b></h3>
