@@ -8,12 +8,12 @@ title: Farmington Valley FIRST Expo
 <p><strong>When:</strong> Sunday January 28th, 2024</p>
 <strong>Directions to Farmington High School:</strong>
 <br>
-<pre>10 Monteith Drive, Farmington, CT 06032
+<p>10 Monteith Drive, Farmington, CT 06032
 Take Rt. 84 (84 West from Hartford; East from Waterbury) to Exit 39. Proceed straight onto Route 4 West through Farmington center
 (through Rt 10 intersection). Continue on Route 4 West for approximately 3 miles. Pass under a railroad bridge. About a mile after the bridge,
 right onto Monteith Drive (light). You will see the Town Hall on the right. The high school is at the top of the hill. Stay to the left at the
 top of the hill and continue straight (2 stop signs) until you get to the rear of the school. Park in any available space and enter where it
-says visitor entrance. Look for FIRST Expo signs.</pre>
+says visitor entrance. Look for FIRST Expo signs.</p>
 
 <p><strong>The Expo will have both a FLL Explore event AND a FLL Challenge event</strong></p>
 <img src= "/assets/img/ExpoSchedule.png">
