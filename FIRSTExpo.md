@@ -17,10 +17,10 @@ straight (2 stops signs) until you get to the rear of the school  Park in any av
 where it says visitor entrance. Look for FIRST Expo signs.</pre>
 
 <strong>The expo will have both a FLL Explore event AND a FLL Challlenge event</strong>
-<img scr= "/assets/img/ExpoSchedule.png">
+<img src= "/assets/img/ExpoSchedule.png">
 <br>
 <br>
 <a href="">Click here to sign up for the FLL Explore Event</a>
 <br>
 <br>
-<a href="">Click here to sign up for the FLL Challenge Event: The Farmington Flood Scrimmmage</a>/
+<a href="">Click here to sign up for the FLL Challenge Event: The Farmington Flood Scrimmmage</a>
