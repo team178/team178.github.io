@@ -16,11 +16,11 @@ Town Hall on the right. The high school is at the top of the hill.  Stay to left
 straight (2 stops signs) until you get to the rear of the school  Park in any available space and enter
 where it says visitor entrance. Look for FIRST Expo signs.</pre>
 
-<strong>The expo will have both a FLL Explore event AND a FLL Challlenge event</strong>
+<p><strong>The expo will have both a FLL Explore event AND a FLL Challlenge event</strong></p>
 <img src= "/assets/img/ExpoSchedule.png">
 <br>
 <br>
-<a href="">Click here to sign up for the FLL Explore Event</a>
+<a href="https://forms.gle/4s1Pr2BsvcBTkv4w9">Click here to sign up for the FLL Explore Event</a>
 <br>
 <br>
-<a href="">Click here to sign up for the FLL Challenge Event: The Farmington Flood Scrimmmage</a>
+<a href="https://forms.gle/iVk47ibrAG8gueUa7">Click here to sign up for the FLL Challenge Event: The Farmington Flood Scrimmmage</a>
