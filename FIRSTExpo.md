@@ -4,6 +4,8 @@ title: Farmington Valley FIRST Expo
 
 ## **FIRST Expo 2024**
 
+<font color="red"><strong>ANY CHANGES TO THE EVENT DUE TO WEATHER WILL BE POSTED HERE AND ALL TEAMS COACHES WILL BE NOTIFIED!</strong></font>
+
 <p><strong>Where:</strong> Farmington High School</p>
 <p><strong>When:</strong> Sunday January 28th, 2024</p>
 <strong>Directions to Farmington High School:</strong>
