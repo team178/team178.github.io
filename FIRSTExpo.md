@@ -4,7 +4,7 @@ title: Farmington Valley FIRST Expo
 
 ## **FIRST Expo 2024**
 <br>
-<h2><font color="red"><strong>DUE TO INCLEMENT WEATHER, WE ARE POSTPONING THE EXPO. THE TENTATIVE SNOW DATE IS SUNDAY, FEBRURARY 4TH. PLEASE STAY TUNED FOR UPDATES</strong></font></h2>
+<h2><font color="red"><strong>DUE TO INCLEMENT WEATHER, WE ARE POSTPONING THE EXPO. THE TENTATIVE SNOW DATE IS SUNDAY, FEBRUARY 4TH. PLEASE STAY TUNED FOR UPDATES.</strong></font></h2>
 <BR>
 <p><strong>Where:</strong> Farmington High School</p>
 <!-- <p><strong>When:</strong> Sunday January 28th, 2024</p> --> 
